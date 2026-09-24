@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T13:12:57.184Z",
+  "generatedAt": "2026-09-24T13:40:11.990Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5757,7 +5757,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 12,
+            "rankingRevision": 13,
             "groupCount": 2,
             "finalRoundStatus": "RELEASED",
             "finalRoundReleasedAt": "2026-09-21T12:07:10.936Z",
@@ -5768,7 +5768,7 @@
             "name": "Street Soccer Männer",
             "slug": "street-soccer-maenner",
             "createdAt": "2026-09-20T11:08:50.042Z",
-            "updatedAt": "2026-09-21T12:22:49.953Z",
+            "updatedAt": "2026-09-24T13:40:11.046Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -6516,54 +6516,6 @@
                 ]
               },
               {
-                "id": "8e27ffbb-6405-4ca3-822b-25d7cc5bd904",
-                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "FINAL",
-                "revision": 2,
-                "matchNumber": 2,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "fd64b152-454f-4260-bee6-9c208761d4d1",
-                "teamAId": "030318fe-1f3e-4af4-b5f1-1f3505be0981",
-                "teamBId": "6053423b-55c1-44e5-a6a8-8d90311ab79e",
-                "round": 0,
-                "position": 1,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-21T11:51:38.385Z",
-                "updatedAt": "2026-09-21T12:25:58.884Z",
-                "beachSets": [],
-                "soccerPeriods": [
-                  {
-                    "id": "d9f4919c-bf6f-473d-84bc-43630f6afce4",
-                    "matchId": "8e27ffbb-6405-4ca3-822b-25d7cc5bd904",
-                    "position": 1,
-                    "scoreA": 2,
-                    "scoreB": 0
-                  },
-                  {
-                    "id": "aa26d7c9-c332-46e8-880d-0f5ffacb53f6",
-                    "matchId": "8e27ffbb-6405-4ca3-822b-25d7cc5bd904",
-                    "position": 2,
-                    "scoreA": 1,
-                    "scoreB": 1
-                  },
-                  {
-                    "id": "638a306f-94b5-4b33-8235-e104bfaac501",
-                    "matchId": "8e27ffbb-6405-4ca3-822b-25d7cc5bd904",
-                    "position": 3,
-                    "scoreA": 0,
-                    "scoreB": 3
-                  }
-                ]
-              },
-              {
                 "id": "52696ab8-9deb-4197-9338-b5f0cd82ec0e",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
                 "status": "FINAL",
@@ -6884,6 +6836,54 @@
                 "updatedAt": "2026-09-21T12:30:53.920Z",
                 "beachSets": [],
                 "soccerPeriods": []
+              },
+              {
+                "id": "8e27ffbb-6405-4ca3-822b-25d7cc5bd904",
+                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
+                "status": "FINAL",
+                "revision": 3,
+                "matchNumber": 2,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "fd64b152-454f-4260-bee6-9c208761d4d1",
+                "teamAId": "030318fe-1f3e-4af4-b5f1-1f3505be0981",
+                "teamBId": "6053423b-55c1-44e5-a6a8-8d90311ab79e",
+                "round": 0,
+                "position": 1,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-21T11:51:38.385Z",
+                "updatedAt": "2026-09-24T13:40:10.977Z",
+                "beachSets": [],
+                "soccerPeriods": [
+                  {
+                    "id": "cff0c803-0aad-45a0-8348-570f3a290dcc",
+                    "matchId": "8e27ffbb-6405-4ca3-822b-25d7cc5bd904",
+                    "position": 1,
+                    "scoreA": 2,
+                    "scoreB": 1
+                  },
+                  {
+                    "id": "6d8b2b7f-405f-4fb4-924f-5c23e10a8b27",
+                    "matchId": "8e27ffbb-6405-4ca3-822b-25d7cc5bd904",
+                    "position": 2,
+                    "scoreA": 1,
+                    "scoreB": 1
+                  },
+                  {
+                    "id": "73b77d91-e72f-4825-8098-4c51e2a9c348",
+                    "matchId": "8e27ffbb-6405-4ca3-822b-25d7cc5bd904",
+                    "position": 3,
+                    "scoreA": 0,
+                    "scoreB": 3
+                  }
+                ]
               }
             ],
             "tieBreaks": []
@@ -6908,7 +6908,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "05a1ae8853434f9cd03226a72c657afebf17e59b75c376f5ca12df9f559b99b4"
+              "signature": "2a91c33bd9077d374c48e726dcefbe3032176818d50c94f9bc202266189edbe4"
             },
             {
               "rank": 2,
@@ -6922,14 +6922,14 @@
                   "losses": 0,
                   "setsWon": 0,
                   "setsLost": 0,
-                  "scored": 14,
+                  "scored": 15,
                   "conceded": 7,
                   "points": 17
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "1ebd0b08c6e7a046bae79a4faaf13a80acfd78b24c768f079a2f7bd7d69a2a50"
+              "signature": "8b6051284699fea3b8ed307a3714443dd9f3afd691283351056a3578a0ddac6f"
             },
             {
               "rank": 3,
@@ -6950,7 +6950,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "8b980d816fe30a501d39bec00794fb9970a18d68fb821719435da8724bc9ea7a"
+              "signature": "54ec51a81f8cdfe37a777aa4deddbb1101c955ceb7c36357edf28e8f5b3e23d0"
             },
             {
               "rank": 4,
@@ -6971,7 +6971,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "d702ebfa2cf62cc483ac6945725d07fa5f9486407458ce5f33aa9681f92e101b"
+              "signature": "16099e8c458f3f85c193303282cf70102461077eae9dbe0ff97c4d0d668ea337"
             },
             {
               "rank": 5,
@@ -6986,13 +6986,13 @@
                   "setsWon": 0,
                   "setsLost": 0,
                   "scored": 12,
-                  "conceded": 8,
+                  "conceded": 9,
                   "points": 15
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "32c7d94a718e5fdfdb252c775e931173a8282cd2a740a00c8370b52869cd729a"
+              "signature": "6cfaf3689f6345c2880e9eb8329b20895d34018fbd698fd4f3a1e95bd2bc78da"
             },
             {
               "rank": 6,
@@ -7013,7 +7013,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "c9f5059ff33a3fefd10285db62932d7aac9312c9bbac68b248407615ae867a54"
+              "signature": "71401c90d6c8a760f28589ba774c2f735f0a720b10d3bf8fc6d6f9a821d404a7"
             },
             {
               "rank": 7,
@@ -7034,7 +7034,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "5a8a8c3d20d4a6b9a699d3326e16f5b060e70298eb2641f127baea62df8f57ec"
+              "signature": "9f11ec57d8e49151cebedfc38376dffb32307eb45e4fe9285553605e26557891"
             },
             {
               "rank": 8,
@@ -7055,7 +7055,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "2dcc9610e7da641baf540eb49cfed5ad415379ba215d63a9a78969f5b52df338"
+              "signature": "658ef57c4b55587ba07577c6482b55e0f9123d22b9bd679fc191337c334030de"
             }
           ],
           "groups": [
@@ -7075,14 +7075,14 @@
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 14,
+                      "scored": 15,
                       "conceded": 7,
                       "points": 17
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "1ebd0b08c6e7a046bae79a4faaf13a80acfd78b24c768f079a2f7bd7d69a2a50"
+                  "signature": "8b6051284699fea3b8ed307a3714443dd9f3afd691283351056a3578a0ddac6f"
                 },
                 {
                   "rank": 2,
@@ -7103,7 +7103,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "d702ebfa2cf62cc483ac6945725d07fa5f9486407458ce5f33aa9681f92e101b"
+                  "signature": "16099e8c458f3f85c193303282cf70102461077eae9dbe0ff97c4d0d668ea337"
                 },
                 {
                   "rank": 3,
@@ -7118,13 +7118,13 @@
                       "setsWon": 0,
                       "setsLost": 0,
                       "scored": 12,
-                      "conceded": 8,
+                      "conceded": 9,
                       "points": 15
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "32c7d94a718e5fdfdb252c775e931173a8282cd2a740a00c8370b52869cd729a"
+                  "signature": "6cfaf3689f6345c2880e9eb8329b20895d34018fbd698fd4f3a1e95bd2bc78da"
                 },
                 {
                   "rank": 4,
@@ -7145,7 +7145,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "2dcc9610e7da641baf540eb49cfed5ad415379ba215d63a9a78969f5b52df338"
+                  "signature": "658ef57c4b55587ba07577c6482b55e0f9123d22b9bd679fc191337c334030de"
                 }
               ]
             },
@@ -7172,7 +7172,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "05a1ae8853434f9cd03226a72c657afebf17e59b75c376f5ca12df9f559b99b4"
+                  "signature": "2a91c33bd9077d374c48e726dcefbe3032176818d50c94f9bc202266189edbe4"
                 },
                 {
                   "rank": 2,
@@ -7193,7 +7193,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "8b980d816fe30a501d39bec00794fb9970a18d68fb821719435da8724bc9ea7a"
+                  "signature": "54ec51a81f8cdfe37a777aa4deddbb1101c955ceb7c36357edf28e8f5b3e23d0"
                 },
                 {
                   "rank": 3,
@@ -7214,7 +7214,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "c9f5059ff33a3fefd10285db62932d7aac9312c9bbac68b248407615ae867a54"
+                  "signature": "71401c90d6c8a760f28589ba774c2f735f0a720b10d3bf8fc6d6f9a821d404a7"
                 },
                 {
                   "rank": 4,
@@ -7235,7 +7235,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "5a8a8c3d20d4a6b9a699d3326e16f5b060e70298eb2641f127baea62df8f57ec"
+                  "signature": "9f11ec57d8e49151cebedfc38376dffb32307eb45e4fe9285553605e26557891"
                 }
               ]
             }
@@ -10705,38 +10705,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_8",
-        "id": "8e27ffbb-6405-4ca3-822b-25d7cc5bd904",
-        "competitionSlug": "street-soccer-maenner",
-        "sport": "Urban Street Soccer",
-        "category": "Männer",
-        "number": "Match 2 US-M",
-        "status": "FINAL",
-        "day": "2026-09-25",
-        "minute": 540,
-        "court": "Pitch 2",
-        "teamA": "Soccer F",
-        "teamB": "Soccer H",
-        "scores": [
-          {
-            "scoreA": 2,
-            "scoreB": 0
-          },
-          {
-            "scoreA": 1,
-            "scoreB": 1
-          },
-          {
-            "scoreA": 0,
-            "scoreB": 3
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_8",
         "id": "52696ab8-9deb-4197-9338-b5f0cd82ec0e",
         "competitionSlug": "street-soccer-maenner",
         "sport": "Urban Street Soccer",
@@ -10956,6 +10924,38 @@
         "teamA": "Soccer A",
         "teamB": "Soccer B",
         "scores": [],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_8",
+        "id": "8e27ffbb-6405-4ca3-822b-25d7cc5bd904",
+        "competitionSlug": "street-soccer-maenner",
+        "sport": "Urban Street Soccer",
+        "category": "Männer",
+        "number": "Match 2 US-M",
+        "status": "FINAL",
+        "day": "2026-09-25",
+        "minute": 540,
+        "court": "Pitch 2",
+        "teamA": "Soccer F",
+        "teamB": "Soccer H",
+        "scores": [
+          {
+            "scoreA": 2,
+            "scoreB": 1
+          },
+          {
+            "scoreA": 1,
+            "scoreB": 1
+          },
+          {
+            "scoreA": 0,
+            "scoreB": 3
+          }
+        ],
         "penalty": null
       },
       {
