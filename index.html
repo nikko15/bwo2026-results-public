@@ -5,9 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BWO 2026 Results Test</title>
 </head>
+
 <body>
   <h1>BWO 2026</h1>
   <h2>Public Results Test</h2>
-  <p>GitHub Pages funktioniert.</p>
+
+  <div id="result">Lade Ergebnis...</div>
+  <p id="status"></p>
+
+  <script>
+    let currentVersion = null;
+
+    async function loadResults() {
+      try {
+        // Cache umgehen, damit Änderungen zuverlässig erkannt werden.
+        const response = await fetch(
+          `./data.json?t=${Date.now()}`,
+          { cache: "no-store" }
+        );
+
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        const data = await response.json();
+
+        if (currentVersion !== data.version) {
+          currentVersion = data.version;
+
+          document.getElementById("result").innerHTML = `
+            <strong>${data.home}</strong>
+            ${data.homeScore} : ${data.awayScore}
+            <strong>${data.away}</strong>
+          `;
+
+          document.getElementById("status").textContent =
+            `Version ${data.version} – automatisch aktualisiert`;
+        }
+      } catch (error) {
+        document.getElementById("status").textContent =
+          "Aktualisierung derzeit nicht möglich.";
+      }
+    }
+
+    loadResults();
+
+    // Alle 60 Sekunden nach veröffentlichten Änderungen suchen.
+    setInterval(loadResults, 60000);
+  </script>
 </body>
 </html>
