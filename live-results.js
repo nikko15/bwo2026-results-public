@@ -5,6 +5,7 @@ const esc = (value) =>
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;");
+const publicSportLabel = (value) => String(value ?? "").replace(/\b(?:Urban )?Street Soccer\b/g, "Soccer");
 const dateLabel = (day) =>
   new Intl.DateTimeFormat("de-DE", {
     day: "numeric",
@@ -82,7 +83,7 @@ const matchCard = (m) => {
 
   <div class="match-meta">
     ${icon(m.sport === "Beachvolleyball" ? "beach" : "soccer")}
-    <span>${esc(m.sport)} · <strong>${esc(m.category)}</strong></span>
+    <span>${esc(publicSportLabel(m.sport))} · <strong>${esc(m.category)}</strong></span>
   </div>
 
   <div class="match-teams">
