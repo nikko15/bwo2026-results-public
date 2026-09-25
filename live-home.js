@@ -150,7 +150,7 @@ const homeDayContent = function homeDayContent(event, now = new Date()) {
     ${feed.daily.map(matchCard).join("")}
   </div>
   ${!feed.daily.length ? '<p class="empty-state">Für diesen Tag sind noch keine Begegnungen veröffentlicht.</p>' : ""}
-  <a class="public-button" href="spielplan.html#tag-${esc(feed.day)}">
+  <a class="public-button" href="spielplan.html?tag=${esc(feed.day)}">
     Kompletten Tagesplan anzeigen <span aria-hidden="true">→</span>
   </a>`;
 };
