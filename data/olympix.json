@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T20:28:52.416Z",
+  "generatedAt": "2026-09-25T20:32:05.961Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3857,7 +3857,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 19,
+            "rankingRevision": 20,
             "groupCount": 6,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -3868,7 +3868,7 @@
             "name": "Street Soccer Männer",
             "slug": "street-soccer-maenner",
             "createdAt": "2026-09-20T11:08:50.042Z",
-            "updatedAt": "2026-09-25T20:28:37.344Z",
+            "updatedAt": "2026-09-25T20:32:05.151Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -5944,7 +5944,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "76417cbd8cee8605a6d1b3eaf35f54b218f78b482cbc44702d3c05d5d4c4ae1e"
+              "signature": "a7c7d724a5582067d9561addca6eb31692c7044d083b9025232738b9525baf4a"
             }
           ],
           "groups": [
@@ -6007,7 +6007,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "0a7611709368d3a560125da7221fee66b63bae1c40cca789e3e7771030f8b209"
+                  "signature": "9e724eec695c710bc9cd25e0f52d020ac6322e4119b72217349d3ef384ba9c06"
                 }
               ]
             },
@@ -6070,7 +6070,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "bd09b7d3cc8f451f98e2e6c1c015a32e81d8cc1f15d0d52cdf08929bde85f9d9"
+                  "signature": "e2cb607381a0a66c5bed9f7670ac04d6f8908e0f05f34c466687c422a2019a49"
                 }
               ]
             },
@@ -6133,7 +6133,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "df44635d267af7e06220314a6a06bf335abcb34a4a1963d00cef47e269497e11"
+                  "signature": "10feb5f58e0fc6068c99b8d08a7b6fab0f552b96e1f9be23a592777967b0014f"
                 }
               ]
             },
@@ -6196,7 +6196,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "834afca6c93ee2ee2a8c9bff60dc8a77dbcc2066a12c4e6b62b416a21f1a100d"
+                  "signature": "e22f5aab7ba42e0339db59ee02c2a7eb043f541c3f58cb9e15461adbcebef92a"
                 }
               ]
             },
@@ -6259,7 +6259,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "0e57533c0efdb19cb00999f3bcb78517ed6a76a6d50dead71ec8a3a717aef70b"
+                  "signature": "961f1d3163d4de5d91e9a1f7bdea8248f325e6b467a09925106b5ef0db1f8eb0"
                 }
               ]
             },
@@ -6322,7 +6322,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "e178995e4eb1328e4079ecb334ac1ea9258399e2cbc6ec19471a0613bd8f2c52"
+                  "signature": "965f9503affeaeca90ab119e85d318f85cddc1bb4bf9ba666812693fb48a4e0b"
                 }
               ]
             }
