@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T23:12:57.353Z",
+  "generatedAt": "2026-09-25T23:13:13.529Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3470,7 +3470,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 4,
+            "rankingRevision": 5,
             "groupCount": 4,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -3481,7 +3481,7 @@
             "name": "Beachvolleyball Frauen",
             "slug": "beachvolleyball-frauen",
             "createdAt": "2026-09-21T13:00:56.142Z",
-            "updatedAt": "2026-09-25T23:11:48.998Z",
+            "updatedAt": "2026-09-25T23:13:12.600Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -4873,7 +4873,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "91abf8fb51c96c3b0be9bae390d480b29c943e70b8d7eb8fb1a3d83934d8bd2a"
+              "signature": "a05642e80f6c85417f6f36e8fe6bd3a7ae62ae694dcb5575b70640a1c8ef16f7"
             }
           ],
           "groups": [
@@ -4936,7 +4936,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "5d23fef04e67eb02c034b4f1afe9b0fdf7bd72c5ae13b22c6b3ce803e829bc14"
+                  "signature": "cb0e2a03a2297fac0616f9a38eeb5987f8a95b8091a021443c71a63a97bad738"
                 }
               ]
             },
@@ -4999,7 +4999,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "6df2a5317fb916afe694a39f55ba9416ad681b013c861a2e64cf1d06018052f8"
+                  "signature": "b4674afa84a9cf903146ddd1978dff45994ae92055d5931420ac35d58f2361c3"
                 }
               ]
             },
@@ -5062,7 +5062,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "df95452b7038844adab653efb52e7bc70f64b8a0d99516e20083f8d2eb6b202a"
+                  "signature": "14d53710a57785dd88749917e9d1ccd85ee5583086054f2ba51a7b2a7eb94de6"
                 }
               ]
             },
@@ -5125,7 +5125,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "dd980e299cdfb3ff381ed2f97494d0a6d9e44b036c702d4731fb8b26cf83a3a2"
+                  "signature": "cdd42dc2e0d8457fdf08447862397faf15e34fd9cf2adee6a128d4d0c7ba7e76"
                 }
               ]
             }
