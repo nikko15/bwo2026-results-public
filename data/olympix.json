@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T12:36:39.854Z",
+  "generatedAt": "2026-09-25T12:36:42.087Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3778,7 +3778,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 16,
+            "rankingRevision": 17,
             "groupCount": 2,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -3789,7 +3789,7 @@
             "name": "Street Soccer Männer",
             "slug": "street-soccer-maenner",
             "createdAt": "2026-09-20T11:08:50.042Z",
-            "updatedAt": "2026-09-25T11:47:59.121Z",
+            "updatedAt": "2026-09-25T12:36:40.139Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -4081,8 +4081,8 @@
               {
                 "id": "c9cae107-305e-4c86-b024-44bd8d9e1e03",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "RESULT_ENTERED",
-                "revision": 2,
+                "status": "FINAL",
+                "revision": 3,
                 "matchNumber": 2,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -4100,7 +4100,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T11:46:45.357Z",
-                "updatedAt": "2026-09-25T12:36:39.089Z",
+                "updatedAt": "2026-09-25T12:36:40.127Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
@@ -4626,6 +4626,48 @@
           "overall": [
             {
               "rank": 1,
+              "endRank": 1,
+              "rows": [
+                {
+                  "teamId": "26713151-297e-4a1b-9e91-90bf61baea83",
+                  "name": "Soccer E",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 8,
+                  "conceded": 7,
+                  "points": 4
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "d0fc381198145fd5cd81565931a73ece372bd66b6633e7f65e870ae8e8b34ee0"
+            },
+            {
+              "rank": 2,
+              "endRank": 2,
+              "rows": [
+                {
+                  "teamId": "a62085de-528c-4631-a77d-5bf929eeff27",
+                  "name": "Soccer G",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 7,
+                  "conceded": 8,
+                  "points": 4
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "b74bda685e7593af556c21b71b7c1168db2bc77bf76c2f489cc59c0e5841bc38"
+            },
+            {
+              "rank": 3,
               "endRank": 8,
               "rows": [
                 {
@@ -4677,32 +4719,8 @@
                   "points": 0
                 },
                 {
-                  "teamId": "26713151-297e-4a1b-9e91-90bf61baea83",
-                  "name": "Soccer E",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
                   "teamId": "527142cb-ee5b-4b9e-8ac6-c3795d6bb7f6",
                   "name": "Soccer F",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "a62085de-528c-4631-a77d-5bf929eeff27",
-                  "name": "Soccer G",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -4727,7 +4745,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "e19aef245ea8c9dd96f83127e9b303efab8479cfce47d35f5f540cc5abce1e12"
+              "signature": "c6b0fb333105d3e7b0c404b1418292a336b0fe368b2b222ba649801bc6d10036"
             }
           ],
           "groups": [
@@ -4737,20 +4755,50 @@
               "blocks": [
                 {
                   "rank": 1,
-                  "endRank": 4,
+                  "endRank": 1,
                   "rows": [
                     {
-                      "teamId": "a62085de-528c-4631-a77d-5bf929eeff27",
-                      "name": "Soccer G",
-                      "played": 0,
+                      "teamId": "26713151-297e-4a1b-9e91-90bf61baea83",
+                      "name": "Soccer E",
+                      "played": 1,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
-                    },
+                      "scored": 8,
+                      "conceded": 7,
+                      "points": 4
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "d0fc381198145fd5cd81565931a73ece372bd66b6633e7f65e870ae8e8b34ee0"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
+                  "rows": [
+                    {
+                      "teamId": "a62085de-528c-4631-a77d-5bf929eeff27",
+                      "name": "Soccer G",
+                      "played": 1,
+                      "wins": 0,
+                      "losses": 0,
+                      "setsWon": 0,
+                      "setsLost": 0,
+                      "scored": 7,
+                      "conceded": 8,
+                      "points": 4
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "b74bda685e7593af556c21b71b7c1168db2bc77bf76c2f489cc59c0e5841bc38"
+                },
+                {
+                  "rank": 3,
+                  "endRank": 4,
+                  "rows": [
                     {
                       "teamId": "d990e2c8-b08e-4e00-ad98-52c03c33111e",
                       "name": "Soccer D",
@@ -4774,23 +4822,11 @@
                       "scored": 0,
                       "conceded": 0,
                       "points": 0
-                    },
-                    {
-                      "teamId": "26713151-297e-4a1b-9e91-90bf61baea83",
-                      "name": "Soccer E",
-                      "played": 0,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
                     }
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "864fd1ac469857cf13b0b3c8c26a48d3c4c6b2e2c07295a492ae6e557f36de19"
+                  "signature": "6c5586f7ff5a06742778254d57eded3f79f653922b15ea08f972ed63f003f662"
                 }
               ]
             },
@@ -4853,7 +4889,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "e5c9b710a3c4a75e22018dd0c3502e7b4496c05e6c7c93d0c9e1691a770c656b"
+                  "signature": "39e47aa594eb043b3e6b06b236a67fd812e77c7ee16d8421b4ff8d83b1030249"
                 }
               ]
             }
@@ -5826,7 +5862,7 @@
         "sport": "Urban Street Soccer",
         "category": "Männer",
         "number": "Match 2 US-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 480,
         "court": "Pitch 2",
