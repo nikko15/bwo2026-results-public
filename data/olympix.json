@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T15:52:43.472Z",
+  "generatedAt": "2026-09-25T15:52:45.830Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -24,7 +24,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 57,
+            "rankingRevision": 58,
             "groupCount": 8,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -35,7 +35,7 @@
             "name": "Beachvolleyball Männer",
             "slug": "beachvolleyball-maenner",
             "createdAt": "2026-09-20T16:25:52.305Z",
-            "updatedAt": "2026-09-25T08:54:26.649Z",
+            "updatedAt": "2026-09-25T15:52:44.006Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -1571,8 +1571,8 @@
               {
                 "id": "00a3480e-5eac-4cc1-88f8-3440c7fbbe5a",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 1,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -1590,7 +1590,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T08:54:27.832Z",
-                "updatedAt": "2026-09-25T15:52:42.658Z",
+                "updatedAt": "2026-09-25T15:52:43.994Z",
                 "beachSets": [
                   {
                     "id": "c555256b-d65b-45ea-900e-6052dac9f101",
@@ -2830,6 +2830,48 @@
           "overall": [
             {
               "rank": 1,
+              "endRank": 1,
+              "rows": [
+                {
+                  "teamId": "6a38e779-f724-42b7-8e3b-eb3ce13bfb50",
+                  "name": "Herrenteam 08",
+                  "played": 1,
+                  "wins": 1,
+                  "losses": 0,
+                  "setsWon": 1,
+                  "setsLost": 0,
+                  "scored": 21,
+                  "conceded": 1,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "1e32407890ec624cad4d5492173321a5ca5e83e9bc0186f023bb2746efa802a1"
+            },
+            {
+              "rank": 2,
+              "endRank": 2,
+              "rows": [
+                {
+                  "teamId": "bfa4ca9c-220a-42d0-993c-28d7b4582d7b",
+                  "name": "Herrenteam 16",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 1,
+                  "setsWon": 0,
+                  "setsLost": 1,
+                  "scored": 1,
+                  "conceded": 21,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "b659f9d0a1e5d1b9dec5a74a877b5653a629e0663113f44e2870a37dc4184a09"
+            },
+            {
+              "rank": 3,
               "endRank": 32,
               "rows": [
                 {
@@ -2917,18 +2959,6 @@
                   "points": 0
                 },
                 {
-                  "teamId": "6a38e779-f724-42b7-8e3b-eb3ce13bfb50",
-                  "name": "Herrenteam 08",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
                   "teamId": "9afe9534-519f-47ac-927a-9824803834ed",
                   "name": "Herrenteam 09",
                   "played": 0,
@@ -3003,18 +3033,6 @@
                 {
                   "teamId": "39bc31c8-6ab5-4c31-8984-4d2b1833bed0",
                   "name": "Herrenteam 15",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "bfa4ca9c-220a-42d0-993c-28d7b4582d7b",
-                  "name": "Herrenteam 16",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -3219,7 +3237,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "45c79c580f57a72b8749a667de3c8ef9ee8f2490a9263ccfb28cb8fe971cf3a4"
+              "signature": "38de61d2353f1f7b935fc7bfd05a765bc80903144b47a5a53294a1a32ef62db3"
             }
           ],
           "groups": [
@@ -3229,20 +3247,50 @@
               "blocks": [
                 {
                   "rank": 1,
-                  "endRank": 4,
+                  "endRank": 1,
                   "rows": [
                     {
                       "teamId": "6a38e779-f724-42b7-8e3b-eb3ce13bfb50",
                       "name": "Herrenteam 08",
-                      "played": 0,
-                      "wins": 0,
+                      "played": 1,
+                      "wins": 1,
                       "losses": 0,
-                      "setsWon": 0,
+                      "setsWon": 1,
                       "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
+                      "scored": 21,
+                      "conceded": 1,
                       "points": 0
-                    },
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "1e32407890ec624cad4d5492173321a5ca5e83e9bc0186f023bb2746efa802a1"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
+                  "rows": [
+                    {
+                      "teamId": "bfa4ca9c-220a-42d0-993c-28d7b4582d7b",
+                      "name": "Herrenteam 16",
+                      "played": 1,
+                      "wins": 0,
+                      "losses": 1,
+                      "setsWon": 0,
+                      "setsLost": 1,
+                      "scored": 1,
+                      "conceded": 21,
+                      "points": 0
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "b659f9d0a1e5d1b9dec5a74a877b5653a629e0663113f44e2870a37dc4184a09"
+                },
+                {
+                  "rank": 3,
+                  "endRank": 4,
+                  "rows": [
                     {
                       "teamId": "d5db7fa0-6389-491c-8a30-4479bb18f482",
                       "name": "Herrenteam 21",
@@ -3266,23 +3314,11 @@
                       "scored": 0,
                       "conceded": 0,
                       "points": 0
-                    },
-                    {
-                      "teamId": "bfa4ca9c-220a-42d0-993c-28d7b4582d7b",
-                      "name": "Herrenteam 16",
-                      "played": 0,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
                     }
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "5cdb79ce3f4686a80a946d3934e776c070028442bb062fffa8ce9d1d3b8fe849"
+                  "signature": "06f11d2b1cff1269cb1dffa98904a6cb2c25cd3388dce709bb3b8761f065f708"
                 }
               ]
             },
@@ -3345,7 +3381,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "a3f7d5bf1cbe15d976d28b62f1f402f7fe22673697720c163e34ad4d5e626e06"
+                  "signature": "2bc765961efc55cf2738906a473cb8efeca6405a157e9dff74de7fab55977df9"
                 }
               ]
             },
@@ -3408,7 +3444,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "5f1fe398509af2fd54eb2c79da6b5e0c9c6971071eae8fc0439f2d45f80db006"
+                  "signature": "c016d9ae843ecab71088e6e98134497a300f2c62abb7d43146df7bf0172ade46"
                 }
               ]
             },
@@ -3471,7 +3507,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "2e520708bf3c2834285960e50cd95778147a97f745da2fb5c84511ad0cfcafaa"
+                  "signature": "1eaaedc405a5e15b8a0301d7226229435e3a8920e3ea5b82313f9aad23409e09"
                 }
               ]
             },
@@ -3534,7 +3570,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "b1a543775350ad4fe7d07111b10722e033c29e88b014c0afe2b044d7f39ab311"
+                  "signature": "958798b54dcf087344dc05457957fc73ac048f13b8d5ffa305a2a82cd449af02"
                 }
               ]
             },
@@ -3597,7 +3633,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "f57a5f59a3c85337adf5b5faeaf6aad4d10b157e6accbfaf518cc8f19630a379"
+                  "signature": "a3ebd3a3621d1f29d83a39d259d7bbdb2e2327b69d6f0fb962828b05a5ceaf77"
                 }
               ]
             },
@@ -3660,7 +3696,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "94d6d884f5688c818dacf9f0831deafb2dc9553d394be3fb18994e75039bf0ea"
+                  "signature": "5794c19c1cf8257622042dcfe9f0a2bf9fa414c8b1794fc8fe58b72a54482db6"
                 }
               ]
             },
@@ -3723,7 +3759,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "33f974f64db7f61dd1b9494d93406894e207250ae39dd5fba5711c667670d867"
+                  "signature": "8f6494b297bcaf72e30bf5e62e4b942e3a946273d27ca2210218350ee0317c57"
                 }
               ]
             }
@@ -4958,7 +4994,7 @@
         "sport": "Beachvolleyball",
         "category": "Männer",
         "number": "Match 1 BV-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 480,
         "court": "Court 1",
