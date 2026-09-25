@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T23:16:07.587Z",
+  "generatedAt": "2026-09-25T23:27:22.920Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -8037,7 +8037,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 17,
+            "rankingRevision": 18,
             "groupCount": 1,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -8048,7 +8048,7 @@
             "name": "Street Soccer Frauen",
             "slug": "street-soccer-frauen",
             "createdAt": "2026-09-21T12:33:19.219Z",
-            "updatedAt": "2026-09-25T23:08:27.230Z",
+            "updatedAt": "2026-09-25T23:27:21.937Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -8562,7 +8562,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "b885b2a65071a2266511cb0b3d580e83aec89f5c0a8f4d77eb4132563c8892cc"
+              "signature": "70b6386cfa65b524b3a62baba24fb4245874cc1b27b9d13881f0103bb9b73d69"
             }
           ],
           "groups": [
@@ -8637,7 +8637,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "b885b2a65071a2266511cb0b3d580e83aec89f5c0a8f4d77eb4132563c8892cc"
+                  "signature": "70b6386cfa65b524b3a62baba24fb4245874cc1b27b9d13881f0103bb9b73d69"
                 }
               ]
             }
