@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T23:27:25.278Z",
+  "generatedAt": "2026-09-25T23:27:27.445Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -8056,138 +8056,12 @@
               "createdAt": "2026-09-18T11:27:57.409Z",
               "updatedAt": "2026-09-18T11:27:57.409Z"
             },
-            "teams": [
-              {
-                "id": "9955a612-841b-4dae-a6ec-ce938a0053c0",
-                "eventId": "76c41a9b-9cd7-4f16-8360-202f110002ca",
-                "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "nationId": "86b2f489-0a96-4eb5-b691-a4e8a818d511",
-                "name": "Team X",
-                "shortName": null,
-                "isBye": false,
-                "createdAt": "2026-09-25T23:08:05.044Z",
-                "updatedAt": "2026-09-25T23:08:05.044Z"
-              },
-              {
-                "id": "90bc7a02-4ce3-49ce-8680-f3918022e8d1",
-                "eventId": "76c41a9b-9cd7-4f16-8360-202f110002ca",
-                "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "nationId": "86b2f489-0a96-4eb5-b691-a4e8a818d511",
-                "name": "Sportsfreundinnen",
-                "shortName": null,
-                "isBye": false,
-                "createdAt": "2026-09-25T23:08:05.051Z",
-                "updatedAt": "2026-09-25T23:08:05.051Z"
-              },
-              {
-                "id": "1b01fe8e-5ed8-41b8-ba2e-28a1d146ac43",
-                "eventId": "76c41a9b-9cd7-4f16-8360-202f110002ca",
-                "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "nationId": "86b2f489-0a96-4eb5-b691-a4e8a818d511",
-                "name": "Sturmtrupp United",
-                "shortName": null,
-                "isBye": false,
-                "createdAt": "2026-09-25T23:08:05.056Z",
-                "updatedAt": "2026-09-25T23:08:05.056Z"
-              },
-              {
-                "id": "4e0b379a-4e23-45bb-8b58-5a0d643e467e",
-                "eventId": "76c41a9b-9cd7-4f16-8360-202f110002ca",
-                "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "nationId": "86b2f489-0a96-4eb5-b691-a4e8a818d511",
-                "name": "Die Teufelskickerinnen",
-                "shortName": null,
-                "isBye": false,
-                "createdAt": "2026-09-25T23:08:05.071Z",
-                "updatedAt": "2026-09-25T23:08:05.071Z"
-              },
-              {
-                "id": "21bd2b3f-088f-418a-886c-b95815698207",
-                "eventId": "76c41a9b-9cd7-4f16-8360-202f110002ca",
-                "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "nationId": "86b2f489-0a96-4eb5-b691-a4e8a818d511",
-                "name": "Quokka",
-                "shortName": null,
-                "isBye": false,
-                "createdAt": "2026-09-25T23:08:05.077Z",
-                "updatedAt": "2026-09-25T23:08:05.077Z"
-              }
-            ],
+            "teams": [],
             "groups": [],
             "matches": [],
             "tieBreaks": []
           },
-          "overall": [
-            {
-              "rank": 1,
-              "endRank": 5,
-              "rows": [
-                {
-                  "teamId": "9955a612-841b-4dae-a6ec-ce938a0053c0",
-                  "name": "Team X",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "90bc7a02-4ce3-49ce-8680-f3918022e8d1",
-                  "name": "Sportsfreundinnen",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "1b01fe8e-5ed8-41b8-ba2e-28a1d146ac43",
-                  "name": "Sturmtrupp United",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "4e0b379a-4e23-45bb-8b58-5a0d643e467e",
-                  "name": "Die Teufelskickerinnen",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "21bd2b3f-088f-418a-886c-b95815698207",
-                  "name": "Quokka",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                }
-              ],
-              "tied": true,
-              "resolved": false,
-              "signature": "92d3acb8e89d42dac5f83c33512f836dd0bbdf67806a1e5be1aa2d20598053b1"
-            }
-          ],
+          "overall": [],
           "groups": []
         }
       }
