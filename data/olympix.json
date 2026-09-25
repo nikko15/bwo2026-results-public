@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T12:36:31.394Z",
+  "generatedAt": "2026-09-25T12:36:39.854Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -4082,7 +4082,7 @@
                 "id": "c9cae107-305e-4c86-b024-44bd8d9e1e03",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
                 "status": "RESULT_ENTERED",
-                "revision": 1,
+                "revision": 2,
                 "matchNumber": 2,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -4100,29 +4100,29 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T11:46:45.357Z",
-                "updatedAt": "2026-09-25T12:36:30.489Z",
+                "updatedAt": "2026-09-25T12:36:39.089Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
-                    "id": "e7a1caee-4687-49af-b7b4-c527ea42bb96",
+                    "id": "603a107b-1c55-47f3-93c0-220532cdb9d4",
                     "matchId": "c9cae107-305e-4c86-b024-44bd8d9e1e03",
                     "position": 1,
                     "scoreA": 3,
                     "scoreB": 5
                   },
                   {
-                    "id": "51371821-9b9e-4abf-a3ab-944521ed715c",
+                    "id": "d71d5858-3186-424a-9ccd-93ceb52601e2",
                     "matchId": "c9cae107-305e-4c86-b024-44bd8d9e1e03",
                     "position": 2,
                     "scoreA": 1,
                     "scoreB": 1
                   },
                   {
-                    "id": "c47fe4a7-f0bd-414c-bbe8-ab8321ff3b04",
+                    "id": "da45b8e5-fd8f-4c74-81f0-8ac5cf82904a",
                     "matchId": "c9cae107-305e-4c86-b024-44bd8d9e1e03",
                     "position": 3,
                     "scoreA": 3,
-                    "scoreB": 12
+                    "scoreB": 2
                   }
                 ]
               },
@@ -5843,7 +5843,7 @@
           },
           {
             "scoreA": 3,
-            "scoreB": 12
+            "scoreB": 2
           }
         ],
         "penalty": null
