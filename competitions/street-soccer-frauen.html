@@ -63,7 +63,7 @@
 
   <main id="public-main" class="public-main">
     
-<div class="competition-area">
+<div class="competition-area" data-competition-slug="street-soccer-frauen">
 
 
 <a class="competition-back"
@@ -145,7 +145,7 @@
     <h2>Spielplan</h2>
   </div>
 
-  <div class="match-grid">
+  <div class="match-grid" data-competition-matches>
     
 <article class="match-card">
   <div class="match-top">
@@ -986,6 +986,7 @@
 
   </div>
 
+  <div data-competition-tables>
   
 <div class="group-tables">
 
@@ -1280,11 +1281,12 @@
 </section>
 
 </div>
+</div>
 
 </section>
 
 <section id="finalrunde"
-         class="public-panel">
+         class="public-panel" data-competition-final-round>
 
   <div class="section-heading">
     <h2>Finalrunde</h2>
@@ -1609,6 +1611,8 @@
 </section>
 
 </div>
+
+<script src="../live-results.js"></script>
 
   </main>
 
