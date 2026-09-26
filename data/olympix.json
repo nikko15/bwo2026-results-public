@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T11:55:49.561Z",
+  "generatedAt": "2026-09-26T11:56:52.874Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -9568,32 +9568,6 @@
                 ]
               },
               {
-                "id": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
-                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 44,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "KNOCKOUT",
-                "groupId": null,
-                "teamAId": null,
-                "teamBId": null,
-                "round": 1,
-                "position": 2,
-                "seedA": 8,
-                "seedB": 9,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-26T10:51:32.337Z",
-                "updatedAt": "2026-09-26T10:59:59.445Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "3457f3da-955f-415a-9d52-13f325d5ae43",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
                 "status": "FINAL",
@@ -10030,6 +10004,54 @@
                     "position": 3,
                     "scoreA": 0,
                     "scoreB": 1
+                  }
+                ]
+              },
+              {
+                "id": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
+                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 44,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "KNOCKOUT",
+                "groupId": null,
+                "teamAId": null,
+                "teamBId": null,
+                "round": 1,
+                "position": 2,
+                "seedA": 8,
+                "seedB": 9,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-26T10:51:32.337Z",
+                "updatedAt": "2026-09-26T11:56:51.972Z",
+                "beachSets": [],
+                "soccerPeriods": [
+                  {
+                    "id": "eb5fecc5-6f1e-4924-81a9-f5b969cf2220",
+                    "matchId": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
+                    "position": 1,
+                    "scoreA": 0,
+                    "scoreB": 6
+                  },
+                  {
+                    "id": "322bdae2-24b6-4724-a1d7-e5d9c710da4d",
+                    "matchId": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
+                    "position": 2,
+                    "scoreA": 1,
+                    "scoreB": 2
+                  },
+                  {
+                    "id": "2276191b-baa6-4c08-9fc3-1871cb436cc1",
+                    "matchId": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
+                    "position": 3,
+                    "scoreA": 3,
+                    "scoreB": 5
                   }
                 ]
               },
@@ -16033,25 +16055,6 @@
       },
       {
         "isThirdPlace": false,
-        "phase": "KNOCKOUT",
-        "round": 1,
-        "finalRoundSize": "TOP_16",
-        "id": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
-        "competitionSlug": "street-soccer-maenner",
-        "sport": "Urban Street Soccer",
-        "category": "Männer",
-        "number": "Match 44 US-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 820,
-        "court": "Pitch 2",
-        "teamA": "Jürgen Würger",
-        "teamB": "Die Wattläufer",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
@@ -16346,6 +16349,38 @@
           {
             "scoreA": 0,
             "scoreB": 1
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "KNOCKOUT",
+        "round": 1,
+        "finalRoundSize": "TOP_16",
+        "id": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
+        "competitionSlug": "street-soccer-maenner",
+        "sport": "Urban Street Soccer",
+        "category": "Männer",
+        "number": "Match 44 US-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 820,
+        "court": "Pitch 2",
+        "teamA": "Jürgen Würger",
+        "teamB": "Die Wattläufer",
+        "scores": [
+          {
+            "scoreA": 0,
+            "scoreB": 6
+          },
+          {
+            "scoreA": 1,
+            "scoreB": 2
+          },
+          {
+            "scoreA": 3,
+            "scoreB": 5
           }
         ],
         "penalty": null
