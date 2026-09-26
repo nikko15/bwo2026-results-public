@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T12:24:13.001Z",
+  "generatedAt": "2026-09-26T12:24:29.832Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -2327,32 +2327,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "325e1694-49cc-4257-b035-3171db49401e",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 44,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "d5dfe98b-403e-4b93-8043-4d0f1e96ccad",
-                "teamAId": "40abd5eb-f574-4ce1-b838-72e504a7f802",
-                "teamBId": "bab618a8-6e7d-4446-b76f-68aec65425a5",
-                "round": 0,
-                "position": 58,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.243Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "8ea47df4-1080-4138-9101-22bece67da9e",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -2882,6 +2856,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 2
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "325e1694-49cc-4257-b035-3171db49401e",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 44,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "d5dfe98b-403e-4b93-8043-4d0f1e96ccad",
+                "teamAId": "40abd5eb-f574-4ce1-b838-72e504a7f802",
+                "teamBId": "bab618a8-6e7d-4446-b76f-68aec65425a5",
+                "round": 0,
+                "position": 58,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T12:24:29.028Z",
+                "beachSets": [
+                  {
+                    "id": "8a649c95-9d2c-4aff-9dd8-9b9188ccdf31",
+                    "matchId": "325e1694-49cc-4257-b035-3171db49401e",
+                    "position": 1,
+                    "scoreA": 21,
+                    "scoreB": 12
                   }
                 ],
                 "soccerPeriods": []
@@ -13639,25 +13647,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "325e1694-49cc-4257-b035-3171db49401e",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 44 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 760,
-        "court": "Court 2",
-        "teamA": "Bundesbrüder",
-        "teamB": "Bahnverspätung",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "8ea47df4-1080-4138-9101-22bece67da9e",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -14035,6 +14024,30 @@
           {
             "scoreA": 21,
             "scoreB": 2
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "325e1694-49cc-4257-b035-3171db49401e",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 44 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 760,
+        "court": "Court 2",
+        "teamA": "Bundesbrüder",
+        "teamB": "Bahnverspätung",
+        "scores": [
+          {
+            "scoreA": 21,
+            "scoreB": 12
           }
         ],
         "penalty": null
