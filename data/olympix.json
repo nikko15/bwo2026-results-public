@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T14:45:20.554Z",
+  "generatedAt": "2026-09-26T14:46:07.717Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -12491,7 +12491,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 16,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 60,
+            "rankingRevision": 61,
             "groupCount": 1,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -12502,7 +12502,7 @@
             "name": "Street Soccer Frauen",
             "slug": "street-soccer-frauen",
             "createdAt": "2026-09-21T12:33:19.219Z",
-            "updatedAt": "2026-09-26T14:44:01.445Z",
+            "updatedAt": "2026-09-26T14:46:06.886Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -13114,54 +13114,6 @@
                     "position": 3,
                     "scoreA": 1,
                     "scoreB": 0
-                  }
-                ]
-              },
-              {
-                "id": "52488cc1-b202-4b6d-b085-73ae9266f609",
-                "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
-                "matchNumber": null,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "5295b2cd-d8ef-436f-8889-79278d73f77c",
-                "teamAId": "6e048763-8b65-4e57-aac4-b15ce0f49230",
-                "teamBId": "4f05aa98-0a09-4014-bab4-cb9a7dbd5c27",
-                "round": 0,
-                "position": 9,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-26T14:25:57.950Z",
-                "updatedAt": "2026-09-26T14:36:55.113Z",
-                "beachSets": [],
-                "soccerPeriods": [
-                  {
-                    "id": "efa85f1f-a85a-4ab2-9adf-85115bfafe47",
-                    "matchId": "52488cc1-b202-4b6d-b085-73ae9266f609",
-                    "position": 1,
-                    "scoreA": 0,
-                    "scoreB": 8
-                  },
-                  {
-                    "id": "fe5eba48-2fe2-486c-8d62-f4e2ce2ca782",
-                    "matchId": "52488cc1-b202-4b6d-b085-73ae9266f609",
-                    "position": 2,
-                    "scoreA": 1,
-                    "scoreB": 3
-                  },
-                  {
-                    "id": "a9387455-eda3-48b8-97bd-f2d5b2d8de34",
-                    "matchId": "52488cc1-b202-4b6d-b085-73ae9266f609",
-                    "position": 3,
-                    "scoreA": 1,
-                    "scoreB": 3
                   }
                 ]
               },
@@ -14078,6 +14030,54 @@
                 ]
               },
               {
+                "id": "52488cc1-b202-4b6d-b085-73ae9266f609",
+                "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
+                "status": "FINAL",
+                "revision": 2,
+                "matchNumber": null,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "5295b2cd-d8ef-436f-8889-79278d73f77c",
+                "teamAId": "6e048763-8b65-4e57-aac4-b15ce0f49230",
+                "teamBId": "4f05aa98-0a09-4014-bab4-cb9a7dbd5c27",
+                "round": 0,
+                "position": 9,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-26T14:25:57.950Z",
+                "updatedAt": "2026-09-26T14:46:06.877Z",
+                "beachSets": [],
+                "soccerPeriods": [
+                  {
+                    "id": "efa85f1f-a85a-4ab2-9adf-85115bfafe47",
+                    "matchId": "52488cc1-b202-4b6d-b085-73ae9266f609",
+                    "position": 1,
+                    "scoreA": 0,
+                    "scoreB": 8
+                  },
+                  {
+                    "id": "fe5eba48-2fe2-486c-8d62-f4e2ce2ca782",
+                    "matchId": "52488cc1-b202-4b6d-b085-73ae9266f609",
+                    "position": 2,
+                    "scoreA": 1,
+                    "scoreB": 3
+                  },
+                  {
+                    "id": "a9387455-eda3-48b8-97bd-f2d5b2d8de34",
+                    "matchId": "52488cc1-b202-4b6d-b085-73ae9266f609",
+                    "position": 3,
+                    "scoreA": 1,
+                    "scoreB": 3
+                  }
+                ]
+              },
+              {
                 "id": "4b4d8649-72b3-4811-836c-d726da00fe34",
                 "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
                 "status": "FINAL",
@@ -14134,6 +14134,27 @@
               "endRank": 1,
               "rows": [
                 {
+                  "teamId": "4f05aa98-0a09-4014-bab4-cb9a7dbd5c27",
+                  "name": "Sturmtrupp United",
+                  "played": 7,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 51,
+                  "conceded": 7,
+                  "points": 58
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "9c2366b7c21bf40c712caf72397de3d56698d7faaf15be9fa1ff2a3bafd94bd2"
+            },
+            {
+              "rank": 2,
+              "endRank": 2,
+              "rows": [
+                {
                   "teamId": "3ffd7607-c7aa-4474-b136-bf228933ec6f",
                   "name": "Quokka",
                   "played": 7,
@@ -14148,28 +14169,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "7b9a12655fac3d514bf33a100e231c4c52e7b51840d602cb406f5b9029c5512e"
-            },
-            {
-              "rank": 2,
-              "endRank": 2,
-              "rows": [
-                {
-                  "teamId": "4f05aa98-0a09-4014-bab4-cb9a7dbd5c27",
-                  "name": "Sturmtrupp United",
-                  "played": 6,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 37,
-                  "conceded": 5,
-                  "points": 49
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "2cea60eddf170aa3defa7229258da203b246a308c60458adec0bc49653652697"
+              "signature": "afa70ddc4b6728f9d72588e2dffaff619a72309b5c75fd99e4989e0c6fe12b59"
             },
             {
               "rank": 3,
@@ -14190,7 +14190,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "bc4b6399127c305700af9a38aa44d5ea5614f2a7c99d967761f6fcb766e72436"
+              "signature": "91cef7f68c96a9ab7bad0d46587195b36783680075ed378125364bdb79d7c5fa"
             },
             {
               "rank": 4,
@@ -14211,7 +14211,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "89693abf2cf1fe9b8929113cefeb9b3c1f752f3228df6632a7b2386efc033eb5"
+              "signature": "c6cddafd950e618d4d8ce9ec39009411e030f40f909241df3779e234a15fcc43"
             },
             {
               "rank": 5,
@@ -14220,19 +14220,19 @@
                 {
                   "teamId": "6e048763-8b65-4e57-aac4-b15ce0f49230",
                   "name": "Team X",
-                  "played": 6,
+                  "played": 7,
                   "wins": 0,
                   "losses": 0,
                   "setsWon": 0,
                   "setsLost": 0,
-                  "scored": 18,
-                  "conceded": 22,
+                  "scored": 20,
+                  "conceded": 36,
                   "points": 30
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "0a5d0c53fbabe97e83437f3e1ddb9e908e9ea87960fa65baf4a902e38bb874fa"
+              "signature": "7452de70be1977774710aaf9ef8b5a399bfbfbe7b6bfdc3c29cccffc65fbd579"
             },
             {
               "rank": 6,
@@ -14253,7 +14253,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "8e62602af0bbea51514d34c8c1f6b7f13c0b61e74cc350bf04afe8120e841205"
+              "signature": "8cfda06e91733e370ee589aa16fa0c12caf293626e5d4c49656dcac9de9e1d65"
             },
             {
               "rank": 7,
@@ -14274,7 +14274,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "5b62434a535c61b5dc5592dc455c4e0026beb3a55d67e2a6f21b8d4c75df7dda"
+              "signature": "300b8d914ca4733efd94c8fa4958573d871c7e848034d3307c0c5809c1a9599b"
             },
             {
               "rank": 8,
@@ -14295,7 +14295,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "789c73b8171bf25ecb3cd36e02dd89112e8bd3f304cf0479d30cd533247d53bf"
+              "signature": "ab2dfbc7651dd6065b30314c93e75e37b55d9dfd73de34d24b56ba9a95a7ad7a"
             }
           ],
           "groups": [
@@ -14306,6 +14306,27 @@
                 {
                   "rank": 1,
                   "endRank": 1,
+                  "rows": [
+                    {
+                      "teamId": "4f05aa98-0a09-4014-bab4-cb9a7dbd5c27",
+                      "name": "Sturmtrupp United",
+                      "played": 7,
+                      "wins": 0,
+                      "losses": 0,
+                      "setsWon": 0,
+                      "setsLost": 0,
+                      "scored": 51,
+                      "conceded": 7,
+                      "points": 58
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "9c2366b7c21bf40c712caf72397de3d56698d7faaf15be9fa1ff2a3bafd94bd2"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
                   "rows": [
                     {
                       "teamId": "3ffd7607-c7aa-4474-b136-bf228933ec6f",
@@ -14322,28 +14343,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "7b9a12655fac3d514bf33a100e231c4c52e7b51840d602cb406f5b9029c5512e"
-                },
-                {
-                  "rank": 2,
-                  "endRank": 2,
-                  "rows": [
-                    {
-                      "teamId": "4f05aa98-0a09-4014-bab4-cb9a7dbd5c27",
-                      "name": "Sturmtrupp United",
-                      "played": 6,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 37,
-                      "conceded": 5,
-                      "points": 49
-                    }
-                  ],
-                  "tied": false,
-                  "resolved": true,
-                  "signature": "2cea60eddf170aa3defa7229258da203b246a308c60458adec0bc49653652697"
+                  "signature": "afa70ddc4b6728f9d72588e2dffaff619a72309b5c75fd99e4989e0c6fe12b59"
                 },
                 {
                   "rank": 3,
@@ -14364,7 +14364,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "bc4b6399127c305700af9a38aa44d5ea5614f2a7c99d967761f6fcb766e72436"
+                  "signature": "91cef7f68c96a9ab7bad0d46587195b36783680075ed378125364bdb79d7c5fa"
                 },
                 {
                   "rank": 4,
@@ -14385,7 +14385,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "89693abf2cf1fe9b8929113cefeb9b3c1f752f3228df6632a7b2386efc033eb5"
+                  "signature": "c6cddafd950e618d4d8ce9ec39009411e030f40f909241df3779e234a15fcc43"
                 },
                 {
                   "rank": 5,
@@ -14394,19 +14394,19 @@
                     {
                       "teamId": "6e048763-8b65-4e57-aac4-b15ce0f49230",
                       "name": "Team X",
-                      "played": 6,
+                      "played": 7,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 18,
-                      "conceded": 22,
+                      "scored": 20,
+                      "conceded": 36,
                       "points": 30
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "0a5d0c53fbabe97e83437f3e1ddb9e908e9ea87960fa65baf4a902e38bb874fa"
+                  "signature": "7452de70be1977774710aaf9ef8b5a399bfbfbe7b6bfdc3c29cccffc65fbd579"
                 },
                 {
                   "rank": 6,
@@ -14427,7 +14427,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "8e62602af0bbea51514d34c8c1f6b7f13c0b61e74cc350bf04afe8120e841205"
+                  "signature": "8cfda06e91733e370ee589aa16fa0c12caf293626e5d4c49656dcac9de9e1d65"
                 },
                 {
                   "rank": 7,
@@ -14448,7 +14448,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "5b62434a535c61b5dc5592dc455c4e0026beb3a55d67e2a6f21b8d4c75df7dda"
+                  "signature": "300b8d914ca4733efd94c8fa4958573d871c7e848034d3307c0c5809c1a9599b"
                 },
                 {
                   "rank": 8,
@@ -14469,7 +14469,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "789c73b8171bf25ecb3cd36e02dd89112e8bd3f304cf0479d30cd533247d53bf"
+                  "signature": "ab2dfbc7651dd6065b30314c93e75e37b55d9dfd73de34d24b56ba9a95a7ad7a"
                 }
               ]
             }
@@ -19251,38 +19251,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_8",
-        "id": "52488cc1-b202-4b6d-b085-73ae9266f609",
-        "competitionSlug": "street-soccer-frauen",
-        "sport": "Urban Street Soccer",
-        "category": "Frauen",
-        "number": null,
-        "status": "RESULT_ENTERED",
-        "day": null,
-        "minute": null,
-        "court": null,
-        "teamA": "Team X",
-        "teamB": "Sturmtrupp United",
-        "scores": [
-          {
-            "scoreA": 0,
-            "scoreB": 8
-          },
-          {
-            "scoreA": 1,
-            "scoreB": 3
-          },
-          {
-            "scoreA": 1,
-            "scoreB": 3
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_8",
         "id": "4623b940-8f2b-437f-8db9-224a6b27a642",
         "competitionSlug": "street-soccer-frauen",
         "sport": "Urban Street Soccer",
@@ -19881,6 +19849,38 @@
           },
           {
             "scoreA": 2,
+            "scoreB": 3
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_8",
+        "id": "52488cc1-b202-4b6d-b085-73ae9266f609",
+        "competitionSlug": "street-soccer-frauen",
+        "sport": "Urban Street Soccer",
+        "category": "Frauen",
+        "number": null,
+        "status": "FINAL",
+        "day": null,
+        "minute": null,
+        "court": null,
+        "teamA": "Team X",
+        "teamB": "Sturmtrupp United",
+        "scores": [
+          {
+            "scoreA": 0,
+            "scoreB": 8
+          },
+          {
+            "scoreA": 1,
+            "scoreB": 3
+          },
+          {
+            "scoreA": 1,
             "scoreB": 3
           }
         ],
