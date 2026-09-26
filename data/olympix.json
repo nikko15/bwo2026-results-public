@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T07:23:23.343Z",
+  "generatedAt": "2026-09-26T07:23:50.579Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -4656,32 +4656,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "2bc2587f-a7b3-463c-826b-563f049ef3d9",
-                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 5,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "f5c5d52f-a2f4-4c63-8a84-af701dd07b12",
-                "teamAId": "6323de49-46f9-4a5a-ba37-4e761e3c9105",
-                "teamBId": "cd7a1868-07fc-443a-9f39-49b85436fa0d",
-                "round": 0,
-                "position": 8,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-25T23:16:06.646Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "4a1dde0e-c704-41ad-826a-a9db1a7e43d5",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
                 "status": "SCHEDULED",
@@ -4909,6 +4883,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 9
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "2bc2587f-a7b3-463c-826b-563f049ef3d9",
+                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 5,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "f5c5d52f-a2f4-4c63-8a84-af701dd07b12",
+                "teamAId": "6323de49-46f9-4a5a-ba37-4e761e3c9105",
+                "teamBId": "cd7a1868-07fc-443a-9f39-49b85436fa0d",
+                "round": 0,
+                "position": 8,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:15:50.835Z",
+                "updatedAt": "2026-09-26T07:23:49.808Z",
+                "beachSets": [
+                  {
+                    "id": "1f1c9d6b-1662-456d-a2ec-cafb7264a92a",
+                    "matchId": "2bc2587f-a7b3-463c-826b-563f049ef3d9",
+                    "position": 1,
+                    "scoreA": 21,
+                    "scoreB": 16
                   }
                 ],
                 "soccerPeriods": []
@@ -11272,25 +11280,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "2bc2587f-a7b3-463c-826b-563f049ef3d9",
-        "competitionSlug": "beachvolleyball-frauen",
-        "sport": "Beachvolleyball",
-        "category": "Frauen",
-        "number": "Match 5 BV-W",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 520,
-        "court": "Court 4",
-        "teamA": "Volleyballerinnas",
-        "teamB": "NetNinjas",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "4a1dde0e-c704-41ad-826a-a9db1a7e43d5",
         "competitionSlug": "beachvolleyball-frauen",
         "sport": "Beachvolleyball",
@@ -11449,6 +11438,30 @@
           {
             "scoreA": 21,
             "scoreB": 9
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "2bc2587f-a7b3-463c-826b-563f049ef3d9",
+        "competitionSlug": "beachvolleyball-frauen",
+        "sport": "Beachvolleyball",
+        "category": "Frauen",
+        "number": "Match 5 BV-W",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 520,
+        "court": "Court 4",
+        "teamA": "Volleyballerinnas",
+        "teamB": "NetNinjas",
+        "scores": [
+          {
+            "scoreA": 21,
+            "scoreB": 16
           }
         ],
         "penalty": null
