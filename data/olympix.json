@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T09:27:22.065Z",
+  "generatedAt": "2026-09-26T09:38:20.479Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -1121,32 +1121,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "1b292b41-682f-4291-8466-0b6ff46d988e",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 27,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "58517508-a7bd-46f2-8542-79efc4434c24",
-                "teamAId": "022340ba-1214-414f-b6db-f1c0b0a51a47",
-                "teamBId": "8938be15-80ef-457e-b0df-bbbd2c2a1c18",
-                "round": 0,
-                "position": 45,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.191Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "4788f4f9-bbeb-4489-86b6-71162d23d402",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -2194,6 +2168,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 9
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "1b292b41-682f-4291-8466-0b6ff46d988e",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 27,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "58517508-a7bd-46f2-8542-79efc4434c24",
+                "teamAId": "022340ba-1214-414f-b6db-f1c0b0a51a47",
+                "teamBId": "8938be15-80ef-457e-b0df-bbbd2c2a1c18",
+                "round": 0,
+                "position": 45,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T09:38:19.544Z",
+                "beachSets": [
+                  {
+                    "id": "f595f923-cfdf-4f2a-b4d1-fb2f7198b3be",
+                    "matchId": "1b292b41-682f-4291-8466-0b6ff46d988e",
+                    "position": 1,
+                    "scoreA": 16,
+                    "scoreB": 21
                   }
                 ],
                 "soccerPeriods": []
@@ -10967,25 +10975,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "1b292b41-682f-4291-8466-0b6ff46d988e",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 27 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 640,
-        "court": "Court 3",
-        "teamA": "Lai Gol Squad",
-        "teamB": "Team Zukunft",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "4788f4f9-bbeb-4489-86b6-71162d23d402",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -11728,6 +11717,30 @@
           {
             "scoreA": 21,
             "scoreB": 9
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "1b292b41-682f-4291-8466-0b6ff46d988e",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 27 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 640,
+        "court": "Court 3",
+        "teamA": "Lai Gol Squad",
+        "teamB": "Team Zukunft",
+        "scores": [
+          {
+            "scoreA": 16,
+            "scoreB": 21
           }
         ],
         "penalty": null
