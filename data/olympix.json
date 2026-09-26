@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T11:56:58.325Z",
+  "generatedAt": "2026-09-26T11:57:01.708Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -9912,54 +9912,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
-                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "FINAL",
-                "revision": 2,
-                "matchNumber": 44,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "KNOCKOUT",
-                "groupId": null,
-                "teamAId": null,
-                "teamBId": null,
-                "round": 1,
-                "position": 2,
-                "seedA": 8,
-                "seedB": 9,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-26T10:51:32.337Z",
-                "updatedAt": "2026-09-26T11:56:55.183Z",
-                "beachSets": [],
-                "soccerPeriods": [
-                  {
-                    "id": "eb5fecc5-6f1e-4924-81a9-f5b969cf2220",
-                    "matchId": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
-                    "position": 1,
-                    "scoreA": 0,
-                    "scoreB": 6
-                  },
-                  {
-                    "id": "322bdae2-24b6-4724-a1d7-e5d9c710da4d",
-                    "matchId": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
-                    "position": 2,
-                    "scoreA": 1,
-                    "scoreB": 2
-                  },
-                  {
-                    "id": "2276191b-baa6-4c08-9fc3-1871cb436cc1",
-                    "matchId": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
-                    "position": 3,
-                    "scoreA": 3,
-                    "scoreB": 5
-                  }
-                ]
-              },
-              {
                 "id": "16c9aa84-a8fa-44fd-bd13-fcb8480c4b25",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
                 "status": "FINAL",
@@ -10052,6 +10004,54 @@
                     "position": 3,
                     "scoreA": 0,
                     "scoreB": 1
+                  }
+                ]
+              },
+              {
+                "id": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
+                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
+                "status": "FINAL",
+                "revision": 3,
+                "matchNumber": 44,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "KNOCKOUT",
+                "groupId": null,
+                "teamAId": null,
+                "teamBId": null,
+                "round": 1,
+                "position": 2,
+                "seedA": 8,
+                "seedB": 9,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-26T10:51:32.337Z",
+                "updatedAt": "2026-09-26T11:57:00.897Z",
+                "beachSets": [],
+                "soccerPeriods": [
+                  {
+                    "id": "aa0af169-7c5f-4f54-8bb3-0d3a70cfcc28",
+                    "matchId": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
+                    "position": 1,
+                    "scoreA": 0,
+                    "scoreB": 6
+                  },
+                  {
+                    "id": "513d906e-5b06-4047-98bf-6d0b24a6f98f",
+                    "matchId": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
+                    "position": 2,
+                    "scoreA": 1,
+                    "scoreB": 2
+                  },
+                  {
+                    "id": "ae8fa278-8b86-452e-be4d-46b5929a4bcf",
+                    "matchId": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
+                    "position": 3,
+                    "scoreA": 3,
+                    "scoreB": 5
                   }
                 ]
               },
@@ -16294,38 +16294,6 @@
         "phase": "KNOCKOUT",
         "round": 1,
         "finalRoundSize": "TOP_16",
-        "id": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
-        "competitionSlug": "street-soccer-maenner",
-        "sport": "Urban Street Soccer",
-        "category": "Männer",
-        "number": "Match 44 US-M",
-        "status": "FINAL",
-        "day": "2026-09-26",
-        "minute": 820,
-        "court": "Pitch 2",
-        "teamA": "Jürgen Würger",
-        "teamB": "Die Wattläufer",
-        "scores": [
-          {
-            "scoreA": 0,
-            "scoreB": 6
-          },
-          {
-            "scoreA": 1,
-            "scoreB": 2
-          },
-          {
-            "scoreA": 3,
-            "scoreB": 5
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "KNOCKOUT",
-        "round": 1,
-        "finalRoundSize": "TOP_16",
         "id": "16c9aa84-a8fa-44fd-bd13-fcb8480c4b25",
         "competitionSlug": "street-soccer-maenner",
         "sport": "Urban Street Soccer",
@@ -16381,6 +16349,38 @@
           {
             "scoreA": 0,
             "scoreB": 1
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "KNOCKOUT",
+        "round": 1,
+        "finalRoundSize": "TOP_16",
+        "id": "122496eb-28d0-4205-a0db-d3aaa8c53a0b",
+        "competitionSlug": "street-soccer-maenner",
+        "sport": "Urban Street Soccer",
+        "category": "Männer",
+        "number": "Match 44 US-M",
+        "status": "FINAL",
+        "day": "2026-09-26",
+        "minute": 820,
+        "court": "Pitch 2",
+        "teamA": "Jürgen Würger",
+        "teamB": "Die Wattläufer",
+        "scores": [
+          {
+            "scoreA": 0,
+            "scoreB": 6
+          },
+          {
+            "scoreA": 1,
+            "scoreB": 2
+          },
+          {
+            "scoreA": 3,
+            "scoreB": 5
           }
         ],
         "penalty": null
