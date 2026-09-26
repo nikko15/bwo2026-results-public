@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T13:32:28.774Z",
+  "generatedAt": "2026-09-26T13:32:45.460Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -2497,32 +2497,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "4c344f91-1667-4b28-9195-89ebcfac3a07",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 58,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "58517508-a7bd-46f2-8542-79efc4434c24",
-                "teamAId": "bafb98e9-c2af-488f-9fcb-d46d08b96067",
-                "teamBId": "a6baf7b9-a992-4c03-8839-2e7a5b38f689",
-                "round": 0,
-                "position": 50,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.282Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "c9891faa-c620-4583-bad8-6016b8c597cc",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -2985,6 +2959,40 @@
                     "matchId": "dd64155f-ad9c-48a5-bd9a-525a015fff28",
                     "position": 1,
                     "scoreA": 13,
+                    "scoreB": 21
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "4c344f91-1667-4b28-9195-89ebcfac3a07",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 58,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "58517508-a7bd-46f2-8542-79efc4434c24",
+                "teamAId": "bafb98e9-c2af-488f-9fcb-d46d08b96067",
+                "teamBId": "a6baf7b9-a992-4c03-8839-2e7a5b38f689",
+                "round": 0,
+                "position": 50,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T13:32:44.657Z",
+                "beachSets": [
+                  {
+                    "id": "09104136-83fd-441a-8f74-1ec16df4a4bd",
+                    "matchId": "4c344f91-1667-4b28-9195-89ebcfac3a07",
+                    "position": 1,
+                    "scoreA": 7,
                     "scoreB": 21
                   }
                 ],
@@ -14085,25 +14093,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "4c344f91-1667-4b28-9195-89ebcfac3a07",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 58 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 860,
-        "court": "Court 1",
-        "teamA": "Hunters",
-        "teamB": "low cortisol",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "c9891faa-c620-4583-bad8-6016b8c597cc",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -14425,6 +14414,30 @@
         "scores": [
           {
             "scoreA": 13,
+            "scoreB": 21
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "4c344f91-1667-4b28-9195-89ebcfac3a07",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 58 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 860,
+        "court": "Court 1",
+        "teamA": "Hunters",
+        "teamB": "low cortisol",
+        "scores": [
+          {
+            "scoreA": 7,
             "scoreB": 21
           }
         ],
