@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T13:11:29.122Z",
+  "generatedAt": "2026-09-26T13:11:51.038Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5511,32 +5511,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "301a8a77-0d65-4c80-956d-fef796ecfca5",
-                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 32,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "KNOCKOUT",
-                "groupId": null,
-                "teamAId": null,
-                "teamBId": null,
-                "round": 1,
-                "position": 8,
-                "seedA": 2,
-                "seedB": 15,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-26T11:10:54.615Z",
-                "updatedAt": "2026-09-26T11:15:59.745Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "1efedae0-3a17-42ec-b341-331ed98533c8",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
                 "status": "SCHEDULED",
@@ -5748,6 +5722,47 @@
                     "position": 2,
                     "scoreA": 0,
                     "scoreB": 15
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "301a8a77-0d65-4c80-956d-fef796ecfca5",
+                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 32,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "KNOCKOUT",
+                "groupId": null,
+                "teamAId": null,
+                "teamBId": null,
+                "round": 1,
+                "position": 8,
+                "seedA": 2,
+                "seedB": 15,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-26T11:10:54.615Z",
+                "updatedAt": "2026-09-26T13:11:50.241Z",
+                "beachSets": [
+                  {
+                    "id": "ef93ddca-5781-46ac-b244-742f618cd420",
+                    "matchId": "301a8a77-0d65-4c80-956d-fef796ecfca5",
+                    "position": 1,
+                    "scoreA": 15,
+                    "scoreB": 8
+                  },
+                  {
+                    "id": "85b892d0-8efb-401b-b416-12c6ae78dce0",
+                    "matchId": "301a8a77-0d65-4c80-956d-fef796ecfca5",
+                    "position": 2,
+                    "scoreA": 15,
+                    "scoreB": 9
                   }
                 ],
                 "soccerPeriods": []
@@ -14752,25 +14767,6 @@
       {
         "isThirdPlace": false,
         "phase": "KNOCKOUT",
-        "round": 1,
-        "finalRoundSize": "TOP_16",
-        "id": "301a8a77-0d65-4c80-956d-fef796ecfca5",
-        "competitionSlug": "beachvolleyball-frauen",
-        "sport": "Beachvolleyball",
-        "category": "Frauen",
-        "number": "Match 32 BV-W",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 880,
-        "court": "Court 5",
-        "teamA": "Siegerländerinnen",
-        "teamB": "Die Olympi´s",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "KNOCKOUT",
         "round": 2,
         "finalRoundSize": "TOP_16",
         "id": "1efedae0-3a17-42ec-b341-331ed98533c8",
@@ -14914,6 +14910,34 @@
           {
             "scoreA": 0,
             "scoreB": 15
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "KNOCKOUT",
+        "round": 1,
+        "finalRoundSize": "TOP_16",
+        "id": "301a8a77-0d65-4c80-956d-fef796ecfca5",
+        "competitionSlug": "beachvolleyball-frauen",
+        "sport": "Beachvolleyball",
+        "category": "Frauen",
+        "number": "Match 32 BV-W",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 880,
+        "court": "Court 5",
+        "teamA": "Siegerländerinnen",
+        "teamB": "Die Olympi´s",
+        "scores": [
+          {
+            "scoreA": 15,
+            "scoreB": 8
+          },
+          {
+            "scoreA": 15,
+            "scoreB": 9
           }
         ],
         "penalty": null
