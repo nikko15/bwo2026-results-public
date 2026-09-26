@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T09:39:48.125Z",
+  "generatedAt": "2026-09-26T09:39:50.355Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -4145,7 +4145,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 26,
+            "rankingRevision": 27,
             "groupCount": 4,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -4156,7 +4156,7 @@
             "name": "Beachvolleyball Frauen",
             "slug": "beachvolleyball-frauen",
             "createdAt": "2026-09-21T13:00:56.142Z",
-            "updatedAt": "2026-09-26T09:23:39.268Z",
+            "updatedAt": "2026-09-26T09:39:48.035Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -4926,40 +4926,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "aa7d341e-e648-4cfa-9985-336b4b6b0423",
-                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
-                "matchNumber": 17,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "7cd96354-d5af-482f-ac92-95eb7e3b725d",
-                "teamAId": "253309ed-70a1-4ae9-b7cb-dc239d4c405c",
-                "teamBId": "309cc2f0-d152-44f7-b720-7bc1f5e8a2a2",
-                "round": 0,
-                "position": 17,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-26T09:39:47.281Z",
-                "beachSets": [
-                  {
-                    "id": "2a4c360e-ecf9-466a-be43-42aaa885a601",
-                    "matchId": "aa7d341e-e648-4cfa-9985-336b4b6b0423",
-                    "position": 1,
-                    "scoreA": 21,
-                    "scoreB": 16
-                  }
-                ],
-                "soccerPeriods": []
-              },
-              {
                 "id": "fcd58b59-ad7e-4703-9c3a-8f6fad2c988b",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
                 "status": "SCHEDULED",
@@ -5067,6 +5033,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 19
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "aa7d341e-e648-4cfa-9985-336b4b6b0423",
+                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
+                "status": "FINAL",
+                "revision": 2,
+                "matchNumber": 17,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "7cd96354-d5af-482f-ac92-95eb7e3b725d",
+                "teamAId": "253309ed-70a1-4ae9-b7cb-dc239d4c405c",
+                "teamBId": "309cc2f0-d152-44f7-b720-7bc1f5e8a2a2",
+                "round": 0,
+                "position": 17,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:15:50.835Z",
+                "updatedAt": "2026-09-26T09:39:48.004Z",
+                "beachSets": [
+                  {
+                    "id": "2a4c360e-ecf9-466a-be43-42aaa885a601",
+                    "matchId": "aa7d341e-e648-4cfa-9985-336b4b6b0423",
+                    "position": 1,
+                    "scoreA": 21,
+                    "scoreB": 16
                   }
                 ],
                 "soccerPeriods": []
@@ -5504,7 +5504,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "7cc12427f368f292f18f52458df9e6439edc2dc8ca315a96797f09012f01b700"
+              "signature": "fd9f46de500d146518f62bfc0a72ba9edb015a323ea5296f5f7316e4805a087f"
             },
             {
               "rank": 2,
@@ -5525,7 +5525,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "31ec91bb936dd1c84363c57a305666048e7ddb1dda1677345629e6580d4170a8"
+              "signature": "55fb0c21d97bf6cee8181704a108da93ef5e75594d7b7e5ad4f26ebe6cea8db7"
             },
             {
               "rank": 3,
@@ -5546,7 +5546,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "834d5637c9f289e442f341c872f1fad08a22d16eaf3579d7e59ce8c1bfde695d"
+              "signature": "568b59c520bc953344dd7a61cfb7ff62cf3b52e13e8831619a818bc7dc1f7e08"
             },
             {
               "rank": 4,
@@ -5567,7 +5567,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "1cef7859a689080ee9a5f2ae39023197c76c69e2250f24b2f0a9cc3d8f4d2995"
+              "signature": "92fa8f61eaff8929ce91725f68bf01a0d1df285f5bc3be838a8e8f558c61bf10"
             },
             {
               "rank": 5,
@@ -5588,7 +5588,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "fcb16397de62abae95e96869f470b15cd7c8d05ac943c4e7612cc8235dcc4ec1"
+              "signature": "f65a48301ceb01ea87b0d27e3a554342c2206fdb819fd6d802439d19a1197e64"
             },
             {
               "rank": 6,
@@ -5609,7 +5609,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "f45b93bf7467d2a788f8acd2b734a09d404b74b1ef29228d7de41e60858f9903"
+              "signature": "4c31fe723c2720dc38b8c7c836ad18997588201a860de0793e0d917c701e0c8a"
             },
             {
               "rank": 7,
@@ -5630,7 +5630,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "1f4bde7ab926ed981ed618146fcd7f78602b7bc89aea91f98b750b33c1a817c9"
+              "signature": "b265bf7f553cc29bb2c8aeaa8e94cb022caeeaef277ad052665aa401ad126b89"
             },
             {
               "rank": 8,
@@ -5651,7 +5651,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "286185a57a7159f897d470e6d0ad4a56e22a02b69ee45c97b9e78ec76c6d4767"
+              "signature": "d6dce3daa990de36ede2717e49f2826819ab33e7fa553a675e5d2df2080ebc5b"
             },
             {
               "rank": 9,
@@ -5672,7 +5672,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "2731a775e9a4fdea29e09e62d22821da41279f56a91cc9ad5bf00345dc618547"
+              "signature": "2bc346355237455de160dadc89b4eeec94e87403fa1c1939ba671ca71354deed"
             },
             {
               "rank": 10,
@@ -5693,11 +5693,32 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "1f0f32a2d7cd34c41cc92b8c37f34e9ddc8122ca01c37176a93495735483c2ec"
+              "signature": "21eb839a457963fff79688867916afd9a87b14015f13885368ec91a25c87ed15"
             },
             {
               "rank": 11,
               "endRank": 11,
+              "rows": [
+                {
+                  "teamId": "253309ed-70a1-4ae9-b7cb-dc239d4c405c",
+                  "name": "Gummibärenbande",
+                  "played": 3,
+                  "wins": 1,
+                  "losses": 2,
+                  "setsWon": 1,
+                  "setsLost": 2,
+                  "scored": 48,
+                  "conceded": 58,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "814b6ced651d5a8650fdccdc3849127af12510dda8b2f9029059758f5a720f4a"
+            },
+            {
+              "rank": 12,
+              "endRank": 12,
               "rows": [
                 {
                   "teamId": "f1dd066f-40b5-4862-b4cc-ebe9f717cb54",
@@ -5714,11 +5735,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "3c318f72a5a41a11c5bf433aa33f515dd680a72db4c72e72e1f06235396e5cf2"
+              "signature": "793fbe508c18918b73e5a9481fd24fd86a4dc15fd588094bfec472168708a359"
             },
             {
-              "rank": 12,
-              "endRank": 12,
+              "rank": 13,
+              "endRank": 13,
               "rows": [
                 {
                   "teamId": "385c719a-e728-4f5f-a2de-e5f90c4e5b58",
@@ -5735,28 +5756,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "0a37c3a0a2d5dbfcdedd9444ded00bb2bf0001c264456d3d55ec4304fb73c0ae"
-            },
-            {
-              "rank": 13,
-              "endRank": 13,
-              "rows": [
-                {
-                  "teamId": "253309ed-70a1-4ae9-b7cb-dc239d4c405c",
-                  "name": "Gummibärenbande",
-                  "played": 2,
-                  "wins": 0,
-                  "losses": 2,
-                  "setsWon": 0,
-                  "setsLost": 2,
-                  "scored": 27,
-                  "conceded": 42,
-                  "points": 0
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "8dff4625174d213dd07043b7cd8f60e7618d907ddd8610ba511ffa94d9f2aa54"
+              "signature": "c09bb1045b774e8746f39195d57a869382fa488b35d6bf83a734ce4347e442ec"
             },
             {
               "rank": 14,
@@ -5765,19 +5765,19 @@
                 {
                   "teamId": "309cc2f0-d152-44f7-b720-7bc1f5e8a2a2",
                   "name": "Sandpit Worriers",
-                  "played": 2,
+                  "played": 3,
                   "wins": 0,
-                  "losses": 2,
+                  "losses": 3,
                   "setsWon": 0,
-                  "setsLost": 2,
-                  "scored": 22,
-                  "conceded": 42,
+                  "setsLost": 3,
+                  "scored": 38,
+                  "conceded": 63,
                   "points": 0
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "0bb19da9609f5ca65d44f6e68b20b3055fc168400c545e028b176fbf318f9203"
+              "signature": "33d921d0264a6abb91acbe5cd59af37cc6ba2adbe298d7b5925f986860958ab6"
             },
             {
               "rank": 15,
@@ -5798,7 +5798,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "930b41493c3909d3879df9a3c2a140c1e2828d2d311eacceb3803d76bba05f95"
+              "signature": "243cb75fe93715934740e5b596df7c58c051979446b220d80b9247d9d32e96bc"
             },
             {
               "rank": 16,
@@ -5819,7 +5819,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "7a2d9e8b8757965e84a65300961f237b16c456f0f692c6683780a05451c743e1"
+              "signature": "806cb3f07e55fb8fb0d1e27336610e103e8a9e5a4edbe2e9e5ed33bb6c990a7a"
             }
           ],
           "groups": [
@@ -5846,7 +5846,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "7cc12427f368f292f18f52458df9e6439edc2dc8ca315a96797f09012f01b700"
+                  "signature": "fd9f46de500d146518f62bfc0a72ba9edb015a323ea5296f5f7316e4805a087f"
                 },
                 {
                   "rank": 2,
@@ -5867,7 +5867,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "286185a57a7159f897d470e6d0ad4a56e22a02b69ee45c97b9e78ec76c6d4767"
+                  "signature": "d6dce3daa990de36ede2717e49f2826819ab33e7fa553a675e5d2df2080ebc5b"
                 },
                 {
                   "rank": 3,
@@ -5888,7 +5888,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "1f0f32a2d7cd34c41cc92b8c37f34e9ddc8122ca01c37176a93495735483c2ec"
+                  "signature": "21eb839a457963fff79688867916afd9a87b14015f13885368ec91a25c87ed15"
                 },
                 {
                   "rank": 4,
@@ -5909,7 +5909,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "7a2d9e8b8757965e84a65300961f237b16c456f0f692c6683780a05451c743e1"
+                  "signature": "806cb3f07e55fb8fb0d1e27336610e103e8a9e5a4edbe2e9e5ed33bb6c990a7a"
                 }
               ]
             },
@@ -5936,7 +5936,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "f45b93bf7467d2a788f8acd2b734a09d404b74b1ef29228d7de41e60858f9903"
+                  "signature": "4c31fe723c2720dc38b8c7c836ad18997588201a860de0793e0d917c701e0c8a"
                 },
                 {
                   "rank": 2,
@@ -5957,7 +5957,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "1f4bde7ab926ed981ed618146fcd7f78602b7bc89aea91f98b750b33c1a817c9"
+                  "signature": "b265bf7f553cc29bb2c8aeaa8e94cb022caeeaef277ad052665aa401ad126b89"
                 },
                 {
                   "rank": 3,
@@ -5978,7 +5978,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "2731a775e9a4fdea29e09e62d22821da41279f56a91cc9ad5bf00345dc618547"
+                  "signature": "2bc346355237455de160dadc89b4eeec94e87403fa1c1939ba671ca71354deed"
                 },
                 {
                   "rank": 4,
@@ -5999,7 +5999,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "0a37c3a0a2d5dbfcdedd9444ded00bb2bf0001c264456d3d55ec4304fb73c0ae"
+                  "signature": "c09bb1045b774e8746f39195d57a869382fa488b35d6bf83a734ce4347e442ec"
                 }
               ]
             },
@@ -6026,7 +6026,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "31ec91bb936dd1c84363c57a305666048e7ddb1dda1677345629e6580d4170a8"
+                  "signature": "55fb0c21d97bf6cee8181704a108da93ef5e75594d7b7e5ad4f26ebe6cea8db7"
                 },
                 {
                   "rank": 2,
@@ -6047,7 +6047,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "834d5637c9f289e442f341c872f1fad08a22d16eaf3579d7e59ce8c1bfde695d"
+                  "signature": "568b59c520bc953344dd7a61cfb7ff62cf3b52e13e8831619a818bc7dc1f7e08"
                 },
                 {
                   "rank": 3,
@@ -6056,19 +6056,19 @@
                     {
                       "teamId": "253309ed-70a1-4ae9-b7cb-dc239d4c405c",
                       "name": "Gummibärenbande",
-                      "played": 2,
-                      "wins": 0,
+                      "played": 3,
+                      "wins": 1,
                       "losses": 2,
-                      "setsWon": 0,
+                      "setsWon": 1,
                       "setsLost": 2,
-                      "scored": 27,
-                      "conceded": 42,
+                      "scored": 48,
+                      "conceded": 58,
                       "points": 0
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "8dff4625174d213dd07043b7cd8f60e7618d907ddd8610ba511ffa94d9f2aa54"
+                  "signature": "814b6ced651d5a8650fdccdc3849127af12510dda8b2f9029059758f5a720f4a"
                 },
                 {
                   "rank": 4,
@@ -6077,19 +6077,19 @@
                     {
                       "teamId": "309cc2f0-d152-44f7-b720-7bc1f5e8a2a2",
                       "name": "Sandpit Worriers",
-                      "played": 2,
+                      "played": 3,
                       "wins": 0,
-                      "losses": 2,
+                      "losses": 3,
                       "setsWon": 0,
-                      "setsLost": 2,
-                      "scored": 22,
-                      "conceded": 42,
+                      "setsLost": 3,
+                      "scored": 38,
+                      "conceded": 63,
                       "points": 0
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "0bb19da9609f5ca65d44f6e68b20b3055fc168400c545e028b176fbf318f9203"
+                  "signature": "33d921d0264a6abb91acbe5cd59af37cc6ba2adbe298d7b5925f986860958ab6"
                 }
               ]
             },
@@ -6116,7 +6116,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "1cef7859a689080ee9a5f2ae39023197c76c69e2250f24b2f0a9cc3d8f4d2995"
+                  "signature": "92fa8f61eaff8929ce91725f68bf01a0d1df285f5bc3be838a8e8f558c61bf10"
                 },
                 {
                   "rank": 2,
@@ -6137,7 +6137,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "fcb16397de62abae95e96869f470b15cd7c8d05ac943c4e7612cc8235dcc4ec1"
+                  "signature": "f65a48301ceb01ea87b0d27e3a554342c2206fdb819fd6d802439d19a1197e64"
                 },
                 {
                   "rank": 3,
@@ -6158,7 +6158,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "3c318f72a5a41a11c5bf433aa33f515dd680a72db4c72e72e1f06235396e5cf2"
+                  "signature": "793fbe508c18918b73e5a9481fd24fd86a4dc15fd588094bfec472168708a359"
                 },
                 {
                   "rank": 4,
@@ -6179,7 +6179,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "930b41493c3909d3879df9a3c2a140c1e2828d2d311eacceb3803d76bba05f95"
+                  "signature": "243cb75fe93715934740e5b596df7c58c051979446b220d80b9247d9d32e96bc"
                 }
               ]
             }
@@ -12398,30 +12398,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "aa7d341e-e648-4cfa-9985-336b4b6b0423",
-        "competitionSlug": "beachvolleyball-frauen",
-        "sport": "Beachvolleyball",
-        "category": "Frauen",
-        "number": "Match 17 BV-W",
-        "status": "RESULT_ENTERED",
-        "day": "2026-09-26",
-        "minute": 640,
-        "court": "Court 4",
-        "teamA": "Gummibärenbande",
-        "teamB": "Sandpit Worriers",
-        "scores": [
-          {
-            "scoreA": 21,
-            "scoreB": 16
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "fcd58b59-ad7e-4703-9c3a-8f6fad2c988b",
         "competitionSlug": "beachvolleyball-frauen",
         "sport": "Beachvolleyball",
@@ -12494,6 +12470,30 @@
           {
             "scoreA": 21,
             "scoreB": 19
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "aa7d341e-e648-4cfa-9985-336b4b6b0423",
+        "competitionSlug": "beachvolleyball-frauen",
+        "sport": "Beachvolleyball",
+        "category": "Frauen",
+        "number": "Match 17 BV-W",
+        "status": "FINAL",
+        "day": "2026-09-26",
+        "minute": 640,
+        "court": "Court 4",
+        "teamA": "Gummibärenbande",
+        "teamB": "Sandpit Worriers",
+        "scores": [
+          {
+            "scoreA": 21,
+            "scoreB": 16
           }
         ],
         "penalty": null
