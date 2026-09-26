@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T12:17:11.588Z",
+  "generatedAt": "2026-09-26T12:21:20.564Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -4853,8 +4853,8 @@
               {
                 "id": "030f44f4-218b-48d6-a27b-ed2b158f9580",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "SCHEDULED",
-                "revision": 0,
+                "status": "RESULT_ENTERED",
+                "revision": 1,
                 "matchNumber": 25,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -4872,8 +4872,23 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-26T11:10:54.581Z",
-                "updatedAt": "2026-09-26T11:15:59.724Z",
-                "beachSets": [],
+                "updatedAt": "2026-09-26T12:21:19.687Z",
+                "beachSets": [
+                  {
+                    "id": "1d31b0ef-5dba-44b4-ba83-1d9990008a9a",
+                    "matchId": "030f44f4-218b-48d6-a27b-ed2b158f9580",
+                    "position": 1,
+                    "scoreA": 15,
+                    "scoreB": 0
+                  },
+                  {
+                    "id": "cbb2cbdb-2603-494d-8875-9024fa92b472",
+                    "matchId": "030f44f4-218b-48d6-a27b-ed2b158f9580",
+                    "position": 2,
+                    "scoreA": 15,
+                    "scoreB": 0
+                  }
+                ],
                 "soccerPeriods": []
               },
               {
@@ -14043,13 +14058,22 @@
         "sport": "Beachvolleyball",
         "category": "Frauen",
         "number": "Match 25 BV-W",
-        "status": "SCHEDULED",
+        "status": "RESULT_ENTERED",
         "day": "2026-09-26",
         "minute": 820,
         "court": "Court 4",
         "teamA": "Die 6 frechen Muskeltiere",
         "teamB": "Die nicht Qualifizierten",
-        "scores": [],
+        "scores": [
+          {
+            "scoreA": 15,
+            "scoreB": 0
+          },
+          {
+            "scoreA": 15,
+            "scoreB": 0
+          }
+        ],
         "penalty": null
       },
       {
