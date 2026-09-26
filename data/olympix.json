@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:33:41.833Z",
+  "generatedAt": "2026-09-26T06:33:44.098Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3602,7 +3602,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 8,
+            "rankingRevision": 9,
             "groupCount": 4,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -3613,7 +3613,7 @@
             "name": "Beachvolleyball Frauen",
             "slug": "beachvolleyball-frauen",
             "createdAt": "2026-09-21T13:00:56.142Z",
-            "updatedAt": "2026-09-25T23:15:49.054Z",
+            "updatedAt": "2026-09-26T06:33:42.707Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -4675,8 +4675,8 @@
               {
                 "id": "2839c81a-4cc1-4f2e-9421-3b06afa2fb3c",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "RESULT_ENTERED",
-                "revision": 2,
+                "status": "FINAL",
+                "revision": 3,
                 "matchNumber": 1,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -4694,7 +4694,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-26T06:33:41.053Z",
+                "updatedAt": "2026-09-26T06:33:42.698Z",
                 "beachSets": [
                   {
                     "id": "7f1b1675-76d6-4cce-812c-d97b15cf5c2b",
@@ -4816,6 +4816,48 @@
           "overall": [
             {
               "rank": 1,
+              "endRank": 1,
+              "rows": [
+                {
+                  "teamId": "9c19bf2d-1430-4582-9093-485fdaf97753",
+                  "name": "Josis Beach Babes",
+                  "played": 1,
+                  "wins": 1,
+                  "losses": 0,
+                  "setsWon": 1,
+                  "setsLost": 0,
+                  "scored": 21,
+                  "conceded": 18,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "3cb4753ec86a2f3f3add12d6692d0914365d6a4cc0a7c931fe1082212a982089"
+            },
+            {
+              "rank": 2,
+              "endRank": 2,
+              "rows": [
+                {
+                  "teamId": "385c719a-e728-4f5f-a2de-e5f90c4e5b58",
+                  "name": "Fantasy Six",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 1,
+                  "setsWon": 0,
+                  "setsLost": 1,
+                  "scored": 18,
+                  "conceded": 21,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "33a7d48dac2f1b00efab8771ce938a3c21b853e0cfcbf478e13b227474e634ab"
+            },
+            {
+              "rank": 3,
               "endRank": 16,
               "rows": [
                 {
@@ -4903,18 +4945,6 @@
                   "points": 0
                 },
                 {
-                  "teamId": "385c719a-e728-4f5f-a2de-e5f90c4e5b58",
-                  "name": "Fantasy Six",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
                   "teamId": "cd7a1868-07fc-443a-9f39-49b85436fa0d",
                   "name": "NetNinjas",
                   "played": 0,
@@ -4987,18 +5017,6 @@
                   "points": 0
                 },
                 {
-                  "teamId": "9c19bf2d-1430-4582-9093-485fdaf97753",
-                  "name": "Josis Beach Babes",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
                   "teamId": "0752826e-ff34-41ba-be98-995fb1e46f35",
                   "name": "Die nicht Qualifizierten",
                   "played": 0,
@@ -5013,7 +5031,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "4ae56a2fa6a7b9b048845a0ba79c1d91b93af5b50a8e3c367a3074c2e332a1d4"
+              "signature": "f1e0b171776ff9f87dfffc1edd1fc5b3c60de7ac6b0dfc77a24162f631a3cb60"
             }
           ],
           "groups": [
@@ -5076,7 +5094,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "6a4be7792946db2b92179975b65ffff1a2ea36846bac8d22a0f0f055872ef4b3"
+                  "signature": "3f5fa3c407891a181e80b092a2407c4c7c2725cf8e15dff7bbf1f0abe03acea0"
                 }
               ]
             },
@@ -5086,20 +5104,50 @@
               "blocks": [
                 {
                   "rank": 1,
-                  "endRank": 4,
+                  "endRank": 1,
+                  "rows": [
+                    {
+                      "teamId": "9c19bf2d-1430-4582-9093-485fdaf97753",
+                      "name": "Josis Beach Babes",
+                      "played": 1,
+                      "wins": 1,
+                      "losses": 0,
+                      "setsWon": 1,
+                      "setsLost": 0,
+                      "scored": 21,
+                      "conceded": 18,
+                      "points": 0
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "3cb4753ec86a2f3f3add12d6692d0914365d6a4cc0a7c931fe1082212a982089"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
                   "rows": [
                     {
                       "teamId": "385c719a-e728-4f5f-a2de-e5f90c4e5b58",
                       "name": "Fantasy Six",
-                      "played": 0,
+                      "played": 1,
                       "wins": 0,
-                      "losses": 0,
+                      "losses": 1,
                       "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
+                      "setsLost": 1,
+                      "scored": 18,
+                      "conceded": 21,
                       "points": 0
-                    },
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "33a7d48dac2f1b00efab8771ce938a3c21b853e0cfcbf478e13b227474e634ab"
+                },
+                {
+                  "rank": 3,
+                  "endRank": 4,
+                  "rows": [
                     {
                       "teamId": "6323de49-46f9-4a5a-ba37-4e761e3c9105",
                       "name": "Volleyballerinnas",
@@ -5123,23 +5171,11 @@
                       "scored": 0,
                       "conceded": 0,
                       "points": 0
-                    },
-                    {
-                      "teamId": "9c19bf2d-1430-4582-9093-485fdaf97753",
-                      "name": "Josis Beach Babes",
-                      "played": 0,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
                     }
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "d8602f07be03ec8eb1a5e8e1541f942ffa4286f18b9aeda62e109fd743e363f4"
+                  "signature": "6ad702f95ca6e899ce8e4df5428848430a2c553e4b6c4aa0a66e9da9631aa3df"
                 }
               ]
             },
@@ -5202,7 +5238,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "2f962eea99121dc7fee2fef5099da92181e5017e9f28f4d57d49d466396c090b"
+                  "signature": "d00a56f091da0061ac49f6a56db838ede67da5f3b3f07481dfb7df00d68714d6"
                 }
               ]
             },
@@ -5265,7 +5301,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "6550ec051c6a650ce3004ba7aaebeda2c4e6598d8c135f51f12e379c770d75c9"
+                  "signature": "6353fe744dead78d1ef8bac6276a64916331352d29574347a15c2b371c6cb8b8"
                 }
               ]
             }
@@ -10602,7 +10638,7 @@
         "sport": "Beachvolleyball",
         "category": "Frauen",
         "number": "Match 1 BV-W",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 480,
         "court": "Court 4",
