@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T11:32:07.612Z",
+  "generatedAt": "2026-09-26T11:33:07.845Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -1091,32 +1091,6 @@
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:10:26.920Z",
                 "updatedAt": "2026-09-25T23:10:37.231Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
-                "id": "e99e90e7-35da-4c21-af5c-5ca64c8d1ce2",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 42,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "ca6e6a6f-297f-4584-9efb-bd55937a0eca",
-                "teamAId": "79520b6c-9d4d-45cc-8744-6b04dbcf3d66",
-                "teamBId": "b496f914-73c3-43f8-81f7-27a9c315c845",
-                "round": 0,
-                "position": 7,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.237Z",
                 "beachSets": [],
                 "soccerPeriods": []
               },
@@ -2298,6 +2272,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 14
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "e99e90e7-35da-4c21-af5c-5ca64c8d1ce2",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 42,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "ca6e6a6f-297f-4584-9efb-bd55937a0eca",
+                "teamAId": "79520b6c-9d4d-45cc-8744-6b04dbcf3d66",
+                "teamBId": "b496f914-73c3-43f8-81f7-27a9c315c845",
+                "round": 0,
+                "position": 7,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T11:33:06.999Z",
+                "beachSets": [
+                  {
+                    "id": "76463242-2f7f-4542-80f7-d87f00894e0c",
+                    "matchId": "e99e90e7-35da-4c21-af5c-5ca64c8d1ce2",
+                    "position": 1,
+                    "scoreA": 21,
+                    "scoreB": 12
                   }
                 ],
                 "soccerPeriods": []
@@ -12365,25 +12373,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "e99e90e7-35da-4c21-af5c-5ca64c8d1ce2",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 42 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 740,
-        "court": "Court 3",
-        "teamA": "Hasta la Vista",
-        "teamB": "LV Bosse",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "16d7f62d-3fc7-4214-98f4-8f4934fab05c",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -13210,6 +13199,30 @@
           {
             "scoreA": 21,
             "scoreB": 14
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "e99e90e7-35da-4c21-af5c-5ca64c8d1ce2",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 42 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 740,
+        "court": "Court 3",
+        "teamA": "Hasta la Vista",
+        "teamB": "LV Bosse",
+        "scores": [
+          {
+            "scoreA": 21,
+            "scoreB": 12
           }
         ],
         "penalty": null
