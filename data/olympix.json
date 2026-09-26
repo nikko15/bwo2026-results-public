@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T10:50:16.467Z",
+  "generatedAt": "2026-09-26T10:51:03.298Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -7712,32 +7712,6 @@
                 ]
               },
               {
-                "id": "91ab07e7-0175-4393-b411-d0c589ae4f58",
-                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 24,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "e52e06ac-8451-47ed-907f-13e51a3dac01",
-                "teamAId": "7d0e7a83-5d83-4bd0-93b7-c6a2d43084e6",
-                "teamBId": "7536e9d1-a9f0-4363-8fe6-77324dbee8be",
-                "round": 0,
-                "position": 22,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:06:19.574Z",
-                "updatedAt": "2026-09-25T23:07:26.535Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "85167427-6ad9-4f11-af22-39df60f29c76",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
                 "status": "FINAL",
@@ -9318,6 +9292,54 @@
                     "position": 3,
                     "scoreA": 5,
                     "scoreB": 0
+                  }
+                ]
+              },
+              {
+                "id": "91ab07e7-0175-4393-b411-d0c589ae4f58",
+                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 24,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "e52e06ac-8451-47ed-907f-13e51a3dac01",
+                "teamAId": "7d0e7a83-5d83-4bd0-93b7-c6a2d43084e6",
+                "teamBId": "7536e9d1-a9f0-4363-8fe6-77324dbee8be",
+                "round": 0,
+                "position": 22,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:06:19.574Z",
+                "updatedAt": "2026-09-26T10:51:02.518Z",
+                "beachSets": [],
+                "soccerPeriods": [
+                  {
+                    "id": "5cd47dd0-b755-46b9-b29f-2672766370ab",
+                    "matchId": "91ab07e7-0175-4393-b411-d0c589ae4f58",
+                    "position": 1,
+                    "scoreA": 0,
+                    "scoreB": 1
+                  },
+                  {
+                    "id": "d45eff08-cb86-4efc-b8c2-da605dee153e",
+                    "matchId": "91ab07e7-0175-4393-b411-d0c589ae4f58",
+                    "position": 2,
+                    "scoreA": 0,
+                    "scoreB": 1
+                  },
+                  {
+                    "id": "8a978f1b-4124-450c-a1d3-1ed7985af353",
+                    "matchId": "91ab07e7-0175-4393-b411-d0c589ae4f58",
+                    "position": 3,
+                    "scoreA": 0,
+                    "scoreB": 1
                   }
                 ]
               }
@@ -13576,25 +13598,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "91ab07e7-0175-4393-b411-d0c589ae4f58",
-        "competitionSlug": "street-soccer-maenner",
-        "sport": "Urban Street Soccer",
-        "category": "Männer",
-        "number": "Match 24 US-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 620,
-        "court": "Pitch 3",
-        "teamA": "BYE 1",
-        "teamB": "Gollas",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "85167427-6ad9-4f11-af22-39df60f29c76",
         "competitionSlug": "street-soccer-maenner",
         "sport": "Urban Street Soccer",
@@ -14642,6 +14645,38 @@
           {
             "scoreA": 5,
             "scoreB": 0
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "91ab07e7-0175-4393-b411-d0c589ae4f58",
+        "competitionSlug": "street-soccer-maenner",
+        "sport": "Urban Street Soccer",
+        "category": "Männer",
+        "number": "Match 24 US-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 620,
+        "court": "Pitch 3",
+        "teamA": "BYE 1",
+        "teamB": "Gollas",
+        "scores": [
+          {
+            "scoreA": 0,
+            "scoreB": 1
+          },
+          {
+            "scoreA": 0,
+            "scoreB": 1
+          },
+          {
+            "scoreA": 0,
+            "scoreB": 1
           }
         ],
         "penalty": null
