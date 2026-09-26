@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T10:46:35.099Z",
+  "generatedAt": "2026-09-26T10:46:37.641Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -4234,7 +4234,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 31,
+            "rankingRevision": 32,
             "groupCount": 4,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -4245,7 +4245,7 @@
             "name": "Beachvolleyball Frauen",
             "slug": "beachvolleyball-frauen",
             "createdAt": "2026-09-21T13:00:56.142Z",
-            "updatedAt": "2026-09-26T10:24:27.874Z",
+            "updatedAt": "2026-09-26T10:46:35.204Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -5109,40 +5109,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "e05b5b68-3ca8-4fd3-ad45-08812f569d00",
-                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
-                "matchNumber": 23,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "7cd96354-d5af-482f-ac92-95eb7e3b725d",
-                "teamAId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
-                "teamBId": "572262d4-3c85-4489-81a3-4b4f7efe13b3",
-                "round": 0,
-                "position": 18,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-26T10:46:34.244Z",
-                "beachSets": [
-                  {
-                    "id": "da4834ca-d914-4982-a5b3-300ddde4d190",
-                    "matchId": "e05b5b68-3ca8-4fd3-ad45-08812f569d00",
-                    "position": 1,
-                    "scoreA": 18,
-                    "scoreB": 21
-                  }
-                ],
-                "soccerPeriods": []
-              },
-              {
                 "id": "fcd58b59-ad7e-4703-9c3a-8f6fad2c988b",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
                 "status": "FINAL",
@@ -5171,6 +5137,40 @@
                     "matchId": "fcd58b59-ad7e-4703-9c3a-8f6fad2c988b",
                     "position": 1,
                     "scoreA": 12,
+                    "scoreB": 21
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "e05b5b68-3ca8-4fd3-ad45-08812f569d00",
+                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
+                "status": "FINAL",
+                "revision": 2,
+                "matchNumber": 23,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "7cd96354-d5af-482f-ac92-95eb7e3b725d",
+                "teamAId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
+                "teamBId": "572262d4-3c85-4489-81a3-4b4f7efe13b3",
+                "round": 0,
+                "position": 18,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:15:50.835Z",
+                "updatedAt": "2026-09-26T10:46:35.195Z",
+                "beachSets": [
+                  {
+                    "id": "da4834ca-d914-4982-a5b3-300ddde4d190",
+                    "matchId": "e05b5b68-3ca8-4fd3-ad45-08812f569d00",
+                    "position": 1,
+                    "scoreA": 18,
                     "scoreB": 21
                   }
                 ],
@@ -5633,11 +5633,32 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "e487105df7676d12b09c4e02451b98337d7ed3bb2ecc76ac88089f15fc3d8e26"
+              "signature": "3f952c7e817b2c1793938868eea4d01615bbc0adefb40956589c7e21a3731a17"
             },
             {
               "rank": 2,
               "endRank": 2,
+              "rows": [
+                {
+                  "teamId": "572262d4-3c85-4489-81a3-4b4f7efe13b3",
+                  "name": "Die schnellen Hennen",
+                  "played": 3,
+                  "wins": 3,
+                  "losses": 0,
+                  "setsWon": 3,
+                  "setsLost": 0,
+                  "scored": 63,
+                  "conceded": 44,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "a2d307a7b0baef91c8eafbc39f5be9e210cdf8240124fe40667413169dd6e71a"
+            },
+            {
+              "rank": 3,
+              "endRank": 3,
               "rows": [
                 {
                   "teamId": "6323de49-46f9-4a5a-ba37-4e761e3c9105",
@@ -5654,11 +5675,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "15fc119d23a9068f513b0898365649387268e4a24f5dcc76b9c33ebd378a67de"
+              "signature": "ba2d6da5f3ddc29bad6e9e2e9f4f6a7e5ca69b2abdca332b08e83d6e2ccb7f44"
             },
             {
-              "rank": 3,
-              "endRank": 3,
+              "rank": 4,
+              "endRank": 4,
               "rows": [
                 {
                   "teamId": "c870c02a-6741-4874-bd8b-87b4feebed21",
@@ -5675,53 +5696,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "2731417fdbb0356a73552630310383f4726e8a4ff9e636ea7c957efa3f3eb8aa"
-            },
-            {
-              "rank": 4,
-              "endRank": 4,
-              "rows": [
-                {
-                  "teamId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
-                  "name": "Panic Truppe",
-                  "played": 2,
-                  "wins": 2,
-                  "losses": 0,
-                  "setsWon": 2,
-                  "setsLost": 0,
-                  "scored": 42,
-                  "conceded": 23,
-                  "points": 0
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "7c9386506a62213fa996843426af712c765b2d0c0a19c757cddc3aa403eb0b2f"
+              "signature": "ee992679358dc95f62bb9cd29a0ed516d8e2dad0ba00412bfb379c047c2c1186"
             },
             {
               "rank": 5,
               "endRank": 5,
-              "rows": [
-                {
-                  "teamId": "572262d4-3c85-4489-81a3-4b4f7efe13b3",
-                  "name": "Die schnellen Hennen",
-                  "played": 2,
-                  "wins": 2,
-                  "losses": 0,
-                  "setsWon": 2,
-                  "setsLost": 0,
-                  "scored": 42,
-                  "conceded": 26,
-                  "points": 0
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "8d057af67d387bd0e3cda56cb794f9c4251859b3012711535ddf9ffd9d2d759b"
-            },
-            {
-              "rank": 6,
-              "endRank": 6,
               "rows": [
                 {
                   "teamId": "b7489597-5b96-4280-83ab-9e968e51cb8f",
@@ -5738,7 +5717,28 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "a7c1ac945df2d7f404a6e76121d155739de532cbfada2a3e59d3ee1980912a39"
+              "signature": "2a318a0eb75a658654f902d0516a8c6714a79f4fb2467b446542cd1708087678"
+            },
+            {
+              "rank": 6,
+              "endRank": 6,
+              "rows": [
+                {
+                  "teamId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
+                  "name": "Panic Truppe",
+                  "played": 3,
+                  "wins": 2,
+                  "losses": 1,
+                  "setsWon": 2,
+                  "setsLost": 1,
+                  "scored": 60,
+                  "conceded": 44,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "e01e2a56879763424259a0fdb5d78597b1321484f60ff8c0963de9dc319436c1"
             },
             {
               "rank": 7,
@@ -5759,7 +5759,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "b13d8d8e8f657bae5f893c54888cde48072471204ee95c5162dc459a3d838fbe"
+              "signature": "e2473d80f57c3c30e08e9f1d689d13bfa40b9bcb387459cca85587e082283a2b"
             },
             {
               "rank": 8,
@@ -5780,7 +5780,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "ad3c7d866905780efba23adeab03520ab7b181d1a80757cb85033e627120e2c7"
+              "signature": "933982f479b299dc88b01486ad75c4068e9147fc8eb17c1aeaca96c5f8080574"
             },
             {
               "rank": 9,
@@ -5801,7 +5801,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "733fee4ded070e9b165e9e496151e4a21c49ca9246fdd87280e11e10ff48367d"
+              "signature": "0577bae46f9aaf5fda783e0f3783390775cc93877eaad82ee408e52cd9712f65"
             },
             {
               "rank": 10,
@@ -5822,7 +5822,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "09e91014707be4476e6e58993bfa0bcaf727218d80f1a48053dde3dbef57099d"
+              "signature": "c874dc5159549e970ed98cd228700d973875eb821d9c5843d0d833d80077bc50"
             },
             {
               "rank": 11,
@@ -5843,7 +5843,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "ea0b8ab5568c4d5c72a67c3a5f265349cd0cf93aa47a98ad319a02e78aa32a7e"
+              "signature": "9ae397b65554e5bfae61aad1725ef1d5135d82d2d4076b1793c737ee16cdb0e1"
             },
             {
               "rank": 12,
@@ -5864,7 +5864,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "c6b8e9a5f857442fee3c44dfb0918cc68bd3dc842d6b17bf74fc87607120316e"
+              "signature": "b3ebaf46ed3502c28960189a7a2afb2f5853959baffa4b8e047ae1a08d0f4b71"
             },
             {
               "rank": 13,
@@ -5885,7 +5885,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "13a96e2f9b2a5b836ae6de68ed15abce779b84e992dd9ab37de995bac97e80ee"
+              "signature": "18ae7dc59403fed243f37c6c1c4ec2df2512636f2f8f8ccfec0c72ac1ff43ee2"
             },
             {
               "rank": 14,
@@ -5906,7 +5906,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "39fb3c3c402132b3bdea6dc937eb21f167a40004e89d1579c5bbd4437197323d"
+              "signature": "8be90e6ccbda618d976ab23b860d286a28c27f37fe402a39afe0a72b9f6c22d3"
             },
             {
               "rank": 15,
@@ -5927,7 +5927,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "eaf138a226fe6c47a2f88a987ed4d80e2085cfb497987abe90d95a4c0b9d036a"
+              "signature": "300906259f7a2a243fca616dd67383d652cff4e4e5f976ea05e31b8298e982fd"
             },
             {
               "rank": 16,
@@ -5948,7 +5948,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "00e93067ec3b1249f5f5e9e721dd3c646e77d0511c71e5ab629d968744366ba1"
+              "signature": "1f135f552976bc237bce7af73f3cc31b6443bf415528e4372affcb49fc6234ed"
             }
           ],
           "groups": [
@@ -5975,7 +5975,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "2731417fdbb0356a73552630310383f4726e8a4ff9e636ea7c957efa3f3eb8aa"
+                  "signature": "ee992679358dc95f62bb9cd29a0ed516d8e2dad0ba00412bfb379c047c2c1186"
                 },
                 {
                   "rank": 2,
@@ -5996,7 +5996,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "a7c1ac945df2d7f404a6e76121d155739de532cbfada2a3e59d3ee1980912a39"
+                  "signature": "2a318a0eb75a658654f902d0516a8c6714a79f4fb2467b446542cd1708087678"
                 },
                 {
                   "rank": 3,
@@ -6017,7 +6017,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "733fee4ded070e9b165e9e496151e4a21c49ca9246fdd87280e11e10ff48367d"
+                  "signature": "0577bae46f9aaf5fda783e0f3783390775cc93877eaad82ee408e52cd9712f65"
                 },
                 {
                   "rank": 4,
@@ -6038,7 +6038,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "00e93067ec3b1249f5f5e9e721dd3c646e77d0511c71e5ab629d968744366ba1"
+                  "signature": "1f135f552976bc237bce7af73f3cc31b6443bf415528e4372affcb49fc6234ed"
                 }
               ]
             },
@@ -6065,7 +6065,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "15fc119d23a9068f513b0898365649387268e4a24f5dcc76b9c33ebd378a67de"
+                  "signature": "ba2d6da5f3ddc29bad6e9e2e9f4f6a7e5ca69b2abdca332b08e83d6e2ccb7f44"
                 },
                 {
                   "rank": 2,
@@ -6086,7 +6086,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "b13d8d8e8f657bae5f893c54888cde48072471204ee95c5162dc459a3d838fbe"
+                  "signature": "e2473d80f57c3c30e08e9f1d689d13bfa40b9bcb387459cca85587e082283a2b"
                 },
                 {
                   "rank": 3,
@@ -6107,7 +6107,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "09e91014707be4476e6e58993bfa0bcaf727218d80f1a48053dde3dbef57099d"
+                  "signature": "c874dc5159549e970ed98cd228700d973875eb821d9c5843d0d833d80077bc50"
                 },
                 {
                   "rank": 4,
@@ -6128,7 +6128,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "13a96e2f9b2a5b836ae6de68ed15abce779b84e992dd9ab37de995bac97e80ee"
+                  "signature": "18ae7dc59403fed243f37c6c1c4ec2df2512636f2f8f8ccfec0c72ac1ff43ee2"
                 }
               ]
             },
@@ -6141,42 +6141,42 @@
                   "endRank": 1,
                   "rows": [
                     {
-                      "teamId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
-                      "name": "Panic Truppe",
-                      "played": 2,
-                      "wins": 2,
+                      "teamId": "572262d4-3c85-4489-81a3-4b4f7efe13b3",
+                      "name": "Die schnellen Hennen",
+                      "played": 3,
+                      "wins": 3,
                       "losses": 0,
-                      "setsWon": 2,
+                      "setsWon": 3,
                       "setsLost": 0,
-                      "scored": 42,
-                      "conceded": 23,
+                      "scored": 63,
+                      "conceded": 44,
                       "points": 0
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "7c9386506a62213fa996843426af712c765b2d0c0a19c757cddc3aa403eb0b2f"
+                  "signature": "a2d307a7b0baef91c8eafbc39f5be9e210cdf8240124fe40667413169dd6e71a"
                 },
                 {
                   "rank": 2,
                   "endRank": 2,
                   "rows": [
                     {
-                      "teamId": "572262d4-3c85-4489-81a3-4b4f7efe13b3",
-                      "name": "Die schnellen Hennen",
-                      "played": 2,
+                      "teamId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
+                      "name": "Panic Truppe",
+                      "played": 3,
                       "wins": 2,
-                      "losses": 0,
+                      "losses": 1,
                       "setsWon": 2,
-                      "setsLost": 0,
-                      "scored": 42,
-                      "conceded": 26,
+                      "setsLost": 1,
+                      "scored": 60,
+                      "conceded": 44,
                       "points": 0
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "8d057af67d387bd0e3cda56cb794f9c4251859b3012711535ddf9ffd9d2d759b"
+                  "signature": "e01e2a56879763424259a0fdb5d78597b1321484f60ff8c0963de9dc319436c1"
                 },
                 {
                   "rank": 3,
@@ -6197,7 +6197,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "ea0b8ab5568c4d5c72a67c3a5f265349cd0cf93aa47a98ad319a02e78aa32a7e"
+                  "signature": "9ae397b65554e5bfae61aad1725ef1d5135d82d2d4076b1793c737ee16cdb0e1"
                 },
                 {
                   "rank": 4,
@@ -6218,7 +6218,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "39fb3c3c402132b3bdea6dc937eb21f167a40004e89d1579c5bbd4437197323d"
+                  "signature": "8be90e6ccbda618d976ab23b860d286a28c27f37fe402a39afe0a72b9f6c22d3"
                 }
               ]
             },
@@ -6245,7 +6245,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "e487105df7676d12b09c4e02451b98337d7ed3bb2ecc76ac88089f15fc3d8e26"
+                  "signature": "3f952c7e817b2c1793938868eea4d01615bbc0adefb40956589c7e21a3731a17"
                 },
                 {
                   "rank": 2,
@@ -6266,7 +6266,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "ad3c7d866905780efba23adeab03520ab7b181d1a80757cb85033e627120e2c7"
+                  "signature": "933982f479b299dc88b01486ad75c4068e9147fc8eb17c1aeaca96c5f8080574"
                 },
                 {
                   "rank": 3,
@@ -6287,7 +6287,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "c6b8e9a5f857442fee3c44dfb0918cc68bd3dc842d6b17bf74fc87607120316e"
+                  "signature": "b3ebaf46ed3502c28960189a7a2afb2f5853959baffa4b8e047ae1a08d0f4b71"
                 },
                 {
                   "rank": 4,
@@ -6308,7 +6308,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "eaf138a226fe6c47a2f88a987ed4d80e2085cfb497987abe90d95a4c0b9d036a"
+                  "signature": "300906259f7a2a243fca616dd67383d652cff4e4e5f976ea05e31b8298e982fd"
                 }
               ]
             }
@@ -12908,30 +12908,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "e05b5b68-3ca8-4fd3-ad45-08812f569d00",
-        "competitionSlug": "beachvolleyball-frauen",
-        "sport": "Beachvolleyball",
-        "category": "Frauen",
-        "number": "Match 23 BV-W",
-        "status": "RESULT_ENTERED",
-        "day": "2026-09-26",
-        "minute": 700,
-        "court": "Court 4",
-        "teamA": "Panic Truppe",
-        "teamB": "Die schnellen Hennen",
-        "scores": [
-          {
-            "scoreA": 18,
-            "scoreB": 21
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "fcd58b59-ad7e-4703-9c3a-8f6fad2c988b",
         "competitionSlug": "beachvolleyball-frauen",
         "sport": "Beachvolleyball",
@@ -12946,6 +12922,30 @@
         "scores": [
           {
             "scoreA": 12,
+            "scoreB": 21
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "e05b5b68-3ca8-4fd3-ad45-08812f569d00",
+        "competitionSlug": "beachvolleyball-frauen",
+        "sport": "Beachvolleyball",
+        "category": "Frauen",
+        "number": "Match 23 BV-W",
+        "status": "FINAL",
+        "day": "2026-09-26",
+        "minute": 700,
+        "court": "Court 4",
+        "teamA": "Panic Truppe",
+        "teamB": "Die schnellen Hennen",
+        "scores": [
+          {
+            "scoreA": 18,
             "scoreB": 21
           }
         ],
