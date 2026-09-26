@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T09:23:39.161Z",
+  "generatedAt": "2026-09-26T09:23:41.282Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -4070,7 +4070,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 25,
+            "rankingRevision": 26,
             "groupCount": 4,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -4081,7 +4081,7 @@
             "name": "Beachvolleyball Frauen",
             "slug": "beachvolleyball-frauen",
             "createdAt": "2026-09-21T13:00:56.142Z",
-            "updatedAt": "2026-09-26T09:23:13.551Z",
+            "updatedAt": "2026-09-26T09:23:39.268Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -5367,8 +5367,8 @@
               {
                 "id": "f8a89232-42e6-44df-b143-e0f652f9379c",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 16,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -5386,7 +5386,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-26T09:23:38.376Z",
+                "updatedAt": "2026-09-26T09:23:39.263Z",
                 "beachSets": [
                   {
                     "id": "71e749b2-32b0-4965-b6f4-db9b224bea4d",
@@ -5421,7 +5421,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "4eb991d3114286ce9cd7c0585c524f65971b55406be858bc3b5c3495a89ffea4"
+              "signature": "7cc12427f368f292f18f52458df9e6439edc2dc8ca315a96797f09012f01b700"
             },
             {
               "rank": 2,
@@ -5442,7 +5442,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "d3cfd832a86682752e9ad4d1685a5a1739cc7267bdd12730180ebdff0464a252"
+              "signature": "31ec91bb936dd1c84363c57a305666048e7ddb1dda1677345629e6580d4170a8"
             },
             {
               "rank": 3,
@@ -5463,7 +5463,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "a3a3f9ef571611f8dfbbdc18fc5e42ca5df4a0fd632e452a68f967a91eaf5c01"
+              "signature": "834d5637c9f289e442f341c872f1fad08a22d16eaf3579d7e59ce8c1bfde695d"
             },
             {
               "rank": 4,
@@ -5484,7 +5484,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "4448192eb88ece87b4fe3f0816af1fa5fde3928b000bb8f3b5bfa08280edb79c"
+              "signature": "1cef7859a689080ee9a5f2ae39023197c76c69e2250f24b2f0a9cc3d8f4d2995"
             },
             {
               "rank": 5,
@@ -5505,7 +5505,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "93ceee7b682916558109897af3389c41968e91be9e27094cc66ab0e9630940e3"
+              "signature": "fcb16397de62abae95e96869f470b15cd7c8d05ac943c4e7612cc8235dcc4ec1"
             },
             {
               "rank": 6,
@@ -5514,44 +5514,23 @@
                 {
                   "teamId": "6323de49-46f9-4a5a-ba37-4e761e3c9105",
                   "name": "Volleyballerinnas",
-                  "played": 1,
-                  "wins": 1,
+                  "played": 2,
+                  "wins": 2,
                   "losses": 0,
-                  "setsWon": 1,
+                  "setsWon": 2,
                   "setsLost": 0,
-                  "scored": 21,
-                  "conceded": 16,
+                  "scored": 43,
+                  "conceded": 36,
                   "points": 0
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "b3d4524599e9e8a9ad50a708728b09775c86717e1307ef97d0417ded22455851"
+              "signature": "f45b93bf7467d2a788f8acd2b734a09d404b74b1ef29228d7de41e60858f9903"
             },
             {
               "rank": 7,
               "endRank": 7,
-              "rows": [
-                {
-                  "teamId": "9c19bf2d-1430-4582-9093-485fdaf97753",
-                  "name": "Josis Beach Babes",
-                  "played": 1,
-                  "wins": 1,
-                  "losses": 0,
-                  "setsWon": 1,
-                  "setsLost": 0,
-                  "scored": 21,
-                  "conceded": 18,
-                  "points": 0
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "54a51cef40a01a838f4ac6e2f57d3afa457171585c9cefed93ccdf176f1539c6"
-            },
-            {
-              "rank": 8,
-              "endRank": 8,
               "rows": [
                 {
                   "teamId": "cd7a1868-07fc-443a-9f39-49b85436fa0d",
@@ -5568,11 +5547,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "143e9baaecb9422750131647e4af4e3890115bc2f8b2ee0a653fd8b5846574a5"
+              "signature": "1f4bde7ab926ed981ed618146fcd7f78602b7bc89aea91f98b750b33c1a817c9"
             },
             {
-              "rank": 9,
-              "endRank": 9,
+              "rank": 8,
+              "endRank": 8,
               "rows": [
                 {
                   "teamId": "b7489597-5b96-4280-83ab-9e968e51cb8f",
@@ -5589,7 +5568,28 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "815abcc0b4e09f01801cdfee68d557efa3d2431028af86894d2f88b5de31926b"
+              "signature": "286185a57a7159f897d470e6d0ad4a56e22a02b69ee45c97b9e78ec76c6d4767"
+            },
+            {
+              "rank": 9,
+              "endRank": 9,
+              "rows": [
+                {
+                  "teamId": "9c19bf2d-1430-4582-9093-485fdaf97753",
+                  "name": "Josis Beach Babes",
+                  "played": 2,
+                  "wins": 1,
+                  "losses": 1,
+                  "setsWon": 1,
+                  "setsLost": 1,
+                  "scored": 41,
+                  "conceded": 40,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "2731a775e9a4fdea29e09e62d22821da41279f56a91cc9ad5bf00345dc618547"
             },
             {
               "rank": 10,
@@ -5610,7 +5610,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "30e0e36aaed4ffb5f82d9fe799714d30287ad1c69faccb053ccc9137ac2c9633"
+              "signature": "1f0f32a2d7cd34c41cc92b8c37f34e9ddc8122ca01c37176a93495735483c2ec"
             },
             {
               "rank": 11,
@@ -5631,7 +5631,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "48aa160ffdf1be34c607952a409da42b28fc6e6f271a472b8f02b31dd3aaadb8"
+              "signature": "3c318f72a5a41a11c5bf433aa33f515dd680a72db4c72e72e1f06235396e5cf2"
             },
             {
               "rank": 12,
@@ -5652,7 +5652,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "d163fa0544713596fe9b9b869b5680f4a5222f8538ae64c26be7bb316350a28b"
+              "signature": "0a37c3a0a2d5dbfcdedd9444ded00bb2bf0001c264456d3d55ec4304fb73c0ae"
             },
             {
               "rank": 13,
@@ -5673,7 +5673,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "094911bb14c9c0bdfc40516df4bcd216884f89322c34b46eec24bb5c9c577582"
+              "signature": "8dff4625174d213dd07043b7cd8f60e7618d907ddd8610ba511ffa94d9f2aa54"
             },
             {
               "rank": 14,
@@ -5694,7 +5694,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "fda0511c9902a8249d5147d2a11b96970416edc28af0f669517eef29cbc41624"
+              "signature": "0bb19da9609f5ca65d44f6e68b20b3055fc168400c545e028b176fbf318f9203"
             },
             {
               "rank": 15,
@@ -5715,7 +5715,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "2d8a7ca80bf32b897175ef44f968a8ac1662ac32906efc065f9ac78a41f47c00"
+              "signature": "930b41493c3909d3879df9a3c2a140c1e2828d2d311eacceb3803d76bba05f95"
             },
             {
               "rank": 16,
@@ -5736,7 +5736,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "27c33e9e898ca0d6f3de7778101929e76a15790718aa97c0b1afc3a990202671"
+              "signature": "7a2d9e8b8757965e84a65300961f237b16c456f0f692c6683780a05451c743e1"
             }
           ],
           "groups": [
@@ -5763,7 +5763,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "4eb991d3114286ce9cd7c0585c524f65971b55406be858bc3b5c3495a89ffea4"
+                  "signature": "7cc12427f368f292f18f52458df9e6439edc2dc8ca315a96797f09012f01b700"
                 },
                 {
                   "rank": 2,
@@ -5784,7 +5784,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "815abcc0b4e09f01801cdfee68d557efa3d2431028af86894d2f88b5de31926b"
+                  "signature": "286185a57a7159f897d470e6d0ad4a56e22a02b69ee45c97b9e78ec76c6d4767"
                 },
                 {
                   "rank": 3,
@@ -5805,7 +5805,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "30e0e36aaed4ffb5f82d9fe799714d30287ad1c69faccb053ccc9137ac2c9633"
+                  "signature": "1f0f32a2d7cd34c41cc92b8c37f34e9ddc8122ca01c37176a93495735483c2ec"
                 },
                 {
                   "rank": 4,
@@ -5826,7 +5826,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "27c33e9e898ca0d6f3de7778101929e76a15790718aa97c0b1afc3a990202671"
+                  "signature": "7a2d9e8b8757965e84a65300961f237b16c456f0f692c6683780a05451c743e1"
                 }
               ]
             },
@@ -5841,44 +5841,23 @@
                     {
                       "teamId": "6323de49-46f9-4a5a-ba37-4e761e3c9105",
                       "name": "Volleyballerinnas",
-                      "played": 1,
-                      "wins": 1,
+                      "played": 2,
+                      "wins": 2,
                       "losses": 0,
-                      "setsWon": 1,
+                      "setsWon": 2,
                       "setsLost": 0,
-                      "scored": 21,
-                      "conceded": 16,
+                      "scored": 43,
+                      "conceded": 36,
                       "points": 0
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "b3d4524599e9e8a9ad50a708728b09775c86717e1307ef97d0417ded22455851"
+                  "signature": "f45b93bf7467d2a788f8acd2b734a09d404b74b1ef29228d7de41e60858f9903"
                 },
                 {
                   "rank": 2,
                   "endRank": 2,
-                  "rows": [
-                    {
-                      "teamId": "9c19bf2d-1430-4582-9093-485fdaf97753",
-                      "name": "Josis Beach Babes",
-                      "played": 1,
-                      "wins": 1,
-                      "losses": 0,
-                      "setsWon": 1,
-                      "setsLost": 0,
-                      "scored": 21,
-                      "conceded": 18,
-                      "points": 0
-                    }
-                  ],
-                  "tied": false,
-                  "resolved": true,
-                  "signature": "54a51cef40a01a838f4ac6e2f57d3afa457171585c9cefed93ccdf176f1539c6"
-                },
-                {
-                  "rank": 3,
-                  "endRank": 3,
                   "rows": [
                     {
                       "teamId": "cd7a1868-07fc-443a-9f39-49b85436fa0d",
@@ -5895,7 +5874,28 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "143e9baaecb9422750131647e4af4e3890115bc2f8b2ee0a653fd8b5846574a5"
+                  "signature": "1f4bde7ab926ed981ed618146fcd7f78602b7bc89aea91f98b750b33c1a817c9"
+                },
+                {
+                  "rank": 3,
+                  "endRank": 3,
+                  "rows": [
+                    {
+                      "teamId": "9c19bf2d-1430-4582-9093-485fdaf97753",
+                      "name": "Josis Beach Babes",
+                      "played": 2,
+                      "wins": 1,
+                      "losses": 1,
+                      "setsWon": 1,
+                      "setsLost": 1,
+                      "scored": 41,
+                      "conceded": 40,
+                      "points": 0
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "2731a775e9a4fdea29e09e62d22821da41279f56a91cc9ad5bf00345dc618547"
                 },
                 {
                   "rank": 4,
@@ -5916,7 +5916,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "d163fa0544713596fe9b9b869b5680f4a5222f8538ae64c26be7bb316350a28b"
+                  "signature": "0a37c3a0a2d5dbfcdedd9444ded00bb2bf0001c264456d3d55ec4304fb73c0ae"
                 }
               ]
             },
@@ -5943,7 +5943,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "d3cfd832a86682752e9ad4d1685a5a1739cc7267bdd12730180ebdff0464a252"
+                  "signature": "31ec91bb936dd1c84363c57a305666048e7ddb1dda1677345629e6580d4170a8"
                 },
                 {
                   "rank": 2,
@@ -5964,7 +5964,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "a3a3f9ef571611f8dfbbdc18fc5e42ca5df4a0fd632e452a68f967a91eaf5c01"
+                  "signature": "834d5637c9f289e442f341c872f1fad08a22d16eaf3579d7e59ce8c1bfde695d"
                 },
                 {
                   "rank": 3,
@@ -5985,7 +5985,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "094911bb14c9c0bdfc40516df4bcd216884f89322c34b46eec24bb5c9c577582"
+                  "signature": "8dff4625174d213dd07043b7cd8f60e7618d907ddd8610ba511ffa94d9f2aa54"
                 },
                 {
                   "rank": 4,
@@ -6006,7 +6006,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "fda0511c9902a8249d5147d2a11b96970416edc28af0f669517eef29cbc41624"
+                  "signature": "0bb19da9609f5ca65d44f6e68b20b3055fc168400c545e028b176fbf318f9203"
                 }
               ]
             },
@@ -6033,7 +6033,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "4448192eb88ece87b4fe3f0816af1fa5fde3928b000bb8f3b5bfa08280edb79c"
+                  "signature": "1cef7859a689080ee9a5f2ae39023197c76c69e2250f24b2f0a9cc3d8f4d2995"
                 },
                 {
                   "rank": 2,
@@ -6054,7 +6054,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "93ceee7b682916558109897af3389c41968e91be9e27094cc66ab0e9630940e3"
+                  "signature": "fcb16397de62abae95e96869f470b15cd7c8d05ac943c4e7612cc8235dcc4ec1"
                 },
                 {
                   "rank": 3,
@@ -6075,7 +6075,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "48aa160ffdf1be34c607952a409da42b28fc6e6f271a472b8f02b31dd3aaadb8"
+                  "signature": "3c318f72a5a41a11c5bf433aa33f515dd680a72db4c72e72e1f06235396e5cf2"
                 },
                 {
                   "rank": 4,
@@ -6096,7 +6096,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "2d8a7ca80bf32b897175ef44f968a8ac1662ac32906efc065f9ac78a41f47c00"
+                  "signature": "930b41493c3909d3879df9a3c2a140c1e2828d2d311eacceb3803d76bba05f95"
                 }
               ]
             }
@@ -12636,7 +12636,7 @@
         "sport": "Beachvolleyball",
         "category": "Frauen",
         "number": "Match 16 BV-W",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 620,
         "court": "Court 5",
