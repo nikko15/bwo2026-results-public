@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:37:48.928Z",
+  "generatedAt": "2026-09-26T06:37:51.296Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5366,7 +5366,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 25,
+            "rankingRevision": 26,
             "groupCount": 7,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -5377,7 +5377,7 @@
             "name": "Street Soccer Männer",
             "slug": "street-soccer-maenner",
             "createdAt": "2026-09-20T11:08:50.042Z",
-            "updatedAt": "2026-09-26T06:31:05.619Z",
+            "updatedAt": "2026-09-26T06:37:49.596Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -7513,8 +7513,8 @@
               {
                 "id": "ae3dbd57-fe3c-4218-9fdc-6ee5f832cc1d",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 6,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -7532,7 +7532,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:06:19.574Z",
-                "updatedAt": "2026-09-26T06:37:48.040Z",
+                "updatedAt": "2026-09-26T06:37:49.586Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
@@ -7567,6 +7567,27 @@
               "endRank": 1,
               "rows": [
                 {
+                  "teamId": "e59c6210-493a-499a-ab33-e8c9a48ba2d3",
+                  "name": "IRON EAGLES",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 17,
+                  "conceded": 0,
+                  "points": 9
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "d7614fc793e66e41e6f122ec5c402efe1eb037a251c6a584f6bdc9c88512d3dc"
+            },
+            {
+              "rank": 2,
+              "endRank": 2,
+              "rows": [
+                {
                   "teamId": "6fe8fe3b-f9a2-43f1-a9f2-3a68557e05d7",
                   "name": "Die AllerErsten",
                   "played": 1,
@@ -7581,11 +7602,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "4a128c6567acd9e605e45d061a429191559fe8ec916a5dd344ced2dd4543ba64"
+              "signature": "f21cf0aba711fccce32ca243e1916b879f51deb73b6a9d2f03952cdb16971738"
             },
             {
-              "rank": 2,
-              "endRank": 2,
+              "rank": 3,
+              "endRank": 3,
               "rows": [
                 {
                   "teamId": "928b3110-4f5d-42db-81fd-8b42c68a6c68",
@@ -7602,11 +7623,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "da1f018d9299fa10fba7c120f7eee80e876b1168bb25c097e4c0e126ebdbc18f"
+              "signature": "1d46b8705392872e725ee43a400a2ab541bf9eb826361c8ff651a7e77e6b45ab"
             },
             {
-              "rank": 3,
-              "endRank": 3,
+              "rank": 4,
+              "endRank": 4,
               "rows": [
                 {
                   "teamId": "cd08bf8a-e0eb-4476-adc6-52033e7d318a",
@@ -7623,11 +7644,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "de277fbcf0fbdc337ca981185ff1c1cf70ed06d1863d8f76cf1c95e868cb250f"
+              "signature": "b7238e1e1a0cbbe7e8eda3ea29c93b72f923888d56125901efa635bc5625fe6c"
             },
             {
-              "rank": 4,
-              "endRank": 4,
+              "rank": 5,
+              "endRank": 5,
               "rows": [
                 {
                   "teamId": "4e0f0e72-b192-48d8-ab64-251277010c0e",
@@ -7644,11 +7665,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "45c4bf89747715ec3a3b1e7556d5b71df4818b6756c661aa4c0e496ac326ab30"
+              "signature": "b884d326e727500e0f31b6a48ba0c69d4f727e205c9a403e9e9db603e46b0d88"
             },
             {
-              "rank": 5,
-              "endRank": 5,
+              "rank": 6,
+              "endRank": 6,
               "rows": [
                 {
                   "teamId": "72936ae2-6323-4eb0-8bbf-2f1b064c0164",
@@ -7665,11 +7686,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "aabcce4d7b3d0f37cd920dffbdc8a445878f302bdaa34f4352e4fbee7cb67d80"
+              "signature": "75caee7c50bfe9372eadf7c5bd8299b8fc95adb9a1cfa16aed4c92aed86d417c"
             },
             {
-              "rank": 6,
-              "endRank": 6,
+              "rank": 7,
+              "endRank": 7,
               "rows": [
                 {
                   "teamId": "9f61f0c1-cca9-4f70-b744-9ee10a486a69",
@@ -7686,11 +7707,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "1a8732f0c14291b2b3efa8d965c69360d5a7159511a33c86f5bf0c92748e428d"
+              "signature": "11fb42f4403b26585827297e574ec43252e6f16e877eeb24c518709bf0cc8f75"
             },
             {
-              "rank": 7,
-              "endRank": 7,
+              "rank": 8,
+              "endRank": 8,
               "rows": [
                 {
                   "teamId": "5e684e6b-1408-4efd-9596-8a99e1b08737",
@@ -7707,11 +7728,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "c7d70a2b1db13bfd8e3f07f7359e6c6f18ddc7ebc4838162e4fd80d4b4a64c14"
+              "signature": "46754c68ead4a096b3a0df777c09dbeddb365bd421aecc331c50f0754be6ba1a"
             },
             {
-              "rank": 8,
-              "endRank": 27,
+              "rank": 9,
+              "endRank": 26,
               "rows": [
                 {
                   "teamId": "850e726c-fec1-4bd6-a480-52630c5e53a1",
@@ -7882,18 +7903,6 @@
                   "points": 0
                 },
                 {
-                  "teamId": "9e3d317e-7f4a-48ef-a8e5-6e316ff28eee",
-                  "name": "6 Laute, O Plan",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
                   "teamId": "7b8d3489-b702-4c5a-9967-8e093ffe4d3e",
                   "name": "Pinky Diamonds",
                   "played": 0,
@@ -7908,18 +7917,6 @@
                 {
                   "teamId": "f7370af7-fe03-493e-9a8f-21ce7fc8e1c9",
                   "name": "Die Wattläufer",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "e59c6210-493a-499a-ab33-e8c9a48ba2d3",
-                  "name": "IRON EAGLES",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -7956,11 +7953,11 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "add084c31c2a7b363b35870f9bd9fa74c1b8aac378d8cfadee3f8dd3642acef8"
+              "signature": "0d9d799ccc8214af8fb9c840b74260cddef7732ad94fa20043a9309e5873b709"
             },
             {
-              "rank": 28,
-              "endRank": 28,
+              "rank": 27,
+              "endRank": 27,
               "rows": [
                 {
                   "teamId": "2b5e1d16-a593-4a2e-9d35-df863b8807a0",
@@ -7977,7 +7974,28 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "d1964c8a754cb257e4b56157a483355e5b98de0053f1616b65aa743210107816"
+              "signature": "5043415883ed3ebbbd8725cf1b8a06e0e73ea176e6eeda2601af226c61bca20c"
+            },
+            {
+              "rank": 28,
+              "endRank": 28,
+              "rows": [
+                {
+                  "teamId": "9e3d317e-7f4a-48ef-a8e5-6e316ff28eee",
+                  "name": "6 Laute, O Plan",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 0,
+                  "conceded": 17,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "e3733141f176ec622c67271b341c2e33e54d2c5bca0dc4446882a0d0529ebd8f"
             }
           ],
           "groups": [
@@ -8004,7 +8022,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "de277fbcf0fbdc337ca981185ff1c1cf70ed06d1863d8f76cf1c95e868cb250f"
+                  "signature": "b7238e1e1a0cbbe7e8eda3ea29c93b72f923888d56125901efa635bc5625fe6c"
                 },
                 {
                   "rank": 2,
@@ -8025,7 +8043,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "1a8732f0c14291b2b3efa8d965c69360d5a7159511a33c86f5bf0c92748e428d"
+                  "signature": "11fb42f4403b26585827297e574ec43252e6f16e877eeb24c518709bf0cc8f75"
                 },
                 {
                   "rank": 3,
@@ -8058,7 +8076,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "fca772b50538f8aa776316017e2e6206f609603ca8e05c12c75bc593dee2a668"
+                  "signature": "2d29edfaa95454a5324a53f7c570f67bbfd24d9b7e6cfb260ab9818806fae39e"
                 }
               ]
             },
@@ -8085,7 +8103,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "da1f018d9299fa10fba7c120f7eee80e876b1168bb25c097e4c0e126ebdbc18f"
+                  "signature": "1d46b8705392872e725ee43a400a2ab541bf9eb826361c8ff651a7e77e6b45ab"
                 },
                 {
                   "rank": 2,
@@ -8106,7 +8124,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "aabcce4d7b3d0f37cd920dffbdc8a445878f302bdaa34f4352e4fbee7cb67d80"
+                  "signature": "75caee7c50bfe9372eadf7c5bd8299b8fc95adb9a1cfa16aed4c92aed86d417c"
                 },
                 {
                   "rank": 3,
@@ -8139,7 +8157,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "eaa9f3645c8646d16828ef72f2c1ef651f12070edca532eda58f273e3f71815e"
+                  "signature": "73674b025bb6835cbdccb107e860d1e30d92acff76b6c3a55aa1846f01236731"
                 }
               ]
             },
@@ -8166,7 +8184,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "4a128c6567acd9e605e45d061a429191559fe8ec916a5dd344ced2dd4543ba64"
+                  "signature": "f21cf0aba711fccce32ca243e1916b879f51deb73b6a9d2f03952cdb16971738"
                 },
                 {
                   "rank": 2,
@@ -8199,7 +8217,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "965b376d16c65ccb926f2d175640f6a23e53ee9ef221e6db29045bca5eb5d348"
+                  "signature": "1a3edd36720cc1d4c90c632d29a2a9c805eb2fba8591f3f5d791eb4c777f2e00"
                 },
                 {
                   "rank": 4,
@@ -8220,7 +8238,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "d1964c8a754cb257e4b56157a483355e5b98de0053f1616b65aa743210107816"
+                  "signature": "5043415883ed3ebbbd8725cf1b8a06e0e73ea176e6eeda2601af226c61bca20c"
                 }
               ]
             },
@@ -8283,7 +8301,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "c0e9c57e0a1c13846c06d32b1b2569ded816a4d4c08489e40e74e6ce115821b9"
+                  "signature": "d092bbeb85f405f33b1ae4c2f084ec7c718edebf528e40a5b60e8721ae3b4b9d"
                 }
               ]
             },
@@ -8293,20 +8311,29 @@
               "blocks": [
                 {
                   "rank": 1,
-                  "endRank": 4,
+                  "endRank": 1,
                   "rows": [
                     {
-                      "teamId": "9e3d317e-7f4a-48ef-a8e5-6e316ff28eee",
-                      "name": "6 Laute, O Plan",
-                      "played": 0,
+                      "teamId": "e59c6210-493a-499a-ab33-e8c9a48ba2d3",
+                      "name": "IRON EAGLES",
+                      "played": 1,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 0,
+                      "scored": 17,
                       "conceded": 0,
-                      "points": 0
-                    },
+                      "points": 9
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "d7614fc793e66e41e6f122ec5c402efe1eb037a251c6a584f6bdc9c88512d3dc"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 3,
+                  "rows": [
                     {
                       "teamId": "0cfacce3-4697-48cf-af33-c2c291a3315c",
                       "name": "Calma de Palermo",
@@ -8330,23 +8357,32 @@
                       "scored": 0,
                       "conceded": 0,
                       "points": 0
-                    },
+                    }
+                  ],
+                  "tied": true,
+                  "resolved": false,
+                  "signature": "52685725513bec1342164d2f9371033754007bce09d8ff28f950537d88bdd135"
+                },
+                {
+                  "rank": 4,
+                  "endRank": 4,
+                  "rows": [
                     {
-                      "teamId": "e59c6210-493a-499a-ab33-e8c9a48ba2d3",
-                      "name": "IRON EAGLES",
-                      "played": 0,
+                      "teamId": "9e3d317e-7f4a-48ef-a8e5-6e316ff28eee",
+                      "name": "6 Laute, O Plan",
+                      "played": 1,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
                       "scored": 0,
-                      "conceded": 0,
+                      "conceded": 17,
                       "points": 0
                     }
                   ],
-                  "tied": true,
-                  "resolved": false,
-                  "signature": "50f57c6a13bceff8e9ede2a35a0b3957801f5f0c08b7d44f194654031e9d6d30"
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "e3733141f176ec622c67271b341c2e33e54d2c5bca0dc4446882a0d0529ebd8f"
                 }
               ]
             },
@@ -8409,7 +8445,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "1d656dd4312e2b0d21e8c9b9db5c265f8e2a35ff2e1c83416f3c8f018dee0a69"
+                  "signature": "a0ab80f2313bddfcf6c4bb7cb3d81c38844bc92e227f01ebf40e5f1b9fc55aa8"
                 }
               ]
             },
@@ -8436,7 +8472,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "45c4bf89747715ec3a3b1e7556d5b71df4818b6756c661aa4c0e496ac326ab30"
+                  "signature": "b884d326e727500e0f31b6a48ba0c69d4f727e205c9a403e9e9db603e46b0d88"
                 },
                 {
                   "rank": 2,
@@ -8457,7 +8493,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "c7d70a2b1db13bfd8e3f07f7359e6c6f18ddc7ebc4838162e4fd80d4b4a64c14"
+                  "signature": "46754c68ead4a096b3a0df777c09dbeddb365bd421aecc331c50f0754be6ba1a"
                 },
                 {
                   "rank": 3,
@@ -8490,7 +8526,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "7d2ef092a2e236b3f36e5521d673952186b9720208118d7129387c1ca72e17e0"
+                  "signature": "c4b610254a815014392863178c6f59198c024b24853fbb6c6183bf81b5f29928"
                 }
               ]
             }
@@ -11640,7 +11676,7 @@
         "sport": "Urban Street Soccer",
         "category": "Männer",
         "number": "Match 6 US-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 500,
         "court": "Pitch 3",
