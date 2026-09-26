@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T14:44:59.984Z",
+  "generatedAt": "2026-09-26T14:45:02.502Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -2389,8 +2389,8 @@
               {
                 "id": "890fb7e6-cba0-465d-8496-b95e8ee1806b",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 61,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -2408,7 +2408,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-26T13:45:44.223Z",
-                "updatedAt": "2026-09-26T14:44:59.096Z",
+                "updatedAt": "2026-09-26T14:45:00.367Z",
                 "beachSets": [
                   {
                     "id": "9829e032-50e1-4512-80f0-6bc84bd639a1",
@@ -15404,7 +15404,7 @@
         "sport": "Beachvolleyball",
         "category": "Männer",
         "number": "Match 61 BV-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 960,
         "court": "Court 1",
@@ -16097,7 +16097,7 @@
         "day": "2026-09-26",
         "minute": 1040,
         "court": "Court 1",
-        "teamA": "Noch offen",
+        "teamA": "Net-Force",
         "teamB": "Noch offen",
         "scores": [],
         "penalty": null
