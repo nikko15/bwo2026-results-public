@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:01:32.207Z",
+  "generatedAt": "2026-09-26T08:01:34.522Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5837,7 +5837,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 37,
+            "rankingRevision": 38,
             "groupCount": 7,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -5848,7 +5848,7 @@
             "name": "Street Soccer Männer",
             "slug": "street-soccer-maenner",
             "createdAt": "2026-09-20T11:08:50.042Z",
-            "updatedAt": "2026-09-26T08:00:27.956Z",
+            "updatedAt": "2026-09-26T08:01:33.211Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -8248,8 +8248,8 @@
               {
                 "id": "b6d3060f-7c07-42cf-aca4-b7c7d0f9093b",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 18,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -8267,7 +8267,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:06:19.574Z",
-                "updatedAt": "2026-09-26T08:01:31.404Z",
+                "updatedAt": "2026-09-26T08:01:33.201Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
@@ -8316,7 +8316,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "d7d7a46c1a9eb392325456d711556c01eb9d39d5953524ade6762982e8faabd6"
+              "signature": "9d52bfa8f2f6ec5f60928d4a4f57daa63ebf1adb9e88d254810f0c4045740951"
             },
             {
               "rank": 2,
@@ -8337,11 +8337,32 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "f04d40ff54fabc01c8b328b7066752fff05c4c978271ac238d08041923e34e98"
+              "signature": "0d945fc6b1787fd0ab03990f4820869bbfb42bee825e2873dd99df9a33753fe6"
             },
             {
               "rank": 3,
               "endRank": 3,
+              "rows": [
+                {
+                  "teamId": "72936ae2-6323-4eb0-8bbf-2f1b064c0164",
+                  "name": "Gartenhütte",
+                  "played": 2,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 19,
+                  "conceded": 14,
+                  "points": 12
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "db8ef21a867367456ddecd2bcd574a6aacfe1bad08ef42731dc7b692fb544315"
+            },
+            {
+              "rank": 4,
+              "endRank": 4,
               "rows": [
                 {
                   "teamId": "6fe8fe3b-f9a2-43f1-a9f2-3a68557e05d7",
@@ -8358,11 +8379,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "c3b7cdddab1ab3e336906f80ab3a6133b60a0dc58ad704e5e1a03200ab827ff1"
+              "signature": "61936def1813167da3b647d3f768d73f5dbe4f7c2241daaf77ab88a5b26ac787"
             },
             {
-              "rank": 4,
-              "endRank": 4,
+              "rank": 5,
+              "endRank": 5,
               "rows": [
                 {
                   "teamId": "0cfacce3-4697-48cf-af33-c2c291a3315c",
@@ -8379,11 +8400,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "af98f1f3971f6e4672ce737c9bc86c02ff09eb6a4bebf4edadfff90d2372740c"
+              "signature": "839217ba3af5254436b250d9974429ece0c25e960f4894f65e7ac1d911e68167"
             },
             {
-              "rank": 5,
-              "endRank": 5,
+              "rank": 6,
+              "endRank": 6,
               "rows": [
                 {
                   "teamId": "e59c6210-493a-499a-ab33-e8c9a48ba2d3",
@@ -8400,11 +8421,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "8eb6dd8bbc4785fc7aca14ddfb95554ec17c1a3234331a50aef1b87c26c53b41"
+              "signature": "a283b28ca52c021acc175081be664fba7040b0a6066f479a4f71dc349747c802"
             },
             {
-              "rank": 6,
-              "endRank": 6,
+              "rank": 7,
+              "endRank": 7,
               "rows": [
                 {
                   "teamId": "7536e9d1-a9f0-4363-8fe6-77324dbee8be",
@@ -8421,11 +8442,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "39396144c2793c1f5677a6fe33f6724917abc7e32300238998ed61f45de1aa10"
+              "signature": "a63042bddf5370dd434e5abb92e4a584ccf6e1f3cb19491be50b6d92e4c4eaa7"
             },
             {
-              "rank": 7,
-              "endRank": 7,
+              "rank": 8,
+              "endRank": 8,
               "rows": [
                 {
                   "teamId": "37ceef2b-3118-4fd2-b6c8-63d4e19903a0",
@@ -8442,11 +8463,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "9d71adcfb53d30ef69616fe73c90bd58297a771743f24686db080704d5dcae61"
+              "signature": "1d58af19dfbe1710ea65741557808cf85c8b608571b88304d67478e97682e09e"
             },
             {
-              "rank": 8,
-              "endRank": 8,
+              "rank": 9,
+              "endRank": 9,
               "rows": [
                 {
                   "teamId": "f7370af7-fe03-493e-9a8f-21ce7fc8e1c9",
@@ -8463,11 +8484,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "8a7aec29ca91636b11fa7d733c2b936a0de4f940ddf188c0fdfb756a7a5ae2f6"
+              "signature": "163549d55ea7c2bf87bb54a181d4bbd34561a85160c57a17ad52f72b7932822b"
             },
             {
-              "rank": 9,
-              "endRank": 9,
+              "rank": 10,
+              "endRank": 10,
               "rows": [
                 {
                   "teamId": "928b3110-4f5d-42db-81fd-8b42c68a6c68",
@@ -8484,32 +8505,32 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "5d56d23f75e7a4799154aca352e04604fccaa61c903909a99055417d42e8e7d6"
+              "signature": "28af3fdef13caa395f2429a77ada2ac345f4147e8298f9269a23154e59f79829"
             },
             {
-              "rank": 10,
-              "endRank": 10,
+              "rank": 11,
+              "endRank": 11,
               "rows": [
                 {
                   "teamId": "1d67f1ef-1ba8-48a0-a726-2814451c1400",
                   "name": "Galaxy Kickers",
-                  "played": 1,
+                  "played": 2,
                   "wins": 0,
                   "losses": 0,
                   "setsWon": 0,
                   "setsLost": 0,
-                  "scored": 10,
-                  "conceded": 4,
+                  "scored": 12,
+                  "conceded": 17,
                   "points": 6
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "11f58075ceb0f0bf46655386c29496ccd3324f7564c7a1bb9d4c839c9727dffc"
+              "signature": "2d0712e6000810fbafffb4ce67d68dc2fb77b8db333deb7393be7b1cd280dcbd"
             },
             {
-              "rank": 11,
-              "endRank": 11,
+              "rank": 12,
+              "endRank": 12,
               "rows": [
                 {
                   "teamId": "cd08bf8a-e0eb-4476-adc6-52033e7d318a",
@@ -8526,11 +8547,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "605aca76b78800d5343df3fc8ad7da4413d530a6d79c851d2ef3ccc5e0702419"
+              "signature": "be07dba005a5319bdae6d7d6b494cde41139ca78cc894d6696a3b5a36c428284"
             },
             {
-              "rank": 12,
-              "endRank": 12,
+              "rank": 13,
+              "endRank": 13,
               "rows": [
                 {
                   "teamId": "4e0f0e72-b192-48d8-ab64-251277010c0e",
@@ -8547,11 +8568,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "63d77a171cdf1622be79fe95a62e525ea9c1edfcafb9364263e90e13860ba9fd"
+              "signature": "b296837099a43c18eb15f0176fa03384446a0fa53329c5337bfa188c18c95e65"
             },
             {
-              "rank": 13,
-              "endRank": 13,
+              "rank": 14,
+              "endRank": 14,
               "rows": [
                 {
                   "teamId": "85a4ac02-af95-471b-b13a-14fc748d53ae",
@@ -8568,11 +8589,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "b80b2ad05260ea9cd53879ba6689ae01212f49ddfff1972d0d8696fba0956923"
+              "signature": "45b12de8451113590d3304e83822eb9dd8c03a9c83600b111a8f0a12bd9c3530"
             },
             {
-              "rank": 14,
-              "endRank": 14,
+              "rank": 15,
+              "endRank": 15,
               "rows": [
                 {
                   "teamId": "51b4cfc4-4078-44d6-81aa-cd5c55429320",
@@ -8589,11 +8610,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "c2233ddb9d07d2b6ae74d4cec009aa8f3a226dcc331f0db389039685468255df"
+              "signature": "972790d6e23012d85756afa5eed20c156df9ba60468ab303ed06388710a61951"
             },
             {
-              "rank": 15,
-              "endRank": 15,
+              "rank": 16,
+              "endRank": 16,
               "rows": [
                 {
                   "teamId": "8eef42cb-81c4-4b5f-95d1-2adf651f9c0b",
@@ -8610,11 +8631,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "6482028755306989a7e1c67998bf8aa66b2edc21e5a228e7963595b8be75d1a7"
+              "signature": "f25f0d367997303460d95c6ba45811cd911c5cfbf1989cdd7ff9e75251779b40"
             },
             {
-              "rank": 16,
-              "endRank": 16,
+              "rank": 17,
+              "endRank": 17,
               "rows": [
                 {
                   "teamId": "762ab1d6-05c4-4af5-9f2b-839b169e0204",
@@ -8631,11 +8652,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "9138bcc453616bc277e6b500060d2f49f2549a2c7885861f12ddc79c2c53f55f"
+              "signature": "8c87e644ae8bf67122642eda51150ccee4d35470bb9923e0a1f56e91511afe51"
             },
             {
-              "rank": 17,
-              "endRank": 17,
+              "rank": 18,
+              "endRank": 18,
               "rows": [
                 {
                   "teamId": "febc6958-daeb-4ccb-ac78-172fade228b5",
@@ -8652,28 +8673,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "941e0cfb63651767d0445fe219ccc0798322f33277ba0aeb8f48d8af1615455c"
-            },
-            {
-              "rank": 18,
-              "endRank": 18,
-              "rows": [
-                {
-                  "teamId": "72936ae2-6323-4eb0-8bbf-2f1b064c0164",
-                  "name": "Gartenhütte",
-                  "played": 1,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 6,
-                  "conceded": 12,
-                  "points": 3
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "ec6b22b14d249467adee8ae7b003ae1af61d50cc9d3653dfa07415516f508382"
+              "signature": "eb45d4599aa2f1489dfa877a75f86e4f5e54dbfbf87c1586a54003ea5727618e"
             },
             {
               "rank": 19,
@@ -8694,7 +8694,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "da5c4c5cbfd06c0cdbfda3766c02403cea7c088ce5fd39698bbd75e4039c4962"
+              "signature": "9e0b08f84b73210c2262063f488b4afce5dc6dba3a7ae3e3fd1a1cb88c6287da"
             },
             {
               "rank": 20,
@@ -8715,7 +8715,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "edf95a7b659007b88455882124cd442f45a6d6c5f1b35d4b430309ea519f98d9"
+              "signature": "2b4a66824bbb5738e7099a9eea2254d23da886374f9dfadfd89223ca2ed9bd5e"
             },
             {
               "rank": 21,
@@ -8736,7 +8736,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "d19337e10e925f02141a0a833b4af9434227e23def8c4bb841daa0619e00f71e"
+              "signature": "ba6caed1120468a2eaea5fa38e19da7e2b01dd9651120cd1e8b37db0a3c95a1d"
             },
             {
               "rank": 22,
@@ -8757,7 +8757,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "5c2971cbca78f8cf447bc858804847168508a1c6eb60b89f135e49041eab9322"
+              "signature": "a3676aac35c44542dcf5f01969039dc4cc8c5d915632313619817d097874d0e2"
             },
             {
               "rank": 23,
@@ -8778,7 +8778,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "6f8197e9486d53dc027cc70c7ef27032c56fe417de50e4631cf51a4ce62f21fc"
+              "signature": "31fc59c0e07f6b25a01fdd8b24abf1641a36dc2dd7ff66ae7d5240a7b8c38731"
             },
             {
               "rank": 24,
@@ -8799,7 +8799,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "103447d438ca1ca9bccec6b2a9f793deb26751b22d3eb1ba1fccd9b9ed47b960"
+              "signature": "fd8cdd2114fd5376794eb79ea194a7aa1324e84efe63fb0f772380477365a920"
             },
             {
               "rank": 25,
@@ -8820,7 +8820,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "bcd740de01de96ef34de8aae81e8d07acf184a8dd1c9b01e18e19fd27cecf79a"
+              "signature": "10150a9cafc442366f89d38220063a5eaaee434f110e3e0e1c13dba678404f47"
             },
             {
               "rank": 26,
@@ -8853,7 +8853,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "cd85ad0c41befb150173ea1539eeefcf8f050a9a55267aab02c7aed534235e39"
+              "signature": "1ba65fe8a45141b65f530d2bb56ac829f34f4abb8cf09b2bfbc7a9ca3c4032aa"
             },
             {
               "rank": 28,
@@ -8874,7 +8874,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "cfb47fe48060b71ce2165d0134178bcaf033ea7d7046b9aee2e5326741143e7d"
+              "signature": "e7497d11a702dc1b20af044d07841262c56b2766c471eb8c2f0d91167ff67157"
             }
           ],
           "groups": [
@@ -8901,7 +8901,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "9d71adcfb53d30ef69616fe73c90bd58297a771743f24686db080704d5dcae61"
+                  "signature": "1d58af19dfbe1710ea65741557808cf85c8b608571b88304d67478e97682e09e"
                 },
                 {
                   "rank": 2,
@@ -8922,7 +8922,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "605aca76b78800d5343df3fc8ad7da4413d530a6d79c851d2ef3ccc5e0702419"
+                  "signature": "be07dba005a5319bdae6d7d6b494cde41139ca78cc894d6696a3b5a36c428284"
                 },
                 {
                   "rank": 3,
@@ -8943,7 +8943,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "da5c4c5cbfd06c0cdbfda3766c02403cea7c088ce5fd39698bbd75e4039c4962"
+                  "signature": "9e0b08f84b73210c2262063f488b4afce5dc6dba3a7ae3e3fd1a1cb88c6287da"
                 },
                 {
                   "rank": 4,
@@ -8964,7 +8964,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "103447d438ca1ca9bccec6b2a9f793deb26751b22d3eb1ba1fccd9b9ed47b960"
+                  "signature": "fd8cdd2114fd5376794eb79ea194a7aa1324e84efe63fb0f772380477365a920"
                 }
               ]
             },
@@ -8975,6 +8975,27 @@
                 {
                   "rank": 1,
                   "endRank": 1,
+                  "rows": [
+                    {
+                      "teamId": "72936ae2-6323-4eb0-8bbf-2f1b064c0164",
+                      "name": "Gartenhütte",
+                      "played": 2,
+                      "wins": 0,
+                      "losses": 0,
+                      "setsWon": 0,
+                      "setsLost": 0,
+                      "scored": 19,
+                      "conceded": 14,
+                      "points": 12
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "db8ef21a867367456ddecd2bcd574a6aacfe1bad08ef42731dc7b692fb544315"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
                   "rows": [
                     {
                       "teamId": "928b3110-4f5d-42db-81fd-8b42c68a6c68",
@@ -8991,49 +9012,28 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "5d56d23f75e7a4799154aca352e04604fccaa61c903909a99055417d42e8e7d6"
-                },
-                {
-                  "rank": 2,
-                  "endRank": 2,
-                  "rows": [
-                    {
-                      "teamId": "1d67f1ef-1ba8-48a0-a726-2814451c1400",
-                      "name": "Galaxy Kickers",
-                      "played": 1,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 10,
-                      "conceded": 4,
-                      "points": 6
-                    }
-                  ],
-                  "tied": false,
-                  "resolved": true,
-                  "signature": "11f58075ceb0f0bf46655386c29496ccd3324f7564c7a1bb9d4c839c9727dffc"
+                  "signature": "28af3fdef13caa395f2429a77ada2ac345f4147e8298f9269a23154e59f79829"
                 },
                 {
                   "rank": 3,
                   "endRank": 3,
                   "rows": [
                     {
-                      "teamId": "72936ae2-6323-4eb0-8bbf-2f1b064c0164",
-                      "name": "Gartenhütte",
-                      "played": 1,
+                      "teamId": "1d67f1ef-1ba8-48a0-a726-2814451c1400",
+                      "name": "Galaxy Kickers",
+                      "played": 2,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 6,
-                      "conceded": 12,
-                      "points": 3
+                      "scored": 12,
+                      "conceded": 17,
+                      "points": 6
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "ec6b22b14d249467adee8ae7b003ae1af61d50cc9d3653dfa07415516f508382"
+                  "signature": "2d0712e6000810fbafffb4ce67d68dc2fb77b8db333deb7393be7b1cd280dcbd"
                 },
                 {
                   "rank": 4,
@@ -9054,7 +9054,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "d19337e10e925f02141a0a833b4af9434227e23def8c4bb841daa0619e00f71e"
+                  "signature": "ba6caed1120468a2eaea5fa38e19da7e2b01dd9651120cd1e8b37db0a3c95a1d"
                 }
               ]
             },
@@ -9081,7 +9081,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "f04d40ff54fabc01c8b328b7066752fff05c4c978271ac238d08041923e34e98"
+                  "signature": "0d945fc6b1787fd0ab03990f4820869bbfb42bee825e2873dd99df9a33753fe6"
                 },
                 {
                   "rank": 2,
@@ -9102,7 +9102,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "c3b7cdddab1ab3e336906f80ab3a6133b60a0dc58ad704e5e1a03200ab827ff1"
+                  "signature": "61936def1813167da3b647d3f768d73f5dbe4f7c2241daaf77ab88a5b26ac787"
                 },
                 {
                   "rank": 3,
@@ -9123,7 +9123,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "edf95a7b659007b88455882124cd442f45a6d6c5f1b35d4b430309ea519f98d9"
+                  "signature": "2b4a66824bbb5738e7099a9eea2254d23da886374f9dfadfd89223ca2ed9bd5e"
                 },
                 {
                   "rank": 4,
@@ -9144,7 +9144,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "f2a24fe39527ef58bf9dacb9d6de4b8cf0bff0ef3a01da1d4a724cfad2e25a7e"
+                  "signature": "942ab19645b400c32f72a38c8118a61897e9294f00b2427688d94dc653e0b2fe"
                 }
               ]
             },
@@ -9171,7 +9171,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "d7d7a46c1a9eb392325456d711556c01eb9d39d5953524ade6762982e8faabd6"
+                  "signature": "9d52bfa8f2f6ec5f60928d4a4f57daa63ebf1adb9e88d254810f0c4045740951"
                 },
                 {
                   "rank": 2,
@@ -9192,7 +9192,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "39396144c2793c1f5677a6fe33f6724917abc7e32300238998ed61f45de1aa10"
+                  "signature": "a63042bddf5370dd434e5abb92e4a584ccf6e1f3cb19491be50b6d92e4c4eaa7"
                 },
                 {
                   "rank": 3,
@@ -9213,7 +9213,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "941e0cfb63651767d0445fe219ccc0798322f33277ba0aeb8f48d8af1615455c"
+                  "signature": "eb45d4599aa2f1489dfa877a75f86e4f5e54dbfbf87c1586a54003ea5727618e"
                 },
                 {
                   "rank": 4,
@@ -9234,7 +9234,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "825130f5f9990e0b74b27a34c0d28c39feae6ccbda858840f9dfd4f53fef18c0"
+                  "signature": "6852fac1076e29ba2e94ccdd6dc38112414b3272aa6332c5244bc8dc2590449b"
                 }
               ]
             },
@@ -9261,7 +9261,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "af98f1f3971f6e4672ce737c9bc86c02ff09eb6a4bebf4edadfff90d2372740c"
+                  "signature": "839217ba3af5254436b250d9974429ece0c25e960f4894f65e7ac1d911e68167"
                 },
                 {
                   "rank": 2,
@@ -9282,7 +9282,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "8eb6dd8bbc4785fc7aca14ddfb95554ec17c1a3234331a50aef1b87c26c53b41"
+                  "signature": "a283b28ca52c021acc175081be664fba7040b0a6066f479a4f71dc349747c802"
                 },
                 {
                   "rank": 3,
@@ -9303,7 +9303,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "bcd740de01de96ef34de8aae81e8d07acf184a8dd1c9b01e18e19fd27cecf79a"
+                  "signature": "10150a9cafc442366f89d38220063a5eaaee434f110e3e0e1c13dba678404f47"
                 },
                 {
                   "rank": 4,
@@ -9324,7 +9324,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "cfb47fe48060b71ce2165d0134178bcaf033ea7d7046b9aee2e5326741143e7d"
+                  "signature": "e7497d11a702dc1b20af044d07841262c56b2766c471eb8c2f0d91167ff67157"
                 }
               ]
             },
@@ -9351,7 +9351,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "8a7aec29ca91636b11fa7d733c2b936a0de4f940ddf188c0fdfb756a7a5ae2f6"
+                  "signature": "163549d55ea7c2bf87bb54a181d4bbd34561a85160c57a17ad52f72b7932822b"
                 },
                 {
                   "rank": 2,
@@ -9372,7 +9372,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "6482028755306989a7e1c67998bf8aa66b2edc21e5a228e7963595b8be75d1a7"
+                  "signature": "f25f0d367997303460d95c6ba45811cd911c5cfbf1989cdd7ff9e75251779b40"
                 },
                 {
                   "rank": 3,
@@ -9393,7 +9393,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "9138bcc453616bc277e6b500060d2f49f2549a2c7885861f12ddc79c2c53f55f"
+                  "signature": "8c87e644ae8bf67122642eda51150ccee4d35470bb9923e0a1f56e91511afe51"
                 },
                 {
                   "rank": 4,
@@ -9414,7 +9414,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "6f8197e9486d53dc027cc70c7ef27032c56fe417de50e4631cf51a4ce62f21fc"
+                  "signature": "31fc59c0e07f6b25a01fdd8b24abf1641a36dc2dd7ff66ae7d5240a7b8c38731"
                 }
               ]
             },
@@ -9441,7 +9441,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "63d77a171cdf1622be79fe95a62e525ea9c1edfcafb9364263e90e13860ba9fd"
+                  "signature": "b296837099a43c18eb15f0176fa03384446a0fa53329c5337bfa188c18c95e65"
                 },
                 {
                   "rank": 2,
@@ -9462,7 +9462,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "b80b2ad05260ea9cd53879ba6689ae01212f49ddfff1972d0d8696fba0956923"
+                  "signature": "45b12de8451113590d3304e83822eb9dd8c03a9c83600b111a8f0a12bd9c3530"
                 },
                 {
                   "rank": 3,
@@ -9483,7 +9483,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "c2233ddb9d07d2b6ae74d4cec009aa8f3a226dcc331f0db389039685468255df"
+                  "signature": "972790d6e23012d85756afa5eed20c156df9ba60468ab303ed06388710a61951"
                 },
                 {
                   "rank": 4,
@@ -9504,7 +9504,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "5c2971cbca78f8cf447bc858804847168508a1c6eb60b89f135e49041eab9322"
+                  "signature": "a3676aac35c44542dcf5f01969039dc4cc8c5d915632313619817d097874d0e2"
                 }
               ]
             }
@@ -12965,7 +12965,7 @@
         "sport": "Urban Street Soccer",
         "category": "Männer",
         "number": "Match 18 US-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 580,
         "court": "Pitch 3",
