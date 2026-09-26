@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T14:44:01.274Z",
+  "generatedAt": "2026-09-26T14:44:03.876Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -12461,7 +12461,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 16,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 59,
+            "rankingRevision": 60,
             "groupCount": 1,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -12472,7 +12472,7 @@
             "name": "Street Soccer Frauen",
             "slug": "street-soccer-frauen",
             "createdAt": "2026-09-21T12:33:19.219Z",
-            "updatedAt": "2026-09-26T14:43:36.807Z",
+            "updatedAt": "2026-09-26T14:44:01.445Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -13136,54 +13136,6 @@
                 ]
               },
               {
-                "id": "499ae192-c009-4a48-9ee6-b99661de9d72",
-                "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
-                "matchNumber": null,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "5295b2cd-d8ef-436f-8889-79278d73f77c",
-                "teamAId": "ba329130-0f7e-4cda-bfec-98ce03e1a193",
-                "teamBId": "3ffd7607-c7aa-4474-b136-bf228933ec6f",
-                "round": 0,
-                "position": 28,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-26T14:25:57.950Z",
-                "updatedAt": "2026-09-26T14:44:00.426Z",
-                "beachSets": [],
-                "soccerPeriods": [
-                  {
-                    "id": "d68af87b-0b50-44b1-9888-ecf90a2302d1",
-                    "matchId": "499ae192-c009-4a48-9ee6-b99661de9d72",
-                    "position": 1,
-                    "scoreA": 2,
-                    "scoreB": 1
-                  },
-                  {
-                    "id": "f53f8300-1d41-41f8-8ca1-4118b35a12f4",
-                    "matchId": "499ae192-c009-4a48-9ee6-b99661de9d72",
-                    "position": 2,
-                    "scoreA": 0,
-                    "scoreB": 4
-                  },
-                  {
-                    "id": "2dfa8d2a-f8a6-4fc3-b307-096c1f6f8911",
-                    "matchId": "499ae192-c009-4a48-9ee6-b99661de9d72",
-                    "position": 3,
-                    "scoreA": 0,
-                    "scoreB": 3
-                  }
-                ]
-              },
-              {
                 "id": "4623b940-8f2b-437f-8db9-224a6b27a642",
                 "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
                 "status": "FINAL",
@@ -13808,6 +13760,54 @@
                 ]
               },
               {
+                "id": "499ae192-c009-4a48-9ee6-b99661de9d72",
+                "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
+                "status": "FINAL",
+                "revision": 2,
+                "matchNumber": null,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "5295b2cd-d8ef-436f-8889-79278d73f77c",
+                "teamAId": "ba329130-0f7e-4cda-bfec-98ce03e1a193",
+                "teamBId": "3ffd7607-c7aa-4474-b136-bf228933ec6f",
+                "round": 0,
+                "position": 28,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-26T14:25:57.950Z",
+                "updatedAt": "2026-09-26T14:44:01.438Z",
+                "beachSets": [],
+                "soccerPeriods": [
+                  {
+                    "id": "d68af87b-0b50-44b1-9888-ecf90a2302d1",
+                    "matchId": "499ae192-c009-4a48-9ee6-b99661de9d72",
+                    "position": 1,
+                    "scoreA": 2,
+                    "scoreB": 1
+                  },
+                  {
+                    "id": "f53f8300-1d41-41f8-8ca1-4118b35a12f4",
+                    "matchId": "499ae192-c009-4a48-9ee6-b99661de9d72",
+                    "position": 2,
+                    "scoreA": 0,
+                    "scoreB": 4
+                  },
+                  {
+                    "id": "2dfa8d2a-f8a6-4fc3-b307-096c1f6f8911",
+                    "matchId": "499ae192-c009-4a48-9ee6-b99661de9d72",
+                    "position": 3,
+                    "scoreA": 0,
+                    "scoreB": 3
+                  }
+                ]
+              },
+              {
                 "id": "e8d209bb-a2ad-40ed-b515-d9c618153812",
                 "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
                 "status": "FINAL",
@@ -14104,6 +14104,27 @@
               "endRank": 1,
               "rows": [
                 {
+                  "teamId": "3ffd7607-c7aa-4474-b136-bf228933ec6f",
+                  "name": "Quokka",
+                  "played": 7,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 31,
+                  "conceded": 8,
+                  "points": 53
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "7b9a12655fac3d514bf33a100e231c4c52e7b51840d602cb406f5b9029c5512e"
+            },
+            {
+              "rank": 2,
+              "endRank": 2,
+              "rows": [
+                {
                   "teamId": "4f05aa98-0a09-4014-bab4-cb9a7dbd5c27",
                   "name": "Sturmtrupp United",
                   "played": 6,
@@ -14118,28 +14139,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "c57e922b222ab988b227fcd859c687a188abc1df9bb7ec4f1e69dbfcc99626d6"
-            },
-            {
-              "rank": 2,
-              "endRank": 2,
-              "rows": [
-                {
-                  "teamId": "3ffd7607-c7aa-4474-b136-bf228933ec6f",
-                  "name": "Quokka",
-                  "played": 6,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 23,
-                  "conceded": 6,
-                  "points": 47
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "464bf20ccf4d585f29c4998c0b94fa56950d28a328d4d09a92b0595ac0e1440f"
+              "signature": "2cea60eddf170aa3defa7229258da203b246a308c60458adec0bc49653652697"
             },
             {
               "rank": 3,
@@ -14148,19 +14148,19 @@
                 {
                   "teamId": "ba329130-0f7e-4cda-bfec-98ce03e1a193",
                   "name": "Die Teufelskickerinnen",
-                  "played": 6,
+                  "played": 7,
                   "wins": 0,
                   "losses": 0,
                   "setsWon": 0,
                   "setsLost": 0,
-                  "scored": 22,
-                  "conceded": 21,
-                  "points": 41
+                  "scored": 24,
+                  "conceded": 29,
+                  "points": 44
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "9ef936fa2daf837472fd48e914143ea70d93917b475d7be5202cc6eaddf9c4cd"
+              "signature": "bc4b6399127c305700af9a38aa44d5ea5614f2a7c99d967761f6fcb766e72436"
             },
             {
               "rank": 4,
@@ -14181,7 +14181,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "0ae93521c51d8683c9f72e926a234ebd82b1c5b007a42a352378e306a58e00d7"
+              "signature": "89693abf2cf1fe9b8929113cefeb9b3c1f752f3228df6632a7b2386efc033eb5"
             },
             {
               "rank": 5,
@@ -14202,7 +14202,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "65ed4913a96f34181196e432b1454fe0f4cc8ba28ade9c869fe9bdb3d1aef8a1"
+              "signature": "0a5d0c53fbabe97e83437f3e1ddb9e908e9ea87960fa65baf4a902e38bb874fa"
             },
             {
               "rank": 6,
@@ -14223,7 +14223,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "5e99fc55e76058ae148a33d3d00a701ac3accc41ab34c8750e2ad516800df3ec"
+              "signature": "8e62602af0bbea51514d34c8c1f6b7f13c0b61e74cc350bf04afe8120e841205"
             },
             {
               "rank": 7,
@@ -14244,7 +14244,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "8f34bd16cb1e508de0fb8049dac1ac867f30e7f2385592d38d71f0d260b625ee"
+              "signature": "5b62434a535c61b5dc5592dc455c4e0026beb3a55d67e2a6f21b8d4c75df7dda"
             },
             {
               "rank": 8,
@@ -14265,7 +14265,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "77f4f060c7f0acfa226f93ff3a15bd8ccdee32fa5a135064fd29cfeb3d2dd080"
+              "signature": "789c73b8171bf25ecb3cd36e02dd89112e8bd3f304cf0479d30cd533247d53bf"
             }
           ],
           "groups": [
@@ -14276,6 +14276,27 @@
                 {
                   "rank": 1,
                   "endRank": 1,
+                  "rows": [
+                    {
+                      "teamId": "3ffd7607-c7aa-4474-b136-bf228933ec6f",
+                      "name": "Quokka",
+                      "played": 7,
+                      "wins": 0,
+                      "losses": 0,
+                      "setsWon": 0,
+                      "setsLost": 0,
+                      "scored": 31,
+                      "conceded": 8,
+                      "points": 53
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "7b9a12655fac3d514bf33a100e231c4c52e7b51840d602cb406f5b9029c5512e"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
                   "rows": [
                     {
                       "teamId": "4f05aa98-0a09-4014-bab4-cb9a7dbd5c27",
@@ -14292,28 +14313,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "c57e922b222ab988b227fcd859c687a188abc1df9bb7ec4f1e69dbfcc99626d6"
-                },
-                {
-                  "rank": 2,
-                  "endRank": 2,
-                  "rows": [
-                    {
-                      "teamId": "3ffd7607-c7aa-4474-b136-bf228933ec6f",
-                      "name": "Quokka",
-                      "played": 6,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 23,
-                      "conceded": 6,
-                      "points": 47
-                    }
-                  ],
-                  "tied": false,
-                  "resolved": true,
-                  "signature": "464bf20ccf4d585f29c4998c0b94fa56950d28a328d4d09a92b0595ac0e1440f"
+                  "signature": "2cea60eddf170aa3defa7229258da203b246a308c60458adec0bc49653652697"
                 },
                 {
                   "rank": 3,
@@ -14322,19 +14322,19 @@
                     {
                       "teamId": "ba329130-0f7e-4cda-bfec-98ce03e1a193",
                       "name": "Die Teufelskickerinnen",
-                      "played": 6,
+                      "played": 7,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 22,
-                      "conceded": 21,
-                      "points": 41
+                      "scored": 24,
+                      "conceded": 29,
+                      "points": 44
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "9ef936fa2daf837472fd48e914143ea70d93917b475d7be5202cc6eaddf9c4cd"
+                  "signature": "bc4b6399127c305700af9a38aa44d5ea5614f2a7c99d967761f6fcb766e72436"
                 },
                 {
                   "rank": 4,
@@ -14355,7 +14355,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "0ae93521c51d8683c9f72e926a234ebd82b1c5b007a42a352378e306a58e00d7"
+                  "signature": "89693abf2cf1fe9b8929113cefeb9b3c1f752f3228df6632a7b2386efc033eb5"
                 },
                 {
                   "rank": 5,
@@ -14376,7 +14376,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "65ed4913a96f34181196e432b1454fe0f4cc8ba28ade9c869fe9bdb3d1aef8a1"
+                  "signature": "0a5d0c53fbabe97e83437f3e1ddb9e908e9ea87960fa65baf4a902e38bb874fa"
                 },
                 {
                   "rank": 6,
@@ -14397,7 +14397,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "5e99fc55e76058ae148a33d3d00a701ac3accc41ab34c8750e2ad516800df3ec"
+                  "signature": "8e62602af0bbea51514d34c8c1f6b7f13c0b61e74cc350bf04afe8120e841205"
                 },
                 {
                   "rank": 7,
@@ -14418,7 +14418,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "8f34bd16cb1e508de0fb8049dac1ac867f30e7f2385592d38d71f0d260b625ee"
+                  "signature": "5b62434a535c61b5dc5592dc455c4e0026beb3a55d67e2a6f21b8d4c75df7dda"
                 },
                 {
                   "rank": 8,
@@ -14439,7 +14439,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "77f4f060c7f0acfa226f93ff3a15bd8ccdee32fa5a135064fd29cfeb3d2dd080"
+                  "signature": "789c73b8171bf25ecb3cd36e02dd89112e8bd3f304cf0479d30cd533247d53bf"
                 }
               ]
             }
@@ -19235,38 +19235,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_8",
-        "id": "499ae192-c009-4a48-9ee6-b99661de9d72",
-        "competitionSlug": "street-soccer-frauen",
-        "sport": "Urban Street Soccer",
-        "category": "Frauen",
-        "number": null,
-        "status": "RESULT_ENTERED",
-        "day": null,
-        "minute": null,
-        "court": null,
-        "teamA": "Die Teufelskickerinnen",
-        "teamB": "Quokka",
-        "scores": [
-          {
-            "scoreA": 2,
-            "scoreB": 1
-          },
-          {
-            "scoreA": 0,
-            "scoreB": 4
-          },
-          {
-            "scoreA": 0,
-            "scoreB": 3
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_8",
         "id": "4623b940-8f2b-437f-8db9-224a6b27a642",
         "competitionSlug": "street-soccer-frauen",
         "sport": "Urban Street Soccer",
@@ -19674,6 +19642,38 @@
           {
             "scoreA": 6,
             "scoreB": 0
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_8",
+        "id": "499ae192-c009-4a48-9ee6-b99661de9d72",
+        "competitionSlug": "street-soccer-frauen",
+        "sport": "Urban Street Soccer",
+        "category": "Frauen",
+        "number": null,
+        "status": "FINAL",
+        "day": null,
+        "minute": null,
+        "court": null,
+        "teamA": "Die Teufelskickerinnen",
+        "teamB": "Quokka",
+        "scores": [
+          {
+            "scoreA": 2,
+            "scoreB": 1
+          },
+          {
+            "scoreA": 0,
+            "scoreB": 4
+          },
+          {
+            "scoreA": 0,
+            "scoreB": 3
           }
         ],
         "penalty": null
