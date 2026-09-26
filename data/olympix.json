@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T14:39:07.143Z",
+  "generatedAt": "2026-09-26T14:39:09.611Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -12461,7 +12461,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 16,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 46,
+            "rankingRevision": 47,
             "groupCount": 1,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -12472,7 +12472,7 @@
             "name": "Street Soccer Frauen",
             "slug": "street-soccer-frauen",
             "createdAt": "2026-09-21T12:33:19.219Z",
-            "updatedAt": "2026-09-26T14:38:54.085Z",
+            "updatedAt": "2026-09-26T14:39:07.162Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -13716,8 +13716,8 @@
               {
                 "id": "62113e25-378d-4e05-ba07-eb9d0c40b10e",
                 "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": null,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -13735,7 +13735,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-26T14:25:57.950Z",
-                "updatedAt": "2026-09-26T14:39:06.208Z",
+                "updatedAt": "2026-09-26T14:39:07.138Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
@@ -13832,7 +13832,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "21d22dc93378f50bb29f141852bcbcaa6bf9e4805275276ad7f7ac7644a35489"
+              "signature": "e434ee7b8a0df3b8e2c2eb5a20926069af8ac39c4b3378c94347a9745ef0164e"
             },
             {
               "rank": 2,
@@ -13853,7 +13853,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "d08a5b2eaf759b135b169b4375d9c1f2b6ea4a4d4b26b6935dbe8e8e50108d7f"
+              "signature": "0c4c39a67c61e25471f55ab7f28522e380e62f4a0bb9ac8eed0c0b763e682871"
             },
             {
               "rank": 3,
@@ -13874,7 +13874,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "804bb894ac80d92f60575c4fda6c896d476ff20fef0bf809561abb8ffd30200c"
+              "signature": "0cd6817d249da3e4f7daa7bb8821d2f53336db60b63222275cde18a3a6baf5d8"
             },
             {
               "rank": 4,
@@ -13895,11 +13895,32 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "532e4c893e596827f4e51efd7024ef87992e186b0e247848677cfc8cc8033d86"
+              "signature": "010fe32fae4f91f28629a86af7ba8ed7516845d44e9637bd94aed4584110c43c"
             },
             {
               "rank": 5,
               "endRank": 5,
+              "rows": [
+                {
+                  "teamId": "71be79a9-29fd-4bea-be7b-0a33088f3a7d",
+                  "name": "freilos2",
+                  "played": 3,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 6,
+                  "conceded": 3,
+                  "points": 18
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "b8752e2711a7c1def637260b8576c4fd0559fd349efc69af2d72874360a35768"
+            },
+            {
+              "rank": 6,
+              "endRank": 6,
               "rows": [
                 {
                   "teamId": "c5b9886a-df63-467e-a245-86a2b22de081",
@@ -13916,28 +13937,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "96d6522b66518fd4a2830e11a4dbd49f949df6721228702f0759a610ad96ef83"
-            },
-            {
-              "rank": 6,
-              "endRank": 6,
-              "rows": [
-                {
-                  "teamId": "71be79a9-29fd-4bea-be7b-0a33088f3a7d",
-                  "name": "freilos2",
-                  "played": 2,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 3,
-                  "conceded": 3,
-                  "points": 9
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "80e21254567f8a48edeed6a73dfd462d6d3fcb9d7afa3058750e7945521e2598"
+              "signature": "f4c6e3460a86169823efdbf9b489c990f3f7ecb0a466586fff2caceb63d9d2bd"
             },
             {
               "rank": 7,
@@ -13946,19 +13946,19 @@
                 {
                   "teamId": "257d805d-d283-48cd-85c9-b0ca5700e55c",
                   "name": "freilos1",
-                  "played": 3,
+                  "played": 4,
                   "wins": 0,
                   "losses": 0,
                   "setsWon": 0,
                   "setsLost": 0,
                   "scored": 3,
-                  "conceded": 6,
+                  "conceded": 9,
                   "points": 9
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "1f12a438daa9e8194f39330f686d9d5585a27f0816b8dc520963d2c8eccbb6dc"
+              "signature": "93ce63fadaaec18ad906e2e3760f6d6f2c26aec60bd85231f43e58e36da52343"
             },
             {
               "rank": 8,
@@ -13979,7 +13979,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "4274a809655cb0a705a77a737e9d0e667009a8741b4ca75fbc97eb8b9291aa09"
+              "signature": "83b04a0393e8890ba7a4270919a8dd382cd514f8af1be55efe0666ececf08cae"
             }
           ],
           "groups": [
@@ -14006,7 +14006,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "21d22dc93378f50bb29f141852bcbcaa6bf9e4805275276ad7f7ac7644a35489"
+                  "signature": "e434ee7b8a0df3b8e2c2eb5a20926069af8ac39c4b3378c94347a9745ef0164e"
                 },
                 {
                   "rank": 2,
@@ -14027,7 +14027,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "d08a5b2eaf759b135b169b4375d9c1f2b6ea4a4d4b26b6935dbe8e8e50108d7f"
+                  "signature": "0c4c39a67c61e25471f55ab7f28522e380e62f4a0bb9ac8eed0c0b763e682871"
                 },
                 {
                   "rank": 3,
@@ -14048,7 +14048,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "804bb894ac80d92f60575c4fda6c896d476ff20fef0bf809561abb8ffd30200c"
+                  "signature": "0cd6817d249da3e4f7daa7bb8821d2f53336db60b63222275cde18a3a6baf5d8"
                 },
                 {
                   "rank": 4,
@@ -14069,11 +14069,32 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "532e4c893e596827f4e51efd7024ef87992e186b0e247848677cfc8cc8033d86"
+                  "signature": "010fe32fae4f91f28629a86af7ba8ed7516845d44e9637bd94aed4584110c43c"
                 },
                 {
                   "rank": 5,
                   "endRank": 5,
+                  "rows": [
+                    {
+                      "teamId": "71be79a9-29fd-4bea-be7b-0a33088f3a7d",
+                      "name": "freilos2",
+                      "played": 3,
+                      "wins": 0,
+                      "losses": 0,
+                      "setsWon": 0,
+                      "setsLost": 0,
+                      "scored": 6,
+                      "conceded": 3,
+                      "points": 18
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "b8752e2711a7c1def637260b8576c4fd0559fd349efc69af2d72874360a35768"
+                },
+                {
+                  "rank": 6,
+                  "endRank": 6,
                   "rows": [
                     {
                       "teamId": "c5b9886a-df63-467e-a245-86a2b22de081",
@@ -14090,28 +14111,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "96d6522b66518fd4a2830e11a4dbd49f949df6721228702f0759a610ad96ef83"
-                },
-                {
-                  "rank": 6,
-                  "endRank": 6,
-                  "rows": [
-                    {
-                      "teamId": "71be79a9-29fd-4bea-be7b-0a33088f3a7d",
-                      "name": "freilos2",
-                      "played": 2,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 3,
-                      "conceded": 3,
-                      "points": 9
-                    }
-                  ],
-                  "tied": false,
-                  "resolved": true,
-                  "signature": "80e21254567f8a48edeed6a73dfd462d6d3fcb9d7afa3058750e7945521e2598"
+                  "signature": "f4c6e3460a86169823efdbf9b489c990f3f7ecb0a466586fff2caceb63d9d2bd"
                 },
                 {
                   "rank": 7,
@@ -14120,19 +14120,19 @@
                     {
                       "teamId": "257d805d-d283-48cd-85c9-b0ca5700e55c",
                       "name": "freilos1",
-                      "played": 3,
+                      "played": 4,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
                       "scored": 3,
-                      "conceded": 6,
+                      "conceded": 9,
                       "points": 9
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "1f12a438daa9e8194f39330f686d9d5585a27f0816b8dc520963d2c8eccbb6dc"
+                  "signature": "93ce63fadaaec18ad906e2e3760f6d6f2c26aec60bd85231f43e58e36da52343"
                 },
                 {
                   "rank": 8,
@@ -14153,7 +14153,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "4274a809655cb0a705a77a737e9d0e667009a8741b4ca75fbc97eb8b9291aa09"
+                  "signature": "83b04a0393e8890ba7a4270919a8dd382cd514f8af1be55efe0666ececf08cae"
                 }
               ]
             }
@@ -19361,7 +19361,7 @@
         "sport": "Urban Street Soccer",
         "category": "Frauen",
         "number": null,
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": null,
         "minute": null,
         "court": null,
