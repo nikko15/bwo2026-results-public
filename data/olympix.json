@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T10:46:10.470Z",
+  "generatedAt": "2026-09-26T10:46:35.099Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5015,32 +5015,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "e05b5b68-3ca8-4fd3-ad45-08812f569d00",
-                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 23,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "7cd96354-d5af-482f-ac92-95eb7e3b725d",
-                "teamAId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
-                "teamBId": "572262d4-3c85-4489-81a3-4b4f7efe13b3",
-                "round": 0,
-                "position": 18,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-25T23:16:06.694Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "f51a1bea-5c6d-411b-99d3-91d9cab9928b",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
                 "status": "SCHEDULED",
@@ -5130,6 +5104,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 16
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "e05b5b68-3ca8-4fd3-ad45-08812f569d00",
+                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 23,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "7cd96354-d5af-482f-ac92-95eb7e3b725d",
+                "teamAId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
+                "teamBId": "572262d4-3c85-4489-81a3-4b4f7efe13b3",
+                "round": 0,
+                "position": 18,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:15:50.835Z",
+                "updatedAt": "2026-09-26T10:46:34.244Z",
+                "beachSets": [
+                  {
+                    "id": "da4834ca-d914-4982-a5b3-300ddde4d190",
+                    "matchId": "e05b5b68-3ca8-4fd3-ad45-08812f569d00",
+                    "position": 1,
+                    "scoreA": 18,
+                    "scoreB": 21
                   }
                 ],
                 "soccerPeriods": []
@@ -12833,25 +12841,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "e05b5b68-3ca8-4fd3-ad45-08812f569d00",
-        "competitionSlug": "beachvolleyball-frauen",
-        "sport": "Beachvolleyball",
-        "category": "Frauen",
-        "number": "Match 23 BV-W",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 700,
-        "court": "Court 4",
-        "teamA": "Panic Truppe",
-        "teamB": "Die schnellen Hennen",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "f51a1bea-5c6d-411b-99d3-91d9cab9928b",
         "competitionSlug": "beachvolleyball-frauen",
         "sport": "Beachvolleyball",
@@ -12910,6 +12899,30 @@
           {
             "scoreA": 21,
             "scoreB": 16
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "e05b5b68-3ca8-4fd3-ad45-08812f569d00",
+        "competitionSlug": "beachvolleyball-frauen",
+        "sport": "Beachvolleyball",
+        "category": "Frauen",
+        "number": "Match 23 BV-W",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 700,
+        "court": "Court 4",
+        "teamA": "Panic Truppe",
+        "teamB": "Die schnellen Hennen",
+        "scores": [
+          {
+            "scoreA": 18,
+            "scoreB": 21
           }
         ],
         "penalty": null
