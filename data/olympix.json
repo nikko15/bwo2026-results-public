@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:55:01.059Z",
+  "generatedAt": "2026-09-26T06:55:24.724Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -4569,32 +4569,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "687f19c0-0b4b-408c-bcd2-233d218ff772",
-                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 3,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "b3fb13c9-553e-43a8-9e6f-acdd162df317",
-                "teamAId": "c870c02a-6741-4874-bd8b-87b4feebed21",
-                "teamBId": "b7489597-5b96-4280-83ab-9e968e51cb8f",
-                "round": 0,
-                "position": 1,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-25T23:16:06.633Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "2bc2587f-a7b3-463c-826b-563f049ef3d9",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
                 "status": "SCHEDULED",
@@ -4814,6 +4788,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 8
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "687f19c0-0b4b-408c-bcd2-233d218ff772",
+                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 3,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "b3fb13c9-553e-43a8-9e6f-acdd162df317",
+                "teamAId": "c870c02a-6741-4874-bd8b-87b4feebed21",
+                "teamBId": "b7489597-5b96-4280-83ab-9e968e51cb8f",
+                "round": 0,
+                "position": 1,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:15:50.835Z",
+                "updatedAt": "2026-09-26T06:55:23.932Z",
+                "beachSets": [
+                  {
+                    "id": "cd8de0cf-d631-436b-8d62-a780b2149129",
+                    "matchId": "687f19c0-0b4b-408c-bcd2-233d218ff772",
+                    "position": 1,
+                    "scoreA": 21,
+                    "scoreB": 9
                   }
                 ],
                 "soccerPeriods": []
@@ -10801,25 +10809,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "687f19c0-0b4b-408c-bcd2-233d218ff772",
-        "competitionSlug": "beachvolleyball-frauen",
-        "sport": "Beachvolleyball",
-        "category": "Frauen",
-        "number": "Match 3 BV-W",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 500,
-        "court": "Court 4",
-        "teamA": "Die 6 frechen Muskeltiere",
-        "teamB": "Stiftedrücker",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "2bc2587f-a7b3-463c-826b-563f049ef3d9",
         "competitionSlug": "beachvolleyball-frauen",
         "sport": "Beachvolleyball",
@@ -10973,6 +10962,30 @@
           {
             "scoreA": 21,
             "scoreB": 8
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "687f19c0-0b4b-408c-bcd2-233d218ff772",
+        "competitionSlug": "beachvolleyball-frauen",
+        "sport": "Beachvolleyball",
+        "category": "Frauen",
+        "number": "Match 3 BV-W",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 500,
+        "court": "Court 4",
+        "teamA": "Die 6 frechen Muskeltiere",
+        "teamB": "Stiftedrücker",
+        "scores": [
+          {
+            "scoreA": 21,
+            "scoreB": 9
           }
         ],
         "penalty": null
