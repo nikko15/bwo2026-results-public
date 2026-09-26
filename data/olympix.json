@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T07:22:48.013Z",
+  "generatedAt": "2026-09-26T07:22:50.554Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -24,7 +24,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 70,
+            "rankingRevision": 71,
             "groupCount": 6,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -35,7 +35,7 @@
             "name": "Beachvolleyball Männer",
             "slug": "beachvolleyball-maenner",
             "createdAt": "2026-09-20T16:25:52.305Z",
-            "updatedAt": "2026-09-26T07:22:20.391Z",
+            "updatedAt": "2026-09-26T07:22:48.112Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -1891,6 +1891,40 @@
                 "soccerPeriods": []
               },
               {
+                "id": "945ff864-c1c0-4f1a-bfce-98284fbf24d8",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "FINAL",
+                "revision": 2,
+                "matchNumber": 8,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "ca6e6a6f-297f-4584-9efb-bd55937a0eca",
+                "teamAId": "41db8cf0-5759-4214-a194-12308e7af187",
+                "teamBId": "b17aed90-57f4-4599-8cc2-b446f7a00804",
+                "round": 0,
+                "position": 2,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T07:22:48.103Z",
+                "beachSets": [
+                  {
+                    "id": "c4d58a47-ec8a-43a7-9e3d-b2a9f3a5544b",
+                    "matchId": "945ff864-c1c0-4f1a-bfce-98284fbf24d8",
+                    "position": 1,
+                    "scoreA": 19,
+                    "scoreB": 21
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
                 "id": "66eee090-5303-43ca-a630-93ef8b943793",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "FINAL",
@@ -2055,40 +2089,6 @@
                     "matchId": "921a20e9-9e15-44d2-ad74-02d57ccf693d",
                     "position": 1,
                     "scoreA": 15,
-                    "scoreB": 21
-                  }
-                ],
-                "soccerPeriods": []
-              },
-              {
-                "id": "945ff864-c1c0-4f1a-bfce-98284fbf24d8",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
-                "matchNumber": 8,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "ca6e6a6f-297f-4584-9efb-bd55937a0eca",
-                "teamAId": "41db8cf0-5759-4214-a194-12308e7af187",
-                "teamBId": "b17aed90-57f4-4599-8cc2-b446f7a00804",
-                "round": 0,
-                "position": 2,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-26T07:22:47.221Z",
-                "beachSets": [
-                  {
-                    "id": "c4d58a47-ec8a-43a7-9e3d-b2a9f3a5544b",
-                    "matchId": "945ff864-c1c0-4f1a-bfce-98284fbf24d8",
-                    "position": 1,
-                    "scoreA": 19,
                     "scoreB": 21
                   }
                 ],
@@ -2715,7 +2715,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "629ea60f0ecbf197a503579c0e699c1294de6672766ff91309aeab8c77d9b8d9"
+              "signature": "acf57ca885294618a5ab4413b472a820d71a1896dd278276d914371db9ac2c75"
             },
             {
               "rank": 2,
@@ -2748,7 +2748,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "efa4a30a9f6fd9ec852302683489dea274ec38a7c75a8275ebb2a708eee05cc3"
+              "signature": "0a548cbcf6b8960403e6b2e72476bdbee50cb94a21f24c3c9c1cddf8a65714a0"
             },
             {
               "rank": 4,
@@ -2769,7 +2769,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "e39afd3f184a3038ac8e2f9cabb7b227377067ab98e9cd87e4ed90aa2c18b59b"
+              "signature": "53c986d340fd89b9b531a9043f688e715391d4152862f5f74ea6a5a3be2a8459"
             },
             {
               "rank": 5,
@@ -2802,7 +2802,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "3cb60993a855177d9cb1451646d907885202ca1964727b4f03feaf1c9034a73f"
+              "signature": "6cd093886d7fd1128982b561026e94149c0a3eb55bc3a9ffad8983e3abee4aa2"
             },
             {
               "rank": 7,
@@ -2823,11 +2823,32 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "acd649f206ba7aa86955aa32f2b7c64ca068f6607c7e0860eab06be9feccea41"
+              "signature": "1d76976cd648f3412ee396b2fc1b10e3a96a7eec398e2df2e95430144a473103"
             },
             {
               "rank": 8,
               "endRank": 8,
+              "rows": [
+                {
+                  "teamId": "b17aed90-57f4-4599-8cc2-b446f7a00804",
+                  "name": "Chaos Comando",
+                  "played": 1,
+                  "wins": 1,
+                  "losses": 0,
+                  "setsWon": 1,
+                  "setsLost": 0,
+                  "scored": 21,
+                  "conceded": 19,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "dfeccdcc74e042baade40faf9f98c0849690b8a6096a8efe7f4c57a67bbe2734"
+            },
+            {
+              "rank": 9,
+              "endRank": 10,
               "rows": [
                 {
                   "teamId": "a51239bd-1c9e-46e1-8040-986e7be36867",
@@ -2840,15 +2861,27 @@
                   "scored": 26,
                   "conceded": 42,
                   "points": 0
+                },
+                {
+                  "teamId": "41db8cf0-5759-4214-a194-12308e7af187",
+                  "name": "Haribuh Warriors",
+                  "played": 2,
+                  "wins": 0,
+                  "losses": 2,
+                  "setsWon": 0,
+                  "setsLost": 2,
+                  "scored": 26,
+                  "conceded": 42,
+                  "points": 0
                 }
               ],
-              "tied": false,
-              "resolved": true,
-              "signature": "c9b5910ff71632ccee5934bf522e00b87598ae4d51c1cd5c8feaa4728884eb9b"
+              "tied": true,
+              "resolved": false,
+              "signature": "d6761c4452ee751cc8ad05e65ba31c291323d32c46ad0695d5dd0212615f0f65"
             },
             {
-              "rank": 9,
-              "endRank": 9,
+              "rank": 11,
+              "endRank": 11,
               "rows": [
                 {
                   "teamId": "eb51b5e9-2dd8-44a2-a757-e5c2732d6b4b",
@@ -2865,11 +2898,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "06b9a46577f8539ef3740ec24933e918b65d9cd21055df51029994f0e997f4f6"
+              "signature": "3a9297f1b3bb47859f2f14f4ecc0441cf13a3adf17582320baa7ab57620308f3"
             },
             {
-              "rank": 10,
-              "endRank": 10,
+              "rank": 12,
+              "endRank": 12,
               "rows": [
                 {
                   "teamId": "d43cd0ec-62fc-4e64-b8f0-ad304bac2508",
@@ -2886,11 +2919,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "510a0fedc019b3ddb558b9b18b6dc01e58d8279488035ecdd1d446e20c8aeba7"
+              "signature": "a64c670d90837725ccea8d644d1abf6051e51d2fdf820d9f38d85fe5d600f022"
             },
             {
-              "rank": 11,
-              "endRank": 12,
+              "rank": 13,
+              "endRank": 13,
               "rows": [
                 {
                   "teamId": "6e3e522e-0c7d-45f5-8a38-324f5b38a4b0",
@@ -2903,27 +2936,15 @@
                   "scored": 7,
                   "conceded": 21,
                   "points": 0
-                },
-                {
-                  "teamId": "41db8cf0-5759-4214-a194-12308e7af187",
-                  "name": "Haribuh Warriors",
-                  "played": 1,
-                  "wins": 0,
-                  "losses": 1,
-                  "setsWon": 0,
-                  "setsLost": 1,
-                  "scored": 7,
-                  "conceded": 21,
-                  "points": 0
                 }
               ],
-              "tied": true,
-              "resolved": false,
-              "signature": "ac770258388a46014af63e3263c45ccb92d3956768b6319c387e7f53f276c58f"
+              "tied": false,
+              "resolved": true,
+              "signature": "5d627f7d42d7470915c8c10b4c21747503955afdc4514404f1f1b822213a1f40"
             },
             {
-              "rank": 13,
-              "endRank": 13,
+              "rank": 14,
+              "endRank": 14,
               "rows": [
                 {
                   "teamId": "bf814459-1957-4d2e-bc94-596095054d18",
@@ -2940,10 +2961,10 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "fa2e982d1785dc4199fcfa872c175c08d2261439fd682c37b6e70f16eacbd870"
+              "signature": "17faca310057c36899a2467863498ea063fed417eedc3e3b02789f7003293696"
             },
             {
-              "rank": 14,
+              "rank": 15,
               "endRank": 30,
               "rows": [
                 {
@@ -3091,18 +3112,6 @@
                   "points": 0
                 },
                 {
-                  "teamId": "b17aed90-57f4-4599-8cc2-b446f7a00804",
-                  "name": "Chaos Comando",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
                   "teamId": "bab618a8-6e7d-4446-b76f-68aec65425a5",
                   "name": "Bahnverspätung",
                   "played": 0,
@@ -3153,7 +3162,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "87064ff04db61d78f1ab4c028b07171399b4d6cadcc15be6bc8ccc6909ab2ee6"
+              "signature": "c63073685e23272e68ba22cfcd544f28dd330258b0a920b7450d81b55e8eebb4"
             }
           ],
           "groups": [
@@ -3180,45 +3189,54 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "40e97234054d8f15406fb5115f59e1fba9f276dc6644f6c55157701ee8f0cdad"
+                  "signature": "0e32498d9c900272f9177d9ff727a707794751655c7525d6d95bcbb4076558a3"
                 },
                 {
                   "rank": 2,
                   "endRank": 2,
                   "rows": [
                     {
-                      "teamId": "41db8cf0-5759-4214-a194-12308e7af187",
-                      "name": "Haribuh Warriors",
+                      "teamId": "b17aed90-57f4-4599-8cc2-b446f7a00804",
+                      "name": "Chaos Comando",
                       "played": 1,
-                      "wins": 0,
-                      "losses": 1,
-                      "setsWon": 0,
-                      "setsLost": 1,
-                      "scored": 7,
-                      "conceded": 21,
+                      "wins": 1,
+                      "losses": 0,
+                      "setsWon": 1,
+                      "setsLost": 0,
+                      "scored": 21,
+                      "conceded": 19,
                       "points": 0
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "6e30544947dd213adb8473538b9415bbb4addc12a12557f4897d3086df0e949c"
+                  "signature": "dfeccdcc74e042baade40faf9f98c0849690b8a6096a8efe7f4c57a67bbe2734"
                 },
                 {
                   "rank": 3,
-                  "endRank": 5,
+                  "endRank": 3,
                   "rows": [
                     {
-                      "teamId": "b17aed90-57f4-4599-8cc2-b446f7a00804",
-                      "name": "Chaos Comando",
-                      "played": 0,
+                      "teamId": "41db8cf0-5759-4214-a194-12308e7af187",
+                      "name": "Haribuh Warriors",
+                      "played": 2,
                       "wins": 0,
-                      "losses": 0,
+                      "losses": 2,
                       "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
+                      "setsLost": 2,
+                      "scored": 26,
+                      "conceded": 42,
                       "points": 0
-                    },
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "305a2a51ca1f0ae0b2ddd0fd24a3386010dbe4100d3d26aaebc5c1b24e45cfa3"
+                },
+                {
+                  "rank": 4,
+                  "endRank": 5,
+                  "rows": [
                     {
                       "teamId": "3ad64bc4-03d1-4a92-b5f8-e9cd7a236e5d",
                       "name": "Für Florian",
@@ -3246,7 +3264,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "c36d10001106b75cc7a3f5a4be40f1a4e2440a721d88c898a21c627d972e22df"
+                  "signature": "1b2983cfbd4dfda4ef4e87649dd555d1fe10e7d4c592cf5a93e1afdc8ef7fc6c"
                 }
               ]
             },
@@ -3273,7 +3291,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "38c447176ada4610183f9d2db2851e2078553cae6f3cf3424d1333574a8e357e"
+                  "signature": "d21641fefcd44b725d9fe2b47d9a8f2cb4a90f1c8279d449c50a82d2bf63f4ba"
                 },
                 {
                   "rank": 2,
@@ -3294,7 +3312,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "06b9a46577f8539ef3740ec24933e918b65d9cd21055df51029994f0e997f4f6"
+                  "signature": "3a9297f1b3bb47859f2f14f4ecc0441cf13a3adf17582320baa7ab57620308f3"
                 },
                 {
                   "rank": 3,
@@ -3339,7 +3357,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "722d90a52cc1c8e17630bac75548ac479488b46ab5935e47fbbfe75b09348883"
+                  "signature": "ebeead9172ef3f580d7720a34b63d5d865f479c5ae4e24d2b47cb1444855d97c"
                 }
               ]
             },
@@ -3366,7 +3384,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "600ff1b32b0adbffdd5548c85768564dc1e8a4a67b2d693185f792869189efee"
+                  "signature": "170f9cd78c7c9b12ff5f1dd61ad8ab9c0cf9ee3628e8897da9f60ddba155a768"
                 },
                 {
                   "rank": 2,
@@ -3387,7 +3405,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "cca6e7925203d29ecf44fcfe63a516c4e08ab1076ee6292aaa0f11917915324b"
+                  "signature": "5d627f7d42d7470915c8c10b4c21747503955afdc4514404f1f1b822213a1f40"
                 },
                 {
                   "rank": 3,
@@ -3432,7 +3450,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "4c01b04369985c979b14bbd1ab536fa00fe73f40fb055d6478b70d7079a29c0a"
+                  "signature": "ec9ff1062b6a255b3db925dbaf4b07a3724904c6cb45f38b6087b382b28ee45a"
                 }
               ]
             },
@@ -3459,7 +3477,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "629ea60f0ecbf197a503579c0e699c1294de6672766ff91309aeab8c77d9b8d9"
+                  "signature": "acf57ca885294618a5ab4413b472a820d71a1896dd278276d914371db9ac2c75"
                 },
                 {
                   "rank": 2,
@@ -3480,7 +3498,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "fa2e982d1785dc4199fcfa872c175c08d2261439fd682c37b6e70f16eacbd870"
+                  "signature": "17faca310057c36899a2467863498ea063fed417eedc3e3b02789f7003293696"
                 },
                 {
                   "rank": 3,
@@ -3525,7 +3543,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "3ff9fec2af1c1f3a2b08d82c1cc8e6145e4c144000da10b335e075cfbced1497"
+                  "signature": "eb7c1e0379a88f3a3ac14639e40dcd00492597acf91e7033e0f4bfde3bde49be"
                 }
               ]
             },
@@ -3552,7 +3570,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "7d80020b5defc36ac7047a5bd0d6a1030de2340bd832c70a6b08677ead99d042"
+                  "signature": "e02add5c6e7a6efed97d6d77e371face7eb038f1e3c116649d1c1970a708f44c"
                 },
                 {
                   "rank": 2,
@@ -3573,7 +3591,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "acd649f206ba7aa86955aa32f2b7c64ca068f6607c7e0860eab06be9feccea41"
+                  "signature": "1d76976cd648f3412ee396b2fc1b10e3a96a7eec398e2df2e95430144a473103"
                 },
                 {
                   "rank": 3,
@@ -3594,7 +3612,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "c9b5910ff71632ccee5934bf522e00b87598ae4d51c1cd5c8feaa4728884eb9b"
+                  "signature": "c8ea51c068cc278dfc95f4f78a37277607410dc50cc7cbf69be836603a468bae"
                 },
                 {
                   "rank": 4,
@@ -3627,7 +3645,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "c974222e459365aab287d9b11b5c6cfe3ee9ba618f0b02e4699ccc7411ff974f"
+                  "signature": "652969a40b2902c650fe9e4dcc4984e821297f495ffafc478edebfd83cc96b08"
                 }
               ]
             },
@@ -3654,7 +3672,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "e39afd3f184a3038ac8e2f9cabb7b227377067ab98e9cd87e4ed90aa2c18b59b"
+                  "signature": "53c986d340fd89b9b531a9043f688e715391d4152862f5f74ea6a5a3be2a8459"
                 },
                 {
                   "rank": 2,
@@ -3675,7 +3693,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "510a0fedc019b3ddb558b9b18b6dc01e58d8279488035ecdd1d446e20c8aeba7"
+                  "signature": "a64c670d90837725ccea8d644d1abf6051e51d2fdf820d9f38d85fe5d600f022"
                 },
                 {
                   "rank": 3,
@@ -3720,7 +3738,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "ef33f0bcbce8cb83b514bc2547f92a5a5237d904e78e4f8ee4f1f9d3aab92af2"
+                  "signature": "ebf4d7241acdf48d16e558cc1246f24e91702872833baddf6fc4ea0b5c5428a8"
                 }
               ]
             }
@@ -10379,6 +10397,30 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
+        "id": "945ff864-c1c0-4f1a-bfce-98284fbf24d8",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 8 BV-M",
+        "status": "FINAL",
+        "day": "2026-09-26",
+        "minute": 520,
+        "court": "Court 2",
+        "teamA": "Haribuh Warriors",
+        "teamB": "Chaos Comando",
+        "scores": [
+          {
+            "scoreA": 19,
+            "scoreB": 21
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
         "id": "66eee090-5303-43ca-a630-93ef8b943793",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -10489,30 +10531,6 @@
         "scores": [
           {
             "scoreA": 15,
-            "scoreB": 21
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
-        "id": "945ff864-c1c0-4f1a-bfce-98284fbf24d8",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 8 BV-M",
-        "status": "RESULT_ENTERED",
-        "day": "2026-09-26",
-        "minute": 520,
-        "court": "Court 2",
-        "teamA": "Haribuh Warriors",
-        "teamB": "Chaos Comando",
-        "scores": [
-          {
-            "scoreA": 19,
             "scoreB": 21
           }
         ],
