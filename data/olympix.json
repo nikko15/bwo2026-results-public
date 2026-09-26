@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:00:14.249Z",
+  "generatedAt": "2026-09-26T08:00:27.565Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -8131,7 +8131,7 @@
                 "id": "812a7153-c976-4af7-afd5-3733ba800f41",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
                 "status": "RESULT_ENTERED",
-                "revision": 1,
+                "revision": 2,
                 "matchNumber": 17,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -8149,25 +8149,25 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:06:19.574Z",
-                "updatedAt": "2026-09-26T08:00:13.283Z",
+                "updatedAt": "2026-09-26T08:00:26.732Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
-                    "id": "d0b8d031-18e2-4798-9f2d-4cccb258726e",
+                    "id": "91875267-1aad-4e86-9a9a-7912a3f43f27",
                     "matchId": "812a7153-c976-4af7-afd5-3733ba800f41",
                     "position": 1,
                     "scoreA": 0,
                     "scoreB": 7
                   },
                   {
-                    "id": "71c28fd5-de14-463c-bf34-8e4fb0fd0813",
+                    "id": "49fef2fe-5081-41a1-8723-5ff5f98c14cd",
                     "matchId": "812a7153-c976-4af7-afd5-3733ba800f41",
                     "position": 2,
                     "scoreA": 4,
-                    "scoreB": 0
+                    "scoreB": 1
                   },
                   {
-                    "id": "ba279b4b-cd17-4692-9a75-17ccb79515a7",
+                    "id": "671c09ec-496f-426a-b4d6-b296b26b4c85",
                     "matchId": "812a7153-c976-4af7-afd5-3733ba800f41",
                     "position": 3,
                     "scoreA": 1,
@@ -12879,7 +12879,7 @@
           },
           {
             "scoreA": 4,
-            "scoreB": 0
+            "scoreB": 1
           },
           {
             "scoreA": 1,
