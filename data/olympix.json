@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:54:35.311Z",
+  "generatedAt": "2026-09-26T06:54:37.610Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -24,7 +24,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 68,
+            "rankingRevision": 69,
             "groupCount": 6,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -35,7 +35,7 @@
             "name": "Beachvolleyball Männer",
             "slug": "beachvolleyball-maenner",
             "createdAt": "2026-09-20T16:25:52.305Z",
-            "updatedAt": "2026-09-26T06:54:17.123Z",
+            "updatedAt": "2026-09-26T06:54:35.789Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -1943,40 +1943,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "c679a75b-1476-4c99-b9b2-f9c209dad42c",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
-                "matchNumber": 6,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "d5dfe98b-403e-4b93-8043-4d0f1e96ccad",
-                "teamAId": "d43cd0ec-62fc-4e64-b8f0-ad304bac2508",
-                "teamBId": "d4e4df2f-46be-4226-8d8c-765859977345",
-                "round": 0,
-                "position": 51,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-26T06:54:34.546Z",
-                "beachSets": [
-                  {
-                    "id": "48aab84a-3778-4683-894c-c545a28e32ff",
-                    "matchId": "c679a75b-1476-4c99-b9b2-f9c209dad42c",
-                    "position": 1,
-                    "scoreA": 10,
-                    "scoreB": 21
-                  }
-                ],
-                "soccerPeriods": []
-              },
-              {
                 "id": "66eee090-5303-43ca-a630-93ef8b943793",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "FINAL",
@@ -2006,6 +1972,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 5
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "c679a75b-1476-4c99-b9b2-f9c209dad42c",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "FINAL",
+                "revision": 2,
+                "matchNumber": 6,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "d5dfe98b-403e-4b93-8043-4d0f1e96ccad",
+                "teamAId": "d43cd0ec-62fc-4e64-b8f0-ad304bac2508",
+                "teamBId": "d4e4df2f-46be-4226-8d8c-765859977345",
+                "round": 0,
+                "position": 51,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T06:54:35.781Z",
+                "beachSets": [
+                  {
+                    "id": "48aab84a-3778-4683-894c-c545a28e32ff",
+                    "matchId": "c679a75b-1476-4c99-b9b2-f9c209dad42c",
+                    "position": 1,
+                    "scoreA": 10,
+                    "scoreB": 21
                   }
                 ],
                 "soccerPeriods": []
@@ -2699,7 +2699,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "ac8c77f5c908077fb4868891651192e1acb115f5da53bd392fba0f7b8e781087"
+              "signature": "a7a275c834a6d2a250701d98d5e91faa8ff1cf629293cb2d382cb1a4ab83fd91"
             },
             {
               "rank": 2,
@@ -2732,11 +2732,32 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "a7d1c427829315a2af1f9238c52473e41b2e04007745ffc87d7d4c44ae86397d"
+              "signature": "f98b586df5ba5eb0473546fffb293a2643800a78f712616cbc09a99c17ba79ba"
             },
             {
               "rank": 4,
-              "endRank": 5,
+              "endRank": 4,
+              "rows": [
+                {
+                  "teamId": "d4e4df2f-46be-4226-8d8c-765859977345",
+                  "name": "Friendly Fire",
+                  "played": 1,
+                  "wins": 1,
+                  "losses": 0,
+                  "setsWon": 1,
+                  "setsLost": 0,
+                  "scored": 21,
+                  "conceded": 10,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "9cb7b7b6e862c8878e7f364c1fc68a85afbe4e16bb549654ae874a3ee2090bc5"
+            },
+            {
+              "rank": 5,
+              "endRank": 6,
               "rows": [
                 {
                   "teamId": "022340ba-1214-414f-b6db-f1c0b0a51a47",
@@ -2765,11 +2786,11 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "aa390519b91ffda20508bacbd7cc47319ef9461e80a4df5ccbb065f3e985ba06"
+              "signature": "91861cb9b343c968212594dc6d944783764f7b88eeff6bcb26f3ce363c808537"
             },
             {
-              "rank": 6,
-              "endRank": 7,
+              "rank": 7,
+              "endRank": 8,
               "rows": [
                 {
                   "teamId": "a51239bd-1c9e-46e1-8040-986e7be36867",
@@ -2798,11 +2819,32 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "3de30905f282cfcef5e31060c7c3695422131de638ea82bce2f0e0b66b3a742d"
+              "signature": "834f2c906452dab602675f3a091756db52646ffb70c576c8ddf339f19a9de498"
             },
             {
-              "rank": 8,
+              "rank": 9,
               "endRank": 9,
+              "rows": [
+                {
+                  "teamId": "d43cd0ec-62fc-4e64-b8f0-ad304bac2508",
+                  "name": "Oktonauten",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 1,
+                  "setsWon": 0,
+                  "setsLost": 1,
+                  "scored": 10,
+                  "conceded": 21,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "520a26c01dfb851bcc2970c8d17fe6aa7192f692666008cfd874b4624908803f"
+            },
+            {
+              "rank": 10,
+              "endRank": 11,
               "rows": [
                 {
                   "teamId": "6e3e522e-0c7d-45f5-8a38-324f5b38a4b0",
@@ -2831,11 +2873,11 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "824d331cfde4159a0f3160d8e782e6dbaac87a82704589939672b578ee6c72d6"
+              "signature": "87728b40d04a6e20903a9053c4933029e944cedc5373d4aaf1c2b3883a557752"
             },
             {
-              "rank": 10,
-              "endRank": 10,
+              "rank": 12,
+              "endRank": 12,
               "rows": [
                 {
                   "teamId": "bf814459-1957-4d2e-bc94-596095054d18",
@@ -2852,10 +2894,10 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "846be6cdbe75a437559a3f35c68e2e1a6395773db06f84be2df7f30800ee3744"
+              "signature": "7de64d825367403c0a140ccd9ac6afdc1f51cfd4d6c947355f2decf1f884e047"
             },
             {
-              "rank": 11,
+              "rank": 13,
               "endRank": 30,
               "rows": [
                 {
@@ -2873,18 +2915,6 @@
                 {
                   "teamId": "6fc1f485-f217-42ed-9734-b1102f753b5f",
                   "name": "Beachelers",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "d4e4df2f-46be-4226-8d8c-765859977345",
-                  "name": "Friendly Fire",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -3015,18 +3045,6 @@
                   "points": 0
                 },
                 {
-                  "teamId": "d43cd0ec-62fc-4e64-b8f0-ad304bac2508",
-                  "name": "Oktonauten",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
                   "teamId": "3ad64bc4-03d1-4a92-b5f8-e9cd7a236e5d",
                   "name": "Für Florian",
                   "played": 0,
@@ -3101,7 +3119,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "500c73e6b31f22e72af970badc6d9016a681c2013b9abc82c0ccbc15a84e4420"
+              "signature": "bd0ea0a499773141bbd56412ee19b1436c79e9f521d81c437419afb599514ab2"
             }
           ],
           "groups": [
@@ -3128,7 +3146,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "a224aeeb9a2a5c535d2c892ef7adc125b2a24ac44733138d99bdd015356b9768"
+                  "signature": "78dd18fe86506df3cb15279c2f5f99fe8f5791067793a3e85fe63ce41739aa1d"
                 },
                 {
                   "rank": 2,
@@ -3149,7 +3167,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "9da2e46e0acdb94ad59bb86000e543e776942e8c340772176ee7bd3bec0c0b7d"
+                  "signature": "05d006195f48903d3bf56fd4a5a0fad81e7281113326b63f276011a0f8dbb1bd"
                 },
                 {
                   "rank": 3,
@@ -3194,7 +3212,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "2293caac582da600946402fe23bf5897302473b0a6c7329103220479b4c1e85c"
+                  "signature": "5a7976aaaee63605ada215c4afdc8d79e69dfea4332e82b5e9800ebaf383cf9a"
                 }
               ]
             },
@@ -3221,7 +3239,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "50034415818c4fe812e3102951c03ceaa313cf6c85645df6101cc0fbefd9274b"
+                  "signature": "2e77efdc4dbcfb1495f8a1148aafc7b864aa6cd1b869d6ef02591796d9585347"
                 },
                 {
                   "rank": 2,
@@ -3242,7 +3260,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "82d6548122f4f1294c7b38bc355e1c4145fb89e529c6ed7d5eb997d1437dca3a"
+                  "signature": "c564a8d30fd37b76d30526d480bebcfacc2c09d39866e8f075a8214a433ebea6"
                 },
                 {
                   "rank": 3,
@@ -3287,7 +3305,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "77441d30dde266030cca0610d97006985475bac332e72a1ffebf5f131d97be39"
+                  "signature": "188634799f5d68d3d08454ce665a3feab06d629eb381d82773999c0c952cb4af"
                 }
               ]
             },
@@ -3314,7 +3332,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "fc21da744a193f154f3d78f727ae04dd98c15f556eff9b17d914567315c03ab8"
+                  "signature": "909b87bd1e3408b973de9a17923b87f0fe61b33e732521958290d4d3ad31776a"
                 },
                 {
                   "rank": 2,
@@ -3335,7 +3353,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "bf99228e20ba6bd4bce3750cd94b2563bd87d29f6aeac5c906688f0ceb310e84"
+                  "signature": "2dc848ce748765d050b7f830a67694549a1da3faf4b25d99be28738273ea0245"
                 },
                 {
                   "rank": 3,
@@ -3380,7 +3398,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "5260e112b92ba3b9aed5d48a1c2614da95b97fcd8c0e4b62535900543c79e213"
+                  "signature": "80376037d1b56fd03c58e8f87f5406ad765cd510fab36947414021d2556c6c4f"
                 }
               ]
             },
@@ -3407,7 +3425,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "ac8c77f5c908077fb4868891651192e1acb115f5da53bd392fba0f7b8e781087"
+                  "signature": "a7a275c834a6d2a250701d98d5e91faa8ff1cf629293cb2d382cb1a4ab83fd91"
                 },
                 {
                   "rank": 2,
@@ -3428,7 +3446,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "846be6cdbe75a437559a3f35c68e2e1a6395773db06f84be2df7f30800ee3744"
+                  "signature": "7de64d825367403c0a140ccd9ac6afdc1f51cfd4d6c947355f2decf1f884e047"
                 },
                 {
                   "rank": 3,
@@ -3473,7 +3491,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "d83aa985d1270e33dd2457f3a3bced3d232b71ec41444a161ed854bb85142dfd"
+                  "signature": "72e6226c6f1f4de92971df0ad745c270790cae8bb83a87634985690afd2fcf4a"
                 }
               ]
             },
@@ -3500,7 +3518,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "476071085f4d67d84682524b2c28274849e1d200d57b686b2a1c2570120539ef"
+                  "signature": "0a2505ac30592314cc7f1f9237b59a183c65bbac5633c4a7b0c42557d44ab1d1"
                 },
                 {
                   "rank": 2,
@@ -3521,7 +3539,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "bb45c9cbdc189daf378b7086022b0f7e5f1b5e535eaf2b4bb12b9d9c363b9c23"
+                  "signature": "17605a2ecb5f6eb14b6486022a3da6c5bc61d2cf9c300bf39a73fad98a6938bc"
                 },
                 {
                   "rank": 3,
@@ -3566,7 +3584,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "07342d1201d03802ea54c2aae339a58665d767b027f083b775b4ede08370aa30"
+                  "signature": "3768bdae5e73211ba01a8ec92f977ccc09625cee82bdb2247fea11d181a862cc"
                 }
               ]
             },
@@ -3576,32 +3594,50 @@
               "blocks": [
                 {
                   "rank": 1,
-                  "endRank": 5,
+                  "endRank": 1,
+                  "rows": [
+                    {
+                      "teamId": "d4e4df2f-46be-4226-8d8c-765859977345",
+                      "name": "Friendly Fire",
+                      "played": 1,
+                      "wins": 1,
+                      "losses": 0,
+                      "setsWon": 1,
+                      "setsLost": 0,
+                      "scored": 21,
+                      "conceded": 10,
+                      "points": 0
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "9cb7b7b6e862c8878e7f364c1fc68a85afbe4e16bb549654ae874a3ee2090bc5"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
                   "rows": [
                     {
                       "teamId": "d43cd0ec-62fc-4e64-b8f0-ad304bac2508",
                       "name": "Oktonauten",
-                      "played": 0,
+                      "played": 1,
                       "wins": 0,
-                      "losses": 0,
+                      "losses": 1,
                       "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
+                      "setsLost": 1,
+                      "scored": 10,
+                      "conceded": 21,
                       "points": 0
-                    },
-                    {
-                      "teamId": "d4e4df2f-46be-4226-8d8c-765859977345",
-                      "name": "Friendly Fire",
-                      "played": 0,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
-                    },
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "520a26c01dfb851bcc2970c8d17fe6aa7192f692666008cfd874b4624908803f"
+                },
+                {
+                  "rank": 3,
+                  "endRank": 5,
+                  "rows": [
                     {
                       "teamId": "40abd5eb-f574-4ce1-b838-72e504a7f802",
                       "name": "Bundesbrüder",
@@ -3641,7 +3677,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "a97e74cc6e2713a4f0cc353c88db2f6dd237c008b9ad525cc579ff2edf25f5bb"
+                  "signature": "66697b60edfebee4ed25efa5e0fefae5c015ef51e2c0b9440adbfc0caf69f69f"
                 }
               ]
             }
@@ -9974,30 +10010,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "c679a75b-1476-4c99-b9b2-f9c209dad42c",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 6 BV-M",
-        "status": "RESULT_ENTERED",
-        "day": "2026-09-26",
-        "minute": 500,
-        "court": "Court 3",
-        "teamA": "Oktonauten",
-        "teamB": "Friendly Fire",
-        "scores": [
-          {
-            "scoreA": 10,
-            "scoreB": 21
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "66eee090-5303-43ca-a630-93ef8b943793",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -10013,6 +10025,30 @@
           {
             "scoreA": 21,
             "scoreB": 5
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "c679a75b-1476-4c99-b9b2-f9c209dad42c",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 6 BV-M",
+        "status": "FINAL",
+        "day": "2026-09-26",
+        "minute": 500,
+        "court": "Court 3",
+        "teamA": "Oktonauten",
+        "teamB": "Friendly Fire",
+        "scores": [
+          {
+            "scoreA": 10,
+            "scoreB": 21
           }
         ],
         "penalty": null
