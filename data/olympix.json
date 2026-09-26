@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T12:25:22.874Z",
+  "generatedAt": "2026-09-26T12:25:40.626Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -2327,32 +2327,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "8ea47df4-1080-4138-9101-22bece67da9e",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 46,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "f689a63f-d666-4f82-aaae-0d594eddc1e2",
-                "teamAId": "8ce77cc8-33a3-43e3-ac71-380542dbfcc7",
-                "teamBId": "5abec629-26b7-48ea-969e-75d58af735c8",
-                "round": 0,
-                "position": 18,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.248Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "45ac3e9d-ec2f-4e48-afb6-b9222c125db5",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -2804,6 +2778,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 2
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "8ea47df4-1080-4138-9101-22bece67da9e",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 46,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "f689a63f-d666-4f82-aaae-0d594eddc1e2",
+                "teamAId": "8ce77cc8-33a3-43e3-ac71-380542dbfcc7",
+                "teamBId": "5abec629-26b7-48ea-969e-75d58af735c8",
+                "round": 0,
+                "position": 18,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T12:25:39.839Z",
+                "beachSets": [
+                  {
+                    "id": "df335b45-44bd-4973-8755-1cb0c1a3e389",
+                    "matchId": "8ea47df4-1080-4138-9101-22bece67da9e",
+                    "position": 1,
+                    "scoreA": 15,
+                    "scoreB": 21
                   }
                 ],
                 "soccerPeriods": []
@@ -13685,25 +13693,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "8ea47df4-1080-4138-9101-22bece67da9e",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 46 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 780,
-        "court": "Court 1",
-        "teamA": "Einstein",
-        "teamB": "War Tundra",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "45ac3e9d-ec2f-4e48-afb6-b9222c125db5",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -14024,6 +14013,30 @@
           {
             "scoreA": 21,
             "scoreB": 2
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "8ea47df4-1080-4138-9101-22bece67da9e",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 46 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 780,
+        "court": "Court 1",
+        "teamA": "Einstein",
+        "teamB": "War Tundra",
+        "scores": [
+          {
+            "scoreA": 15,
+            "scoreB": 21
           }
         ],
         "penalty": null
