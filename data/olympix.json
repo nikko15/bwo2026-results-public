@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T09:59:31.303Z",
+  "generatedAt": "2026-09-26T09:59:47.606Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -1068,32 +1068,6 @@
               }
             ],
             "matches": [
-              {
-                "id": "579c8908-972c-4a7e-8d5b-6f367b95e9bb",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 30,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "ca6e6a6f-297f-4584-9efb-bd55937a0eca",
-                "teamAId": "79520b6c-9d4d-45cc-8744-6b04dbcf3d66",
-                "teamBId": "b17aed90-57f4-4599-8cc2-b446f7a00804",
-                "round": 0,
-                "position": 5,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.200Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
               {
                 "id": "5c335480-75fc-4977-bf52-f04945de80ef",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
@@ -2226,6 +2200,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 7
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "579c8908-972c-4a7e-8d5b-6f367b95e9bb",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 30,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "ca6e6a6f-297f-4584-9efb-bd55937a0eca",
+                "teamAId": "79520b6c-9d4d-45cc-8744-6b04dbcf3d66",
+                "teamBId": "b17aed90-57f4-4599-8cc2-b446f7a00804",
+                "round": 0,
+                "position": 5,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T09:59:46.799Z",
+                "beachSets": [
+                  {
+                    "id": "0964e1f4-d979-4046-a3b9-8e4c39711fda",
+                    "matchId": "579c8908-972c-4a7e-8d5b-6f367b95e9bb",
+                    "position": 1,
+                    "scoreA": 5,
+                    "scoreB": 21
                   }
                 ],
                 "soccerPeriods": []
@@ -11001,25 +11009,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "579c8908-972c-4a7e-8d5b-6f367b95e9bb",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 30 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 660,
-        "court": "Court 3",
-        "teamA": "Hasta la Vista",
-        "teamB": "Chaos Comando",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "5c335480-75fc-4977-bf52-f04945de80ef",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -11820,6 +11809,30 @@
           {
             "scoreA": 21,
             "scoreB": 7
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "579c8908-972c-4a7e-8d5b-6f367b95e9bb",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 30 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 660,
+        "court": "Court 3",
+        "teamA": "Hasta la Vista",
+        "teamB": "Chaos Comando",
+        "scores": [
+          {
+            "scoreA": 5,
+            "scoreB": 21
           }
         ],
         "penalty": null
