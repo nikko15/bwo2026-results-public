@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T07:00:43.059Z",
+  "generatedAt": "2026-09-26T07:10:22.405Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5850,11 +5850,11 @@
                 "eventId": "76c41a9b-9cd7-4f16-8360-202f110002ca",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
                 "nationId": "86b2f489-0a96-4eb5-b691-a4e8a818d511",
-                "name": "Team 6",
+                "name": "Late Night",
                 "shortName": null,
                 "isBye": false,
                 "createdAt": "2026-09-25T23:05:43.460Z",
-                "updatedAt": "2026-09-25T23:05:43.460Z"
+                "updatedAt": "2026-09-26T07:02:17.457Z"
               },
               {
                 "id": "72936ae2-6323-4eb0-8bbf-2f1b064c0164",
@@ -6153,11 +6153,11 @@
                       "eventId": "76c41a9b-9cd7-4f16-8360-202f110002ca",
                       "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
                       "nationId": "86b2f489-0a96-4eb5-b691-a4e8a818d511",
-                      "name": "Team 6",
+                      "name": "Late Night",
                       "shortName": null,
                       "isBye": false,
                       "createdAt": "2026-09-25T23:05:43.460Z",
-                      "updatedAt": "2026-09-25T23:05:43.460Z"
+                      "updatedAt": "2026-09-26T07:02:17.457Z"
                     }
                   }
                 ]
@@ -6815,32 +6815,6 @@
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:06:19.574Z",
                 "updatedAt": "2026-09-25T23:07:26.495Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
-                "id": "52551aeb-e6ae-4105-9a37-a2bc02cb8865",
-                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 11,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "e52e06ac-8451-47ed-907f-13e51a3dac01",
-                "teamAId": "7d0e7a83-5d83-4bd0-93b7-c6a2d43084e6",
-                "teamBId": "c6fa90b1-efeb-4b63-a8c4-1db6c87eddd9",
-                "round": 0,
-                "position": 20,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:06:19.574Z",
-                "updatedAt": "2026-09-25T23:07:26.498Z",
                 "beachSets": [],
                 "soccerPeriods": []
               },
@@ -7829,6 +7803,54 @@
                     "scoreB": 3
                   }
                 ]
+              },
+              {
+                "id": "52551aeb-e6ae-4105-9a37-a2bc02cb8865",
+                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 11,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "e52e06ac-8451-47ed-907f-13e51a3dac01",
+                "teamAId": "7d0e7a83-5d83-4bd0-93b7-c6a2d43084e6",
+                "teamBId": "c6fa90b1-efeb-4b63-a8c4-1db6c87eddd9",
+                "round": 0,
+                "position": 20,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:06:19.574Z",
+                "updatedAt": "2026-09-26T07:10:21.524Z",
+                "beachSets": [],
+                "soccerPeriods": [
+                  {
+                    "id": "35f45c93-98a2-4aa4-a3b3-a339fa0f3945",
+                    "matchId": "52551aeb-e6ae-4105-9a37-a2bc02cb8865",
+                    "position": 1,
+                    "scoreA": 0,
+                    "scoreB": 1
+                  },
+                  {
+                    "id": "98fc2b03-b97e-4f95-9f2a-ac6748b89560",
+                    "matchId": "52551aeb-e6ae-4105-9a37-a2bc02cb8865",
+                    "position": 2,
+                    "scoreA": 0,
+                    "scoreB": 1
+                  },
+                  {
+                    "id": "c9b73364-f1d7-42e2-bb95-8357a4e13a01",
+                    "matchId": "52551aeb-e6ae-4105-9a37-a2bc02cb8865",
+                    "position": 3,
+                    "scoreA": 0,
+                    "scoreB": 1
+                  }
+                ]
               }
             ],
             "tieBreaks": []
@@ -8305,7 +8327,7 @@
               "rows": [
                 {
                   "teamId": "2b5e1d16-a593-4a2e-9d35-df863b8807a0",
-                  "name": "Team 6",
+                  "name": "Late Night",
                   "played": 1,
                   "wins": 0,
                   "losses": 0,
@@ -8578,7 +8600,7 @@
                   "rows": [
                     {
                       "teamId": "2b5e1d16-a593-4a2e-9d35-df863b8807a0",
-                      "name": "Team 6",
+                      "name": "Late Night",
                       "played": 1,
                       "wins": 0,
                       "losses": 0,
@@ -11500,25 +11522,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "52551aeb-e6ae-4105-9a37-a2bc02cb8865",
-        "competitionSlug": "street-soccer-maenner",
-        "sport": "Urban Street Soccer",
-        "category": "Männer",
-        "number": "Match 11 US-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 540,
-        "court": "Pitch 2",
-        "teamA": "BYE 1",
-        "teamB": "1. FC Torlos",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "a28e7dd0-cf93-43da-9973-bd879a69d75a",
         "competitionSlug": "street-soccer-maenner",
         "sport": "Urban Street Soccer",
@@ -11700,7 +11703,7 @@
         "minute": 620,
         "court": "Pitch 1",
         "teamA": "Die wilden Kerle",
-        "teamB": "Team 6",
+        "teamB": "Late Night",
         "scores": [],
         "penalty": null
       },
@@ -11794,7 +11797,7 @@
         "day": "2026-09-26",
         "minute": 660,
         "court": "Pitch 2",
-        "teamA": "Team 6",
+        "teamA": "Late Night",
         "teamB": "Jürgen Würger",
         "scores": [],
         "penalty": null
@@ -12132,7 +12135,7 @@
         "minute": 500,
         "court": "Pitch 2",
         "teamA": "Die AllerErsten",
-        "teamB": "Team 6",
+        "teamB": "Late Night",
         "scores": [
           {
             "scoreA": 1,
@@ -12209,6 +12212,38 @@
           {
             "scoreA": 1,
             "scoreB": 3
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "52551aeb-e6ae-4105-9a37-a2bc02cb8865",
+        "competitionSlug": "street-soccer-maenner",
+        "sport": "Urban Street Soccer",
+        "category": "Männer",
+        "number": "Match 11 US-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 540,
+        "court": "Pitch 2",
+        "teamA": "BYE 1",
+        "teamB": "1. FC Torlos",
+        "scores": [
+          {
+            "scoreA": 0,
+            "scoreB": 1
+          },
+          {
+            "scoreA": 0,
+            "scoreB": 1
+          },
+          {
+            "scoreA": 0,
+            "scoreB": 1
           }
         ],
         "penalty": null
