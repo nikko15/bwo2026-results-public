@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:22:32.095Z",
+  "generatedAt": "2026-09-26T08:29:05.831Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -1095,32 +1095,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "ee356202-db04-4e39-9823-183d0e18cedc",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 18,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "587a8844-3102-4b77-b313-b5d6b14d1b43",
-                "teamAId": "6e3e522e-0c7d-45f5-8a38-324f5b38a4b0",
-                "teamBId": "c1fd5fe0-10aa-4efe-817f-5c6699a83395",
-                "round": 0,
-                "position": 23,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.165Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "6620b36b-bb15-423d-8d3d-52edb4c79b8f",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -2138,6 +2112,40 @@
                     "position": 1,
                     "scoreA": 5,
                     "scoreB": 20
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "ee356202-db04-4e39-9823-183d0e18cedc",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 18,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "587a8844-3102-4b77-b313-b5d6b14d1b43",
+                "teamAId": "6e3e522e-0c7d-45f5-8a38-324f5b38a4b0",
+                "teamBId": "c1fd5fe0-10aa-4efe-817f-5c6699a83395",
+                "round": 0,
+                "position": 23,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T08:29:04.960Z",
+                "beachSets": [
+                  {
+                    "id": "3fd2c9de-f7ef-4491-adbf-2d5c4b62fa59",
+                    "matchId": "ee356202-db04-4e39-9823-183d0e18cedc",
+                    "position": 1,
+                    "scoreA": 16,
+                    "scoreB": 21
                   }
                 ],
                 "soccerPeriods": []
@@ -10509,25 +10517,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "ee356202-db04-4e39-9823-183d0e18cedc",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 18 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 580,
-        "court": "Court 3",
-        "teamA": "Bielefeld",
-        "teamB": "Backfisch",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "6620b36b-bb15-423d-8d3d-52edb4c79b8f",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -11254,6 +11243,30 @@
           {
             "scoreA": 5,
             "scoreB": 20
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "ee356202-db04-4e39-9823-183d0e18cedc",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 18 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 580,
+        "court": "Court 3",
+        "teamA": "Bielefeld",
+        "teamB": "Backfisch",
+        "scores": [
+          {
+            "scoreA": 16,
+            "scoreB": 21
           }
         ],
         "penalty": null
