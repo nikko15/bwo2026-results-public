@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:30:31.732Z",
+  "generatedAt": "2026-09-26T08:30:34.691Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -4019,7 +4019,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 21,
+            "rankingRevision": 22,
             "groupCount": 4,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -4030,7 +4030,7 @@
             "name": "Beachvolleyball Frauen",
             "slug": "beachvolleyball-frauen",
             "createdAt": "2026-09-21T13:00:56.142Z",
-            "updatedAt": "2026-09-26T08:30:11.418Z",
+            "updatedAt": "2026-09-26T08:30:31.980Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -4734,8 +4734,8 @@
               {
                 "id": "4260db00-1b9c-4872-924e-4cf4f2144ffc",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 12,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -4753,7 +4753,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-26T08:30:30.970Z",
+                "updatedAt": "2026-09-26T08:30:31.973Z",
                 "beachSets": [
                   {
                     "id": "d7dd110b-03c3-45f1-bb26-84b2d8b66ad5",
@@ -5338,11 +5338,32 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "edfd5f28021e1f789e2fbd61cc7094e84bc476a27071cd8be2172c13bf2b0926"
+              "signature": "96b44aea83410e08907a540e4ad194fd5ad6a1d679f0cb1648f5b91e7434b8d7"
             },
             {
               "rank": 2,
               "endRank": 2,
+              "rows": [
+                {
+                  "teamId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
+                  "name": "Panic Truppe",
+                  "played": 2,
+                  "wins": 2,
+                  "losses": 0,
+                  "setsWon": 2,
+                  "setsLost": 0,
+                  "scored": 42,
+                  "conceded": 23,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "df291172076c47792bf9dc22d8b76b05e8f09a184d98c89dcca3c220f645a7d4"
+            },
+            {
+              "rank": 3,
+              "endRank": 3,
               "rows": [
                 {
                   "teamId": "ed6aa168-7352-4254-aca3-d082e1a0ffe0",
@@ -5359,11 +5380,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "522a637ca89d6e14faa44939ac76bc71c6f3ab4dfa8058b77d745519d5a3739d"
+              "signature": "5f759c12002df66d9e5d5ecb8aaa3fc3e18952c86dc46ba34f0a5431a43a3838"
             },
             {
-              "rank": 3,
-              "endRank": 3,
+              "rank": 4,
+              "endRank": 4,
               "rows": [
                 {
                   "teamId": "572262d4-3c85-4489-81a3-4b4f7efe13b3",
@@ -5380,28 +5401,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "e638d33b33ffca8c7c4ab2644ffbca3076fee7a4abfbb42d4fd7f93b932451ac"
-            },
-            {
-              "rank": 4,
-              "endRank": 4,
-              "rows": [
-                {
-                  "teamId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
-                  "name": "Panic Truppe",
-                  "played": 1,
-                  "wins": 1,
-                  "losses": 0,
-                  "setsWon": 1,
-                  "setsLost": 0,
-                  "scored": 21,
-                  "conceded": 8,
-                  "points": 0
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "1caae6d5d70f2820fa775cf92deab10ae009d07d5d5fa7851eecb2b3f65f683f"
+              "signature": "513cc349808b7550c6d65cd44d5973ee9d609df1c155b4599d4ef15838493ec2"
             },
             {
               "rank": 5,
@@ -5422,7 +5422,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "46f1e3a9105c374573f5ed8a9b89d768b254c16fbd1cec7d33f0c18ec3bfcad3"
+              "signature": "610a17d2122d697c733844532279491cc2500d69f112050a38fcb4a3a24f6903"
             },
             {
               "rank": 6,
@@ -5443,7 +5443,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "ee39c2fc648dddb47e5afdf7c43f69940cebd177a9e14ee79fa608708cb01e4c"
+              "signature": "adc9a3a86faac14b10623f732a40c5b92665b88074fff3e0e0a6edece949749b"
             },
             {
               "rank": 7,
@@ -5464,7 +5464,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "cc0a9bf360b63a78c614e3623220e8dc64c9765031386fbe5e3484840a246412"
+              "signature": "383fc91ce15393c513cd8434bc71104f687c0f28318078a3917701fefc725a76"
             },
             {
               "rank": 8,
@@ -5485,7 +5485,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "0971894af5e6646798d945050fb4dc7c7ee50732dab2f08b5e071267163f7753"
+              "signature": "8db45e86f437740b70cee05b8aff422a5c75e2c5939368efaafc972e3a125b02"
             },
             {
               "rank": 9,
@@ -5506,7 +5506,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "39053ed869ebc2ac52bfc21ba2e923c7cca391ca24963a682a97e62ee4bd3565"
+              "signature": "59c8a4a87510eead9a1083cf964b0d0773856fd24459b3497afc50d190cc63f0"
             },
             {
               "rank": 10,
@@ -5527,7 +5527,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "c2b2910d5e55846223b6f4da073079a8dbe5025db268491f4b759f943ef6dbfa"
+              "signature": "2ae09a128ac258fdfb155e92db7540388cf6da1943cd5fee0a81040b636d3db0"
             },
             {
               "rank": 11,
@@ -5548,11 +5548,32 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "57f2ed201491315ba44d553ea111fbdddbcb9993e94ba08b52c38de14e1941e5"
+              "signature": "8c06dc17774dfee3203718841d0e2d8d8d14e975fe3a5ae8e5de0759c869b7ec"
             },
             {
               "rank": 12,
               "endRank": 12,
+              "rows": [
+                {
+                  "teamId": "309cc2f0-d152-44f7-b720-7bc1f5e8a2a2",
+                  "name": "Sandpit Worriers",
+                  "played": 2,
+                  "wins": 0,
+                  "losses": 2,
+                  "setsWon": 0,
+                  "setsLost": 2,
+                  "scored": 22,
+                  "conceded": 42,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "8beca168a540dd5130648dbb65ae347c5528d3e4dfc71e86c783320ab5565d9f"
+            },
+            {
+              "rank": 13,
+              "endRank": 13,
               "rows": [
                 {
                   "teamId": "23a8a7bd-009d-4ce3-9826-e95f0fe867a2",
@@ -5569,11 +5590,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "1a192c2db5e92059f412a3757d3c24ac41d7ed16174a48725c621071df220a70"
+              "signature": "3e6b39fa8af4fa619b64145f6f159d69198af9fd19cf747a19f5c6740aa30413"
             },
             {
-              "rank": 13,
-              "endRank": 13,
+              "rank": 14,
+              "endRank": 14,
               "rows": [
                 {
                   "teamId": "b7489597-5b96-4280-83ab-9e968e51cb8f",
@@ -5590,11 +5611,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "8380a9ad88912c5fc815503a85e59c2afe149ad9faabcee696b6f1c65ca6e2c0"
+              "signature": "c7bcae73f29678d42048b8c305172424092d568d14190ddaf5a7030ef9f4faba"
             },
             {
-              "rank": 14,
-              "endRank": 14,
+              "rank": 15,
+              "endRank": 15,
               "rows": [
                 {
                   "teamId": "253309ed-70a1-4ae9-b7cb-dc239d4c405c",
@@ -5611,28 +5632,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "68ed29c39be50420db229c8ddaf70845fdf6cdc0e3f11a18f62c48d9cca022e7"
-            },
-            {
-              "rank": 15,
-              "endRank": 15,
-              "rows": [
-                {
-                  "teamId": "309cc2f0-d152-44f7-b720-7bc1f5e8a2a2",
-                  "name": "Sandpit Worriers",
-                  "played": 1,
-                  "wins": 0,
-                  "losses": 1,
-                  "setsWon": 0,
-                  "setsLost": 1,
-                  "scored": 7,
-                  "conceded": 21,
-                  "points": 0
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "07f811847200c477aec249b60beb4502cf00b4861e365b8740d849a13772ef13"
+              "signature": "553c453ee3a403c5e3f6586164fa469d0ea89258bedb7ad08ad706f62a5ece94"
             },
             {
               "rank": 16,
@@ -5653,7 +5653,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "e23b41aa21e59ce7c0d59dd1598888f9f0ba454244c0ad08926283d4b1f85379"
+              "signature": "f970bd3145ccbcd97bf3f4824defb300f62473d65a67bd7e0e4d68959cc38368"
             }
           ],
           "groups": [
@@ -5680,7 +5680,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "edfd5f28021e1f789e2fbd61cc7094e84bc476a27071cd8be2172c13bf2b0926"
+                  "signature": "96b44aea83410e08907a540e4ad194fd5ad6a1d679f0cb1648f5b91e7434b8d7"
                 },
                 {
                   "rank": 2,
@@ -5701,7 +5701,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "46f1e3a9105c374573f5ed8a9b89d768b254c16fbd1cec7d33f0c18ec3bfcad3"
+                  "signature": "610a17d2122d697c733844532279491cc2500d69f112050a38fcb4a3a24f6903"
                 },
                 {
                   "rank": 3,
@@ -5722,7 +5722,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "8380a9ad88912c5fc815503a85e59c2afe149ad9faabcee696b6f1c65ca6e2c0"
+                  "signature": "c7bcae73f29678d42048b8c305172424092d568d14190ddaf5a7030ef9f4faba"
                 },
                 {
                   "rank": 4,
@@ -5743,7 +5743,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "e23b41aa21e59ce7c0d59dd1598888f9f0ba454244c0ad08926283d4b1f85379"
+                  "signature": "f970bd3145ccbcd97bf3f4824defb300f62473d65a67bd7e0e4d68959cc38368"
                 }
               ]
             },
@@ -5770,7 +5770,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "cc0a9bf360b63a78c614e3623220e8dc64c9765031386fbe5e3484840a246412"
+                  "signature": "383fc91ce15393c513cd8434bc71104f687c0f28318078a3917701fefc725a76"
                 },
                 {
                   "rank": 2,
@@ -5791,7 +5791,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "0971894af5e6646798d945050fb4dc7c7ee50732dab2f08b5e071267163f7753"
+                  "signature": "8db45e86f437740b70cee05b8aff422a5c75e2c5939368efaafc972e3a125b02"
                 },
                 {
                   "rank": 3,
@@ -5812,7 +5812,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "39053ed869ebc2ac52bfc21ba2e923c7cca391ca24963a682a97e62ee4bd3565"
+                  "signature": "59c8a4a87510eead9a1083cf964b0d0773856fd24459b3497afc50d190cc63f0"
                 },
                 {
                   "rank": 4,
@@ -5833,7 +5833,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "57f2ed201491315ba44d553ea111fbdddbcb9993e94ba08b52c38de14e1941e5"
+                  "signature": "8c06dc17774dfee3203718841d0e2d8d8d14e975fe3a5ae8e5de0759c869b7ec"
                 }
               ]
             },
@@ -5844,6 +5844,27 @@
                 {
                   "rank": 1,
                   "endRank": 1,
+                  "rows": [
+                    {
+                      "teamId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
+                      "name": "Panic Truppe",
+                      "played": 2,
+                      "wins": 2,
+                      "losses": 0,
+                      "setsWon": 2,
+                      "setsLost": 0,
+                      "scored": 42,
+                      "conceded": 23,
+                      "points": 0
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "df291172076c47792bf9dc22d8b76b05e8f09a184d98c89dcca3c220f645a7d4"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
                   "rows": [
                     {
                       "teamId": "572262d4-3c85-4489-81a3-4b4f7efe13b3",
@@ -5860,32 +5881,32 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "e638d33b33ffca8c7c4ab2644ffbca3076fee7a4abfbb42d4fd7f93b932451ac"
+                  "signature": "513cc349808b7550c6d65cd44d5973ee9d609df1c155b4599d4ef15838493ec2"
                 },
                 {
-                  "rank": 2,
-                  "endRank": 2,
+                  "rank": 3,
+                  "endRank": 3,
                   "rows": [
                     {
-                      "teamId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
-                      "name": "Panic Truppe",
-                      "played": 1,
-                      "wins": 1,
-                      "losses": 0,
-                      "setsWon": 1,
-                      "setsLost": 0,
-                      "scored": 21,
-                      "conceded": 8,
+                      "teamId": "309cc2f0-d152-44f7-b720-7bc1f5e8a2a2",
+                      "name": "Sandpit Worriers",
+                      "played": 2,
+                      "wins": 0,
+                      "losses": 2,
+                      "setsWon": 0,
+                      "setsLost": 2,
+                      "scored": 22,
+                      "conceded": 42,
                       "points": 0
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "1caae6d5d70f2820fa775cf92deab10ae009d07d5d5fa7851eecb2b3f65f683f"
+                  "signature": "8beca168a540dd5130648dbb65ae347c5528d3e4dfc71e86c783320ab5565d9f"
                 },
                 {
-                  "rank": 3,
-                  "endRank": 3,
+                  "rank": 4,
+                  "endRank": 4,
                   "rows": [
                     {
                       "teamId": "253309ed-70a1-4ae9-b7cb-dc239d4c405c",
@@ -5902,28 +5923,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "68ed29c39be50420db229c8ddaf70845fdf6cdc0e3f11a18f62c48d9cca022e7"
-                },
-                {
-                  "rank": 4,
-                  "endRank": 4,
-                  "rows": [
-                    {
-                      "teamId": "309cc2f0-d152-44f7-b720-7bc1f5e8a2a2",
-                      "name": "Sandpit Worriers",
-                      "played": 1,
-                      "wins": 0,
-                      "losses": 1,
-                      "setsWon": 0,
-                      "setsLost": 1,
-                      "scored": 7,
-                      "conceded": 21,
-                      "points": 0
-                    }
-                  ],
-                  "tied": false,
-                  "resolved": true,
-                  "signature": "07f811847200c477aec249b60beb4502cf00b4861e365b8740d849a13772ef13"
+                  "signature": "553c453ee3a403c5e3f6586164fa469d0ea89258bedb7ad08ad706f62a5ece94"
                 }
               ]
             },
@@ -5950,7 +5950,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "522a637ca89d6e14faa44939ac76bc71c6f3ab4dfa8058b77d745519d5a3739d"
+                  "signature": "5f759c12002df66d9e5d5ecb8aaa3fc3e18952c86dc46ba34f0a5431a43a3838"
                 },
                 {
                   "rank": 2,
@@ -5971,7 +5971,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "ee39c2fc648dddb47e5afdf7c43f69940cebd177a9e14ee79fa608708cb01e4c"
+                  "signature": "adc9a3a86faac14b10623f732a40c5b92665b88074fff3e0e0a6edece949749b"
                 },
                 {
                   "rank": 3,
@@ -5992,7 +5992,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "c2b2910d5e55846223b6f4da073079a8dbe5025db268491f4b759f943ef6dbfa"
+                  "signature": "2ae09a128ac258fdfb155e92db7540388cf6da1943cd5fee0a81040b636d3db0"
                 },
                 {
                   "rank": 4,
@@ -6013,7 +6013,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "1a192c2db5e92059f412a3757d3c24ac41d7ed16174a48725c621071df220a70"
+                  "signature": "3e6b39fa8af4fa619b64145f6f159d69198af9fd19cf747a19f5c6740aa30413"
                 }
               ]
             }
@@ -11915,7 +11915,7 @@
         "sport": "Beachvolleyball",
         "category": "Frauen",
         "number": "Match 12 BV-W",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 580,
         "court": "Court 5",
