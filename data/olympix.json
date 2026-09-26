@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T16:11:04.412Z",
+  "generatedAt": "2026-09-26T16:11:25.720Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3519,6 +3519,47 @@
                 "soccerPeriods": []
               },
               {
+                "id": "965460e2-bdee-47e3-93ab-eae6f026fc6a",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 72,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "KNOCKOUT",
+                "groupId": null,
+                "teamAId": null,
+                "teamBId": null,
+                "round": 2,
+                "position": 3,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": "ce02e952-4817-4177-bdf0-b7e0fcd0a54f",
+                "winnerOfBId": "6c25a4cc-e30f-45f6-b22c-1b507201bffc",
+                "createdAt": "2026-09-26T13:45:44.258Z",
+                "updatedAt": "2026-09-26T16:11:24.781Z",
+                "beachSets": [
+                  {
+                    "id": "66a605ee-1b9a-4395-9e73-4fb52a2a85df",
+                    "matchId": "965460e2-bdee-47e3-93ab-eae6f026fc6a",
+                    "position": 1,
+                    "scoreA": 15,
+                    "scoreB": 5
+                  },
+                  {
+                    "id": "c8f52fbf-0f12-4c52-a9a3-864b88b3ba7d",
+                    "matchId": "965460e2-bdee-47e3-93ab-eae6f026fc6a",
+                    "position": 2,
+                    "scoreA": 15,
+                    "scoreB": 12
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
                 "id": "977b5f06-18d6-4630-804e-e6db8572c399",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -3541,32 +3582,6 @@
                 "winnerOfBId": "f7e609b2-bf81-4461-9b84-f727a13dd226",
                 "createdAt": "2026-09-26T13:45:44.261Z",
                 "updatedAt": "2026-09-26T13:48:50.769Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
-                "id": "965460e2-bdee-47e3-93ab-eae6f026fc6a",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 72,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "KNOCKOUT",
-                "groupId": null,
-                "teamAId": null,
-                "teamBId": null,
-                "round": 2,
-                "position": 3,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": "ce02e952-4817-4177-bdf0-b7e0fcd0a54f",
-                "winnerOfBId": "6c25a4cc-e30f-45f6-b22c-1b507201bffc",
-                "createdAt": "2026-09-26T13:45:44.258Z",
-                "updatedAt": "2026-09-26T13:48:50.774Z",
                 "beachSets": [],
                 "soccerPeriods": []
               },
@@ -16656,6 +16671,34 @@
         "phase": "KNOCKOUT",
         "round": 2,
         "finalRoundSize": "TOP_16",
+        "id": "965460e2-bdee-47e3-93ab-eae6f026fc6a",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 72 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 960,
+        "court": "Court 2",
+        "teamA": "Sand im Getriebe",
+        "teamB": "Team Zukunft",
+        "scores": [
+          {
+            "scoreA": 15,
+            "scoreB": 5
+          },
+          {
+            "scoreA": 15,
+            "scoreB": 12
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "KNOCKOUT",
+        "round": 2,
+        "finalRoundSize": "TOP_16",
         "id": "977b5f06-18d6-4630-804e-e6db8572c399",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -16667,25 +16710,6 @@
         "court": "Court 1",
         "teamA": "Friendly Fire",
         "teamB": "Für Florian",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "KNOCKOUT",
-        "round": 2,
-        "finalRoundSize": "TOP_16",
-        "id": "965460e2-bdee-47e3-93ab-eae6f026fc6a",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 72 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 960,
-        "court": "Court 2",
-        "teamA": "Sand im Getriebe",
-        "teamB": "Team Zukunft",
         "scores": [],
         "penalty": null
       },
