@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T16:11:28.487Z",
+  "generatedAt": "2026-09-26T16:19:21.755Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3562,8 +3562,8 @@
               {
                 "id": "977b5f06-18d6-4630-804e-e6db8572c399",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
+                "status": "RESULT_ENTERED",
+                "revision": 1,
                 "matchNumber": 70,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -3581,8 +3581,30 @@
                 "winnerOfAId": "3badb1d8-12b8-4a20-850d-28009fb4e11a",
                 "winnerOfBId": "f7e609b2-bf81-4461-9b84-f727a13dd226",
                 "createdAt": "2026-09-26T13:45:44.261Z",
-                "updatedAt": "2026-09-26T13:48:50.769Z",
-                "beachSets": [],
+                "updatedAt": "2026-09-26T16:19:20.820Z",
+                "beachSets": [
+                  {
+                    "id": "102b9534-4081-4d91-822e-876c903e703d",
+                    "matchId": "977b5f06-18d6-4630-804e-e6db8572c399",
+                    "position": 1,
+                    "scoreA": 15,
+                    "scoreB": 11
+                  },
+                  {
+                    "id": "dc905668-2cdb-4657-afdd-5f31ef5ffa45",
+                    "matchId": "977b5f06-18d6-4630-804e-e6db8572c399",
+                    "position": 2,
+                    "scoreA": 17,
+                    "scoreB": 19
+                  },
+                  {
+                    "id": "1e6e71f5-edea-4214-b8d9-31b3b49a9edd",
+                    "matchId": "977b5f06-18d6-4630-804e-e6db8572c399",
+                    "position": 3,
+                    "scoreA": 10,
+                    "scoreB": 15
+                  }
+                ],
                 "soccerPeriods": []
               },
               {
@@ -16704,13 +16726,26 @@
         "sport": "Beachvolleyball",
         "category": "Männer",
         "number": "Match 70 BV-M",
-        "status": "SCHEDULED",
+        "status": "RESULT_ENTERED",
         "day": "2026-09-26",
         "minute": 980,
         "court": "Court 1",
         "teamA": "Friendly Fire",
         "teamB": "Für Florian",
-        "scores": [],
+        "scores": [
+          {
+            "scoreA": 15,
+            "scoreB": 11
+          },
+          {
+            "scoreA": 17,
+            "scoreB": 19
+          },
+          {
+            "scoreA": 10,
+            "scoreB": 15
+          }
+        ],
         "penalty": null
       },
       {
