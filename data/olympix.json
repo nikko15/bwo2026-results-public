@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T09:39:50.355Z",
+  "generatedAt": "2026-09-26T09:40:07.370Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5354,32 +5354,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "cf7330ab-3a1f-4db5-8738-022013315f64",
-                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "SCHEDULED",
-                "revision": 3,
-                "matchNumber": 18,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "b3fb13c9-553e-43a8-9e6f-acdd162df317",
-                "teamAId": "b7489597-5b96-4280-83ab-9e968e51cb8f",
-                "teamBId": "0752826e-ff34-41ba-be98-995fb1e46f35",
-                "round": 0,
-                "position": 5,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-26T08:22:14.238Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "6789c0f4-09e7-4528-b2f1-19d8d6eca02b",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
                 "status": "FINAL",
@@ -5477,6 +5451,40 @@
                     "position": 1,
                     "scoreA": 22,
                     "scoreB": 20
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "cf7330ab-3a1f-4db5-8738-022013315f64",
+                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
+                "status": "RESULT_ENTERED",
+                "revision": 4,
+                "matchNumber": 18,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "b3fb13c9-553e-43a8-9e6f-acdd162df317",
+                "teamAId": "b7489597-5b96-4280-83ab-9e968e51cb8f",
+                "teamBId": "0752826e-ff34-41ba-be98-995fb1e46f35",
+                "round": 0,
+                "position": 5,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:15:50.835Z",
+                "updatedAt": "2026-09-26T09:40:06.570Z",
+                "beachSets": [
+                  {
+                    "id": "8c62c0ed-d64a-4a6a-b2d2-8f7910d67012",
+                    "matchId": "cf7330ab-3a1f-4db5-8738-022013315f64",
+                    "position": 1,
+                    "scoreA": 21,
+                    "scoreB": 7
                   }
                 ],
                 "soccerPeriods": []
@@ -12704,25 +12712,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "cf7330ab-3a1f-4db5-8738-022013315f64",
-        "competitionSlug": "beachvolleyball-frauen",
-        "sport": "Beachvolleyball",
-        "category": "Frauen",
-        "number": "Match 18 BV-W",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 640,
-        "court": "Court 5",
-        "teamA": "Stiftedrücker",
-        "teamB": "Die nicht Qualifizierten",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "6789c0f4-09e7-4528-b2f1-19d8d6eca02b",
         "competitionSlug": "beachvolleyball-frauen",
         "sport": "Beachvolleyball",
@@ -12786,6 +12775,30 @@
           {
             "scoreA": 22,
             "scoreB": 20
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "cf7330ab-3a1f-4db5-8738-022013315f64",
+        "competitionSlug": "beachvolleyball-frauen",
+        "sport": "Beachvolleyball",
+        "category": "Frauen",
+        "number": "Match 18 BV-W",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 640,
+        "court": "Court 5",
+        "teamA": "Stiftedrücker",
+        "teamB": "Die nicht Qualifizierten",
+        "scores": [
+          {
+            "scoreA": 21,
+            "scoreB": 7
           }
         ],
         "penalty": null
