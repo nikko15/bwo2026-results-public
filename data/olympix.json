@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T12:37:27.357Z",
+  "generatedAt": "2026-09-26T12:37:29.987Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -10393,7 +10393,7 @@
                 "id": "a145b403-6680-47c3-84e0-11bbfc8bca5c",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
                 "status": "FINAL",
-                "revision": 2,
+                "revision": 3,
                 "matchNumber": 50,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -10411,25 +10411,25 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-26T10:51:32.359Z",
-                "updatedAt": "2026-09-26T12:37:26.337Z",
+                "updatedAt": "2026-09-26T12:37:28.545Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
-                    "id": "faeddf22-70bc-41f4-ab20-289e2b2b57a1",
+                    "id": "9e84a20c-f3bd-4a73-a443-4026faf98e19",
                     "matchId": "a145b403-6680-47c3-84e0-11bbfc8bca5c",
                     "position": 1,
                     "scoreA": 3,
                     "scoreB": 2
                   },
                   {
-                    "id": "c999da30-2645-4e1a-b1f8-eb7d372d1535",
+                    "id": "2a0dc134-795e-4fc1-a2a7-70a5091c5942",
                     "matchId": "a145b403-6680-47c3-84e0-11bbfc8bca5c",
                     "position": 2,
                     "scoreA": 3,
                     "scoreB": 1
                   },
                   {
-                    "id": "b25a6bb1-6117-41d6-989d-5201793c310f",
+                    "id": "32209531-2680-42f6-9d75-9d812e3ddc41",
                     "matchId": "a145b403-6680-47c3-84e0-11bbfc8bca5c",
                     "position": 3,
                     "scoreA": 6,
