@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:21:28.663Z",
+  "generatedAt": "2026-09-26T06:21:30.777Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5146,7 +5146,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 23,
+            "rankingRevision": 24,
             "groupCount": 7,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -5157,7 +5157,7 @@
             "name": "Street Soccer Männer",
             "slug": "street-soccer-maenner",
             "createdAt": "2026-09-20T11:08:50.042Z",
-            "updatedAt": "2026-09-26T06:20:48.561Z",
+            "updatedAt": "2026-09-26T06:21:29.232Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -7249,8 +7249,8 @@
               {
                 "id": "1ebaf92d-4ae2-4f95-aa32-c347868cdc54",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 1,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -7268,7 +7268,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:06:19.574Z",
-                "updatedAt": "2026-09-26T06:21:27.877Z",
+                "updatedAt": "2026-09-26T06:21:29.223Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
@@ -7317,11 +7317,32 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "62d5d2c902d18e05eefffb2dccca9840a2112fca3dae18957544606ebebc0053"
+              "signature": "f3dcb043bff106da7bc97f6e520445010a9355d3988e767a66661dfcbdae7516"
             },
             {
               "rank": 2,
               "endRank": 2,
+              "rows": [
+                {
+                  "teamId": "cd08bf8a-e0eb-4476-adc6-52033e7d318a",
+                  "name": "A-Team",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 7,
+                  "conceded": 5,
+                  "points": 6
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "b9969e6956e38f37d8f613a30de200748d746743721b80220bfe4f71480c61a4"
+            },
+            {
+              "rank": 3,
+              "endRank": 3,
               "rows": [
                 {
                   "teamId": "4e0f0e72-b192-48d8-ab64-251277010c0e",
@@ -7338,11 +7359,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "99ee15fe978cb3a72db987c31310097a6204dd665ac13ec7357f4cb3cd41a366"
+              "signature": "8f6e9461e82d683b882c0adfe8af2672731d8ca2dda976cb472487d81595f3fb"
             },
             {
-              "rank": 3,
-              "endRank": 3,
+              "rank": 4,
+              "endRank": 4,
               "rows": [
                 {
                   "teamId": "72936ae2-6323-4eb0-8bbf-2f1b064c0164",
@@ -7359,11 +7380,32 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "6afbfa97f8f6b77a1eb885a957e32d8d3ad2f1d5992e9b954a7593fcf3be7d21"
+              "signature": "13968c42e8e9870a61d3135e04c0bcd71328dd25dc104e0befdaa7f1d22975d4"
             },
             {
-              "rank": 4,
-              "endRank": 4,
+              "rank": 5,
+              "endRank": 5,
+              "rows": [
+                {
+                  "teamId": "9f61f0c1-cca9-4f70-b744-9ee10a486a69",
+                  "name": "Avengers",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 5,
+                  "conceded": 7,
+                  "points": 3
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "a07cb4899c8f01c305fd2e7b3b485b6f05b2828b4ddd2b1abaf0e63d0ee4605d"
+            },
+            {
+              "rank": 6,
+              "endRank": 6,
               "rows": [
                 {
                   "teamId": "5e684e6b-1408-4efd-9596-8a99e1b08737",
@@ -7380,10 +7422,10 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "ba88d22ff0c38e72bf64c8f0d1b3959c10b8fb8c1ee9dc9b249b50993c3b96f4"
+              "signature": "59ab3a7d905c2aa5c7a3a088b0cc56e399a6983cb9ff37ce0d1524a016968d5f"
             },
             {
-              "rank": 5,
+              "rank": 7,
               "endRank": 28,
               "rows": [
                 {
@@ -7495,32 +7537,8 @@
                   "points": 0
                 },
                 {
-                  "teamId": "9f61f0c1-cca9-4f70-b744-9ee10a486a69",
-                  "name": "Avengers",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
                   "teamId": "57423122-b059-4b75-ba4c-b3c73b9d59f2",
                   "name": "Die Geparden",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "cd08bf8a-e0eb-4476-adc6-52033e7d318a",
-                  "name": "A-Team",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -7677,7 +7695,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "ebbb88f1ecd24c31cbf4c8cefd08c3255da27286dfc57dd3742325084e5a4044"
+              "signature": "3391da3172f5b01afc48ac64996b493f5c6c41135dd619f1429d972cdc51959c"
             }
           ],
           "groups": [
@@ -7687,20 +7705,50 @@
               "blocks": [
                 {
                   "rank": 1,
-                  "endRank": 4,
+                  "endRank": 1,
                   "rows": [
                     {
-                      "teamId": "9f61f0c1-cca9-4f70-b744-9ee10a486a69",
-                      "name": "Avengers",
-                      "played": 0,
+                      "teamId": "cd08bf8a-e0eb-4476-adc6-52033e7d318a",
+                      "name": "A-Team",
+                      "played": 1,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
-                    },
+                      "scored": 7,
+                      "conceded": 5,
+                      "points": 6
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "b9969e6956e38f37d8f613a30de200748d746743721b80220bfe4f71480c61a4"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
+                  "rows": [
+                    {
+                      "teamId": "9f61f0c1-cca9-4f70-b744-9ee10a486a69",
+                      "name": "Avengers",
+                      "played": 1,
+                      "wins": 0,
+                      "losses": 0,
+                      "setsWon": 0,
+                      "setsLost": 0,
+                      "scored": 5,
+                      "conceded": 7,
+                      "points": 3
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "a07cb4899c8f01c305fd2e7b3b485b6f05b2828b4ddd2b1abaf0e63d0ee4605d"
+                },
+                {
+                  "rank": 3,
+                  "endRank": 4,
+                  "rows": [
                     {
                       "teamId": "7b8d3489-b702-4c5a-9967-8e093ffe4d3e",
                       "name": "Pinky Diamonds",
@@ -7724,23 +7772,11 @@
                       "scored": 0,
                       "conceded": 0,
                       "points": 0
-                    },
-                    {
-                      "teamId": "cd08bf8a-e0eb-4476-adc6-52033e7d318a",
-                      "name": "A-Team",
-                      "played": 0,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
                     }
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "258e8a565483cc2f8d65f48f24830b67f8148a55734691304f627d019e5cec66"
+                  "signature": "f0794e9d4454e30f351f9f01fab0740de4a65496bcc0db7e3dafcf23535f8c81"
                 }
               ]
             },
@@ -7767,7 +7803,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "62d5d2c902d18e05eefffb2dccca9840a2112fca3dae18957544606ebebc0053"
+                  "signature": "f3dcb043bff106da7bc97f6e520445010a9355d3988e767a66661dfcbdae7516"
                 },
                 {
                   "rank": 2,
@@ -7788,7 +7824,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "6afbfa97f8f6b77a1eb885a957e32d8d3ad2f1d5992e9b954a7593fcf3be7d21"
+                  "signature": "13968c42e8e9870a61d3135e04c0bcd71328dd25dc104e0befdaa7f1d22975d4"
                 },
                 {
                   "rank": 3,
@@ -7821,7 +7857,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "88dfc112806abf0346410e48d1b31bfd6f13942b7c99150afef2b0cb766978db"
+                  "signature": "b035792e5b9cbc8b5a0e463c36d7e81d94da27b44fc1d60e9da6a080cba3a48d"
                 }
               ]
             },
@@ -7884,7 +7920,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "131dc03619017238cb9c7c52c56ca3b8b79be0490effe8f48a492ef343b70ba6"
+                  "signature": "3c5d560d515aca26c2a82997c1306213e109bea91ab962dbc028b5d0b8697bcc"
                 }
               ]
             },
@@ -7947,7 +7983,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "fe72080cd89268f2456cb13bf07ed2c29e9594fbc2548883aef3d563bd20b12e"
+                  "signature": "d890a542de5906ba6582ee65aa7e7e7303032396ea4ca0c9f8296de242ee87af"
                 }
               ]
             },
@@ -8010,7 +8046,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "8dc65b56f40aa2216ef9b46cc1117ed27ccc6cb94c8323b7bd963c0d2ca1b3c7"
+                  "signature": "9446cdc3e437225f6df16ea1ceda19fcb7945c2712eb6a88e91f3508df369930"
                 }
               ]
             },
@@ -8073,7 +8109,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "0a7a98e4ddf364b7398d4cee31be09b13424e6306e438f28618ef82b3bb9d73c"
+                  "signature": "55a6eda7616ad99a5090a117c164c529be0134e849358c15bb4fce2020685c84"
                 }
               ]
             },
@@ -8100,7 +8136,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "99ee15fe978cb3a72db987c31310097a6204dd665ac13ec7357f4cb3cd41a366"
+                  "signature": "8f6e9461e82d683b882c0adfe8af2672731d8ca2dda976cb472487d81595f3fb"
                 },
                 {
                   "rank": 2,
@@ -8121,7 +8157,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "ba88d22ff0c38e72bf64c8f0d1b3959c10b8fb8c1ee9dc9b249b50993c3b96f4"
+                  "signature": "59ab3a7d905c2aa5c7a3a088b0cc56e399a6983cb9ff37ce0d1524a016968d5f"
                 },
                 {
                   "rank": 3,
@@ -8154,7 +8190,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "e1bbac4d3c2ffaadf812f4e359ccedd8fc7308760d76facdd98772de12613ed1"
+                  "signature": "a3fe8fcc18c6f73706f50d52e31847e8fe2e6a57d0aa2bf36430e764beeb9904"
                 }
               ]
             }
@@ -11253,7 +11289,7 @@
         "sport": "Urban Street Soccer",
         "category": "Männer",
         "number": "Match 1 US-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 480,
         "court": "Pitch 1",
