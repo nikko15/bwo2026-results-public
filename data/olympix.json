@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:23:37.349Z",
+  "generatedAt": "2026-09-26T06:29:59.820Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -24,7 +24,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 62,
+            "rankingRevision": 63,
             "groupCount": 6,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -35,7 +35,7 @@
             "name": "Beachvolleyball Männer",
             "slug": "beachvolleyball-maenner",
             "createdAt": "2026-09-20T16:25:52.305Z",
-            "updatedAt": "2026-09-25T23:10:25.962Z",
+            "updatedAt": "2026-09-26T06:29:58.876Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -2007,8 +2007,8 @@
               {
                 "id": "293876e9-0b5d-425e-b064-46d0de1b5b92",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 1,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -2026,7 +2026,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-26T06:23:36.515Z",
+                "updatedAt": "2026-09-26T06:29:58.866Z",
                 "beachSets": [
                   {
                     "id": "62025579-d5ea-4ba0-9852-5ec6cd009267",
@@ -2642,6 +2642,48 @@
           "overall": [
             {
               "rank": 1,
+              "endRank": 1,
+              "rows": [
+                {
+                  "teamId": "79520b6c-9d4d-45cc-8744-6b04dbcf3d66",
+                  "name": "Hasta la Vista",
+                  "played": 1,
+                  "wins": 1,
+                  "losses": 0,
+                  "setsWon": 1,
+                  "setsLost": 0,
+                  "scored": 21,
+                  "conceded": 7,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "d1ed19181277a64daf19e78855e50dadaae5ce78f9153757617698316bd24fe2"
+            },
+            {
+              "rank": 2,
+              "endRank": 2,
+              "rows": [
+                {
+                  "teamId": "41db8cf0-5759-4214-a194-12308e7af187",
+                  "name": "Haribuh Warriors",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 1,
+                  "setsWon": 0,
+                  "setsLost": 1,
+                  "scored": 7,
+                  "conceded": 21,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "ca488fd5d2f4e319cfe9fa779593ae52a4177190841173c981edb87873eeac04"
+            },
+            {
+              "rank": 3,
               "endRank": 30,
               "rows": [
                 {
@@ -2683,18 +2725,6 @@
                 {
                   "teamId": "6fc1f485-f217-42ed-9734-b1102f753b5f",
                   "name": "Beachelers",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "79520b6c-9d4d-45cc-8744-6b04dbcf3d66",
-                  "name": "Hasta la Vista",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -2873,18 +2903,6 @@
                   "points": 0
                 },
                 {
-                  "teamId": "41db8cf0-5759-4214-a194-12308e7af187",
-                  "name": "Haribuh Warriors",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
                   "teamId": "5abec629-26b7-48ea-969e-75d58af735c8",
                   "name": "War Tundra",
                   "played": 0,
@@ -3007,7 +3025,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "8984c4d1c0426bfb93d1307d22b0d18c92802248d1511e067ea6ab5724f4a1fe"
+              "signature": "b3447eaf397018bf51986bde81f6d1ac033146094a92702dfe3f667f7406c565"
             }
           ],
           "groups": [
@@ -3017,32 +3035,50 @@
               "blocks": [
                 {
                   "rank": 1,
-                  "endRank": 5,
+                  "endRank": 1,
+                  "rows": [
+                    {
+                      "teamId": "79520b6c-9d4d-45cc-8744-6b04dbcf3d66",
+                      "name": "Hasta la Vista",
+                      "played": 1,
+                      "wins": 1,
+                      "losses": 0,
+                      "setsWon": 1,
+                      "setsLost": 0,
+                      "scored": 21,
+                      "conceded": 7,
+                      "points": 0
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "d1ed19181277a64daf19e78855e50dadaae5ce78f9153757617698316bd24fe2"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
                   "rows": [
                     {
                       "teamId": "41db8cf0-5759-4214-a194-12308e7af187",
                       "name": "Haribuh Warriors",
-                      "played": 0,
+                      "played": 1,
                       "wins": 0,
-                      "losses": 0,
+                      "losses": 1,
                       "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
+                      "setsLost": 1,
+                      "scored": 7,
+                      "conceded": 21,
                       "points": 0
-                    },
-                    {
-                      "teamId": "79520b6c-9d4d-45cc-8744-6b04dbcf3d66",
-                      "name": "Hasta la Vista",
-                      "played": 0,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
-                    },
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "ca488fd5d2f4e319cfe9fa779593ae52a4177190841173c981edb87873eeac04"
+                },
+                {
+                  "rank": 3,
+                  "endRank": 5,
+                  "rows": [
                     {
                       "teamId": "b17aed90-57f4-4599-8cc2-b446f7a00804",
                       "name": "Chaos Comando",
@@ -3082,7 +3118,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "1f270b5cd2fa6170430bf8a19862eb48a44189ea721ebfb1f4fbdae4f4e99461"
+                  "signature": "de43e7ebdb79449dcda007c891bad1b822f79540225d7788d90f57695c869457"
                 }
               ]
             },
@@ -3157,7 +3193,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "e498d5c91ee36bf86166542047e15231b209bb49865aa775ee7e4b7553aa1f68"
+                  "signature": "ca242a7127659e395d4db17f6e911dec6727038cec8aa925818dcabdeb92b04e"
                 }
               ]
             },
@@ -3232,7 +3268,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "f01b37fc8e049519fc3e849ccfd9b1f9734cc144276c843fc375eefe5df51e55"
+                  "signature": "b94403aee49709d2582dfac1d6d3ea8e25e39ffb6dfe01fa065a351b828dc7ec"
                 }
               ]
             },
@@ -3307,7 +3343,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "d202fef4e1fac2d8f53312b1d7fd9f855184c155749887962b2ab2ab73bae6a0"
+                  "signature": "08970c8ba1c072e9f6ae9934e7b6745dc21bfef1e7560103dfd021c16cc9637d"
                 }
               ]
             },
@@ -3382,7 +3418,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "0a89898f8d9084265281386ced59b243489637a77203bc936196367f42f11636"
+                  "signature": "108c1ddf54a31ae8c212e8441a8e9f98bd48d21a060d2a3fde7d4a131fdc1a15"
                 }
               ]
             },
@@ -3457,7 +3493,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "691fccd9c919123f363b35b641ad0c8b7e65ef2093c91ce493ba9dd513bcd732"
+                  "signature": "5b0ac017170eb575ad3898306699ac4d7a35b3f4e9964df8897e44478322bedf"
                 }
               ]
             }
@@ -9580,7 +9616,7 @@
         "sport": "Beachvolleyball",
         "category": "Männer",
         "number": "Match 1 BV-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 480,
         "court": "Court 1",
