@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T14:45:17.794Z",
+  "generatedAt": "2026-09-26T14:45:20.554Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3178,8 +3178,8 @@
               {
                 "id": "53890029-2a3e-4c01-86b4-820cf66199b8",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 63,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -3197,7 +3197,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-26T13:45:44.231Z",
-                "updatedAt": "2026-09-26T14:45:16.857Z",
+                "updatedAt": "2026-09-26T14:45:18.356Z",
                 "beachSets": [
                   {
                     "id": "67c5aa13-1cf7-4936-ac6e-f96976e29e5e",
@@ -15975,7 +15975,7 @@
         "sport": "Beachvolleyball",
         "category": "Männer",
         "number": "Match 63 BV-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 960,
         "court": "Court 3",
@@ -16007,7 +16007,7 @@
         "day": "2026-09-26",
         "minute": 1060,
         "court": "Court 1",
-        "teamA": "Noch offen",
+        "teamA": "Osser Absolut",
         "teamB": "Noch offen",
         "scores": [],
         "penalty": null
