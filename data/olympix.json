@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T09:23:41.282Z",
+  "generatedAt": "2026-09-26T09:24:17.619Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -24,7 +24,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 84,
+            "rankingRevision": 85,
             "groupCount": 6,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -35,7 +35,7 @@
             "name": "Beachvolleyball Männer",
             "slug": "beachvolleyball-maenner",
             "createdAt": "2026-09-20T16:25:52.305Z",
-            "updatedAt": "2026-09-26T09:04:56.806Z",
+            "updatedAt": "2026-09-26T09:24:17.397Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -1069,32 +1069,6 @@
             ],
             "matches": [
               {
-                "id": "217f2909-f2a8-455b-bb7f-f38fe0502778",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 22,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "f689a63f-d666-4f82-aaae-0d594eddc1e2",
-                "teamAId": "eb51b5e9-2dd8-44a2-a757-e5c2732d6b4b",
-                "teamBId": "3ca65430-6c21-4e52-aaab-3f155db84101",
-                "round": 0,
-                "position": 14,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.176Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "23ac34ba-227e-44a0-93c5-02756053f676",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -1979,6 +1953,40 @@
                 "soccerPeriods": []
               },
               {
+                "id": "217f2909-f2a8-455b-bb7f-f38fe0502778",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "FINAL",
+                "revision": 2,
+                "matchNumber": 22,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "f689a63f-d666-4f82-aaae-0d594eddc1e2",
+                "teamAId": "eb51b5e9-2dd8-44a2-a757-e5c2732d6b4b",
+                "teamBId": "3ca65430-6c21-4e52-aaab-3f155db84101",
+                "round": 0,
+                "position": 14,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T09:24:17.384Z",
+                "beachSets": [
+                  {
+                    "id": "bc39642f-548f-4bb2-9896-13e4c6ad58a5",
+                    "matchId": "217f2909-f2a8-455b-bb7f-f38fe0502778",
+                    "position": 1,
+                    "scoreA": 10,
+                    "scoreB": 21
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
                 "id": "4fe8d77d-d35c-4f72-9711-eb58669d6726",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "FINAL",
@@ -2819,7 +2827,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "02739c5909e93114dafbf75e534c05bc55b248a89f09c76ef2c42caab8de853c"
+              "signature": "2f23a0bc6faf6d2c1d5d7543cd2d5126512155173f8c547a96ac1368b99424c9"
             },
             {
               "rank": 2,
@@ -2840,7 +2848,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "ffdfe662d913b01b039cfd4daa3a541d256801f2d220b3a62cde9cf18a22719a"
+              "signature": "675a79a973c4231e0c5b50d8f9492cc65fa66b625551bfffce48cd3c32457bfd"
             },
             {
               "rank": 3,
@@ -2861,7 +2869,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "16d87a999b866bfca0803da728412ad76b4910698559a7ecd12e47b77e74b4af"
+              "signature": "d6e1c60a354b5fcd47d9c325b4ed8a52585a5cb666e4ee177db328c4cc06bc3c"
             },
             {
               "rank": 4,
@@ -2882,7 +2890,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "751b0fe044c87cdea544539334fd3e1ff41ec53def68d0d3847c3c70e4dd9770"
+              "signature": "58f961694d69e84f4cf66b5c34fb61d5b03446c77abfea2bcef45864e5d58d31"
             },
             {
               "rank": 5,
@@ -2903,7 +2911,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "873f46e20c6016900555e5e00a43ec37964471b4b373f7c46e90a04857bd1ef9"
+              "signature": "386db21947ec9eee888c9e94b133257bc5091a62d30bd24c907fd8805f92248e"
             },
             {
               "rank": 6,
@@ -2948,11 +2956,11 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "4a21dfddd7a4c56c79e2a77d3e2277ca3327281b6ee82df9b87501cba2af3af6"
+              "signature": "f5d00100cc468dfeba50c22ae6ff9dbd4a0a2362e69e7e2ba915a47c8183cf9b"
             },
             {
               "rank": 9,
-              "endRank": 9,
+              "endRank": 10,
               "rows": [
                 {
                   "teamId": "d4e4df2f-46be-4226-8d8c-765859977345",
@@ -2965,15 +2973,27 @@
                   "scored": 21,
                   "conceded": 10,
                   "points": 0
+                },
+                {
+                  "teamId": "3ca65430-6c21-4e52-aaab-3f155db84101",
+                  "name": "Osser Absolut",
+                  "played": 1,
+                  "wins": 1,
+                  "losses": 0,
+                  "setsWon": 1,
+                  "setsLost": 0,
+                  "scored": 21,
+                  "conceded": 10,
+                  "points": 0
                 }
               ],
-              "tied": false,
-              "resolved": true,
-              "signature": "bc5875964799d22b26f244d8e1799c035398599822dd9c2ac2e88fd1a307db07"
+              "tied": true,
+              "resolved": false,
+              "signature": "1f4d980d65326dfefbe5eb3cbfb4d9738665af7e8eff2a1270cabfa7d87b2d42"
             },
             {
-              "rank": 10,
-              "endRank": 11,
+              "rank": 11,
+              "endRank": 12,
               "rows": [
                 {
                   "teamId": "022340ba-1214-414f-b6db-f1c0b0a51a47",
@@ -3002,11 +3022,11 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "c2e797742c9974babce953aa192560dd426639fd8e917a58f39c757c514f5ba4"
+              "signature": "172884d6a57134ec8112687445f7b347bf1d6948e6d0401f228b4ce527b3caf0"
             },
             {
-              "rank": 12,
-              "endRank": 12,
+              "rank": 13,
+              "endRank": 13,
               "rows": [
                 {
                   "teamId": "8938be15-80ef-457e-b0df-bbbd2c2a1c18",
@@ -3023,11 +3043,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "c17b6e5beb66884393f2a9d731ce8e0211bbc36c5d9734246bf2bbab6cfdd90c"
+              "signature": "72bcd76d5fcfea22d7c727028827bd25526193aa8fa4c9091e3a064d2864cca5"
             },
             {
-              "rank": 13,
-              "endRank": 13,
+              "rank": 14,
+              "endRank": 14,
               "rows": [
                 {
                   "teamId": "c1fd5fe0-10aa-4efe-817f-5c6699a83395",
@@ -3044,11 +3064,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "63c765b4f122d6d3200845bf7a6a1b942d2b9afc71df43b52f78b8c09b0b3440"
+              "signature": "cae231baaa084528a5be4ac4cd8ac01c37093daec691873e2a62dacbe1625820"
             },
             {
-              "rank": 14,
-              "endRank": 14,
+              "rank": 15,
+              "endRank": 15,
               "rows": [
                 {
                   "teamId": "b17aed90-57f4-4599-8cc2-b446f7a00804",
@@ -3065,11 +3085,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "5fab0e86a06ee62e4e50fdd792269d69f5398b96c53e22f0b8057a6b7edefd82"
+              "signature": "3047abe572afc77a4ff6e00182c9fe203c4ab265ef2070983d10dc6e9101cf00"
             },
             {
-              "rank": 15,
-              "endRank": 15,
+              "rank": 16,
+              "endRank": 16,
               "rows": [
                 {
                   "teamId": "6e3e522e-0c7d-45f5-8a38-324f5b38a4b0",
@@ -3086,11 +3106,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "2d576b2164897b31c7f35e3543c4bdfb077b495e308a8a583defa41fdd37c6ff"
+              "signature": "9567314ba6ebe1601aba5b19b54920b4703a77f20669551c35f4434abf9312b0"
             },
             {
-              "rank": 16,
-              "endRank": 16,
+              "rank": 17,
+              "endRank": 17,
               "rows": [
                 {
                   "teamId": "41db8cf0-5759-4214-a194-12308e7af187",
@@ -3107,11 +3127,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "b44bcf99f92d1652bea87741cf292c20171c94af57dce77841383a434a741081"
+              "signature": "9d43af54e3cd86c8f86edbd2aeac24dc391f85611abd7baf0ae4899c0321f4b1"
             },
             {
-              "rank": 17,
-              "endRank": 17,
+              "rank": 18,
+              "endRank": 18,
               "rows": [
                 {
                   "teamId": "a6baf7b9-a992-4c03-8839-2e7a5b38f689",
@@ -3128,11 +3148,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "6bf54762715a89c56a206fd6f29316d8288a06b27173ce3aee20bc361374fe83"
+              "signature": "06f436e9fc5eda9a5c4156aadfbdbb372e9dba77c2234be4708acbd713f0acfd"
             },
             {
-              "rank": 18,
-              "endRank": 18,
+              "rank": 19,
+              "endRank": 19,
               "rows": [
                 {
                   "teamId": "c4ca4f5f-1a40-4063-b61d-827393fbfb6a",
@@ -3149,11 +3169,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "4af43e8f729f73b641ec117138e2d6523261f6d5989df4259ce82443c9c596e8"
+              "signature": "731ba63cd881404ec497c5aa7f9a69ff18b2c82141daf0ca5c779e3134b32d12"
             },
             {
-              "rank": 19,
-              "endRank": 19,
+              "rank": 20,
+              "endRank": 20,
               "rows": [
                 {
                   "teamId": "7c961abc-76b5-49c2-8c6f-56783e8ecddc",
@@ -3170,11 +3190,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "693b67b0d7714631317005f67e185344a7cabcb88d8fc0a2b63bb8e714fb1b98"
+              "signature": "b3edb9ac0f031f47fa8f377ad972b57ff0970f37ba94eeb79b865e250b2b329e"
             },
             {
-              "rank": 20,
-              "endRank": 20,
+              "rank": 21,
+              "endRank": 21,
               "rows": [
                 {
                   "teamId": "a6b21a66-bc0d-4aef-ba63-dfbf06b0916c",
@@ -3191,11 +3211,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "2d0fcec54da8bafc790ba34979bf3b6cc3ac97cc23b729688fe27ccd37770923"
+              "signature": "4837ce2479a214a61e83c64542e3917ff4eaa102376dfc513ad0c28fa3ecde21"
             },
             {
-              "rank": 21,
-              "endRank": 21,
+              "rank": 22,
+              "endRank": 22,
               "rows": [
                 {
                   "teamId": "bab618a8-6e7d-4446-b76f-68aec65425a5",
@@ -3212,11 +3232,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "f51f579356048433d588aeb82ad47e4aad85972085494267c5604655b03539a0"
+              "signature": "11d6ce5370438532b7b8c697d5ce622a8dc9d6d0539f51bba9c469cbbe8bc981"
             },
             {
-              "rank": 22,
-              "endRank": 22,
+              "rank": 23,
+              "endRank": 23,
               "rows": [
                 {
                   "teamId": "bafb98e9-c2af-488f-9fcb-d46d08b96067",
@@ -3233,11 +3253,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "1f8487063346d0df8f73d69218e513b9611a1efdb024b690fbc227d4e75b1bb5"
+              "signature": "b5c4ffbbc6034442373d364faa319b4ae2b5f6a7ab5a35bdf58b8976752fd86a"
             },
             {
-              "rank": 23,
-              "endRank": 23,
+              "rank": 24,
+              "endRank": 24,
               "rows": [
                 {
                   "teamId": "b496f914-73c3-43f8-81f7-27a9c315c845",
@@ -3254,11 +3274,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "0f68e7ad1e2d92e490ae734c4b0371e70851013c640899df21343e1fbe24a5e1"
+              "signature": "01f5f4490c9e23542ca42dfcef1f3b810cefd26818d4ed01465f91c87bb983ad"
             },
             {
-              "rank": 24,
-              "endRank": 24,
+              "rank": 25,
+              "endRank": 25,
               "rows": [
                 {
                   "teamId": "694e1b64-1b84-4031-95a3-72e0b8fd4657",
@@ -3275,11 +3295,32 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "3e4992d3cac176daf2edb5cf57d9b7b61eb5832687ea59d367c2205891e867ee"
+              "signature": "5c9f37c5926a14a174278b8f8f2be37528889b747fed92e0a3a9e61a0b0279a5"
             },
             {
-              "rank": 25,
-              "endRank": 25,
+              "rank": 26,
+              "endRank": 26,
+              "rows": [
+                {
+                  "teamId": "eb51b5e9-2dd8-44a2-a757-e5c2732d6b4b",
+                  "name": "Das Volleyballregiment",
+                  "played": 4,
+                  "wins": 0,
+                  "losses": 4,
+                  "setsWon": 0,
+                  "setsLost": 4,
+                  "scored": 33,
+                  "conceded": 84,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "f06c8c8dac4445de114d7fcf21c676e31c5aa1f13d2bcbf4a649307c15754517"
+            },
+            {
+              "rank": 27,
+              "endRank": 27,
               "rows": [
                 {
                   "teamId": "40abd5eb-f574-4ce1-b838-72e504a7f802",
@@ -3296,32 +3337,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "1c17d57f4ee3572a76a65ff8501090bbaf1c09cf37068c4c284a78bc6202cfe9"
+              "signature": "03cfdfa3b171e8a1feaa96ef387d10922f88026928207cfa2a49a74210c3f24b"
             },
             {
-              "rank": 26,
-              "endRank": 26,
-              "rows": [
-                {
-                  "teamId": "eb51b5e9-2dd8-44a2-a757-e5c2732d6b4b",
-                  "name": "Das Volleyballregiment",
-                  "played": 3,
-                  "wins": 0,
-                  "losses": 3,
-                  "setsWon": 0,
-                  "setsLost": 3,
-                  "scored": 23,
-                  "conceded": 63,
-                  "points": 0
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "49088151c7d6412f4ddbc2251df049fd801f729552159c4b57ded499b6ff1416"
-            },
-            {
-              "rank": 27,
-              "endRank": 27,
+              "rank": 28,
+              "endRank": 28,
               "rows": [
                 {
                   "teamId": "bf814459-1957-4d2e-bc94-596095054d18",
@@ -3338,27 +3358,15 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "685200dce32745e09617482c663d38315af1b27eeeb57c9b93e56cce9c77110e"
+              "signature": "f37ffcadb99ffc55c2755d33dc00d5ebffa97cf5e265f2dd278135514a0eada4"
             },
             {
-              "rank": 28,
+              "rank": 29,
               "endRank": 30,
               "rows": [
                 {
                   "teamId": "6fc1f485-f217-42ed-9734-b1102f753b5f",
                   "name": "Beachelers",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "3ca65430-6c21-4e52-aaab-3f155db84101",
-                  "name": "Osser Absolut",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -3383,7 +3391,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "3802e8791fc7dd7fc33dbd695df1f133dcced5be257a404854db3ea0d325662b"
+              "signature": "47bce0117f32d905c80aca361798a06eb98816183190618bcd1637ffbdc89580"
             }
           ],
           "groups": [
@@ -3410,7 +3418,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "873f46e20c6016900555e5e00a43ec37964471b4b373f7c46e90a04857bd1ef9"
+                  "signature": "386db21947ec9eee888c9e94b133257bc5091a62d30bd24c907fd8805f92248e"
                 },
                 {
                   "rank": 2,
@@ -3431,7 +3439,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "d9239a052b1aa7e1474d1c084e292338222b5cd98827bb885455bd8e4bd3003b"
+                  "signature": "e841a43e41585ab57fbd76647c03050011d8f33291d6329d2117e3aeca475a43"
                 },
                 {
                   "rank": 3,
@@ -3452,7 +3460,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "5fab0e86a06ee62e4e50fdd792269d69f5398b96c53e22f0b8057a6b7edefd82"
+                  "signature": "3047abe572afc77a4ff6e00182c9fe203c4ab265ef2070983d10dc6e9101cf00"
                 },
                 {
                   "rank": 4,
@@ -3473,7 +3481,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "b44bcf99f92d1652bea87741cf292c20171c94af57dce77841383a434a741081"
+                  "signature": "9d43af54e3cd86c8f86edbd2aeac24dc391f85611abd7baf0ae4899c0321f4b1"
                 },
                 {
                   "rank": 5,
@@ -3494,7 +3502,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "0f68e7ad1e2d92e490ae734c4b0371e70851013c640899df21343e1fbe24a5e1"
+                  "signature": "01f5f4490c9e23542ca42dfcef1f3b810cefd26818d4ed01465f91c87bb983ad"
                 }
               ]
             },
@@ -3521,7 +3529,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "751b0fe044c87cdea544539334fd3e1ff41ec53def68d0d3847c3c70e4dd9770"
+                  "signature": "58f961694d69e84f4cf66b5c34fb61d5b03446c77abfea2bcef45864e5d58d31"
                 },
                 {
                   "rank": 2,
@@ -3542,11 +3550,32 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "7239a84b01f51e944fb3dbb721f28d5d71f4b11c5dde259951f6b8416c9db81e"
+                  "signature": "8e12e5df8c2e0b7fc2c5cd4c66cf9d9818952c745c1189a6d3ce278ad371fe14"
                 },
                 {
                   "rank": 3,
                   "endRank": 3,
+                  "rows": [
+                    {
+                      "teamId": "3ca65430-6c21-4e52-aaab-3f155db84101",
+                      "name": "Osser Absolut",
+                      "played": 1,
+                      "wins": 1,
+                      "losses": 0,
+                      "setsWon": 1,
+                      "setsLost": 0,
+                      "scored": 21,
+                      "conceded": 10,
+                      "points": 0
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "37542cd08cee2b87dca3536398ea1869267be935266824253b48c22ca1fa3611"
+                },
+                {
+                  "rank": 4,
+                  "endRank": 4,
                   "rows": [
                     {
                       "teamId": "ffddf3fe-cd84-4cbd-9dff-d7e5cd560940",
@@ -3563,49 +3592,28 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "8f175adaf231ae447a19524927a02cc4310813d7778122c1758a3da3c9062c18"
-                },
-                {
-                  "rank": 4,
-                  "endRank": 4,
-                  "rows": [
-                    {
-                      "teamId": "eb51b5e9-2dd8-44a2-a757-e5c2732d6b4b",
-                      "name": "Das Volleyballregiment",
-                      "played": 3,
-                      "wins": 0,
-                      "losses": 3,
-                      "setsWon": 0,
-                      "setsLost": 3,
-                      "scored": 23,
-                      "conceded": 63,
-                      "points": 0
-                    }
-                  ],
-                  "tied": false,
-                  "resolved": true,
-                  "signature": "49088151c7d6412f4ddbc2251df049fd801f729552159c4b57ded499b6ff1416"
+                  "signature": "d58e872187bb64b6c69883788192ed608997c275b784c4a8632d65e5a30d55eb"
                 },
                 {
                   "rank": 5,
                   "endRank": 5,
                   "rows": [
                     {
-                      "teamId": "3ca65430-6c21-4e52-aaab-3f155db84101",
-                      "name": "Osser Absolut",
-                      "played": 0,
+                      "teamId": "eb51b5e9-2dd8-44a2-a757-e5c2732d6b4b",
+                      "name": "Das Volleyballregiment",
+                      "played": 4,
                       "wins": 0,
-                      "losses": 0,
+                      "losses": 4,
                       "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
+                      "setsLost": 4,
+                      "scored": 33,
+                      "conceded": 84,
                       "points": 0
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "88efd9c9a879fdf1c483bfaf94bacd0ff3e180b34a37631ad4f15c02d815d48e"
+                  "signature": "f06c8c8dac4445de114d7fcf21c676e31c5aa1f13d2bcbf4a649307c15754517"
                 }
               ]
             },
@@ -3632,7 +3640,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "4fbbe20859efca83c421536fd6cf3e2f0e7bce43585687e931d4795cd95c1c7b"
+                  "signature": "00420d93fa4e7895a2e2cc6aed28e7505b078b9161cae7cef1ca361830e10a9f"
                 },
                 {
                   "rank": 2,
@@ -3653,7 +3661,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "63c765b4f122d6d3200845bf7a6a1b942d2b9afc71df43b52f78b8c09b0b3440"
+                  "signature": "cae231baaa084528a5be4ac4cd8ac01c37093daec691873e2a62dacbe1625820"
                 },
                 {
                   "rank": 3,
@@ -3674,7 +3682,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "2d576b2164897b31c7f35e3543c4bdfb077b495e308a8a583defa41fdd37c6ff"
+                  "signature": "9567314ba6ebe1601aba5b19b54920b4703a77f20669551c35f4434abf9312b0"
                 },
                 {
                   "rank": 4,
@@ -3695,7 +3703,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "4af43e8f729f73b641ec117138e2d6523261f6d5989df4259ce82443c9c596e8"
+                  "signature": "731ba63cd881404ec497c5aa7f9a69ff18b2c82141daf0ca5c779e3134b32d12"
                 },
                 {
                   "rank": 5,
@@ -3716,7 +3724,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "b41d3d9975385d9a962c7d30128ee381a8b19fea595eeeab9544a4ee88f8dc73"
+                  "signature": "fdc47d870c1901211acc13d21360615859c33b2df9539bf9a6ec367c51ae486c"
                 }
               ]
             },
@@ -3743,7 +3751,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "02739c5909e93114dafbf75e534c05bc55b248a89f09c76ef2c42caab8de853c"
+                  "signature": "2f23a0bc6faf6d2c1d5d7543cd2d5126512155173f8c547a96ac1368b99424c9"
                 },
                 {
                   "rank": 2,
@@ -3764,7 +3772,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "693b67b0d7714631317005f67e185344a7cabcb88d8fc0a2b63bb8e714fb1b98"
+                  "signature": "b3edb9ac0f031f47fa8f377ad972b57ff0970f37ba94eeb79b865e250b2b329e"
                 },
                 {
                   "rank": 3,
@@ -3785,7 +3793,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "2d0fcec54da8bafc790ba34979bf3b6cc3ac97cc23b729688fe27ccd37770923"
+                  "signature": "4837ce2479a214a61e83c64542e3917ff4eaa102376dfc513ad0c28fa3ecde21"
                 },
                 {
                   "rank": 4,
@@ -3806,7 +3814,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "3e4992d3cac176daf2edb5cf57d9b7b61eb5832687ea59d367c2205891e867ee"
+                  "signature": "5c9f37c5926a14a174278b8f8f2be37528889b747fed92e0a3a9e61a0b0279a5"
                 },
                 {
                   "rank": 5,
@@ -3827,7 +3835,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "685200dce32745e09617482c663d38315af1b27eeeb57c9b93e56cce9c77110e"
+                  "signature": "f37ffcadb99ffc55c2755d33dc00d5ebffa97cf5e265f2dd278135514a0eada4"
                 }
               ]
             },
@@ -3854,7 +3862,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "16d87a999b866bfca0803da728412ad76b4910698559a7ecd12e47b77e74b4af"
+                  "signature": "d6e1c60a354b5fcd47d9c325b4ed8a52585a5cb666e4ee177db328c4cc06bc3c"
                 },
                 {
                   "rank": 2,
@@ -3875,7 +3883,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "93f82b86086f9732796471518c9fdb66ed2fbfc765105182088b19623607db5a"
+                  "signature": "791b135efeeead978c519ed1c831031c96e141914a86ac15a9d0f4c1d6433f8d"
                 },
                 {
                   "rank": 3,
@@ -3896,7 +3904,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "c17b6e5beb66884393f2a9d731ce8e0211bbc36c5d9734246bf2bbab6cfdd90c"
+                  "signature": "72bcd76d5fcfea22d7c727028827bd25526193aa8fa4c9091e3a064d2864cca5"
                 },
                 {
                   "rank": 4,
@@ -3917,7 +3925,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "6bf54762715a89c56a206fd6f29316d8288a06b27173ce3aee20bc361374fe83"
+                  "signature": "06f436e9fc5eda9a5c4156aadfbdbb372e9dba77c2234be4708acbd713f0acfd"
                 },
                 {
                   "rank": 5,
@@ -3938,7 +3946,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "1f8487063346d0df8f73d69218e513b9611a1efdb024b690fbc227d4e75b1bb5"
+                  "signature": "b5c4ffbbc6034442373d364faa319b4ae2b5f6a7ab5a35bdf58b8976752fd86a"
                 }
               ]
             },
@@ -3965,7 +3973,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "ffdfe662d913b01b039cfd4daa3a541d256801f2d220b3a62cde9cf18a22719a"
+                  "signature": "675a79a973c4231e0c5b50d8f9492cc65fa66b625551bfffce48cd3c32457bfd"
                 },
                 {
                   "rank": 2,
@@ -3986,7 +3994,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "bc5875964799d22b26f244d8e1799c035398599822dd9c2ac2e88fd1a307db07"
+                  "signature": "134e2dd4af67cdb8a5bd5c91cdc099a424ffec0e38037e31aa28a923ed6b88a1"
                 },
                 {
                   "rank": 3,
@@ -4007,7 +4015,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "f51f579356048433d588aeb82ad47e4aad85972085494267c5604655b03539a0"
+                  "signature": "11d6ce5370438532b7b8c697d5ce622a8dc9d6d0539f51bba9c469cbbe8bc981"
                 },
                 {
                   "rank": 4,
@@ -4028,7 +4036,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "1c17d57f4ee3572a76a65ff8501090bbaf1c09cf37068c4c284a78bc6202cfe9"
+                  "signature": "03cfdfa3b171e8a1feaa96ef387d10922f88026928207cfa2a49a74210c3f24b"
                 },
                 {
                   "rank": 5,
@@ -4049,7 +4057,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "4f7a5e06de5807006cd02ce999ef68c349486bdf12dcccca6e81536c61c2ff46"
+                  "signature": "fe70c8b6bb933ba92aedbbf8318fe98d5fdb418dfb7a484b30647a7f8ce23d32"
                 }
               ]
             }
@@ -10874,25 +10882,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "217f2909-f2a8-455b-bb7f-f38fe0502778",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 22 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 620,
-        "court": "Court 1",
-        "teamA": "Das Volleyballregiment",
-        "teamB": "Osser Absolut",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "23ac34ba-227e-44a0-93c5-02756053f676",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -11663,6 +11652,30 @@
           {
             "scoreA": 21,
             "scoreB": 9
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "217f2909-f2a8-455b-bb7f-f38fe0502778",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 22 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 620,
+        "court": "Court 1",
+        "teamA": "Das Volleyballregiment",
+        "teamB": "Osser Absolut",
+        "scores": [
+          {
+            "scoreA": 10,
+            "scoreB": 21
           }
         ],
         "penalty": null
