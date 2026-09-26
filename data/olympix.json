@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:58:21.804Z",
+  "generatedAt": "2026-09-26T06:59:42.200Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -357,11 +357,11 @@
                 "eventId": "76c41a9b-9cd7-4f16-8360-202f110002ca",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "nationId": "86b2f489-0a96-4eb5-b691-a4e8a818d511",
-                "name": "Team 1",
+                "name": "Backfisch",
                 "shortName": null,
                 "isBye": false,
                 "createdAt": "2026-09-25T23:09:58.596Z",
-                "updatedAt": "2026-09-25T23:09:58.596Z"
+                "updatedAt": "2026-09-26T06:58:53.568Z"
               },
               {
                 "id": "4a0ddc3b-fa0f-411c-91e2-8febb165d19c",
@@ -691,11 +691,11 @@
                       "eventId": "76c41a9b-9cd7-4f16-8360-202f110002ca",
                       "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                       "nationId": "86b2f489-0a96-4eb5-b691-a4e8a818d511",
-                      "name": "Team 1",
+                      "name": "Backfisch",
                       "shortName": null,
                       "isBye": false,
                       "createdAt": "2026-09-25T23:09:58.596Z",
-                      "updatedAt": "2026-09-25T23:09:58.596Z"
+                      "updatedAt": "2026-09-26T06:58:53.568Z"
                     }
                   },
                   {
@@ -3094,7 +3094,7 @@
                 },
                 {
                   "teamId": "c1fd5fe0-10aa-4efe-817f-5c6699a83395",
-                  "name": "Team 1",
+                  "name": "Backfisch",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -3373,7 +3373,7 @@
                     },
                     {
                       "teamId": "c1fd5fe0-10aa-4efe-817f-5c6699a83395",
-                      "name": "Team 1",
+                      "name": "Backfisch",
                       "played": 0,
                       "wins": 0,
                       "losses": 0,
@@ -6541,32 +6541,6 @@
             ],
             "matches": [
               {
-                "id": "2941812b-7fe2-476b-895c-df8f31e75471",
-                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 8,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "50d192a7-1476-4090-8230-8a107cf1a7d0",
-                "teamAId": "51b4cfc4-4078-44d6-81aa-cd5c55429320",
-                "teamBId": "85a4ac02-af95-471b-b13a-14fc748d53ae",
-                "round": 0,
-                "position": 38,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:06:19.574Z",
-                "updatedAt": "2026-09-25T23:07:26.490Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "cd11ff6b-ac97-46c5-ac33-893d4ee016be",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
                 "status": "SCHEDULED",
@@ -6767,6 +6741,54 @@
                     "position": 3,
                     "scoreA": 0,
                     "scoreB": 2
+                  }
+                ]
+              },
+              {
+                "id": "2941812b-7fe2-476b-895c-df8f31e75471",
+                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 8,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "50d192a7-1476-4090-8230-8a107cf1a7d0",
+                "teamAId": "51b4cfc4-4078-44d6-81aa-cd5c55429320",
+                "teamBId": "85a4ac02-af95-471b-b13a-14fc748d53ae",
+                "round": 0,
+                "position": 38,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:06:19.574Z",
+                "updatedAt": "2026-09-26T06:59:41.371Z",
+                "beachSets": [],
+                "soccerPeriods": [
+                  {
+                    "id": "071e8692-4476-4c9d-b2ed-f73109d8c42e",
+                    "matchId": "2941812b-7fe2-476b-895c-df8f31e75471",
+                    "position": 1,
+                    "scoreA": 5,
+                    "scoreB": 2
+                  },
+                  {
+                    "id": "81fbd851-0f89-4f2a-b55c-06f7c1a2f0ff",
+                    "matchId": "2941812b-7fe2-476b-895c-df8f31e75471",
+                    "position": 2,
+                    "scoreA": 2,
+                    "scoreB": 2
+                  },
+                  {
+                    "id": "262d703b-4a2d-468f-9c79-f7484cea61ee",
+                    "matchId": "2941812b-7fe2-476b-895c-df8f31e75471",
+                    "position": 3,
+                    "scoreA": 1,
+                    "scoreB": 6
                   }
                 ]
               },
@@ -9740,7 +9762,7 @@
         "minute": 580,
         "court": "Court 3",
         "teamA": "Bielefeld",
-        "teamB": "Team 1",
+        "teamB": "Backfisch",
         "scores": [],
         "penalty": null
       },
@@ -9968,7 +9990,7 @@
         "minute": 680,
         "court": "Court 2",
         "teamA": "Net-Force",
-        "teamB": "Team 1",
+        "teamB": "Backfisch",
         "scores": [],
         "penalty": null
       },
@@ -10492,7 +10514,7 @@
         "minute": 780,
         "court": "Court 3",
         "teamA": "Schütze Jonas",
-        "teamB": "Team 1",
+        "teamB": "Backfisch",
         "scores": [],
         "penalty": null
       },
@@ -10700,7 +10722,7 @@
         "day": "2026-09-26",
         "minute": 860,
         "court": "Court 2",
-        "teamA": "Team 1",
+        "teamA": "Backfisch",
         "teamB": "Team 2",
         "scores": [],
         "penalty": null
@@ -11205,25 +11227,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "2941812b-7fe2-476b-895c-df8f31e75471",
-        "competitionSlug": "street-soccer-maenner",
-        "sport": "Urban Street Soccer",
-        "category": "Männer",
-        "number": "Match 8 US-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 520,
-        "court": "Pitch 2",
-        "teamA": "KC Hesselhopfer",
-        "teamB": "Eiltesquad",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "cd11ff6b-ac97-46c5-ac33-893d4ee016be",
         "competitionSlug": "street-soccer-maenner",
         "sport": "Urban Street Soccer",
@@ -11361,6 +11364,38 @@
           {
             "scoreA": 0,
             "scoreB": 2
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "2941812b-7fe2-476b-895c-df8f31e75471",
+        "competitionSlug": "street-soccer-maenner",
+        "sport": "Urban Street Soccer",
+        "category": "Männer",
+        "number": "Match 8 US-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 520,
+        "court": "Pitch 2",
+        "teamA": "KC Hesselhopfer",
+        "teamB": "Eiltesquad",
+        "scores": [
+          {
+            "scoreA": 5,
+            "scoreB": 2
+          },
+          {
+            "scoreA": 2,
+            "scoreB": 2
+          },
+          {
+            "scoreA": 1,
+            "scoreB": 6
           }
         ],
         "penalty": null
