@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:19:03.272Z",
+  "generatedAt": "2026-09-26T06:19:08.301Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5146,7 +5146,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 21,
+            "rankingRevision": 22,
             "groupCount": 7,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -5157,7 +5157,7 @@
             "name": "Street Soccer Männer",
             "slug": "street-soccer-maenner",
             "createdAt": "2026-09-20T11:08:50.042Z",
-            "updatedAt": "2026-09-25T23:06:17.902Z",
+            "updatedAt": "2026-09-26T06:19:07.508Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -7205,8 +7205,8 @@
               {
                 "id": "413461ef-aae9-4a0d-a67b-53d3ad13e605",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 2,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -7224,7 +7224,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:06:19.574Z",
-                "updatedAt": "2026-09-26T06:19:02.406Z",
+                "updatedAt": "2026-09-26T06:19:07.498Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
@@ -7256,6 +7256,48 @@
           "overall": [
             {
               "rank": 1,
+              "endRank": 1,
+              "rows": [
+                {
+                  "teamId": "928b3110-4f5d-42db-81fd-8b42c68a6c68",
+                  "name": "GiG",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 12,
+                  "conceded": 6,
+                  "points": 6
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "79cd4973b572971b32fabe9921e84aad0d971964bc43e9e43bc0574958a0edf3"
+            },
+            {
+              "rank": 2,
+              "endRank": 2,
+              "rows": [
+                {
+                  "teamId": "72936ae2-6323-4eb0-8bbf-2f1b064c0164",
+                  "name": "Gartenhütte",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 6,
+                  "conceded": 12,
+                  "points": 3
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "7376f6bdb7e1ca070d0d181e7bde529e95b3e10422700bfbddefc366224f05c2"
+            },
+            {
+              "rank": 3,
               "endRank": 28,
               "rows": [
                 {
@@ -7499,18 +7541,6 @@
                   "points": 0
                 },
                 {
-                  "teamId": "928b3110-4f5d-42db-81fd-8b42c68a6c68",
-                  "name": "GiG",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
                   "teamId": "f7370af7-fe03-493e-9a8f-21ce7fc8e1c9",
                   "name": "Die Wattläufer",
                   "played": 0,
@@ -7571,18 +7601,6 @@
                   "points": 0
                 },
                 {
-                  "teamId": "72936ae2-6323-4eb0-8bbf-2f1b064c0164",
-                  "name": "Gartenhütte",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
                   "teamId": "7d0e7a83-5d83-4bd0-93b7-c6a2d43084e6",
                   "name": "BYE 1",
                   "played": 0,
@@ -7597,7 +7615,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "aa006b6b187c5f8e1836f349ef4597c05ddad8b5b407374e2b1ba60904c98eec"
+              "signature": "b303811057aefd051aa8a08da9ed986cedada0f131d2cb2b24fd7368a0692736"
             }
           ],
           "groups": [
@@ -7660,7 +7678,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "db922084a078b0c5c23074cce57961645ac55ad4578c81f50aa7be1527a29e9f"
+                  "signature": "d84604d3c56aec35b97527177bd6002b15e7d29f98ec495171a4d85f0e4d8e85"
                 }
               ]
             },
@@ -7670,20 +7688,50 @@
               "blocks": [
                 {
                   "rank": 1,
-                  "endRank": 4,
+                  "endRank": 1,
                   "rows": [
                     {
-                      "teamId": "72936ae2-6323-4eb0-8bbf-2f1b064c0164",
-                      "name": "Gartenhütte",
-                      "played": 0,
+                      "teamId": "928b3110-4f5d-42db-81fd-8b42c68a6c68",
+                      "name": "GiG",
+                      "played": 1,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
-                    },
+                      "scored": 12,
+                      "conceded": 6,
+                      "points": 6
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "79cd4973b572971b32fabe9921e84aad0d971964bc43e9e43bc0574958a0edf3"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
+                  "rows": [
+                    {
+                      "teamId": "72936ae2-6323-4eb0-8bbf-2f1b064c0164",
+                      "name": "Gartenhütte",
+                      "played": 1,
+                      "wins": 0,
+                      "losses": 0,
+                      "setsWon": 0,
+                      "setsLost": 0,
+                      "scored": 6,
+                      "conceded": 12,
+                      "points": 3
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "7376f6bdb7e1ca070d0d181e7bde529e95b3e10422700bfbddefc366224f05c2"
+                },
+                {
+                  "rank": 3,
+                  "endRank": 4,
+                  "rows": [
                     {
                       "teamId": "8d55645f-4f09-46b1-b5e0-6c01606e60e8",
                       "name": "Aldi-Nord",
@@ -7707,23 +7755,11 @@
                       "scored": 0,
                       "conceded": 0,
                       "points": 0
-                    },
-                    {
-                      "teamId": "928b3110-4f5d-42db-81fd-8b42c68a6c68",
-                      "name": "GiG",
-                      "played": 0,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
                     }
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "f0407f4f2a979ac4255f2f64d718eb4a129d4934d373fd2ee110d81301b79b7a"
+                  "signature": "59fb70960f0c49e0312f2e85ab0f3bf4496cfce43ae01a307ed11ad1428bebcb"
                 }
               ]
             },
@@ -7786,7 +7822,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "5b33ebd3e26d082616257f91f70aa2c4fa10010f863846567ba4a6780e11a602"
+                  "signature": "a8087bbdf3fcbdf0e44d63974e0048585bf42a7e1892323d115191ed4f08134a"
                 }
               ]
             },
@@ -7849,7 +7885,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "82c15daf2b71c9dde1d98812a66f16954901a006f5074356155575dac827e017"
+                  "signature": "8154a4c3d9c84edb10c79296cd6b56f8297e6b3a8602012fa3925ad5dfa7723e"
                 }
               ]
             },
@@ -7912,7 +7948,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "43e5e436e273d316b8f5ec5b7ef8386919847791da8cff9c612e36e21b449e51"
+                  "signature": "64382c234456c790b2e86964ce33a3be3867bac25704f1020182089a392c7742"
                 }
               ]
             },
@@ -7975,7 +8011,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "f101800f7989f6e687e56055cdbb0a36c899c940cbbee298eec6d7738b6febe5"
+                  "signature": "462b4ee4a486e9180dd29083523f9db4d02ce446719a3a4f113bb8a2fa3ce523"
                 }
               ]
             },
@@ -8038,7 +8074,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "23a2ebef943e14cea5ef88b00be3ab536d6457d1d7516ab8492d85de89e094fb"
+                  "signature": "59fc75fe50921998d7d00b316d0de5785c60029318f341a8b3a067225996a10b"
                 }
               ]
             }
@@ -11111,7 +11147,7 @@
         "sport": "Urban Street Soccer",
         "category": "Männer",
         "number": "Match 2 US-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 480,
         "court": "Pitch 2",
