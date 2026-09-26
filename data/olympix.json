@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T07:22:20.283Z",
+  "generatedAt": "2026-09-26T07:22:22.588Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -24,7 +24,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 69,
+            "rankingRevision": 70,
             "groupCount": 6,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -35,7 +35,7 @@
             "name": "Beachvolleyball Männer",
             "slug": "beachvolleyball-maenner",
             "createdAt": "2026-09-20T16:25:52.305Z",
-            "updatedAt": "2026-09-26T06:54:35.789Z",
+            "updatedAt": "2026-09-26T07:22:20.391Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -1985,40 +1985,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "921a20e9-9e15-44d2-ad74-02d57ccf693d",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
-                "matchNumber": 7,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "58517508-a7bd-46f2-8542-79efc4434c24",
-                "teamAId": "a51239bd-1c9e-46e1-8040-986e7be36867",
-                "teamBId": "8938be15-80ef-457e-b0df-bbbd2c2a1c18",
-                "round": 0,
-                "position": 42,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-26T07:22:19.477Z",
-                "beachSets": [
-                  {
-                    "id": "ff5f3828-fd74-4ca5-9de5-bbeffd7695e8",
-                    "matchId": "921a20e9-9e15-44d2-ad74-02d57ccf693d",
-                    "position": 1,
-                    "scoreA": 15,
-                    "scoreB": 21
-                  }
-                ],
-                "soccerPeriods": []
-              },
-              {
                 "id": "9d8e9d33-c34c-4b57-9dec-64d3f7a55c99",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "FINAL",
@@ -2081,6 +2047,40 @@
                     "matchId": "7d138936-14de-4556-aef1-9b9e5065893a",
                     "position": 1,
                     "scoreA": 11,
+                    "scoreB": 21
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "921a20e9-9e15-44d2-ad74-02d57ccf693d",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "FINAL",
+                "revision": 2,
+                "matchNumber": 7,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "58517508-a7bd-46f2-8542-79efc4434c24",
+                "teamAId": "a51239bd-1c9e-46e1-8040-986e7be36867",
+                "teamBId": "8938be15-80ef-457e-b0df-bbbd2c2a1c18",
+                "round": 0,
+                "position": 42,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T07:22:20.380Z",
+                "beachSets": [
+                  {
+                    "id": "ff5f3828-fd74-4ca5-9de5-bbeffd7695e8",
+                    "matchId": "921a20e9-9e15-44d2-ad74-02d57ccf693d",
+                    "position": 1,
+                    "scoreA": 15,
                     "scoreB": 21
                   }
                 ],
@@ -2707,7 +2707,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "a7a275c834a6d2a250701d98d5e91faa8ff1cf629293cb2d382cb1a4ab83fd91"
+              "signature": "629ea60f0ecbf197a503579c0e699c1294de6672766ff91309aeab8c77d9b8d9"
             },
             {
               "rank": 2,
@@ -2740,7 +2740,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "f98b586df5ba5eb0473546fffb293a2643800a78f712616cbc09a99c17ba79ba"
+              "signature": "efa4a30a9f6fd9ec852302683489dea274ec38a7c75a8275ebb2a708eee05cc3"
             },
             {
               "rank": 4,
@@ -2761,7 +2761,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "9cb7b7b6e862c8878e7f364c1fc68a85afbe4e16bb549654ae874a3ee2090bc5"
+              "signature": "e39afd3f184a3038ac8e2f9cabb7b227377067ab98e9cd87e4ed90aa2c18b59b"
             },
             {
               "rank": 5,
@@ -2794,24 +2794,54 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "91861cb9b343c968212594dc6d944783764f7b88eeff6bcb26f3ce363c808537"
+              "signature": "3cb60993a855177d9cb1451646d907885202ca1964727b4f03feaf1c9034a73f"
             },
             {
               "rank": 7,
+              "endRank": 7,
+              "rows": [
+                {
+                  "teamId": "8938be15-80ef-457e-b0df-bbbd2c2a1c18",
+                  "name": "Team Zukunft",
+                  "played": 1,
+                  "wins": 1,
+                  "losses": 0,
+                  "setsWon": 1,
+                  "setsLost": 0,
+                  "scored": 21,
+                  "conceded": 15,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "acd649f206ba7aa86955aa32f2b7c64ca068f6607c7e0860eab06be9feccea41"
+            },
+            {
+              "rank": 8,
               "endRank": 8,
               "rows": [
                 {
                   "teamId": "a51239bd-1c9e-46e1-8040-986e7be36867",
                   "name": "BEACHER",
-                  "played": 1,
+                  "played": 2,
                   "wins": 0,
-                  "losses": 1,
+                  "losses": 2,
                   "setsWon": 0,
-                  "setsLost": 1,
-                  "scored": 11,
-                  "conceded": 21,
+                  "setsLost": 2,
+                  "scored": 26,
+                  "conceded": 42,
                   "points": 0
-                },
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "c9b5910ff71632ccee5934bf522e00b87598ae4d51c1cd5c8feaa4728884eb9b"
+            },
+            {
+              "rank": 9,
+              "endRank": 9,
+              "rows": [
                 {
                   "teamId": "eb51b5e9-2dd8-44a2-a757-e5c2732d6b4b",
                   "name": "Das Volleyballregiment",
@@ -2825,13 +2855,13 @@
                   "points": 0
                 }
               ],
-              "tied": true,
-              "resolved": false,
-              "signature": "834f2c906452dab602675f3a091756db52646ffb70c576c8ddf339f19a9de498"
+              "tied": false,
+              "resolved": true,
+              "signature": "06b9a46577f8539ef3740ec24933e918b65d9cd21055df51029994f0e997f4f6"
             },
             {
-              "rank": 9,
-              "endRank": 9,
+              "rank": 10,
+              "endRank": 10,
               "rows": [
                 {
                   "teamId": "d43cd0ec-62fc-4e64-b8f0-ad304bac2508",
@@ -2848,11 +2878,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "520a26c01dfb851bcc2970c8d17fe6aa7192f692666008cfd874b4624908803f"
+              "signature": "510a0fedc019b3ddb558b9b18b6dc01e58d8279488035ecdd1d446e20c8aeba7"
             },
             {
-              "rank": 10,
-              "endRank": 11,
+              "rank": 11,
+              "endRank": 12,
               "rows": [
                 {
                   "teamId": "6e3e522e-0c7d-45f5-8a38-324f5b38a4b0",
@@ -2881,11 +2911,11 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "87728b40d04a6e20903a9053c4933029e944cedc5373d4aaf1c2b3883a557752"
+              "signature": "ac770258388a46014af63e3263c45ccb92d3956768b6319c387e7f53f276c58f"
             },
             {
-              "rank": 12,
-              "endRank": 12,
+              "rank": 13,
+              "endRank": 13,
               "rows": [
                 {
                   "teamId": "bf814459-1957-4d2e-bc94-596095054d18",
@@ -2902,10 +2932,10 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "7de64d825367403c0a140ccd9ac6afdc1f51cfd4d6c947355f2decf1f884e047"
+              "signature": "fa2e982d1785dc4199fcfa872c175c08d2261439fd682c37b6e70f16eacbd870"
             },
             {
-              "rank": 13,
+              "rank": 14,
               "endRank": 30,
               "rows": [
                 {
@@ -2947,18 +2977,6 @@
                 {
                   "teamId": "7c961abc-76b5-49c2-8c6f-56783e8ecddc",
                   "name": "FC Haltestelle",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "8938be15-80ef-457e-b0df-bbbd2c2a1c18",
-                  "name": "Team Zukunft",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -3127,7 +3145,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "bd0ea0a499773141bbd56412ee19b1436c79e9f521d81c437419afb599514ab2"
+              "signature": "87064ff04db61d78f1ab4c028b07171399b4d6cadcc15be6bc8ccc6909ab2ee6"
             }
           ],
           "groups": [
@@ -3154,7 +3172,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "78dd18fe86506df3cb15279c2f5f99fe8f5791067793a3e85fe63ce41739aa1d"
+                  "signature": "40e97234054d8f15406fb5115f59e1fba9f276dc6644f6c55157701ee8f0cdad"
                 },
                 {
                   "rank": 2,
@@ -3175,7 +3193,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "05d006195f48903d3bf56fd4a5a0fad81e7281113326b63f276011a0f8dbb1bd"
+                  "signature": "6e30544947dd213adb8473538b9415bbb4addc12a12557f4897d3086df0e949c"
                 },
                 {
                   "rank": 3,
@@ -3220,7 +3238,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "5a7976aaaee63605ada215c4afdc8d79e69dfea4332e82b5e9800ebaf383cf9a"
+                  "signature": "c36d10001106b75cc7a3f5a4be40f1a4e2440a721d88c898a21c627d972e22df"
                 }
               ]
             },
@@ -3247,7 +3265,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "2e77efdc4dbcfb1495f8a1148aafc7b864aa6cd1b869d6ef02591796d9585347"
+                  "signature": "38c447176ada4610183f9d2db2851e2078553cae6f3cf3424d1333574a8e357e"
                 },
                 {
                   "rank": 2,
@@ -3268,7 +3286,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "c564a8d30fd37b76d30526d480bebcfacc2c09d39866e8f075a8214a433ebea6"
+                  "signature": "06b9a46577f8539ef3740ec24933e918b65d9cd21055df51029994f0e997f4f6"
                 },
                 {
                   "rank": 3,
@@ -3313,7 +3331,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "188634799f5d68d3d08454ce665a3feab06d629eb381d82773999c0c952cb4af"
+                  "signature": "722d90a52cc1c8e17630bac75548ac479488b46ab5935e47fbbfe75b09348883"
                 }
               ]
             },
@@ -3340,7 +3358,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "909b87bd1e3408b973de9a17923b87f0fe61b33e732521958290d4d3ad31776a"
+                  "signature": "600ff1b32b0adbffdd5548c85768564dc1e8a4a67b2d693185f792869189efee"
                 },
                 {
                   "rank": 2,
@@ -3361,7 +3379,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "2dc848ce748765d050b7f830a67694549a1da3faf4b25d99be28738273ea0245"
+                  "signature": "cca6e7925203d29ecf44fcfe63a516c4e08ab1076ee6292aaa0f11917915324b"
                 },
                 {
                   "rank": 3,
@@ -3406,7 +3424,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "80376037d1b56fd03c58e8f87f5406ad765cd510fab36947414021d2556c6c4f"
+                  "signature": "4c01b04369985c979b14bbd1ab536fa00fe73f40fb055d6478b70d7079a29c0a"
                 }
               ]
             },
@@ -3433,7 +3451,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "a7a275c834a6d2a250701d98d5e91faa8ff1cf629293cb2d382cb1a4ab83fd91"
+                  "signature": "629ea60f0ecbf197a503579c0e699c1294de6672766ff91309aeab8c77d9b8d9"
                 },
                 {
                   "rank": 2,
@@ -3454,7 +3472,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "7de64d825367403c0a140ccd9ac6afdc1f51cfd4d6c947355f2decf1f884e047"
+                  "signature": "fa2e982d1785dc4199fcfa872c175c08d2261439fd682c37b6e70f16eacbd870"
                 },
                 {
                   "rank": 3,
@@ -3499,7 +3517,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "72e6226c6f1f4de92971df0ad745c270790cae8bb83a87634985690afd2fcf4a"
+                  "signature": "3ff9fec2af1c1f3a2b08d82c1cc8e6145e4c144000da10b335e075cfbced1497"
                 }
               ]
             },
@@ -3526,45 +3544,54 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "0a2505ac30592314cc7f1f9237b59a183c65bbac5633c4a7b0c42557d44ab1d1"
+                  "signature": "7d80020b5defc36ac7047a5bd0d6a1030de2340bd832c70a6b08677ead99d042"
                 },
                 {
                   "rank": 2,
                   "endRank": 2,
                   "rows": [
                     {
-                      "teamId": "a51239bd-1c9e-46e1-8040-986e7be36867",
-                      "name": "BEACHER",
+                      "teamId": "8938be15-80ef-457e-b0df-bbbd2c2a1c18",
+                      "name": "Team Zukunft",
                       "played": 1,
-                      "wins": 0,
-                      "losses": 1,
-                      "setsWon": 0,
-                      "setsLost": 1,
-                      "scored": 11,
-                      "conceded": 21,
+                      "wins": 1,
+                      "losses": 0,
+                      "setsWon": 1,
+                      "setsLost": 0,
+                      "scored": 21,
+                      "conceded": 15,
                       "points": 0
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "17605a2ecb5f6eb14b6486022a3da6c5bc61d2cf9c300bf39a73fad98a6938bc"
+                  "signature": "acd649f206ba7aa86955aa32f2b7c64ca068f6607c7e0860eab06be9feccea41"
                 },
                 {
                   "rank": 3,
-                  "endRank": 5,
+                  "endRank": 3,
                   "rows": [
                     {
-                      "teamId": "8938be15-80ef-457e-b0df-bbbd2c2a1c18",
-                      "name": "Team Zukunft",
-                      "played": 0,
+                      "teamId": "a51239bd-1c9e-46e1-8040-986e7be36867",
+                      "name": "BEACHER",
+                      "played": 2,
                       "wins": 0,
-                      "losses": 0,
+                      "losses": 2,
                       "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
+                      "setsLost": 2,
+                      "scored": 26,
+                      "conceded": 42,
                       "points": 0
-                    },
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "c9b5910ff71632ccee5934bf522e00b87598ae4d51c1cd5c8feaa4728884eb9b"
+                },
+                {
+                  "rank": 4,
+                  "endRank": 5,
+                  "rows": [
                     {
                       "teamId": "bafb98e9-c2af-488f-9fcb-d46d08b96067",
                       "name": "Hunters",
@@ -3592,7 +3619,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "3768bdae5e73211ba01a8ec92f977ccc09625cee82bdb2247fea11d181a862cc"
+                  "signature": "c974222e459365aab287d9b11b5c6cfe3ee9ba618f0b02e4699ccc7411ff974f"
                 }
               ]
             },
@@ -3619,7 +3646,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "9cb7b7b6e862c8878e7f364c1fc68a85afbe4e16bb549654ae874a3ee2090bc5"
+                  "signature": "e39afd3f184a3038ac8e2f9cabb7b227377067ab98e9cd87e4ed90aa2c18b59b"
                 },
                 {
                   "rank": 2,
@@ -3640,7 +3667,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "520a26c01dfb851bcc2970c8d17fe6aa7192f692666008cfd874b4624908803f"
+                  "signature": "510a0fedc019b3ddb558b9b18b6dc01e58d8279488035ecdd1d446e20c8aeba7"
                 },
                 {
                   "rank": 3,
@@ -3685,7 +3712,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "66697b60edfebee4ed25efa5e0fefae5c015ef51e2c0b9440adbfc0caf69f69f"
+                  "signature": "ef33f0bcbce8cb83b514bc2547f92a5a5237d904e78e4f8ee4f1f9d3aab92af2"
                 }
               ]
             }
@@ -10411,30 +10438,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "921a20e9-9e15-44d2-ad74-02d57ccf693d",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 7 BV-M",
-        "status": "RESULT_ENTERED",
-        "day": "2026-09-26",
-        "minute": 520,
-        "court": "Court 1",
-        "teamA": "BEACHER",
-        "teamB": "Team Zukunft",
-        "scores": [
-          {
-            "scoreA": 15,
-            "scoreB": 21
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "9d8e9d33-c34c-4b57-9dec-64d3f7a55c99",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -10473,6 +10476,30 @@
         "scores": [
           {
             "scoreA": 11,
+            "scoreB": 21
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "921a20e9-9e15-44d2-ad74-02d57ccf693d",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 7 BV-M",
+        "status": "FINAL",
+        "day": "2026-09-26",
+        "minute": 520,
+        "court": "Court 1",
+        "teamA": "BEACHER",
+        "teamB": "Team Zukunft",
+        "scores": [
+          {
+            "scoreA": 15,
             "scoreB": 21
           }
         ],
