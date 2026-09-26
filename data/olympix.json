@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:07:29.893Z",
+  "generatedAt": "2026-09-26T06:16:41.820Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5435,11 +5435,11 @@
                 "eventId": "76c41a9b-9cd7-4f16-8360-202f110002ca",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
                 "nationId": "86b2f489-0a96-4eb5-b691-a4e8a818d511",
-                "name": "Team 5",
+                "name": "No Name",
                 "shortName": null,
                 "isBye": false,
                 "createdAt": "2026-09-25T23:05:43.455Z",
-                "updatedAt": "2026-09-25T23:05:43.455Z"
+                "updatedAt": "2026-09-26T06:11:21.870Z"
               },
               {
                 "id": "2b5e1d16-a593-4a2e-9d35-df863b8807a0",
@@ -5780,11 +5780,11 @@
                       "eventId": "76c41a9b-9cd7-4f16-8360-202f110002ca",
                       "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
                       "nationId": "86b2f489-0a96-4eb5-b691-a4e8a818d511",
-                      "name": "Team 5",
+                      "name": "No Name",
                       "shortName": null,
                       "isBye": false,
                       "createdAt": "2026-09-25T23:05:43.455Z",
-                      "updatedAt": "2026-09-25T23:05:43.455Z"
+                      "updatedAt": "2026-09-26T06:11:21.870Z"
                     }
                   },
                   {
@@ -7526,7 +7526,7 @@
                 },
                 {
                   "teamId": "febc6958-daeb-4ccb-ac78-172fade228b5",
-                  "name": "Team 5",
+                  "name": "No Name",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -7778,7 +7778,7 @@
                   "rows": [
                     {
                       "teamId": "febc6958-daeb-4ccb-ac78-172fade228b5",
-                      "name": "Team 5",
+                      "name": "No Name",
                       "played": 0,
                       "wins": 0,
                       "losses": 0,
@@ -8468,8 +8468,8 @@
               {
                 "id": "4d4d9a61-edb5-44aa-a3b7-ae181b98ec28",
                 "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "status": "SCHEDULED",
-                "revision": 3,
+                "status": "RESULT_ENTERED",
+                "revision": 4,
                 "matchNumber": 1,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -8487,9 +8487,31 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:28:24.613Z",
-                "updatedAt": "2026-09-26T06:07:28.997Z",
+                "updatedAt": "2026-09-26T06:16:40.941Z",
                 "beachSets": [],
-                "soccerPeriods": []
+                "soccerPeriods": [
+                  {
+                    "id": "0f90605a-b445-45e8-a40f-552a9fbd3f72",
+                    "matchId": "4d4d9a61-edb5-44aa-a3b7-ae181b98ec28",
+                    "position": 1,
+                    "scoreA": 2,
+                    "scoreB": 3
+                  },
+                  {
+                    "id": "495dfd97-3631-4ace-9e95-3b9f417c6266",
+                    "matchId": "4d4d9a61-edb5-44aa-a3b7-ae181b98ec28",
+                    "position": 2,
+                    "scoreA": 4,
+                    "scoreB": 1
+                  },
+                  {
+                    "id": "248bd81b-e1e3-40f2-848d-633f65eb4fd2",
+                    "matchId": "4d4d9a61-edb5-44aa-a3b7-ae181b98ec28",
+                    "position": 3,
+                    "scoreA": 3,
+                    "scoreB": 2
+                  }
+                ]
               }
             ],
             "tieBreaks": []
@@ -10503,7 +10525,7 @@
         "day": "2026-09-26",
         "minute": 520,
         "court": "Pitch 1",
-        "teamA": "Team 5",
+        "teamA": "No Name",
         "teamB": "Gollas",
         "scores": [],
         "penalty": null
@@ -10636,7 +10658,7 @@
         "day": "2026-09-26",
         "minute": 560,
         "court": "Pitch 3",
-        "teamA": "Team 5",
+        "teamA": "No Name",
         "teamB": "1. FC Torlos",
         "scores": [],
         "penalty": null
@@ -11016,7 +11038,7 @@
         "day": "2026-09-26",
         "minute": 740,
         "court": "Pitch 2",
-        "teamA": "Team 5",
+        "teamA": "No Name",
         "teamB": "BYE 1",
         "scores": [],
         "penalty": null
@@ -11221,13 +11243,26 @@
         "sport": "Urban Street Soccer",
         "category": "Frauen",
         "number": "Match 1 US-W",
-        "status": "SCHEDULED",
+        "status": "RESULT_ENTERED",
         "day": "2026-09-26",
         "minute": 480,
         "court": "Pitch 4",
         "teamA": "Sportsfreundinnen",
         "teamB": "Team X",
-        "scores": [],
+        "scores": [
+          {
+            "scoreA": 2,
+            "scoreB": 3
+          },
+          {
+            "scoreA": 4,
+            "scoreB": 1
+          },
+          {
+            "scoreA": 3,
+            "scoreB": 2
+          }
+        ],
         "penalty": null
       }
     ]
