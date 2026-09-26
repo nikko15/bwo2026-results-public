@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T11:02:19.009Z",
+  "generatedAt": "2026-09-26T11:02:21.488Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -11000,7 +11000,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 16,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 29,
+            "rankingRevision": 30,
             "groupCount": 1,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -11011,7 +11011,7 @@
             "name": "Street Soccer Frauen",
             "slug": "street-soccer-frauen",
             "createdAt": "2026-09-21T12:33:19.219Z",
-            "updatedAt": "2026-09-26T10:18:50.381Z",
+            "updatedAt": "2026-09-26T11:02:19.314Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -11509,54 +11509,6 @@
                 ]
               },
               {
-                "id": "2ba21434-0e5a-4533-a6c3-e62e6f0dc6c9",
-                "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
-                "matchNumber": 9,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "383d7720-64bf-4bd3-aa2e-562e71640053",
-                "teamAId": "683ad89c-18b7-4627-9498-2db326faa77a",
-                "teamBId": "2c22a873-e10f-45dd-97ee-c1c16a17dbcb",
-                "round": 0,
-                "position": 9,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:28:24.613Z",
-                "updatedAt": "2026-09-26T11:02:18.098Z",
-                "beachSets": [],
-                "soccerPeriods": [
-                  {
-                    "id": "e58a52ad-fcb1-4891-beee-5801a74e4baa",
-                    "matchId": "2ba21434-0e5a-4533-a6c3-e62e6f0dc6c9",
-                    "position": 1,
-                    "scoreA": 0,
-                    "scoreB": 5
-                  },
-                  {
-                    "id": "4a3ca9c6-c275-4397-881a-b7bca6bbdbbc",
-                    "matchId": "2ba21434-0e5a-4533-a6c3-e62e6f0dc6c9",
-                    "position": 2,
-                    "scoreA": 1,
-                    "scoreB": 2
-                  },
-                  {
-                    "id": "9a56d377-03e6-42b0-af31-e672d974a25a",
-                    "matchId": "2ba21434-0e5a-4533-a6c3-e62e6f0dc6c9",
-                    "position": 3,
-                    "scoreA": 0,
-                    "scoreB": 6
-                  }
-                ]
-              },
-              {
                 "id": "930d9738-14eb-45d8-a588-d4cd71c87fa1",
                 "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
                 "status": "FINAL",
@@ -11601,6 +11553,54 @@
                     "position": 3,
                     "scoreA": 1,
                     "scoreB": 2
+                  }
+                ]
+              },
+              {
+                "id": "2ba21434-0e5a-4533-a6c3-e62e6f0dc6c9",
+                "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
+                "status": "FINAL",
+                "revision": 2,
+                "matchNumber": 9,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "383d7720-64bf-4bd3-aa2e-562e71640053",
+                "teamAId": "683ad89c-18b7-4627-9498-2db326faa77a",
+                "teamBId": "2c22a873-e10f-45dd-97ee-c1c16a17dbcb",
+                "round": 0,
+                "position": 9,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:28:24.613Z",
+                "updatedAt": "2026-09-26T11:02:19.296Z",
+                "beachSets": [],
+                "soccerPeriods": [
+                  {
+                    "id": "e58a52ad-fcb1-4891-beee-5801a74e4baa",
+                    "matchId": "2ba21434-0e5a-4533-a6c3-e62e6f0dc6c9",
+                    "position": 1,
+                    "scoreA": 0,
+                    "scoreB": 5
+                  },
+                  {
+                    "id": "4a3ca9c6-c275-4397-881a-b7bca6bbdbbc",
+                    "matchId": "2ba21434-0e5a-4533-a6c3-e62e6f0dc6c9",
+                    "position": 2,
+                    "scoreA": 1,
+                    "scoreB": 2
+                  },
+                  {
+                    "id": "9a56d377-03e6-42b0-af31-e672d974a25a",
+                    "matchId": "2ba21434-0e5a-4533-a6c3-e62e6f0dc6c9",
+                    "position": 3,
+                    "scoreA": 0,
+                    "scoreB": 6
                   }
                 ]
               },
@@ -11661,6 +11661,27 @@
               "endRank": 1,
               "rows": [
                 {
+                  "teamId": "2c22a873-e10f-45dd-97ee-c1c16a17dbcb",
+                  "name": "Sturmtrupp United",
+                  "played": 3,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 39,
+                  "conceded": 5,
+                  "points": 27
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "f151961240b1bfb39c184e3a705651b136bf81ef2dd47a1adf47e996695d97f7"
+            },
+            {
+              "rank": 2,
+              "endRank": 2,
+              "rows": [
+                {
                   "teamId": "78e0b5d7-92dc-46fc-880e-1ace7b9b7a79",
                   "name": "Quokka",
                   "played": 3,
@@ -11675,28 +11696,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "1b6c3b8049b4a8fb1529480804b27e85d834ee5434c0fcac83a85c6cfa9a0744"
-            },
-            {
-              "rank": 2,
-              "endRank": 2,
-              "rows": [
-                {
-                  "teamId": "2c22a873-e10f-45dd-97ee-c1c16a17dbcb",
-                  "name": "Sturmtrupp United",
-                  "played": 2,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 26,
-                  "conceded": 4,
-                  "points": 18
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "3d69395222a9fba81d1ae104151d60e80bca194227718b07d4b7a68a49540b10"
+              "signature": "bdc407c6707202bf499aaa5566b5a21e90e0b3dc75d53b3df15afc7d832108d5"
             },
             {
               "rank": 3,
@@ -11705,19 +11705,19 @@
                 {
                   "teamId": "683ad89c-18b7-4627-9498-2db326faa77a",
                   "name": "Die Teufelskickerinnen",
-                  "played": 3,
+                  "played": 4,
                   "wins": 0,
                   "losses": 0,
                   "setsWon": 0,
                   "setsLost": 0,
-                  "scored": 14,
-                  "conceded": 16,
+                  "scored": 15,
+                  "conceded": 29,
                   "points": 17
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "84eec13b61e1fdc5cca346735a16b5bed08ab292e54dae93a0317c2a3e43306b"
+              "signature": "4728857aa5ced5fb7ebfc2765c6966715b7e60e66db4fe0d2dabf3a6545a41b6"
             },
             {
               "rank": 4,
@@ -11738,7 +11738,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "7cafe02f54a87d4a4a037bf270694b0b455cd6036a82059a5c08a279df559a09"
+              "signature": "c1376be7ffbea1f684d0ba94e00796f538d454778830a9a8d586c5ef2eeba347"
             },
             {
               "rank": 5,
@@ -11759,7 +11759,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "ab00cb5b1037bc5ddf6dc70cd74941286666291ba98dd4e932b147dc89ab33a4"
+              "signature": "de8423fa23d2ee76bce8fe3e33afc1e8b2b0bd1deb40c4eb8ac5c01466647922"
             }
           ],
           "groups": [
@@ -11770,6 +11770,27 @@
                 {
                   "rank": 1,
                   "endRank": 1,
+                  "rows": [
+                    {
+                      "teamId": "2c22a873-e10f-45dd-97ee-c1c16a17dbcb",
+                      "name": "Sturmtrupp United",
+                      "played": 3,
+                      "wins": 0,
+                      "losses": 0,
+                      "setsWon": 0,
+                      "setsLost": 0,
+                      "scored": 39,
+                      "conceded": 5,
+                      "points": 27
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "f151961240b1bfb39c184e3a705651b136bf81ef2dd47a1adf47e996695d97f7"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
                   "rows": [
                     {
                       "teamId": "78e0b5d7-92dc-46fc-880e-1ace7b9b7a79",
@@ -11786,28 +11807,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "1b6c3b8049b4a8fb1529480804b27e85d834ee5434c0fcac83a85c6cfa9a0744"
-                },
-                {
-                  "rank": 2,
-                  "endRank": 2,
-                  "rows": [
-                    {
-                      "teamId": "2c22a873-e10f-45dd-97ee-c1c16a17dbcb",
-                      "name": "Sturmtrupp United",
-                      "played": 2,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 26,
-                      "conceded": 4,
-                      "points": 18
-                    }
-                  ],
-                  "tied": false,
-                  "resolved": true,
-                  "signature": "3d69395222a9fba81d1ae104151d60e80bca194227718b07d4b7a68a49540b10"
+                  "signature": "bdc407c6707202bf499aaa5566b5a21e90e0b3dc75d53b3df15afc7d832108d5"
                 },
                 {
                   "rank": 3,
@@ -11816,19 +11816,19 @@
                     {
                       "teamId": "683ad89c-18b7-4627-9498-2db326faa77a",
                       "name": "Die Teufelskickerinnen",
-                      "played": 3,
+                      "played": 4,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 14,
-                      "conceded": 16,
+                      "scored": 15,
+                      "conceded": 29,
                       "points": 17
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "84eec13b61e1fdc5cca346735a16b5bed08ab292e54dae93a0317c2a3e43306b"
+                  "signature": "4728857aa5ced5fb7ebfc2765c6966715b7e60e66db4fe0d2dabf3a6545a41b6"
                 },
                 {
                   "rank": 4,
@@ -11849,7 +11849,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "7cafe02f54a87d4a4a037bf270694b0b455cd6036a82059a5c08a279df559a09"
+                  "signature": "c1376be7ffbea1f684d0ba94e00796f538d454778830a9a8d586c5ef2eeba347"
                 },
                 {
                   "rank": 5,
@@ -11870,7 +11870,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "ab00cb5b1037bc5ddf6dc70cd74941286666291ba98dd4e932b147dc89ab33a4"
+                  "signature": "de8423fa23d2ee76bce8fe3e33afc1e8b2b0bd1deb40c4eb8ac5c01466647922"
                 }
               ]
             }
@@ -15639,38 +15639,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_8",
-        "id": "2ba21434-0e5a-4533-a6c3-e62e6f0dc6c9",
-        "competitionSlug": "street-soccer-frauen",
-        "sport": "Urban Street Soccer",
-        "category": "Frauen",
-        "number": "Match 9 US-W",
-        "status": "RESULT_ENTERED",
-        "day": "2026-09-26",
-        "minute": 760,
-        "court": "Pitch 4",
-        "teamA": "Die Teufelskickerinnen",
-        "teamB": "Sturmtrupp United",
-        "scores": [
-          {
-            "scoreA": 0,
-            "scoreB": 5
-          },
-          {
-            "scoreA": 1,
-            "scoreB": 2
-          },
-          {
-            "scoreA": 0,
-            "scoreB": 6
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_8",
         "id": "930d9738-14eb-45d8-a588-d4cd71c87fa1",
         "competitionSlug": "street-soccer-frauen",
         "sport": "Urban Street Soccer",
@@ -15694,6 +15662,38 @@
           {
             "scoreA": 1,
             "scoreB": 2
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_8",
+        "id": "2ba21434-0e5a-4533-a6c3-e62e6f0dc6c9",
+        "competitionSlug": "street-soccer-frauen",
+        "sport": "Urban Street Soccer",
+        "category": "Frauen",
+        "number": "Match 9 US-W",
+        "status": "FINAL",
+        "day": "2026-09-26",
+        "minute": 760,
+        "court": "Pitch 4",
+        "teamA": "Die Teufelskickerinnen",
+        "teamB": "Sturmtrupp United",
+        "scores": [
+          {
+            "scoreA": 0,
+            "scoreB": 5
+          },
+          {
+            "scoreA": 1,
+            "scoreB": 2
+          },
+          {
+            "scoreA": 0,
+            "scoreB": 6
           }
         ],
         "penalty": null
