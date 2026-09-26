@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T15:10:10.412Z",
+  "generatedAt": "2026-09-26T15:10:13.627Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -12588,7 +12588,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 16,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 88,
+            "rankingRevision": 89,
             "groupCount": 1,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -12599,7 +12599,7 @@
             "name": "Street Soccer Frauen",
             "slug": "street-soccer-frauen",
             "createdAt": "2026-09-21T12:33:19.219Z",
-            "updatedAt": "2026-09-26T15:09:24.367Z",
+            "updatedAt": "2026-09-26T15:10:11.191Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -13457,8 +13457,8 @@
               {
                 "id": "e843f685-322e-4419-89f9-15f28a32d19c",
                 "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": null,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -13476,7 +13476,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-26T14:52:33.529Z",
-                "updatedAt": "2026-09-26T15:10:09.596Z",
+                "updatedAt": "2026-09-26T15:10:11.183Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
@@ -14201,7 +14201,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "7802c5daab862b9d8b398728bf29b1379aadb460e56b48ff0f23f7e7f919cf88"
+              "signature": "f631d97c889e94d10c4c6ba297ba4c23b82d99fb9315c765e2bd78c6d726059f"
             },
             {
               "rank": 2,
@@ -14222,7 +14222,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "86c0902afd580b8976575bb4423cc3389cd48cec1ec3982565d24fd7c96a0df4"
+              "signature": "0d037b9dc641503ae9b9a5e50359248988f8acaf3f32e0be0937a3033f0c4973"
             },
             {
               "rank": 3,
@@ -14243,7 +14243,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "99297ce2f237d81c3cb57af91b8e3c6dec83d2b05361b8bae8a57e87e49a8a5d"
+              "signature": "d0520d6f09d600be9a167ef464ea66a625a5090b512a402deecad8b8d8592cb7"
             },
             {
               "rank": 4,
@@ -14252,19 +14252,19 @@
                 {
                   "teamId": "86a98f4e-e94f-43bf-878c-734e85d4af21",
                   "name": "Team X",
-                  "played": 6,
+                  "played": 7,
                   "wins": 0,
                   "losses": 0,
                   "setsWon": 0,
                   "setsLost": 0,
-                  "scored": 14,
-                  "conceded": 27,
-                  "points": 27
+                  "scored": 20,
+                  "conceded": 36,
+                  "points": 30
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "9f326775b6845a9cbca4b0aba04857ce7f8b3f108e65e7d52f379d33ad954b00"
+              "signature": "8331988d840bd5a6369fa8f4422ca64a5a6644381f6f11845dd86c2e81359023"
             },
             {
               "rank": 5,
@@ -14273,19 +14273,19 @@
                 {
                   "teamId": "2ea960a0-b0a9-4975-aa93-b71b3a777e02",
                   "name": "Sportsfreundinnen",
-                  "played": 5,
+                  "played": 6,
                   "wins": 0,
                   "losses": 0,
                   "setsWon": 0,
                   "setsLost": 0,
-                  "scored": 16,
-                  "conceded": 23,
-                  "points": 21
+                  "scored": 25,
+                  "conceded": 29,
+                  "points": 27
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "1f5ec4c7cff4ab41b6be53dd368d1eb5f04af8e01c9ec610b5f4c54362ce1650"
+              "signature": "e468a0260267d9c1b9e4ab352cee14af50c5cd61e76f5ca1e463fb8fcdbe9ce9"
             },
             {
               "rank": 6,
@@ -14306,7 +14306,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "bf6db05a620482c1cf447bfce6b70d4e2f905e09d88d58a6a5e8224287788d89"
+              "signature": "2a36dcd0f401f069f3a4b0dbc62d9420336335e0b49d5c5fd8c56c5e5fcb93c2"
             },
             {
               "rank": 7,
@@ -14327,7 +14327,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "799c6b004c63e875b2e300a02d98b707bc2842dd194709c4be690c6669eafe42"
+              "signature": "2df3e83d663c4e0d9b749daccb77afb3911ef1f34663d7456c0059e674d31408"
             },
             {
               "rank": 8,
@@ -14348,7 +14348,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "3921ab787466db5f9f4a6e8026b5ad1dede1dc8887c79a7723ae11559267519d"
+              "signature": "83436d2cde16b1c0db2053e21d3ebddab1e307fae705aff9b0917be5acfdc54c"
             }
           ],
           "groups": [
@@ -14375,7 +14375,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "7802c5daab862b9d8b398728bf29b1379aadb460e56b48ff0f23f7e7f919cf88"
+                  "signature": "f631d97c889e94d10c4c6ba297ba4c23b82d99fb9315c765e2bd78c6d726059f"
                 },
                 {
                   "rank": 2,
@@ -14396,7 +14396,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "86c0902afd580b8976575bb4423cc3389cd48cec1ec3982565d24fd7c96a0df4"
+                  "signature": "0d037b9dc641503ae9b9a5e50359248988f8acaf3f32e0be0937a3033f0c4973"
                 },
                 {
                   "rank": 3,
@@ -14417,7 +14417,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "99297ce2f237d81c3cb57af91b8e3c6dec83d2b05361b8bae8a57e87e49a8a5d"
+                  "signature": "d0520d6f09d600be9a167ef464ea66a625a5090b512a402deecad8b8d8592cb7"
                 },
                 {
                   "rank": 4,
@@ -14426,19 +14426,19 @@
                     {
                       "teamId": "86a98f4e-e94f-43bf-878c-734e85d4af21",
                       "name": "Team X",
-                      "played": 6,
+                      "played": 7,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 14,
-                      "conceded": 27,
-                      "points": 27
+                      "scored": 20,
+                      "conceded": 36,
+                      "points": 30
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "9f326775b6845a9cbca4b0aba04857ce7f8b3f108e65e7d52f379d33ad954b00"
+                  "signature": "8331988d840bd5a6369fa8f4422ca64a5a6644381f6f11845dd86c2e81359023"
                 },
                 {
                   "rank": 5,
@@ -14447,19 +14447,19 @@
                     {
                       "teamId": "2ea960a0-b0a9-4975-aa93-b71b3a777e02",
                       "name": "Sportsfreundinnen",
-                      "played": 5,
+                      "played": 6,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 16,
-                      "conceded": 23,
-                      "points": 21
+                      "scored": 25,
+                      "conceded": 29,
+                      "points": 27
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "1f5ec4c7cff4ab41b6be53dd368d1eb5f04af8e01c9ec610b5f4c54362ce1650"
+                  "signature": "e468a0260267d9c1b9e4ab352cee14af50c5cd61e76f5ca1e463fb8fcdbe9ce9"
                 },
                 {
                   "rank": 6,
@@ -14480,7 +14480,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "bf6db05a620482c1cf447bfce6b70d4e2f905e09d88d58a6a5e8224287788d89"
+                  "signature": "2a36dcd0f401f069f3a4b0dbc62d9420336335e0b49d5c5fd8c56c5e5fcb93c2"
                 },
                 {
                   "rank": 7,
@@ -14501,7 +14501,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "799c6b004c63e875b2e300a02d98b707bc2842dd194709c4be690c6669eafe42"
+                  "signature": "2df3e83d663c4e0d9b749daccb77afb3911ef1f34663d7456c0059e674d31408"
                 },
                 {
                   "rank": 8,
@@ -14522,7 +14522,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "3921ab787466db5f9f4a6e8026b5ad1dede1dc8887c79a7723ae11559267519d"
+                  "signature": "83436d2cde16b1c0db2053e21d3ebddab1e307fae705aff9b0917be5acfdc54c"
                 }
               ]
             }
@@ -19527,7 +19527,7 @@
         "sport": "Urban Street Soccer",
         "category": "Frauen",
         "number": null,
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": null,
         "minute": null,
         "court": null,
