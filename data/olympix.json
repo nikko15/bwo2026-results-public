@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T15:01:34.580Z",
+  "generatedAt": "2026-09-26T15:01:36.949Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -12558,7 +12558,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 16,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 65,
+            "rankingRevision": 66,
             "groupCount": 1,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -12569,7 +12569,7 @@
             "name": "Street Soccer Frauen",
             "slug": "street-soccer-frauen",
             "createdAt": "2026-09-21T12:33:19.219Z",
-            "updatedAt": "2026-09-26T15:01:25.784Z",
+            "updatedAt": "2026-09-26T15:01:34.847Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -13597,8 +13597,8 @@
               {
                 "id": "a8c57d00-8be8-4c74-99cc-e42cf4ea8547",
                 "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 3,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -13616,7 +13616,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-26T14:52:33.529Z",
-                "updatedAt": "2026-09-26T15:01:33.698Z",
+                "updatedAt": "2026-09-26T15:01:34.841Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
@@ -13648,8 +13648,20 @@
           "overall": [
             {
               "rank": 1,
-              "endRank": 2,
+              "endRank": 3,
               "rows": [
+                {
+                  "teamId": "e8c1fd55-bad4-4312-a003-73b902d5bbee",
+                  "name": "Sturmtrupp United",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 3,
+                  "conceded": 0,
+                  "points": 9
+                },
                 {
                   "teamId": "0fb15eb5-c6c0-46a9-b509-6e19b2dbc2d3",
                   "name": "Quokka",
@@ -13677,10 +13689,10 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "9a67dedf382000a8b996bdec5a0859c3b90b80fe6616c9a4ab1c5dd09b2fe37f"
+              "signature": "a2821eb0122e2742928dbe64cd87842525fa033920264a1476b488dd810c7ae4"
             },
             {
-              "rank": 3,
+              "rank": 4,
               "endRank": 7,
               "rows": [
                 {
@@ -13698,18 +13710,6 @@
                 {
                   "teamId": "2ea960a0-b0a9-4975-aa93-b71b3a777e02",
                   "name": "Sportsfreundinnen",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "e8c1fd55-bad4-4312-a003-73b902d5bbee",
-                  "name": "Sturmtrupp United",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -13746,7 +13746,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "54a9d6564bd0581ea2f0f648f5ba1af77249c36963598a73f3c48feeb3ee3818"
+              "signature": "48bc8902048ea2a652fea07c33902d302c5470ff71284598d05316a0d6424fdc"
             },
             {
               "rank": 8,
@@ -13755,19 +13755,19 @@
                 {
                   "teamId": "8ebdea93-4ab4-4fdd-a67b-50b74715fec2",
                   "name": "freilos3",
-                  "played": 2,
+                  "played": 3,
                   "wins": 0,
                   "losses": 0,
                   "setsWon": 0,
                   "setsLost": 0,
                   "scored": 0,
-                  "conceded": 6,
+                  "conceded": 9,
                   "points": 0
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "668de1c88f14fea91e64c909cd2e21aa51e1f15e6e346984b728070533bc995b"
+              "signature": "19e1b639218c6074241a4395d89f2dce350f1a020a72acd5777889ea5729d4e1"
             }
           ],
           "groups": [
@@ -13777,7 +13777,7 @@
               "blocks": [
                 {
                   "rank": 1,
-                  "endRank": 2,
+                  "endRank": 3,
                   "rows": [
                     {
                       "teamId": "b24b35ef-e655-4e4a-a5bb-3230680eb450",
@@ -13802,28 +13802,28 @@
                       "scored": 3,
                       "conceded": 0,
                       "points": 9
-                    }
-                  ],
-                  "tied": true,
-                  "resolved": false,
-                  "signature": "9a67dedf382000a8b996bdec5a0859c3b90b80fe6616c9a4ab1c5dd09b2fe37f"
-                },
-                {
-                  "rank": 3,
-                  "endRank": 7,
-                  "rows": [
+                    },
                     {
                       "teamId": "e8c1fd55-bad4-4312-a003-73b902d5bbee",
                       "name": "Sturmtrupp United",
-                      "played": 0,
+                      "played": 1,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 0,
+                      "scored": 3,
                       "conceded": 0,
-                      "points": 0
-                    },
+                      "points": 9
+                    }
+                  ],
+                  "tied": true,
+                  "resolved": false,
+                  "signature": "a2821eb0122e2742928dbe64cd87842525fa033920264a1476b488dd810c7ae4"
+                },
+                {
+                  "rank": 4,
+                  "endRank": 7,
+                  "rows": [
                     {
                       "teamId": "dba7e040-5353-4023-8fa1-988bc816fd3a",
                       "name": "Die Teufelskickerinnen",
@@ -13875,7 +13875,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "54a9d6564bd0581ea2f0f648f5ba1af77249c36963598a73f3c48feeb3ee3818"
+                  "signature": "48bc8902048ea2a652fea07c33902d302c5470ff71284598d05316a0d6424fdc"
                 },
                 {
                   "rank": 8,
@@ -13884,19 +13884,19 @@
                     {
                       "teamId": "8ebdea93-4ab4-4fdd-a67b-50b74715fec2",
                       "name": "freilos3",
-                      "played": 2,
+                      "played": 3,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
                       "scored": 0,
-                      "conceded": 6,
+                      "conceded": 9,
                       "points": 0
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "668de1c88f14fea91e64c909cd2e21aa51e1f15e6e346984b728070533bc995b"
+                  "signature": "19e1b639218c6074241a4395d89f2dce350f1a020a72acd5777889ea5729d4e1"
                 }
               ]
             }
@@ -19038,7 +19038,7 @@
         "sport": "Urban Street Soccer",
         "category": "Frauen",
         "number": "Match 3 US-W",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 560,
         "court": "Pitch 4",
