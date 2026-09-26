@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T14:54:53.008Z",
+  "generatedAt": "2026-09-26T14:55:14.934Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -2363,8 +2363,8 @@
               {
                 "id": "7c85c8a4-591d-4905-a690-813aa625495e",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
+                "status": "RESULT_ENTERED",
+                "revision": 1,
                 "matchNumber": 62,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -2382,8 +2382,23 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-26T13:45:44.227Z",
-                "updatedAt": "2026-09-26T13:48:50.747Z",
-                "beachSets": [],
+                "updatedAt": "2026-09-26T14:55:14.105Z",
+                "beachSets": [
+                  {
+                    "id": "4f27beb0-2f87-405d-b247-02795682deef",
+                    "matchId": "7c85c8a4-591d-4905-a690-813aa625495e",
+                    "position": 1,
+                    "scoreA": 15,
+                    "scoreB": 10
+                  },
+                  {
+                    "id": "85238a48-edfa-4112-8748-d3938491bd3e",
+                    "matchId": "7c85c8a4-591d-4905-a690-813aa625495e",
+                    "position": 2,
+                    "scoreA": 15,
+                    "scoreB": 10
+                  }
+                ],
                 "soccerPeriods": []
               },
               {
@@ -14695,13 +14710,22 @@
         "sport": "Beachvolleyball",
         "category": "Männer",
         "number": "Match 62 BV-M",
-        "status": "SCHEDULED",
+        "status": "RESULT_ENTERED",
         "day": "2026-09-26",
         "minute": 960,
         "court": "Court 2",
         "teamA": "FC Haltestelle",
         "teamB": "War Tundra",
-        "scores": [],
+        "scores": [
+          {
+            "scoreA": 15,
+            "scoreB": 10
+          },
+          {
+            "scoreA": 15,
+            "scoreB": 10
+          }
+        ],
         "penalty": null
       },
       {
