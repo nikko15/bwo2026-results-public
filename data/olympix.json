@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T07:42:53.256Z",
+  "generatedAt": "2026-09-26T07:42:55.597Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3785,7 +3785,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 15,
+            "rankingRevision": 16,
             "groupCount": 4,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -3796,7 +3796,7 @@
             "name": "Beachvolleyball Frauen",
             "slug": "beachvolleyball-frauen",
             "createdAt": "2026-09-21T13:00:56.142Z",
-            "updatedAt": "2026-09-26T07:42:36.354Z",
+            "updatedAt": "2026-09-26T07:42:53.306Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -4432,8 +4432,8 @@
               {
                 "id": "f03d50fd-eedd-4bb5-8479-44930ef1b245",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 8,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -4451,7 +4451,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-26T07:42:52.416Z",
+                "updatedAt": "2026-09-26T07:42:53.297Z",
                 "beachSets": [
                   {
                     "id": "0ace9453-a1ca-4048-bbfa-d676ffc1f6e0",
@@ -5072,7 +5072,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "6136ac571fd21cf58f809ee35b81e86907239e30e204b744a5cabc6f22d130a9"
+              "signature": "bd5df5d0ded40cad01f7860f9a35524ecaaab7e95e16f6c122521462d391a21c"
             },
             {
               "rank": 2,
@@ -5093,7 +5093,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "8a5de6920a1ed11f130e7fc154f30e40a7647567aeec85c857435606ec6911bd"
+              "signature": "ea3cd468a414c57f179ee0cade53082a192c81a6bf22f0d5b9b6954c75d9d426"
             },
             {
               "rank": 3,
@@ -5114,7 +5114,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "f22869e77529fa801b89c5ee1f8a52997ec9c98cc9351659ed5350d3e864e982"
+              "signature": "3c603c227bf448fd489e84d73c1c09aca3c8701ee1aa35aa5c4f38880c5fef18"
             },
             {
               "rank": 4,
@@ -5135,7 +5135,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "30069db284d016d14dc5a11100720e8954e66e6d20e90b5c9048edacdf71665e"
+              "signature": "8089e46164e7cca4cd7d3a55aa7b2771dea5a37ba8ed94d71700ac423c97e543"
             },
             {
               "rank": 5,
@@ -5156,7 +5156,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "43666309189f85a050174d98561c8ae493a158393a557da2ed33b7571951f7ee"
+              "signature": "06a5cce5a0f0aaf01671139ce5ccfff6514bd631f72bcb1c50cc8ee8e9489dd4"
             },
             {
               "rank": 6,
@@ -5177,7 +5177,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "6935d8ca90e701b668041396ba11f4dfcb52d331c643a688618e937363e62555"
+              "signature": "5001ec0c7ec1bd9b06845dd3b2b9ffc9f8cb24cc575d84a077d6f5ee8acc0060"
             },
             {
               "rank": 7,
@@ -5198,11 +5198,53 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "90346f45b3458543e4a352f516c122f230922f808a8782866bcf08a8495b0683"
+              "signature": "b5c92ca75444a82a3e22680763a0750027574e76ffffc22f9f7f41873f8a09ef"
             },
             {
               "rank": 8,
               "endRank": 8,
+              "rows": [
+                {
+                  "teamId": "ed6aa168-7352-4254-aca3-d082e1a0ffe0",
+                  "name": "Siegerländerinnen",
+                  "played": 1,
+                  "wins": 1,
+                  "losses": 0,
+                  "setsWon": 1,
+                  "setsLost": 0,
+                  "scored": 22,
+                  "conceded": 20,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "6205cab8756c1d8bd01e4a2737659465e6774de6615514f88e62fd6d0c5237d8"
+            },
+            {
+              "rank": 9,
+              "endRank": 9,
+              "rows": [
+                {
+                  "teamId": "f1dd066f-40b5-4862-b4cc-ebe9f717cb54",
+                  "name": "Einfallslos",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 1,
+                  "setsWon": 0,
+                  "setsLost": 1,
+                  "scored": 20,
+                  "conceded": 22,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "ecaa084e9375f0970718062b76f85191327b7184f84558fe4dee7535097986fb"
+            },
+            {
+              "rank": 10,
+              "endRank": 10,
               "rows": [
                 {
                   "teamId": "385c719a-e728-4f5f-a2de-e5f90c4e5b58",
@@ -5219,11 +5261,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "53f4d06a1fac9b2afe071c829b1abaa954a3f1a80fe2ce65ea48785c32eaf9af"
+              "signature": "2a099c18b6b472afbc4c0cc11f552359ddcfae9bb6b64f07eb43d4fcfbb0099c"
             },
             {
-              "rank": 9,
-              "endRank": 9,
+              "rank": 11,
+              "endRank": 11,
               "rows": [
                 {
                   "teamId": "cd7a1868-07fc-443a-9f39-49b85436fa0d",
@@ -5240,11 +5282,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "c5a885982058991bdd5f6e305e45b3a81961405b700e8c1acb63ee7800a99408"
+              "signature": "b4fcf8b6c1166d557c61fd40580e11b9e407e062ff462c425c29c90fed248a43"
             },
             {
-              "rank": 10,
-              "endRank": 10,
+              "rank": 12,
+              "endRank": 12,
               "rows": [
                 {
                   "teamId": "23a8a7bd-009d-4ce3-9826-e95f0fe867a2",
@@ -5261,11 +5303,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "162ae3f2ab7d15a001c17d35fa988ebcc0c47660519104ac745cac944e4669f5"
+              "signature": "b6afeb96413387ce4779c1b130fcc314fd39de14ba11e697d91524ca2eb4a975"
             },
             {
-              "rank": 11,
-              "endRank": 11,
+              "rank": 13,
+              "endRank": 13,
               "rows": [
                 {
                   "teamId": "0752826e-ff34-41ba-be98-995fb1e46f35",
@@ -5282,11 +5324,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "22a041a117ab8f0612495829d3d892593dd16eed02738e23e5e757067ab1b9f2"
+              "signature": "26e6e87b9f265d601a8226c4bd4b4d0787717c30089acbd683f3d82d181ea867"
             },
             {
-              "rank": 12,
-              "endRank": 12,
+              "rank": 14,
+              "endRank": 14,
               "rows": [
                 {
                   "teamId": "b7489597-5b96-4280-83ab-9e968e51cb8f",
@@ -5303,11 +5345,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "2a90a57c14824ac5369877f558899cfbb1416f37531bbeca0d6bbe422a580a39"
+              "signature": "beb761eb7b986014467ba82ea6e76d0a04a5135605023b597e92451d8b426756"
             },
             {
-              "rank": 13,
-              "endRank": 13,
+              "rank": 15,
+              "endRank": 15,
               "rows": [
                 {
                   "teamId": "253309ed-70a1-4ae9-b7cb-dc239d4c405c",
@@ -5324,11 +5366,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "867a62e081089ec2a58f7e0b4fef5a14cb979f1da106b70b15bef95cf21a36c7"
+              "signature": "4f6c54b449a70e41b857e56a43dc0c7bd94164f5eddff5e98621cb3a9fe109ef"
             },
             {
-              "rank": 14,
-              "endRank": 14,
+              "rank": 16,
+              "endRank": 16,
               "rows": [
                 {
                   "teamId": "309cc2f0-d152-44f7-b720-7bc1f5e8a2a2",
@@ -5345,40 +5387,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "fbf57daac2dea00be4859561fc50ed3c5cfee2e9a96a216aa5ba94ccacce660d"
-            },
-            {
-              "rank": 15,
-              "endRank": 16,
-              "rows": [
-                {
-                  "teamId": "f1dd066f-40b5-4862-b4cc-ebe9f717cb54",
-                  "name": "Einfallslos",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "ed6aa168-7352-4254-aca3-d082e1a0ffe0",
-                  "name": "Siegerländerinnen",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                }
-              ],
-              "tied": true,
-              "resolved": false,
-              "signature": "2e1422e2972226924a3d5fee1d15bf55c38fba9f6cd5f901589932a1ed6426ba"
+              "signature": "ff0a12673e581069ec317d6d27a63f6407561aa94b99b776495488fbf5155f4c"
             }
           ],
           "groups": [
@@ -5405,7 +5414,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "f22869e77529fa801b89c5ee1f8a52997ec9c98cc9351659ed5350d3e864e982"
+                  "signature": "3c603c227bf448fd489e84d73c1c09aca3c8701ee1aa35aa5c4f38880c5fef18"
                 },
                 {
                   "rank": 2,
@@ -5426,7 +5435,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "30069db284d016d14dc5a11100720e8954e66e6d20e90b5c9048edacdf71665e"
+                  "signature": "8089e46164e7cca4cd7d3a55aa7b2771dea5a37ba8ed94d71700ac423c97e543"
                 },
                 {
                   "rank": 3,
@@ -5447,7 +5456,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "22a041a117ab8f0612495829d3d892593dd16eed02738e23e5e757067ab1b9f2"
+                  "signature": "26e6e87b9f265d601a8226c4bd4b4d0787717c30089acbd683f3d82d181ea867"
                 },
                 {
                   "rank": 4,
@@ -5468,7 +5477,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "2a90a57c14824ac5369877f558899cfbb1416f37531bbeca0d6bbe422a580a39"
+                  "signature": "beb761eb7b986014467ba82ea6e76d0a04a5135605023b597e92451d8b426756"
                 }
               ]
             },
@@ -5495,7 +5504,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "6935d8ca90e701b668041396ba11f4dfcb52d331c643a688618e937363e62555"
+                  "signature": "5001ec0c7ec1bd9b06845dd3b2b9ffc9f8cb24cc575d84a077d6f5ee8acc0060"
                 },
                 {
                   "rank": 2,
@@ -5516,7 +5525,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "90346f45b3458543e4a352f516c122f230922f808a8782866bcf08a8495b0683"
+                  "signature": "b5c92ca75444a82a3e22680763a0750027574e76ffffc22f9f7f41873f8a09ef"
                 },
                 {
                   "rank": 3,
@@ -5537,7 +5546,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "53f4d06a1fac9b2afe071c829b1abaa954a3f1a80fe2ce65ea48785c32eaf9af"
+                  "signature": "2a099c18b6b472afbc4c0cc11f552359ddcfae9bb6b64f07eb43d4fcfbb0099c"
                 },
                 {
                   "rank": 4,
@@ -5558,7 +5567,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "c5a885982058991bdd5f6e305e45b3a81961405b700e8c1acb63ee7800a99408"
+                  "signature": "b4fcf8b6c1166d557c61fd40580e11b9e407e062ff462c425c29c90fed248a43"
                 }
               ]
             },
@@ -5585,7 +5594,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "6136ac571fd21cf58f809ee35b81e86907239e30e204b744a5cabc6f22d130a9"
+                  "signature": "bd5df5d0ded40cad01f7860f9a35524ecaaab7e95e16f6c122521462d391a21c"
                 },
                 {
                   "rank": 2,
@@ -5606,7 +5615,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "8a5de6920a1ed11f130e7fc154f30e40a7647567aeec85c857435606ec6911bd"
+                  "signature": "ea3cd468a414c57f179ee0cade53082a192c81a6bf22f0d5b9b6954c75d9d426"
                 },
                 {
                   "rank": 3,
@@ -5627,7 +5636,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "867a62e081089ec2a58f7e0b4fef5a14cb979f1da106b70b15bef95cf21a36c7"
+                  "signature": "4f6c54b449a70e41b857e56a43dc0c7bd94164f5eddff5e98621cb3a9fe109ef"
                 },
                 {
                   "rank": 4,
@@ -5648,7 +5657,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "fbf57daac2dea00be4859561fc50ed3c5cfee2e9a96a216aa5ba94ccacce660d"
+                  "signature": "ff0a12673e581069ec317d6d27a63f6407561aa94b99b776495488fbf5155f4c"
                 }
               ]
             },
@@ -5675,11 +5684,53 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "43666309189f85a050174d98561c8ae493a158393a557da2ed33b7571951f7ee"
+                  "signature": "06a5cce5a0f0aaf01671139ce5ccfff6514bd631f72bcb1c50cc8ee8e9489dd4"
                 },
                 {
                   "rank": 2,
                   "endRank": 2,
+                  "rows": [
+                    {
+                      "teamId": "ed6aa168-7352-4254-aca3-d082e1a0ffe0",
+                      "name": "Siegerländerinnen",
+                      "played": 1,
+                      "wins": 1,
+                      "losses": 0,
+                      "setsWon": 1,
+                      "setsLost": 0,
+                      "scored": 22,
+                      "conceded": 20,
+                      "points": 0
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "6205cab8756c1d8bd01e4a2737659465e6774de6615514f88e62fd6d0c5237d8"
+                },
+                {
+                  "rank": 3,
+                  "endRank": 3,
+                  "rows": [
+                    {
+                      "teamId": "f1dd066f-40b5-4862-b4cc-ebe9f717cb54",
+                      "name": "Einfallslos",
+                      "played": 1,
+                      "wins": 0,
+                      "losses": 1,
+                      "setsWon": 0,
+                      "setsLost": 1,
+                      "scored": 20,
+                      "conceded": 22,
+                      "points": 0
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "ecaa084e9375f0970718062b76f85191327b7184f84558fe4dee7535097986fb"
+                },
+                {
+                  "rank": 4,
+                  "endRank": 4,
                   "rows": [
                     {
                       "teamId": "23a8a7bd-009d-4ce3-9826-e95f0fe867a2",
@@ -5696,40 +5747,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "162ae3f2ab7d15a001c17d35fa988ebcc0c47660519104ac745cac944e4669f5"
-                },
-                {
-                  "rank": 3,
-                  "endRank": 4,
-                  "rows": [
-                    {
-                      "teamId": "f1dd066f-40b5-4862-b4cc-ebe9f717cb54",
-                      "name": "Einfallslos",
-                      "played": 0,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
-                    },
-                    {
-                      "teamId": "ed6aa168-7352-4254-aca3-d082e1a0ffe0",
-                      "name": "Siegerländerinnen",
-                      "played": 0,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
-                    }
-                  ],
-                  "tied": true,
-                  "resolved": false,
-                  "signature": "2e1422e2972226924a3d5fee1d15bf55c38fba9f6cd5f901589932a1ed6426ba"
+                  "signature": "b6afeb96413387ce4779c1b130fcc314fd39de14ba11e697d91524ca2eb4a975"
                 }
               ]
             }
@@ -11384,7 +11402,7 @@
         "sport": "Beachvolleyball",
         "category": "Frauen",
         "number": "Match 8 BV-W",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 540,
         "court": "Court 5",
