@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:31:49.298Z",
+  "generatedAt": "2026-09-26T06:31:51.400Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -24,7 +24,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 64,
+            "rankingRevision": 65,
             "groupCount": 6,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -35,7 +35,7 @@
             "name": "Beachvolleyball Männer",
             "slug": "beachvolleyball-maenner",
             "createdAt": "2026-09-20T16:25:52.305Z",
-            "updatedAt": "2026-09-26T06:31:06.617Z",
+            "updatedAt": "2026-09-26T06:31:49.353Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -2023,8 +2023,8 @@
               {
                 "id": "3ebad3f6-7f14-41cd-903e-2d6cb55dc98d",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 2,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -2042,7 +2042,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-26T06:31:48.332Z",
+                "updatedAt": "2026-09-26T06:31:49.345Z",
                 "beachSets": [
                   {
                     "id": "0ab9008d-c6e0-49d2-a3ba-0e4aa4f6f90a",
@@ -2675,7 +2675,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "379c540f94f2aaa78a07ee6d049907ea18f925c4c44ce7be3137b2f3be95eb85"
+              "signature": "ac47d82886721b2ef0804c45b9b6d9968e132509538c430780bf1f37b26a7a27"
             },
             {
               "rank": 2,
@@ -2696,11 +2696,53 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "ab128dbb280ad4cd942385b17dcba000b65395ad0e975ae8908f63c08fc54997"
+              "signature": "817af4719bdc98a1e73ff0750b8da80274bb2236f6641477136f8283ce74a938"
             },
             {
               "rank": 3,
               "endRank": 3,
+              "rows": [
+                {
+                  "teamId": "a51239bd-1c9e-46e1-8040-986e7be36867",
+                  "name": "BEACHER",
+                  "played": 1,
+                  "wins": 1,
+                  "losses": 0,
+                  "setsWon": 1,
+                  "setsLost": 0,
+                  "scored": 21,
+                  "conceded": 11,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "603350d24c24fce5bd89419de91c981025e23057ad8e08057eab4d0d25282880"
+            },
+            {
+              "rank": 4,
+              "endRank": 4,
+              "rows": [
+                {
+                  "teamId": "022340ba-1214-414f-b6db-f1c0b0a51a47",
+                  "name": "Lai Gol Squad",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 1,
+                  "setsWon": 0,
+                  "setsLost": 1,
+                  "scored": 11,
+                  "conceded": 21,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "f4a90df84606c7bfa267be978163a18a60a916d6deb2469eccc8c9b5279b53f9"
+            },
+            {
+              "rank": 5,
+              "endRank": 5,
               "rows": [
                 {
                   "teamId": "41db8cf0-5759-4214-a194-12308e7af187",
@@ -2717,11 +2759,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "5f668779d2d06a359cf48abc39d1e7c54fe97671aa29f0c0733524d4003365d4"
+              "signature": "74a103319c31534c88ae796f6bd11bb56425d3604c4ed07c6ebea39478e431d2"
             },
             {
-              "rank": 4,
-              "endRank": 4,
+              "rank": 6,
+              "endRank": 6,
               "rows": [
                 {
                   "teamId": "bf814459-1957-4d2e-bc94-596095054d18",
@@ -2738,10 +2780,10 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "fffb0756ad9d9e70a3324d4245af68916714dc455fd9202857d5f5520d99c136"
+              "signature": "7c838cc69c9f6e803fe72272ed822f3bc008fe88bfbc5b1c1ec6fbb975d2402d"
             },
             {
-              "rank": 5,
+              "rank": 7,
               "endRank": 30,
               "rows": [
                 {
@@ -2841,18 +2883,6 @@
                   "points": 0
                 },
                 {
-                  "teamId": "a51239bd-1c9e-46e1-8040-986e7be36867",
-                  "name": "BEACHER",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
                   "teamId": "c4ca4f5f-1a40-4063-b61d-827393fbfb6a",
                   "name": "Schütze Jonas",
                   "played": 0,
@@ -2867,18 +2897,6 @@
                 {
                   "teamId": "a6b21a66-bc0d-4aef-ba63-dfbf06b0916c",
                   "name": "Die Anfänger",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "022340ba-1214-414f-b6db-f1c0b0a51a47",
-                  "name": "Lai Gol Squad",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -3059,7 +3077,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "85ddcaba8001edc642389b27127514ef9240dda9fe95e5824203bb2d3edfd4f2"
+              "signature": "8ac6ba8f4495292ab38db160dca943263346088151fa9ae137a456914d264b02"
             }
           ],
           "groups": [
@@ -3086,7 +3104,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "ab128dbb280ad4cd942385b17dcba000b65395ad0e975ae8908f63c08fc54997"
+                  "signature": "817af4719bdc98a1e73ff0750b8da80274bb2236f6641477136f8283ce74a938"
                 },
                 {
                   "rank": 2,
@@ -3107,7 +3125,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "5f668779d2d06a359cf48abc39d1e7c54fe97671aa29f0c0733524d4003365d4"
+                  "signature": "74a103319c31534c88ae796f6bd11bb56425d3604c4ed07c6ebea39478e431d2"
                 },
                 {
                   "rank": 3,
@@ -3152,7 +3170,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "92ac2ec40bd973a2a22307998c24d71b41abef19285503cb0658f452408543a6"
+                  "signature": "519255306c959db677954aec3ffdd778c8deb9bf5a7b1191bf2668ae8ab59191"
                 }
               ]
             },
@@ -3227,7 +3245,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "685c268a380eeae8d4d3d1cede9b0e92e0745c0c5881e76e42095698f7cc269b"
+                  "signature": "a7ccedb449af3d52b414c117fed73ea8578aa6a76aba362fef8ca9877597fd5a"
                 }
               ]
             },
@@ -3302,7 +3320,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "374c5ff07cb932a64455b3cfbd527887932b58087b526dba5c4d4cdd39f73c7e"
+                  "signature": "159d45f0f27f57691fa589904507c81d5b1e1b09b2f1b600adb6ccd1235a6818"
                 }
               ]
             },
@@ -3329,7 +3347,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "379c540f94f2aaa78a07ee6d049907ea18f925c4c44ce7be3137b2f3be95eb85"
+                  "signature": "ac47d82886721b2ef0804c45b9b6d9968e132509538c430780bf1f37b26a7a27"
                 },
                 {
                   "rank": 2,
@@ -3350,7 +3368,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "fffb0756ad9d9e70a3324d4245af68916714dc455fd9202857d5f5520d99c136"
+                  "signature": "7c838cc69c9f6e803fe72272ed822f3bc008fe88bfbc5b1c1ec6fbb975d2402d"
                 },
                 {
                   "rank": 3,
@@ -3395,7 +3413,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "6c07874b352e7e35fa5f31508ac3040b2b51348bc16569a5997b64b0ade1e7b6"
+                  "signature": "596b37634816e8c842f4e44f726d85d9abc6454221db88059c0bbe7257b41fb2"
                 }
               ]
             },
@@ -3405,32 +3423,50 @@
               "blocks": [
                 {
                   "rank": 1,
-                  "endRank": 5,
+                  "endRank": 1,
                   "rows": [
                     {
                       "teamId": "a51239bd-1c9e-46e1-8040-986e7be36867",
                       "name": "BEACHER",
-                      "played": 0,
-                      "wins": 0,
+                      "played": 1,
+                      "wins": 1,
                       "losses": 0,
-                      "setsWon": 0,
+                      "setsWon": 1,
                       "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
+                      "scored": 21,
+                      "conceded": 11,
                       "points": 0
-                    },
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "603350d24c24fce5bd89419de91c981025e23057ad8e08057eab4d0d25282880"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
+                  "rows": [
                     {
                       "teamId": "022340ba-1214-414f-b6db-f1c0b0a51a47",
                       "name": "Lai Gol Squad",
-                      "played": 0,
+                      "played": 1,
                       "wins": 0,
-                      "losses": 0,
+                      "losses": 1,
                       "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
+                      "setsLost": 1,
+                      "scored": 11,
+                      "conceded": 21,
                       "points": 0
-                    },
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "f4a90df84606c7bfa267be978163a18a60a916d6deb2469eccc8c9b5279b53f9"
+                },
+                {
+                  "rank": 3,
+                  "endRank": 5,
+                  "rows": [
                     {
                       "teamId": "8938be15-80ef-457e-b0df-bbbd2c2a1c18",
                       "name": "Team Zukunft",
@@ -3470,7 +3506,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "07b596f07d77ad89156c5c372f82ca70cab034964f56a6c43b2e4d9cc387ab9c"
+                  "signature": "8145d454c93a5a67e0244ca1b1d7ecd07fc31f15ef1392f3588202166225026c"
                 }
               ]
             },
@@ -3545,7 +3581,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "bd69ee6b1fed3da32f0c7ac147176e90fb321157aaf22fc113eb31cdb60b993f"
+                  "signature": "1c8bf9bb8a48c6ae1cb42609b60bb2cbd0dd16ccf957c550aeb9a9c2fb21f787"
                 }
               ]
             }
@@ -9736,7 +9772,7 @@
         "sport": "Beachvolleyball",
         "category": "Männer",
         "number": "Match 2 BV-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 480,
         "court": "Court 2",
