@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T12:25:14.055Z",
+  "generatedAt": "2026-09-26T12:25:17.600Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -9913,6 +9913,54 @@
                 "soccerPeriods": []
               },
               {
+                "id": "6d5e9d0f-81e9-487f-8a55-781d3377e439",
+                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
+                "status": "FINAL",
+                "revision": 3,
+                "matchNumber": 46,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "KNOCKOUT",
+                "groupId": null,
+                "teamAId": null,
+                "teamBId": null,
+                "round": 1,
+                "position": 4,
+                "seedA": 4,
+                "seedB": 13,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-26T10:51:32.346Z",
+                "updatedAt": "2026-09-26T12:25:16.803Z",
+                "beachSets": [],
+                "soccerPeriods": [
+                  {
+                    "id": "812c59dc-90ee-43d0-9086-d2a6c7e38619",
+                    "matchId": "6d5e9d0f-81e9-487f-8a55-781d3377e439",
+                    "position": 1,
+                    "scoreA": 3,
+                    "scoreB": 2
+                  },
+                  {
+                    "id": "2bec1644-941b-4db9-8d34-f94430b01033",
+                    "matchId": "6d5e9d0f-81e9-487f-8a55-781d3377e439",
+                    "position": 2,
+                    "scoreA": 3,
+                    "scoreB": 0
+                  },
+                  {
+                    "id": "b96507b5-0b9e-4dd1-95f2-ab439e7d66c7",
+                    "matchId": "6d5e9d0f-81e9-487f-8a55-781d3377e439",
+                    "position": 3,
+                    "scoreA": 1,
+                    "scoreB": 1
+                  }
+                ]
+              },
+              {
                 "id": "16c9aa84-a8fa-44fd-bd13-fcb8480c4b25",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
                 "status": "FINAL",
@@ -10149,54 +10197,6 @@
                     "position": 3,
                     "scoreA": 1,
                     "scoreB": 2
-                  }
-                ]
-              },
-              {
-                "id": "6d5e9d0f-81e9-487f-8a55-781d3377e439",
-                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "FINAL",
-                "revision": 2,
-                "matchNumber": 46,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "KNOCKOUT",
-                "groupId": null,
-                "teamAId": null,
-                "teamBId": null,
-                "round": 1,
-                "position": 4,
-                "seedA": 4,
-                "seedB": 13,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-26T10:51:32.346Z",
-                "updatedAt": "2026-09-26T12:25:13.199Z",
-                "beachSets": [],
-                "soccerPeriods": [
-                  {
-                    "id": "403bc5ad-3a0f-4d97-8897-f574e68779ed",
-                    "matchId": "6d5e9d0f-81e9-487f-8a55-781d3377e439",
-                    "position": 1,
-                    "scoreA": 3,
-                    "scoreB": 2
-                  },
-                  {
-                    "id": "6ebb5cd3-39aa-46f0-8fc8-790b2ded1b7f",
-                    "matchId": "6d5e9d0f-81e9-487f-8a55-781d3377e439",
-                    "position": 2,
-                    "scoreA": 3,
-                    "scoreB": 0
-                  },
-                  {
-                    "id": "68c1017a-b79c-45ab-99f7-fa26268c6943",
-                    "matchId": "6d5e9d0f-81e9-487f-8a55-781d3377e439",
-                    "position": 3,
-                    "scoreA": 1,
-                    "scoreB": 1
                   }
                 ]
               },
@@ -16425,6 +16425,38 @@
         "phase": "KNOCKOUT",
         "round": 1,
         "finalRoundSize": "TOP_16",
+        "id": "6d5e9d0f-81e9-487f-8a55-781d3377e439",
+        "competitionSlug": "street-soccer-maenner",
+        "sport": "Urban Street Soccer",
+        "category": "Männer",
+        "number": "Match 46 US-M",
+        "status": "FINAL",
+        "day": "2026-09-26",
+        "minute": 840,
+        "court": "Pitch 1",
+        "teamA": "Joga Bonito",
+        "teamB": "1. FC Torlos",
+        "scores": [
+          {
+            "scoreA": 3,
+            "scoreB": 2
+          },
+          {
+            "scoreA": 3,
+            "scoreB": 0
+          },
+          {
+            "scoreA": 1,
+            "scoreB": 1
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "KNOCKOUT",
+        "round": 1,
+        "finalRoundSize": "TOP_16",
         "id": "16c9aa84-a8fa-44fd-bd13-fcb8480c4b25",
         "competitionSlug": "street-soccer-maenner",
         "sport": "Urban Street Soccer",
@@ -16576,38 +16608,6 @@
           {
             "scoreA": 1,
             "scoreB": 2
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "KNOCKOUT",
-        "round": 1,
-        "finalRoundSize": "TOP_16",
-        "id": "6d5e9d0f-81e9-487f-8a55-781d3377e439",
-        "competitionSlug": "street-soccer-maenner",
-        "sport": "Urban Street Soccer",
-        "category": "Männer",
-        "number": "Match 46 US-M",
-        "status": "FINAL",
-        "day": "2026-09-26",
-        "minute": 840,
-        "court": "Pitch 1",
-        "teamA": "Joga Bonito",
-        "teamB": "1. FC Torlos",
-        "scores": [
-          {
-            "scoreA": 3,
-            "scoreB": 2
-          },
-          {
-            "scoreA": 3,
-            "scoreB": 0
-          },
-          {
-            "scoreA": 1,
-            "scoreB": 1
           }
         ],
         "penalty": null
