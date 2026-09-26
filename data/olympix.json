@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T12:15:20.162Z",
+  "generatedAt": "2026-09-26T12:16:58.728Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -9834,32 +9834,6 @@
                 ]
               },
               {
-                "id": "29736a3c-3efb-41bf-9329-481d0a5a7b11",
-                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 48,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "KNOCKOUT",
-                "groupId": null,
-                "teamAId": null,
-                "teamBId": null,
-                "round": 1,
-                "position": 6,
-                "seedA": 6,
-                "seedB": 11,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-26T10:51:32.352Z",
-                "updatedAt": "2026-09-26T10:59:59.458Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "5b21c71d-63cb-4b1f-b9eb-4c7b0ba3c816",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
                 "status": "SCHEDULED",
@@ -10074,6 +10048,54 @@
                     "position": 3,
                     "scoreA": 4,
                     "scoreB": 0
+                  }
+                ]
+              },
+              {
+                "id": "29736a3c-3efb-41bf-9329-481d0a5a7b11",
+                "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 48,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "KNOCKOUT",
+                "groupId": null,
+                "teamAId": null,
+                "teamBId": null,
+                "round": 1,
+                "position": 6,
+                "seedA": 6,
+                "seedB": 11,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-26T10:51:32.352Z",
+                "updatedAt": "2026-09-26T12:16:57.815Z",
+                "beachSets": [],
+                "soccerPeriods": [
+                  {
+                    "id": "44393c87-c268-40eb-ac7c-c63d07bd3d57",
+                    "matchId": "29736a3c-3efb-41bf-9329-481d0a5a7b11",
+                    "position": 1,
+                    "scoreA": 0,
+                    "scoreB": 2
+                  },
+                  {
+                    "id": "ca78fef0-9e39-4795-ba5c-5a423d467a94",
+                    "matchId": "29736a3c-3efb-41bf-9329-481d0a5a7b11",
+                    "position": 2,
+                    "scoreA": 3,
+                    "scoreB": 1
+                  },
+                  {
+                    "id": "9a2ffcde-37ea-460c-9ba1-27f39a9aaec4",
+                    "matchId": "29736a3c-3efb-41bf-9329-481d0a5a7b11",
+                    "position": 3,
+                    "scoreA": 1,
+                    "scoreB": 2
                   }
                 ]
               },
@@ -16259,25 +16281,6 @@
         "phase": "KNOCKOUT",
         "round": 1,
         "finalRoundSize": "TOP_16",
-        "id": "29736a3c-3efb-41bf-9329-481d0a5a7b11",
-        "competitionSlug": "street-soccer-maenner",
-        "sport": "Urban Street Soccer",
-        "category": "Männer",
-        "number": "Match 48 US-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 840,
-        "court": "Pitch 3",
-        "teamA": "Gartenhütte",
-        "teamB": "Die wilden Kerle",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "KNOCKOUT",
-        "round": 1,
-        "finalRoundSize": "TOP_16",
         "id": "5b21c71d-63cb-4b1f-b9eb-4c7b0ba3c816",
         "competitionSlug": "street-soccer-maenner",
         "sport": "Urban Street Soccer",
@@ -16416,6 +16419,38 @@
           {
             "scoreA": 4,
             "scoreB": 0
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "KNOCKOUT",
+        "round": 1,
+        "finalRoundSize": "TOP_16",
+        "id": "29736a3c-3efb-41bf-9329-481d0a5a7b11",
+        "competitionSlug": "street-soccer-maenner",
+        "sport": "Urban Street Soccer",
+        "category": "Männer",
+        "number": "Match 48 US-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 840,
+        "court": "Pitch 3",
+        "teamA": "Gartenhütte",
+        "teamB": "Die wilden Kerle",
+        "scores": [
+          {
+            "scoreA": 0,
+            "scoreB": 2
+          },
+          {
+            "scoreA": 3,
+            "scoreB": 1
+          },
+          {
+            "scoreA": 1,
+            "scoreB": 2
           }
         ],
         "penalty": null
