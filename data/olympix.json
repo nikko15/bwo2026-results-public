@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T15:02:13.856Z",
+  "generatedAt": "2026-09-26T15:02:20.468Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -13109,32 +13109,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "2a1e2e06-c871-4a0b-963c-0bab7eec15e3",
-                "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 8,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "de270466-3a80-4411-862a-a9652d5e4e95",
-                "teamAId": "b24b35ef-e655-4e4a-a5bb-3230680eb450",
-                "teamBId": "0fb15eb5-c6c0-46a9-b509-6e19b2dbc2d3",
-                "round": 0,
-                "position": 8,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-26T14:52:33.529Z",
-                "updatedAt": "2026-09-26T14:52:49.464Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "6605a304-ac03-42a0-8f76-ae3db43d58b3",
                 "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
                 "status": "SCHEDULED",
@@ -13724,6 +13698,54 @@
                   {
                     "id": "868585fa-ef03-48d2-ab5e-723a5a02d98d",
                     "matchId": "dfb74dce-2575-42a0-920d-0e470050689b",
+                    "position": 3,
+                    "scoreA": 0,
+                    "scoreB": 1
+                  }
+                ]
+              },
+              {
+                "id": "2a1e2e06-c871-4a0b-963c-0bab7eec15e3",
+                "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 8,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "de270466-3a80-4411-862a-a9652d5e4e95",
+                "teamAId": "b24b35ef-e655-4e4a-a5bb-3230680eb450",
+                "teamBId": "0fb15eb5-c6c0-46a9-b509-6e19b2dbc2d3",
+                "round": 0,
+                "position": 8,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-26T14:52:33.529Z",
+                "updatedAt": "2026-09-26T15:02:19.571Z",
+                "beachSets": [],
+                "soccerPeriods": [
+                  {
+                    "id": "183f414d-d565-4db1-b074-cdc4ba7e8752",
+                    "matchId": "2a1e2e06-c871-4a0b-963c-0bab7eec15e3",
+                    "position": 1,
+                    "scoreA": 0,
+                    "scoreB": 1
+                  },
+                  {
+                    "id": "cb2ffcd6-b7cc-4871-a11a-b8bac59b8340",
+                    "matchId": "2a1e2e06-c871-4a0b-963c-0bab7eec15e3",
+                    "position": 2,
+                    "scoreA": 0,
+                    "scoreB": 1
+                  },
+                  {
+                    "id": "7ed124c7-99ba-4c99-9042-c6fe355d1256",
+                    "matchId": "2a1e2e06-c871-4a0b-963c-0bab7eec15e3",
                     "position": 3,
                     "scoreA": 0,
                     "scoreB": 1
@@ -18754,25 +18776,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_8",
-        "id": "2a1e2e06-c871-4a0b-963c-0bab7eec15e3",
-        "competitionSlug": "street-soccer-frauen",
-        "sport": "Urban Street Soccer",
-        "category": "Frauen",
-        "number": "Match 8 US-W",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 740,
-        "court": "Pitch 4",
-        "teamA": "freilos2",
-        "teamB": "Quokka",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_8",
         "id": "6605a304-ac03-42a0-8f76-ae3db43d58b3",
         "competitionSlug": "street-soccer-frauen",
         "sport": "Urban Street Soccer",
@@ -19166,6 +19169,38 @@
         "court": "Pitch 4",
         "teamA": "freilos3",
         "teamB": "Sportsfreundinnen",
+        "scores": [
+          {
+            "scoreA": 0,
+            "scoreB": 1
+          },
+          {
+            "scoreA": 0,
+            "scoreB": 1
+          },
+          {
+            "scoreA": 0,
+            "scoreB": 1
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_8",
+        "id": "2a1e2e06-c871-4a0b-963c-0bab7eec15e3",
+        "competitionSlug": "street-soccer-frauen",
+        "sport": "Urban Street Soccer",
+        "category": "Frauen",
+        "number": "Match 8 US-W",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 740,
+        "court": "Pitch 4",
+        "teamA": "freilos2",
+        "teamB": "Quokka",
         "scores": [
           {
             "scoreA": 0,
