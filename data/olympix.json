@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T14:55:17.636Z",
+  "generatedAt": "2026-09-26T14:56:23.319Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5571,8 +5571,8 @@
               {
                 "id": "02e9a0f8-0573-4622-8ca9-f1e138b3f07e",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "SCHEDULED",
-                "revision": 0,
+                "status": "RESULT_ENTERED",
+                "revision": 1,
                 "matchNumber": 35,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -5590,8 +5590,23 @@
                 "winnerOfAId": "d1b8edc4-b6ed-48a2-bcd9-816b922b4d1e",
                 "winnerOfBId": "3e4e5ec5-7daa-4477-bf61-967d4dcf4ec1",
                 "createdAt": "2026-09-26T11:10:54.631Z",
-                "updatedAt": "2026-09-26T11:15:59.753Z",
-                "beachSets": [],
+                "updatedAt": "2026-09-26T14:56:22.496Z",
+                "beachSets": [
+                  {
+                    "id": "d254d7fc-8ad4-4633-a09b-b3c0f2eef0f9",
+                    "matchId": "02e9a0f8-0573-4622-8ca9-f1e138b3f07e",
+                    "position": 1,
+                    "scoreA": 15,
+                    "scoreB": 6
+                  },
+                  {
+                    "id": "a070ae34-0b91-4e74-9e98-76953c238478",
+                    "matchId": "02e9a0f8-0573-4622-8ca9-f1e138b3f07e",
+                    "position": 2,
+                    "scoreA": 15,
+                    "scoreB": 12
+                  }
+                ],
                 "soccerPeriods": []
               },
               {
@@ -15638,13 +15653,22 @@
         "sport": "Beachvolleyball",
         "category": "Frauen",
         "number": "Match 35 BV-W",
-        "status": "SCHEDULED",
+        "status": "RESULT_ENTERED",
         "day": "2026-09-26",
         "minute": 840,
         "court": "Court 4",
         "teamA": "Die schnellen Hennen",
         "teamB": "Gummibärenbande",
-        "scores": [],
+        "scores": [
+          {
+            "scoreA": 15,
+            "scoreB": 6
+          },
+          {
+            "scoreA": 15,
+            "scoreB": 12
+          }
+        ],
         "penalty": null
       },
       {
