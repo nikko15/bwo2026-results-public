@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T13:32:07.833Z",
+  "generatedAt": "2026-09-26T13:32:26.552Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -2497,32 +2497,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "6adca223-4c0f-4937-a69e-dcac5909dece",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 57,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "ca6e6a6f-297f-4584-9efb-bd55937a0eca",
-                "teamAId": "3ad64bc4-03d1-4a92-b5f8-e9cd7a236e5d",
-                "teamBId": "b496f914-73c3-43f8-81f7-27a9c315c845",
-                "round": 0,
-                "position": 10,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.279Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "4c344f91-1667-4b28-9195-89ebcfac3a07",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -3012,6 +2986,40 @@
                     "position": 1,
                     "scoreA": 13,
                     "scoreB": 21
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "6adca223-4c0f-4937-a69e-dcac5909dece",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 57,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "ca6e6a6f-297f-4584-9efb-bd55937a0eca",
+                "teamAId": "3ad64bc4-03d1-4a92-b5f8-e9cd7a236e5d",
+                "teamBId": "b496f914-73c3-43f8-81f7-27a9c315c845",
+                "round": 0,
+                "position": 10,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T13:32:25.743Z",
+                "beachSets": [
+                  {
+                    "id": "d3a39630-8aba-4288-b5c2-f13f4f760948",
+                    "matchId": "6adca223-4c0f-4937-a69e-dcac5909dece",
+                    "position": 1,
+                    "scoreA": 21,
+                    "scoreB": 10
                   }
                 ],
                 "soccerPeriods": []
@@ -14077,25 +14085,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "6adca223-4c0f-4937-a69e-dcac5909dece",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 57 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 840,
-        "court": "Court 3",
-        "teamA": "Für Florian",
-        "teamB": "LV Bosse",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "4c344f91-1667-4b28-9195-89ebcfac3a07",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -14437,6 +14426,30 @@
           {
             "scoreA": 13,
             "scoreB": 21
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "6adca223-4c0f-4937-a69e-dcac5909dece",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 57 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 840,
+        "court": "Court 3",
+        "teamA": "Für Florian",
+        "teamB": "LV Bosse",
+        "scores": [
+          {
+            "scoreA": 21,
+            "scoreB": 10
           }
         ],
         "penalty": null
