@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:42:22.465Z",
+  "generatedAt": "2026-09-26T08:42:26.317Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -9841,7 +9841,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 16,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 25,
+            "rankingRevision": 26,
             "groupCount": 1,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -9852,7 +9852,7 @@
             "name": "Street Soccer Frauen",
             "slug": "street-soccer-frauen",
             "createdAt": "2026-09-21T12:33:19.219Z",
-            "updatedAt": "2026-09-26T08:15:39.355Z",
+            "updatedAt": "2026-09-26T08:42:25.466Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -10360,8 +10360,8 @@
               {
                 "id": "930d9738-14eb-45d8-a588-d4cd71c87fa1",
                 "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 5,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -10379,7 +10379,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:28:24.613Z",
-                "updatedAt": "2026-09-26T08:42:21.617Z",
+                "updatedAt": "2026-09-26T08:42:25.457Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
@@ -10414,6 +10414,27 @@
               "endRank": 1,
               "rows": [
                 {
+                  "teamId": "683ad89c-18b7-4627-9498-2db326faa77a",
+                  "name": "Die Teufelskickerinnen",
+                  "played": 2,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 12,
+                  "conceded": 8,
+                  "points": 14
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "1b4c73300804573cc80a3945b2bca7207945a89a2f0abd7fd1ca127af0c13150"
+            },
+            {
+              "rank": 2,
+              "endRank": 2,
+              "rows": [
+                {
                   "teamId": "e07d7409-83e9-4b80-8ed5-9ef99b9d1093",
                   "name": "Sportsfreundinnen",
                   "played": 4,
@@ -10428,11 +10449,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "3cdc335b61b74542dffdaf452bec0109ae76d5072726ac8a133e422f7b33a2a8"
+              "signature": "ab6cdfd75de0d087f62dbd61934b85938d4c003b9494167343316b4b47fd1222"
             },
             {
-              "rank": 2,
-              "endRank": 2,
+              "rank": 3,
+              "endRank": 3,
               "rows": [
                 {
                   "teamId": "2c22a873-e10f-45dd-97ee-c1c16a17dbcb",
@@ -10449,11 +10470,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "21ce3e5c636a6f2951c2ddac194e438559e4806679391a5d38a656014188aa4b"
+              "signature": "cbeda558a31a5ae76b2e920c106b97d4dbcc5696f7fc5bb8704ace75b74cf744"
             },
             {
-              "rank": 3,
-              "endRank": 3,
+              "rank": 4,
+              "endRank": 4,
               "rows": [
                 {
                   "teamId": "78e0b5d7-92dc-46fc-880e-1ace7b9b7a79",
@@ -10470,28 +10491,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "697f8b1a4f874d5c3e3c92147a87601fe75e391ceab1c813b0ce66e4454d6bde"
-            },
-            {
-              "rank": 4,
-              "endRank": 4,
-              "rows": [
-                {
-                  "teamId": "683ad89c-18b7-4627-9498-2db326faa77a",
-                  "name": "Die Teufelskickerinnen",
-                  "played": 1,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 6,
-                  "conceded": 5,
-                  "points": 5
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "631607fbb7230f9b3ee2bd576e90c62404ac1c18ff820304faa9635e0beb26ba"
+              "signature": "33e1f336376a837b099163f073afe97af4ae4c0fb839130be2d90de2c7645ba4"
             },
             {
               "rank": 5,
@@ -10500,19 +10500,19 @@
                 {
                   "teamId": "61a1b007-3577-4bbd-b95b-3e57d1d071c6",
                   "name": "Team X",
-                  "played": 1,
+                  "played": 2,
                   "wins": 0,
                   "losses": 0,
                   "setsWon": 0,
                   "setsLost": 0,
-                  "scored": 6,
-                  "conceded": 9,
+                  "scored": 9,
+                  "conceded": 15,
                   "points": 3
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "35813013f841d969a287a5fc5072285ab13dd74c952e4c7c21279ec54ba63d64"
+              "signature": "d1332f132d0ad39ae8bb4c342b06599be2d8ed925f03385573a49a8773beb2d9"
             }
           ],
           "groups": [
@@ -10523,6 +10523,27 @@
                 {
                   "rank": 1,
                   "endRank": 1,
+                  "rows": [
+                    {
+                      "teamId": "683ad89c-18b7-4627-9498-2db326faa77a",
+                      "name": "Die Teufelskickerinnen",
+                      "played": 2,
+                      "wins": 0,
+                      "losses": 0,
+                      "setsWon": 0,
+                      "setsLost": 0,
+                      "scored": 12,
+                      "conceded": 8,
+                      "points": 14
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "1b4c73300804573cc80a3945b2bca7207945a89a2f0abd7fd1ca127af0c13150"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
                   "rows": [
                     {
                       "teamId": "e07d7409-83e9-4b80-8ed5-9ef99b9d1093",
@@ -10539,11 +10560,11 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "3cdc335b61b74542dffdaf452bec0109ae76d5072726ac8a133e422f7b33a2a8"
+                  "signature": "ab6cdfd75de0d087f62dbd61934b85938d4c003b9494167343316b4b47fd1222"
                 },
                 {
-                  "rank": 2,
-                  "endRank": 2,
+                  "rank": 3,
+                  "endRank": 3,
                   "rows": [
                     {
                       "teamId": "2c22a873-e10f-45dd-97ee-c1c16a17dbcb",
@@ -10560,11 +10581,11 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "21ce3e5c636a6f2951c2ddac194e438559e4806679391a5d38a656014188aa4b"
+                  "signature": "cbeda558a31a5ae76b2e920c106b97d4dbcc5696f7fc5bb8704ace75b74cf744"
                 },
                 {
-                  "rank": 3,
-                  "endRank": 3,
+                  "rank": 4,
+                  "endRank": 4,
                   "rows": [
                     {
                       "teamId": "78e0b5d7-92dc-46fc-880e-1ace7b9b7a79",
@@ -10581,28 +10602,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "697f8b1a4f874d5c3e3c92147a87601fe75e391ceab1c813b0ce66e4454d6bde"
-                },
-                {
-                  "rank": 4,
-                  "endRank": 4,
-                  "rows": [
-                    {
-                      "teamId": "683ad89c-18b7-4627-9498-2db326faa77a",
-                      "name": "Die Teufelskickerinnen",
-                      "played": 1,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 6,
-                      "conceded": 5,
-                      "points": 5
-                    }
-                  ],
-                  "tied": false,
-                  "resolved": true,
-                  "signature": "631607fbb7230f9b3ee2bd576e90c62404ac1c18ff820304faa9635e0beb26ba"
+                  "signature": "33e1f336376a837b099163f073afe97af4ae4c0fb839130be2d90de2c7645ba4"
                 },
                 {
                   "rank": 5,
@@ -10611,19 +10611,19 @@
                     {
                       "teamId": "61a1b007-3577-4bbd-b95b-3e57d1d071c6",
                       "name": "Team X",
-                      "played": 1,
+                      "played": 2,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 6,
-                      "conceded": 9,
+                      "scored": 9,
+                      "conceded": 15,
                       "points": 3
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "35813013f841d969a287a5fc5072285ab13dd74c952e4c7c21279ec54ba63d64"
+                  "signature": "d1332f132d0ad39ae8bb4c342b06599be2d8ed925f03385573a49a8773beb2d9"
                 }
               ]
             }
@@ -13695,7 +13695,7 @@
         "sport": "Urban Street Soccer",
         "category": "Frauen",
         "number": "Match 5 US-W",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 620,
         "court": "Pitch 4",
