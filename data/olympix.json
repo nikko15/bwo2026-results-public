@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T12:30:57.227Z",
+  "generatedAt": "2026-09-26T12:31:17.537Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -2327,32 +2327,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "5c8e2245-80f2-4afc-aa42-9a88da6c61da",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 50,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "335e2acb-fe77-4320-8ba0-02e19176a167",
-                "teamAId": "7c961abc-76b5-49c2-8c6f-56783e8ecddc",
-                "teamBId": "694e1b64-1b84-4031-95a3-72e0b8fd4657",
-                "round": 0,
-                "position": 39,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.259Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "d1b79089-a9db-41e6-8447-ad1c476e7663",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -2726,6 +2700,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 2
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "5c8e2245-80f2-4afc-aa42-9a88da6c61da",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 50,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "335e2acb-fe77-4320-8ba0-02e19176a167",
+                "teamAId": "7c961abc-76b5-49c2-8c6f-56783e8ecddc",
+                "teamBId": "694e1b64-1b84-4031-95a3-72e0b8fd4657",
+                "round": 0,
+                "position": 39,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T12:31:16.740Z",
+                "beachSets": [
+                  {
+                    "id": "18a69ebc-8600-4822-b326-16b4a5a6bdee",
+                    "matchId": "5c8e2245-80f2-4afc-aa42-9a88da6c61da",
+                    "position": 1,
+                    "scoreA": 21,
+                    "scoreB": 10
                   }
                 ],
                 "soccerPeriods": []
@@ -13709,25 +13717,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "5c8e2245-80f2-4afc-aa42-9a88da6c61da",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 50 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 800,
-        "court": "Court 2",
-        "teamA": "FC Haltestelle",
-        "teamB": "Magerquark",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "d1b79089-a9db-41e6-8447-ad1c476e7663",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -13991,6 +13980,30 @@
           {
             "scoreA": 21,
             "scoreB": 2
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "5c8e2245-80f2-4afc-aa42-9a88da6c61da",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 50 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 800,
+        "court": "Court 2",
+        "teamA": "FC Haltestelle",
+        "teamB": "Magerquark",
+        "scores": [
+          {
+            "scoreA": 21,
+            "scoreB": 10
           }
         ],
         "penalty": null
