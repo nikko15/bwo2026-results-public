@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T07:23:01.818Z",
+  "generatedAt": "2026-09-26T07:23:21.318Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -1069,32 +1069,6 @@
             ],
             "matches": [
               {
-                "id": "b6e440c4-98ef-4c5d-9dbf-e6a6c991194b",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 9,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "335e2acb-fe77-4320-8ba0-02e19176a167",
-                "teamAId": "ff3272d0-8c84-4317-ad73-efad39c3df2a",
-                "teamBId": "7c961abc-76b5-49c2-8c6f-56783e8ecddc",
-                "round": 0,
-                "position": 32,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.140Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "86c58af3-bd0f-4063-afed-abd3fe92fe56",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -1988,6 +1962,40 @@
                     "position": 1,
                     "scoreA": 10,
                     "scoreB": 21
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "b6e440c4-98ef-4c5d-9dbf-e6a6c991194b",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 9,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "335e2acb-fe77-4320-8ba0-02e19176a167",
+                "teamAId": "ff3272d0-8c84-4317-ad73-efad39c3df2a",
+                "teamBId": "7c961abc-76b5-49c2-8c6f-56783e8ecddc",
+                "round": 0,
+                "position": 32,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T07:23:20.541Z",
+                "beachSets": [
+                  {
+                    "id": "e735244a-311f-4408-b42b-6e4a5ae9f239",
+                    "matchId": "b6e440c4-98ef-4c5d-9dbf-e6a6c991194b",
+                    "position": 1,
+                    "scoreA": 21,
+                    "scoreB": 16
                   }
                 ],
                 "soccerPeriods": []
@@ -9847,25 +9855,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "b6e440c4-98ef-4c5d-9dbf-e6a6c991194b",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 9 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 520,
-        "court": "Court 3",
-        "teamA": "Sand im Getriebe",
-        "teamB": "FC Haltestelle",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "86c58af3-bd0f-4063-afed-abd3fe92fe56",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -10509,6 +10498,30 @@
           {
             "scoreA": 10,
             "scoreB": 21
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "b6e440c4-98ef-4c5d-9dbf-e6a6c991194b",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 9 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 520,
+        "court": "Court 3",
+        "teamA": "Sand im Getriebe",
+        "teamB": "FC Haltestelle",
+        "scores": [
+          {
+            "scoreA": 21,
+            "scoreB": 16
           }
         ],
         "penalty": null
