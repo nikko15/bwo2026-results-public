@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T15:06:13.510Z",
+  "generatedAt": "2026-09-26T15:06:30.891Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -13154,8 +13154,8 @@
               {
                 "id": "31b7bfce-fa3a-442a-ac18-205bdbafb3e8",
                 "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "status": "SCHEDULED",
-                "revision": 0,
+                "status": "RESULT_ENTERED",
+                "revision": 1,
                 "matchNumber": null,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -13173,9 +13173,31 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-26T14:52:33.529Z",
-                "updatedAt": "2026-09-26T14:52:33.529Z",
+                "updatedAt": "2026-09-26T15:06:29.986Z",
                 "beachSets": [],
-                "soccerPeriods": []
+                "soccerPeriods": [
+                  {
+                    "id": "1151a03b-3d7c-490d-a610-8d25db5d5df7",
+                    "matchId": "31b7bfce-fa3a-442a-ac18-205bdbafb3e8",
+                    "position": 1,
+                    "scoreA": 8,
+                    "scoreB": 0
+                  },
+                  {
+                    "id": "446bb401-5504-414f-b1de-af3b51550ad7",
+                    "matchId": "31b7bfce-fa3a-442a-ac18-205bdbafb3e8",
+                    "position": 2,
+                    "scoreA": 3,
+                    "scoreB": 1
+                  },
+                  {
+                    "id": "e2fb3b3a-3245-4c35-9905-992ab6b11392",
+                    "matchId": "31b7bfce-fa3a-442a-ac18-205bdbafb3e8",
+                    "position": 3,
+                    "scoreA": 3,
+                    "scoreB": 1
+                  }
+                ]
               },
               {
                 "id": "d2524605-7b8a-4abe-b293-2add34dce5fd",
@@ -19157,13 +19179,26 @@
         "sport": "Urban Street Soccer",
         "category": "Frauen",
         "number": null,
-        "status": "SCHEDULED",
+        "status": "RESULT_ENTERED",
         "day": null,
         "minute": null,
         "court": null,
         "teamA": "Sturmtrupp United",
         "teamB": "Team X",
-        "scores": [],
+        "scores": [
+          {
+            "scoreA": 8,
+            "scoreB": 0
+          },
+          {
+            "scoreA": 3,
+            "scoreB": 1
+          },
+          {
+            "scoreA": 3,
+            "scoreB": 1
+          }
+        ],
         "penalty": null
       },
       {
