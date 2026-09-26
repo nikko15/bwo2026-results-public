@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T12:50:46.248Z",
+  "generatedAt": "2026-09-26T13:11:26.659Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5511,32 +5511,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "2fce15e1-8991-45e9-bfe8-f3b5711c1663",
-                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 31,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "KNOCKOUT",
-                "groupId": null,
-                "teamAId": null,
-                "teamBId": null,
-                "round": 1,
-                "position": 7,
-                "seedA": 7,
-                "seedB": 10,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-26T11:10:54.610Z",
-                "updatedAt": "2026-09-26T11:15:59.742Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "301a8a77-0d65-4c80-956d-fef796ecfca5",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
                 "status": "SCHEDULED",
@@ -5774,6 +5748,47 @@
                     "position": 2,
                     "scoreA": 0,
                     "scoreB": 15
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "2fce15e1-8991-45e9-bfe8-f3b5711c1663",
+                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 31,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "KNOCKOUT",
+                "groupId": null,
+                "teamAId": null,
+                "teamBId": null,
+                "round": 1,
+                "position": 7,
+                "seedA": 7,
+                "seedB": 10,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-26T11:10:54.610Z",
+                "updatedAt": "2026-09-26T13:11:25.774Z",
+                "beachSets": [
+                  {
+                    "id": "6c5024ca-c0bd-4156-9cfd-a4c85f395e0b",
+                    "matchId": "2fce15e1-8991-45e9-bfe8-f3b5711c1663",
+                    "position": 1,
+                    "scoreA": 15,
+                    "scoreB": 8
+                  },
+                  {
+                    "id": "b6070c23-903a-4772-af97-cc6ddd9ceef8",
+                    "matchId": "2fce15e1-8991-45e9-bfe8-f3b5711c1663",
+                    "position": 2,
+                    "scoreA": 15,
+                    "scoreB": 10
                   }
                 ],
                 "soccerPeriods": []
@@ -14444,7 +14459,7 @@
         "number": "Match 39 BV-W",
         "status": "SCHEDULED",
         "day": "2026-09-27",
-        "minute": 520,
+        "minute": 540,
         "court": "Court 4",
         "teamA": "Noch offen",
         "teamB": "Noch offen",
@@ -14463,7 +14478,7 @@
         "number": "Match 40 BV-W",
         "status": "SCHEDULED",
         "day": "2026-09-27",
-        "minute": 560,
+        "minute": 620,
         "court": "Court 4",
         "teamA": "Noch offen",
         "teamB": "Noch offen",
@@ -14739,25 +14754,6 @@
         "phase": "KNOCKOUT",
         "round": 1,
         "finalRoundSize": "TOP_16",
-        "id": "2fce15e1-8991-45e9-bfe8-f3b5711c1663",
-        "competitionSlug": "beachvolleyball-frauen",
-        "sport": "Beachvolleyball",
-        "category": "Frauen",
-        "number": "Match 31 BV-W",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 880,
-        "court": "Court 4",
-        "teamA": "Josis Beach Babes",
-        "teamB": "NetNinjas",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "KNOCKOUT",
-        "round": 1,
-        "finalRoundSize": "TOP_16",
         "id": "301a8a77-0d65-4c80-956d-fef796ecfca5",
         "competitionSlug": "beachvolleyball-frauen",
         "sport": "Beachvolleyball",
@@ -14918,6 +14914,34 @@
           {
             "scoreA": 0,
             "scoreB": 15
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "KNOCKOUT",
+        "round": 1,
+        "finalRoundSize": "TOP_16",
+        "id": "2fce15e1-8991-45e9-bfe8-f3b5711c1663",
+        "competitionSlug": "beachvolleyball-frauen",
+        "sport": "Beachvolleyball",
+        "category": "Frauen",
+        "number": "Match 31 BV-W",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 880,
+        "court": "Court 4",
+        "teamA": "Josis Beach Babes",
+        "teamB": "NetNinjas",
+        "scores": [
+          {
+            "scoreA": 15,
+            "scoreB": 8
+          },
+          {
+            "scoreA": 15,
+            "scoreB": 10
           }
         ],
         "penalty": null
@@ -17007,7 +17031,7 @@
         "number": "Match 58 US-M",
         "status": "SCHEDULED",
         "day": "2026-09-27",
-        "minute": 560,
+        "minute": 600,
         "court": "Pitch 1",
         "teamA": "Noch offen",
         "teamB": "Noch offen",
