@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T07:22:22.588Z",
+  "generatedAt": "2026-09-26T07:22:48.013Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -1069,32 +1069,6 @@
             ],
             "matches": [
               {
-                "id": "945ff864-c1c0-4f1a-bfce-98284fbf24d8",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 8,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "ca6e6a6f-297f-4584-9efb-bd55937a0eca",
-                "teamAId": "41db8cf0-5759-4214-a194-12308e7af187",
-                "teamBId": "b17aed90-57f4-4599-8cc2-b446f7a00804",
-                "round": 0,
-                "position": 2,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.137Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "b6e440c4-98ef-4c5d-9dbf-e6a6c991194b",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -2081,6 +2055,40 @@
                     "matchId": "921a20e9-9e15-44d2-ad74-02d57ccf693d",
                     "position": 1,
                     "scoreA": 15,
+                    "scoreB": 21
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "945ff864-c1c0-4f1a-bfce-98284fbf24d8",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 8,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "ca6e6a6f-297f-4584-9efb-bd55937a0eca",
+                "teamAId": "41db8cf0-5759-4214-a194-12308e7af187",
+                "teamBId": "b17aed90-57f4-4599-8cc2-b446f7a00804",
+                "round": 0,
+                "position": 2,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T07:22:47.221Z",
+                "beachSets": [
+                  {
+                    "id": "c4d58a47-ec8a-43a7-9e3d-b2a9f3a5544b",
+                    "matchId": "945ff864-c1c0-4f1a-bfce-98284fbf24d8",
+                    "position": 1,
+                    "scoreA": 19,
                     "scoreB": 21
                   }
                 ],
@@ -9772,25 +9780,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "945ff864-c1c0-4f1a-bfce-98284fbf24d8",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 8 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 520,
-        "court": "Court 2",
-        "teamA": "Haribuh Warriors",
-        "teamB": "Chaos Comando",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "b6e440c4-98ef-4c5d-9dbf-e6a6c991194b",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -10500,6 +10489,30 @@
         "scores": [
           {
             "scoreA": 15,
+            "scoreB": 21
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "945ff864-c1c0-4f1a-bfce-98284fbf24d8",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 8 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 520,
+        "court": "Court 2",
+        "teamA": "Haribuh Warriors",
+        "teamB": "Chaos Comando",
+        "scores": [
+          {
+            "scoreA": 19,
             "scoreB": 21
           }
         ],
