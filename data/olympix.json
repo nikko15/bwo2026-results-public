@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T15:12:11.471Z",
+  "generatedAt": "2026-09-26T15:12:13.998Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3275,8 +3275,8 @@
               {
                 "id": "ce02e952-4817-4177-bdf0-b7e0fcd0a54f",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 65,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -3294,7 +3294,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-26T13:45:44.237Z",
-                "updatedAt": "2026-09-26T15:12:10.670Z",
+                "updatedAt": "2026-09-26T15:12:11.950Z",
                 "beachSets": [
                   {
                     "id": "b69441c8-d7ae-48f2-8236-6bb58872ee10",
@@ -16360,7 +16360,7 @@
         "sport": "Beachvolleyball",
         "category": "Männer",
         "number": "Match 65 BV-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 980,
         "court": "Court 2",
@@ -16524,7 +16524,7 @@
         "day": "2026-09-26",
         "minute": 1060,
         "court": "Court 2",
-        "teamA": "Noch offen",
+        "teamA": "Sand im Getriebe",
         "teamB": "Team Zukunft",
         "scores": [],
         "penalty": null
