@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:20:47.425Z",
+  "generatedAt": "2026-09-26T06:20:49.913Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5146,7 +5146,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 22,
+            "rankingRevision": 23,
             "groupCount": 7,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -5157,7 +5157,7 @@
             "name": "Street Soccer Männer",
             "slug": "street-soccer-maenner",
             "createdAt": "2026-09-20T11:08:50.042Z",
-            "updatedAt": "2026-09-26T06:19:07.508Z",
+            "updatedAt": "2026-09-26T06:20:48.561Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -6321,8 +6321,8 @@
               {
                 "id": "62c64bfc-3893-4557-9e9e-479e68771144",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 3,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -6340,7 +6340,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:06:19.574Z",
-                "updatedAt": "2026-09-26T06:20:46.623Z",
+                "updatedAt": "2026-09-26T06:20:48.552Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
@@ -7295,11 +7295,32 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "79cd4973b572971b32fabe9921e84aad0d971964bc43e9e43bc0574958a0edf3"
+              "signature": "62d5d2c902d18e05eefffb2dccca9840a2112fca3dae18957544606ebebc0053"
             },
             {
               "rank": 2,
               "endRank": 2,
+              "rows": [
+                {
+                  "teamId": "4e0f0e72-b192-48d8-ab64-251277010c0e",
+                  "name": "FC Rippe",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 6,
+                  "conceded": 4,
+                  "points": 5
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "99ee15fe978cb3a72db987c31310097a6204dd665ac13ec7357f4cb3cd41a366"
+            },
+            {
+              "rank": 3,
+              "endRank": 3,
               "rows": [
                 {
                   "teamId": "72936ae2-6323-4eb0-8bbf-2f1b064c0164",
@@ -7316,27 +7337,36 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "7376f6bdb7e1ca070d0d181e7bde529e95b3e10422700bfbddefc366224f05c2"
+              "signature": "6afbfa97f8f6b77a1eb885a957e32d8d3ad2f1d5992e9b954a7593fcf3be7d21"
             },
             {
-              "rank": 3,
+              "rank": 4,
+              "endRank": 4,
+              "rows": [
+                {
+                  "teamId": "5e684e6b-1408-4efd-9596-8a99e1b08737",
+                  "name": "Panzerfäuste",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 4,
+                  "conceded": 6,
+                  "points": 2
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "ba88d22ff0c38e72bf64c8f0d1b3959c10b8fb8c1ee9dc9b249b50993c3b96f4"
+            },
+            {
+              "rank": 5,
               "endRank": 28,
               "rows": [
                 {
                   "teamId": "850e726c-fec1-4bd6-a480-52630c5e53a1",
                   "name": "Tor Battalion",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "5e684e6b-1408-4efd-9596-8a99e1b08737",
-                  "name": "Panzerfäuste",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -7433,18 +7463,6 @@
                 {
                   "teamId": "8eef42cb-81c4-4b5f-95d1-2adf651f9c0b",
                   "name": "Die Einheit",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "4e0f0e72-b192-48d8-ab64-251277010c0e",
-                  "name": "FC Rippe",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -7637,7 +7655,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "b303811057aefd051aa8a08da9ed986cedada0f131d2cb2b24fd7368a0692736"
+              "signature": "ebbb88f1ecd24c31cbf4c8cefd08c3255da27286dfc57dd3742325084e5a4044"
             }
           ],
           "groups": [
@@ -7700,7 +7718,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "d84604d3c56aec35b97527177bd6002b15e7d29f98ec495171a4d85f0e4d8e85"
+                  "signature": "258e8a565483cc2f8d65f48f24830b67f8148a55734691304f627d019e5cec66"
                 }
               ]
             },
@@ -7727,7 +7745,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "79cd4973b572971b32fabe9921e84aad0d971964bc43e9e43bc0574958a0edf3"
+                  "signature": "62d5d2c902d18e05eefffb2dccca9840a2112fca3dae18957544606ebebc0053"
                 },
                 {
                   "rank": 2,
@@ -7748,7 +7766,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "7376f6bdb7e1ca070d0d181e7bde529e95b3e10422700bfbddefc366224f05c2"
+                  "signature": "6afbfa97f8f6b77a1eb885a957e32d8d3ad2f1d5992e9b954a7593fcf3be7d21"
                 },
                 {
                   "rank": 3,
@@ -7781,7 +7799,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "59fb70960f0c49e0312f2e85ab0f3bf4496cfce43ae01a307ed11ad1428bebcb"
+                  "signature": "88dfc112806abf0346410e48d1b31bfd6f13942b7c99150afef2b0cb766978db"
                 }
               ]
             },
@@ -7844,7 +7862,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "a8087bbdf3fcbdf0e44d63974e0048585bf42a7e1892323d115191ed4f08134a"
+                  "signature": "131dc03619017238cb9c7c52c56ca3b8b79be0490effe8f48a492ef343b70ba6"
                 }
               ]
             },
@@ -7907,7 +7925,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "8154a4c3d9c84edb10c79296cd6b56f8297e6b3a8602012fa3925ad5dfa7723e"
+                  "signature": "fe72080cd89268f2456cb13bf07ed2c29e9594fbc2548883aef3d563bd20b12e"
                 }
               ]
             },
@@ -7970,7 +7988,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "64382c234456c790b2e86964ce33a3be3867bac25704f1020182089a392c7742"
+                  "signature": "8dc65b56f40aa2216ef9b46cc1117ed27ccc6cb94c8323b7bd963c0d2ca1b3c7"
                 }
               ]
             },
@@ -8033,7 +8051,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "462b4ee4a486e9180dd29083523f9db4d02ce446719a3a4f113bb8a2fa3ce523"
+                  "signature": "0a7a98e4ddf364b7398d4cee31be09b13424e6306e438f28618ef82b3bb9d73c"
                 }
               ]
             },
@@ -8043,20 +8061,50 @@
               "blocks": [
                 {
                   "rank": 1,
-                  "endRank": 4,
+                  "endRank": 1,
                   "rows": [
                     {
-                      "teamId": "5e684e6b-1408-4efd-9596-8a99e1b08737",
-                      "name": "Panzerfäuste",
-                      "played": 0,
+                      "teamId": "4e0f0e72-b192-48d8-ab64-251277010c0e",
+                      "name": "FC Rippe",
+                      "played": 1,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
-                    },
+                      "scored": 6,
+                      "conceded": 4,
+                      "points": 5
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "99ee15fe978cb3a72db987c31310097a6204dd665ac13ec7357f4cb3cd41a366"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
+                  "rows": [
+                    {
+                      "teamId": "5e684e6b-1408-4efd-9596-8a99e1b08737",
+                      "name": "Panzerfäuste",
+                      "played": 1,
+                      "wins": 0,
+                      "losses": 0,
+                      "setsWon": 0,
+                      "setsLost": 0,
+                      "scored": 4,
+                      "conceded": 6,
+                      "points": 2
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "ba88d22ff0c38e72bf64c8f0d1b3959c10b8fb8c1ee9dc9b249b50993c3b96f4"
+                },
+                {
+                  "rank": 3,
+                  "endRank": 4,
+                  "rows": [
                     {
                       "teamId": "51b4cfc4-4078-44d6-81aa-cd5c55429320",
                       "name": "KC Hesselhopfer",
@@ -8080,23 +8128,11 @@
                       "scored": 0,
                       "conceded": 0,
                       "points": 0
-                    },
-                    {
-                      "teamId": "4e0f0e72-b192-48d8-ab64-251277010c0e",
-                      "name": "FC Rippe",
-                      "played": 0,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
                     }
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "59fc75fe50921998d7d00b316d0de5785c60029318f341a8b3a067225996a10b"
+                  "signature": "e1bbac4d3c2ffaadf812f4e359ccedd8fc7308760d76facdd98772de12613ed1"
                 }
               ]
             }
@@ -10523,7 +10559,7 @@
         "sport": "Urban Street Soccer",
         "category": "Männer",
         "number": "Match 3 US-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 480,
         "court": "Pitch 3",
