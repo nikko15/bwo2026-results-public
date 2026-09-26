@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T16:11:01.831Z",
+  "generatedAt": "2026-09-26T16:11:04.412Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3396,47 +3396,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "c1be4dbd-059a-4cc9-8b47-c908e8657507",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
-                "matchNumber": 71,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "KNOCKOUT",
-                "groupId": null,
-                "teamAId": null,
-                "teamBId": null,
-                "round": 2,
-                "position": 2,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": "53890029-2a3e-4c01-86b4-820cf66199b8",
-                "winnerOfBId": "c63a723d-be68-4a21-b6ce-9aae204b1bb2",
-                "createdAt": "2026-09-26T13:45:44.254Z",
-                "updatedAt": "2026-09-26T16:11:00.953Z",
-                "beachSets": [
-                  {
-                    "id": "f1a30f4f-2859-4d74-8533-76e676744379",
-                    "matchId": "c1be4dbd-059a-4cc9-8b47-c908e8657507",
-                    "position": 1,
-                    "scoreA": 5,
-                    "scoreB": 15
-                  },
-                  {
-                    "id": "4061aca5-371c-4f34-9ebb-cae01427de7b",
-                    "matchId": "c1be4dbd-059a-4cc9-8b47-c908e8657507",
-                    "position": 2,
-                    "scoreA": 14,
-                    "scoreB": 16
-                  }
-                ],
-                "soccerPeriods": []
-              },
-              {
                 "id": "3badb1d8-12b8-4a20-850d-28009fb4e11a",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "FINAL",
@@ -3473,6 +3432,47 @@
                     "position": 2,
                     "scoreA": 15,
                     "scoreB": 12
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "c1be4dbd-059a-4cc9-8b47-c908e8657507",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "FINAL",
+                "revision": 2,
+                "matchNumber": 71,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "KNOCKOUT",
+                "groupId": null,
+                "teamAId": null,
+                "teamBId": null,
+                "round": 2,
+                "position": 2,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": "53890029-2a3e-4c01-86b4-820cf66199b8",
+                "winnerOfBId": "c63a723d-be68-4a21-b6ce-9aae204b1bb2",
+                "createdAt": "2026-09-26T13:45:44.254Z",
+                "updatedAt": "2026-09-26T16:11:01.946Z",
+                "beachSets": [
+                  {
+                    "id": "f1a30f4f-2859-4d74-8533-76e676744379",
+                    "matchId": "c1be4dbd-059a-4cc9-8b47-c908e8657507",
+                    "position": 1,
+                    "scoreA": 5,
+                    "scoreB": 15
+                  },
+                  {
+                    "id": "4061aca5-371c-4f34-9ebb-cae01427de7b",
+                    "matchId": "c1be4dbd-059a-4cc9-8b47-c908e8657507",
+                    "position": 2,
+                    "scoreA": 14,
+                    "scoreB": 16
                   }
                 ],
                 "soccerPeriods": []
@@ -16570,34 +16570,6 @@
       {
         "isThirdPlace": false,
         "phase": "KNOCKOUT",
-        "round": 2,
-        "finalRoundSize": "TOP_16",
-        "id": "c1be4dbd-059a-4cc9-8b47-c908e8657507",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 71 BV-M",
-        "status": "RESULT_ENTERED",
-        "day": "2026-09-26",
-        "minute": 960,
-        "court": "Court 1",
-        "teamA": "Osser Absolut",
-        "teamB": "Beachelers",
-        "scores": [
-          {
-            "scoreA": 5,
-            "scoreB": 15
-          },
-          {
-            "scoreA": 14,
-            "scoreB": 16
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "KNOCKOUT",
         "round": 1,
         "finalRoundSize": "TOP_16",
         "id": "3badb1d8-12b8-4a20-850d-28009fb4e11a",
@@ -16619,6 +16591,34 @@
           {
             "scoreA": 15,
             "scoreB": 12
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "KNOCKOUT",
+        "round": 2,
+        "finalRoundSize": "TOP_16",
+        "id": "c1be4dbd-059a-4cc9-8b47-c908e8657507",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 71 BV-M",
+        "status": "FINAL",
+        "day": "2026-09-26",
+        "minute": 960,
+        "court": "Court 1",
+        "teamA": "Osser Absolut",
+        "teamB": "Beachelers",
+        "scores": [
+          {
+            "scoreA": 5,
+            "scoreB": 15
+          },
+          {
+            "scoreA": 14,
+            "scoreB": 16
           }
         ],
         "penalty": null
@@ -16704,7 +16704,7 @@
         "minute": 480,
         "court": "Court 1",
         "teamA": "Net-Force",
-        "teamB": "Noch offen",
+        "teamB": "Beachelers",
         "scores": [],
         "penalty": null
       },
