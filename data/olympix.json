@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T14:56:23.319Z",
+  "generatedAt": "2026-09-26T14:56:25.878Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5571,8 +5571,8 @@
               {
                 "id": "02e9a0f8-0573-4622-8ca9-f1e138b3f07e",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 35,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -5590,7 +5590,7 @@
                 "winnerOfAId": "d1b8edc4-b6ed-48a2-bcd9-816b922b4d1e",
                 "winnerOfBId": "3e4e5ec5-7daa-4477-bf61-967d4dcf4ec1",
                 "createdAt": "2026-09-26T11:10:54.631Z",
-                "updatedAt": "2026-09-26T14:56:22.496Z",
+                "updatedAt": "2026-09-26T14:56:23.613Z",
                 "beachSets": [
                   {
                     "id": "d254d7fc-8ad4-4633-a09b-b3c0f2eef0f9",
@@ -15653,7 +15653,7 @@
         "sport": "Beachvolleyball",
         "category": "Frauen",
         "number": "Match 35 BV-W",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 840,
         "court": "Court 4",
@@ -15704,7 +15704,7 @@
         "day": "2026-09-27",
         "minute": 480,
         "court": "Court 5",
-        "teamA": "Noch offen",
+        "teamA": "Die schnellen Hennen",
         "teamB": "Noch offen",
         "scores": [],
         "penalty": null
