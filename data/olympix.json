@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T15:03:13.061Z",
+  "generatedAt": "2026-09-26T15:03:47.706Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3273,6 +3273,47 @@
                 "soccerPeriods": []
               },
               {
+                "id": "6c25a4cc-e30f-45f6-b22c-1b507201bffc",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 66,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "KNOCKOUT",
+                "groupId": null,
+                "teamAId": null,
+                "teamBId": null,
+                "round": 1,
+                "position": 6,
+                "seedA": 6,
+                "seedB": 11,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-26T13:45:44.241Z",
+                "updatedAt": "2026-09-26T15:03:46.915Z",
+                "beachSets": [
+                  {
+                    "id": "bf3a9ce7-4a1a-4961-8c74-b9e2eee3ad14",
+                    "matchId": "6c25a4cc-e30f-45f6-b22c-1b507201bffc",
+                    "position": 1,
+                    "scoreA": 15,
+                    "scoreB": 10
+                  },
+                  {
+                    "id": "5064f415-8aa3-428e-919e-f0d647ee9a78",
+                    "matchId": "6c25a4cc-e30f-45f6-b22c-1b507201bffc",
+                    "position": 2,
+                    "scoreA": 15,
+                    "scoreB": 9
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
                 "id": "c1be4dbd-059a-4cc9-8b47-c908e8657507",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -3347,32 +3388,6 @@
                 "winnerOfBId": null,
                 "createdAt": "2026-09-26T13:45:44.237Z",
                 "updatedAt": "2026-09-26T13:48:50.756Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
-                "id": "6c25a4cc-e30f-45f6-b22c-1b507201bffc",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 66,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "KNOCKOUT",
-                "groupId": null,
-                "teamAId": null,
-                "teamBId": null,
-                "round": 1,
-                "position": 6,
-                "seedA": 6,
-                "seedB": 11,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-26T13:45:44.241Z",
-                "updatedAt": "2026-09-26T13:48:50.758Z",
                 "beachSets": [],
                 "soccerPeriods": []
               },
@@ -15680,6 +15695,34 @@
       {
         "isThirdPlace": false,
         "phase": "KNOCKOUT",
+        "round": 1,
+        "finalRoundSize": "TOP_16",
+        "id": "6c25a4cc-e30f-45f6-b22c-1b507201bffc",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 66 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 980,
+        "court": "Court 3",
+        "teamA": "Team Zukunft",
+        "teamB": "Schütze Jonas",
+        "scores": [
+          {
+            "scoreA": 15,
+            "scoreB": 10
+          },
+          {
+            "scoreA": 15,
+            "scoreB": 9
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "KNOCKOUT",
         "round": 2,
         "finalRoundSize": "TOP_16",
         "id": "c1be4dbd-059a-4cc9-8b47-c908e8657507",
@@ -15731,25 +15774,6 @@
         "court": "Court 2",
         "teamA": "Sand im Getriebe",
         "teamB": "Chaos Comando",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "KNOCKOUT",
-        "round": 1,
-        "finalRoundSize": "TOP_16",
-        "id": "6c25a4cc-e30f-45f6-b22c-1b507201bffc",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 66 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 980,
-        "court": "Court 3",
-        "teamA": "Team Zukunft",
-        "teamB": "Schütze Jonas",
         "scores": [],
         "penalty": null
       },
