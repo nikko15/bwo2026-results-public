@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T11:02:21.488Z",
+  "generatedAt": "2026-09-26T11:07:15.881Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -1069,32 +1069,6 @@
             ],
             "matches": [
               {
-                "id": "25addbe9-e6c8-47ed-b9c8-3929e2ef1a27",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 37,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "f689a63f-d666-4f82-aaae-0d594eddc1e2",
-                "teamAId": "ffddf3fe-cd84-4cbd-9dff-d7e5cd560940",
-                "teamBId": "3ca65430-6c21-4e52-aaab-3f155db84101",
-                "round": 0,
-                "position": 17,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.221Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "a2804c26-06d3-4670-a6c7-1e66261f8f68",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -1738,6 +1712,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 11
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "25addbe9-e6c8-47ed-b9c8-3929e2ef1a27",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 37,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "f689a63f-d666-4f82-aaae-0d594eddc1e2",
+                "teamAId": "ffddf3fe-cd84-4cbd-9dff-d7e5cd560940",
+                "teamBId": "3ca65430-6c21-4e52-aaab-3f155db84101",
+                "round": 0,
+                "position": 17,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T11:07:14.952Z",
+                "beachSets": [
+                  {
+                    "id": "2cc2861a-47c2-45df-9564-3c633c5a7688",
+                    "matchId": "25addbe9-e6c8-47ed-b9c8-3929e2ef1a27",
+                    "position": 1,
+                    "scoreA": 12,
+                    "scoreB": 21
                   }
                 ],
                 "soccerPeriods": []
@@ -11884,25 +11892,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "25addbe9-e6c8-47ed-b9c8-3929e2ef1a27",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 37 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 720,
-        "court": "Court 1",
-        "teamA": "Kölner Buben",
-        "teamB": "Osser Absolut",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "a2804c26-06d3-4670-a6c7-1e66261f8f68",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -12354,6 +12343,30 @@
           {
             "scoreA": 21,
             "scoreB": 11
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "25addbe9-e6c8-47ed-b9c8-3929e2ef1a27",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 37 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 720,
+        "court": "Court 1",
+        "teamA": "Kölner Buben",
+        "teamB": "Osser Absolut",
+        "scores": [
+          {
+            "scoreA": 12,
+            "scoreB": 21
           }
         ],
         "penalty": null
