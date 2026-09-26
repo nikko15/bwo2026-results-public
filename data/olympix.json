@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:30:13.037Z",
+  "generatedAt": "2026-09-26T08:30:31.732Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -4734,8 +4734,8 @@
               {
                 "id": "4260db00-1b9c-4872-924e-4cf4f2144ffc",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "SCHEDULED",
-                "revision": 0,
+                "status": "RESULT_ENTERED",
+                "revision": 1,
                 "matchNumber": 12,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -4753,8 +4753,16 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-25T23:16:06.665Z",
-                "beachSets": [],
+                "updatedAt": "2026-09-26T08:30:30.970Z",
+                "beachSets": [
+                  {
+                    "id": "d7dd110b-03c3-45f1-bb26-84b2d8b66ad5",
+                    "matchId": "4260db00-1b9c-4872-924e-4cf4f2144ffc",
+                    "position": 1,
+                    "scoreA": 21,
+                    "scoreB": 15
+                  }
+                ],
                 "soccerPeriods": []
               },
               {
@@ -11907,13 +11915,18 @@
         "sport": "Beachvolleyball",
         "category": "Frauen",
         "number": "Match 12 BV-W",
-        "status": "SCHEDULED",
+        "status": "RESULT_ENTERED",
         "day": "2026-09-26",
         "minute": 580,
         "court": "Court 5",
         "teamA": "Panic Truppe",
         "teamB": "Sandpit Worriers",
-        "scores": [],
+        "scores": [
+          {
+            "scoreA": 21,
+            "scoreB": 15
+          }
+        ],
         "penalty": null
       },
       {
