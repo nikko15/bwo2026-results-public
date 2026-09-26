@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:34:15.448Z",
+  "generatedAt": "2026-09-26T06:34:17.869Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3602,7 +3602,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 9,
+            "rankingRevision": 10,
             "groupCount": 4,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -3613,7 +3613,7 @@
             "name": "Beachvolleyball Frauen",
             "slug": "beachvolleyball-frauen",
             "createdAt": "2026-09-21T13:00:56.142Z",
-            "updatedAt": "2026-09-26T06:33:42.707Z",
+            "updatedAt": "2026-09-26T06:34:15.444Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -4181,8 +4181,8 @@
               {
                 "id": "51507196-1dd8-46c2-b0c0-bb5435a8c8c5",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 2,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -4200,7 +4200,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-26T06:34:14.641Z",
+                "updatedAt": "2026-09-26T06:34:15.436Z",
                 "beachSets": [
                   {
                     "id": "b0b4219b-1778-4262-ab9e-6254d4466c9a",
@@ -4827,6 +4827,27 @@
               "endRank": 1,
               "rows": [
                 {
+                  "teamId": "996cc1ae-9a35-42c5-b944-f704755e3a96",
+                  "name": "Die coolen Socken",
+                  "played": 1,
+                  "wins": 1,
+                  "losses": 0,
+                  "setsWon": 1,
+                  "setsLost": 0,
+                  "scored": 21,
+                  "conceded": 12,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "f80dd0d01fdde069f2367ebae4b10d052c6c3d1b720f7164502e337788bbd382"
+            },
+            {
+              "rank": 2,
+              "endRank": 2,
+              "rows": [
+                {
                   "teamId": "9c19bf2d-1430-4582-9093-485fdaf97753",
                   "name": "Josis Beach Babes",
                   "played": 1,
@@ -4841,11 +4862,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "3cb4753ec86a2f3f3add12d6692d0914365d6a4cc0a7c931fe1082212a982089"
+              "signature": "1c345f19ef4065d81e21c4ffe9e6ae9d9ed96da36c5961191756651f3bbcecb1"
             },
             {
-              "rank": 2,
-              "endRank": 2,
+              "rank": 3,
+              "endRank": 3,
               "rows": [
                 {
                   "teamId": "385c719a-e728-4f5f-a2de-e5f90c4e5b58",
@@ -4862,10 +4883,31 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "33a7d48dac2f1b00efab8771ce938a3c21b853e0cfcbf478e13b227474e634ab"
+              "signature": "62488d42c2b367b4fa8a6a88b6deb62f401eeda683ba67b97e9044e863458a44"
             },
             {
-              "rank": 3,
+              "rank": 4,
+              "endRank": 4,
+              "rows": [
+                {
+                  "teamId": "23a8a7bd-009d-4ce3-9826-e95f0fe867a2",
+                  "name": "Die Olympi´s",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 1,
+                  "setsWon": 0,
+                  "setsLost": 1,
+                  "scored": 12,
+                  "conceded": 21,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "cdaec62de58085544140039502f75460f5678e69835a30120ed2677a03966681"
+            },
+            {
+              "rank": 5,
               "endRank": 16,
               "rows": [
                 {
@@ -4907,18 +4949,6 @@
                 {
                   "teamId": "c870c02a-6741-4874-bd8b-87b4feebed21",
                   "name": "Die 6 frechen Muskeltiere",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
-                  "teamId": "996cc1ae-9a35-42c5-b944-f704755e3a96",
-                  "name": "Die coolen Socken",
                   "played": 0,
                   "wins": 0,
                   "losses": 0,
@@ -4989,18 +5019,6 @@
                   "points": 0
                 },
                 {
-                  "teamId": "23a8a7bd-009d-4ce3-9826-e95f0fe867a2",
-                  "name": "Die Olympi´s",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
                   "teamId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
                   "name": "Panic Truppe",
                   "played": 0,
@@ -5039,7 +5057,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "f1e0b171776ff9f87dfffc1edd1fc5b3c60de7ac6b0dfc77a24162f631a3cb60"
+              "signature": "c2ad6d3095fbb70eed5867f05cb26b713bd08f0762b0d7e054b3ab9b5a6f3d60"
             }
           ],
           "groups": [
@@ -5102,7 +5120,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "3f5fa3c407891a181e80b092a2407c4c7c2725cf8e15dff7bbf1f0abe03acea0"
+                  "signature": "cbe5cc94205af70daed23541dac4c38b5fe7a17370426e054b7f1d989f843935"
                 }
               ]
             },
@@ -5129,7 +5147,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "3cb4753ec86a2f3f3add12d6692d0914365d6a4cc0a7c931fe1082212a982089"
+                  "signature": "1c345f19ef4065d81e21c4ffe9e6ae9d9ed96da36c5961191756651f3bbcecb1"
                 },
                 {
                   "rank": 2,
@@ -5150,7 +5168,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "33a7d48dac2f1b00efab8771ce938a3c21b853e0cfcbf478e13b227474e634ab"
+                  "signature": "62488d42c2b367b4fa8a6a88b6deb62f401eeda683ba67b97e9044e863458a44"
                 },
                 {
                   "rank": 3,
@@ -5183,7 +5201,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "6ad702f95ca6e899ce8e4df5428848430a2c553e4b6c4aa0a66e9da9631aa3df"
+                  "signature": "38f199dd4b888fb76ab283d4596b67350719a463ff7c278d03ad45285b3c32e0"
                 }
               ]
             },
@@ -5246,7 +5264,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "d00a56f091da0061ac49f6a56db838ede67da5f3b3f07481dfb7df00d68714d6"
+                  "signature": "3a73b587f7b4497227596d4bedc35b4d6476f75ed43b581f2020db81838cf23f"
                 }
               ]
             },
@@ -5256,20 +5274,50 @@
               "blocks": [
                 {
                   "rank": 1,
-                  "endRank": 4,
+                  "endRank": 1,
+                  "rows": [
+                    {
+                      "teamId": "996cc1ae-9a35-42c5-b944-f704755e3a96",
+                      "name": "Die coolen Socken",
+                      "played": 1,
+                      "wins": 1,
+                      "losses": 0,
+                      "setsWon": 1,
+                      "setsLost": 0,
+                      "scored": 21,
+                      "conceded": 12,
+                      "points": 0
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "f80dd0d01fdde069f2367ebae4b10d052c6c3d1b720f7164502e337788bbd382"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
                   "rows": [
                     {
                       "teamId": "23a8a7bd-009d-4ce3-9826-e95f0fe867a2",
                       "name": "Die Olympi´s",
-                      "played": 0,
+                      "played": 1,
                       "wins": 0,
-                      "losses": 0,
+                      "losses": 1,
                       "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
+                      "setsLost": 1,
+                      "scored": 12,
+                      "conceded": 21,
                       "points": 0
-                    },
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "cdaec62de58085544140039502f75460f5678e69835a30120ed2677a03966681"
+                },
+                {
+                  "rank": 3,
+                  "endRank": 4,
+                  "rows": [
                     {
                       "teamId": "f1dd066f-40b5-4862-b4cc-ebe9f717cb54",
                       "name": "Einfallslos",
@@ -5293,23 +5341,11 @@
                       "scored": 0,
                       "conceded": 0,
                       "points": 0
-                    },
-                    {
-                      "teamId": "996cc1ae-9a35-42c5-b944-f704755e3a96",
-                      "name": "Die coolen Socken",
-                      "played": 0,
-                      "wins": 0,
-                      "losses": 0,
-                      "setsWon": 0,
-                      "setsLost": 0,
-                      "scored": 0,
-                      "conceded": 0,
-                      "points": 0
                     }
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "6353fe744dead78d1ef8bac6276a64916331352d29574347a15c2b371c6cb8b8"
+                  "signature": "605025adc704e6f58204d9127ac918e9834fba8cf0e6a4758d0d209f52099534"
                 }
               ]
             }
@@ -10285,7 +10321,7 @@
         "sport": "Beachvolleyball",
         "category": "Frauen",
         "number": "Match 2 BV-W",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 480,
         "court": "Court 5",
