@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T12:39:33.856Z",
+  "generatedAt": "2026-09-26T12:50:43.898Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5477,32 +5477,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "d1b8edc4-b6ed-48a2-bcd9-816b922b4d1e",
-                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 29,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "KNOCKOUT",
-                "groupId": null,
-                "teamAId": null,
-                "teamBId": null,
-                "round": 1,
-                "position": 5,
-                "seedA": 3,
-                "seedB": 14,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-26T11:10:54.595Z",
-                "updatedAt": "2026-09-26T11:15:59.737Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "f51a1bea-5c6d-411b-99d3-91d9cab9928b",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
                 "status": "FINAL",
@@ -5800,6 +5774,47 @@
                     "position": 2,
                     "scoreA": 0,
                     "scoreB": 15
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "d1b8edc4-b6ed-48a2-bcd9-816b922b4d1e",
+                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 29,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "KNOCKOUT",
+                "groupId": null,
+                "teamAId": null,
+                "teamBId": null,
+                "round": 1,
+                "position": 5,
+                "seedA": 3,
+                "seedB": 14,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-26T11:10:54.595Z",
+                "updatedAt": "2026-09-26T12:50:43.010Z",
+                "beachSets": [
+                  {
+                    "id": "925845c9-69c3-4174-a6b8-fffbd04c150e",
+                    "matchId": "d1b8edc4-b6ed-48a2-bcd9-816b922b4d1e",
+                    "position": 1,
+                    "scoreA": 15,
+                    "scoreB": 7
+                  },
+                  {
+                    "id": "2dbb502b-bddf-485a-a9a5-87ae7b8eb7a5",
+                    "matchId": "d1b8edc4-b6ed-48a2-bcd9-816b922b4d1e",
+                    "position": 2,
+                    "scoreA": 15,
+                    "scoreB": 8
                   }
                 ],
                 "soccerPeriods": []
@@ -14697,25 +14712,6 @@
       },
       {
         "isThirdPlace": false,
-        "phase": "KNOCKOUT",
-        "round": 1,
-        "finalRoundSize": "TOP_16",
-        "id": "d1b8edc4-b6ed-48a2-bcd9-816b922b4d1e",
-        "competitionSlug": "beachvolleyball-frauen",
-        "sport": "Beachvolleyball",
-        "category": "Frauen",
-        "number": "Match 29 BV-W",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 860,
-        "court": "Court 4",
-        "teamA": "Die schnellen Hennen",
-        "teamB": "Sandpit Worriers",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
@@ -14922,6 +14918,34 @@
           {
             "scoreA": 0,
             "scoreB": 15
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "KNOCKOUT",
+        "round": 1,
+        "finalRoundSize": "TOP_16",
+        "id": "d1b8edc4-b6ed-48a2-bcd9-816b922b4d1e",
+        "competitionSlug": "beachvolleyball-frauen",
+        "sport": "Beachvolleyball",
+        "category": "Frauen",
+        "number": "Match 29 BV-W",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 860,
+        "court": "Court 4",
+        "teamA": "Die schnellen Hennen",
+        "teamB": "Sandpit Worriers",
+        "scores": [
+          {
+            "scoreA": 15,
+            "scoreB": 7
+          },
+          {
+            "scoreA": 15,
+            "scoreB": 8
           }
         ],
         "penalty": null
