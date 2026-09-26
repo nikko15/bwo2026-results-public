@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T12:37:21.368Z",
+  "generatedAt": "2026-09-26T12:37:27.357Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -10392,8 +10392,8 @@
               {
                 "id": "a145b403-6680-47c3-84e0-11bbfc8bca5c",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 50,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -10411,7 +10411,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-26T10:51:32.359Z",
-                "updatedAt": "2026-09-26T12:37:20.523Z",
+                "updatedAt": "2026-09-26T12:37:26.337Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
@@ -16824,7 +16824,7 @@
         "minute": 920,
         "court": "Pitch 1",
         "teamA": "Noch offen",
-        "teamB": "Noch offen",
+        "teamB": "Calma de Palermo",
         "scores": [],
         "penalty": null
       },
@@ -16857,7 +16857,7 @@
         "sport": "Urban Street Soccer",
         "category": "Männer",
         "number": "Match 50 US-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 860,
         "court": "Pitch 2",
