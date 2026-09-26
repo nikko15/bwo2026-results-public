@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:19:28.097Z",
+  "generatedAt": "2026-09-26T08:22:15.024Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3941,7 +3941,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 18,
+            "rankingRevision": 19,
             "groupCount": 4,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -3952,7 +3952,7 @@
             "name": "Beachvolleyball Frauen",
             "slug": "beachvolleyball-frauen",
             "createdAt": "2026-09-21T13:00:56.142Z",
-            "updatedAt": "2026-09-26T08:14:50.833Z",
+            "updatedAt": "2026-09-26T08:22:14.250Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -5110,40 +5110,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "cf7330ab-3a1f-4db5-8738-022013315f64",
-                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "FINAL",
-                "revision": 2,
-                "matchNumber": 18,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "b3fb13c9-553e-43a8-9e6f-acdd162df317",
-                "teamAId": "b7489597-5b96-4280-83ab-9e968e51cb8f",
-                "teamBId": "0752826e-ff34-41ba-be98-995fb1e46f35",
-                "round": 0,
-                "position": 5,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-26T08:14:50.825Z",
-                "beachSets": [
-                  {
-                    "id": "fa6df373-127c-4f59-b875-8a28bcd0330b",
-                    "matchId": "cf7330ab-3a1f-4db5-8738-022013315f64",
-                    "position": 1,
-                    "scoreA": 21,
-                    "scoreB": 2
-                  }
-                ],
-                "soccerPeriods": []
-              },
-              {
                 "id": "02d66edf-c451-442f-a39d-454b6f388f53",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
                 "status": "SCHEDULED",
@@ -5220,6 +5186,32 @@
                 "updatedAt": "2026-09-25T23:16:06.692Z",
                 "beachSets": [],
                 "soccerPeriods": []
+              },
+              {
+                "id": "cf7330ab-3a1f-4db5-8738-022013315f64",
+                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
+                "status": "SCHEDULED",
+                "revision": 3,
+                "matchNumber": 18,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "b3fb13c9-553e-43a8-9e6f-acdd162df317",
+                "teamAId": "b7489597-5b96-4280-83ab-9e968e51cb8f",
+                "teamBId": "0752826e-ff34-41ba-be98-995fb1e46f35",
+                "round": 0,
+                "position": 5,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:15:50.835Z",
+                "updatedAt": "2026-09-26T08:22:14.238Z",
+                "beachSets": [],
+                "soccerPeriods": []
               }
             ],
             "tieBreaks": []
@@ -5244,7 +5236,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "a30028d4bf5d9cf9da8208cb1758ef4be4922e7b2f3c005e5c6ab5a2f9a3249c"
+              "signature": "7281f78b03a10ff8b82f0025f2e698dc2e4e577643ee9071d2239c7248271ab7"
             },
             {
               "rank": 2,
@@ -5265,7 +5257,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "5be5ca53b0dd0b24ee6019c22e43245ef1fb9b9811e94ddbe39d22ae586e186c"
+              "signature": "06fa61c93f9c994dead163a6f7d4f6f82fb4ea5957f656623e78884205d769ac"
             },
             {
               "rank": 3,
@@ -5286,7 +5278,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "b7a00ce82914a9cf7922520fe7170265cd3e2a5387c267e36ee966aa4ceb5040"
+              "signature": "3c8eb60ea899296f9ea7febf1231a25841731bcbd6e56a01150fb5c5819c4342"
             },
             {
               "rank": 4,
@@ -5307,7 +5299,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "45804e7b15b951341b64c095c53f194abf61f17c6c5e16e45e5491caa6c91867"
+              "signature": "79247b9a757baea54ac99e47b65baa93ffdabfd434f27b4b7aa53a66bcafe98e"
             },
             {
               "rank": 5,
@@ -5328,7 +5320,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "84f4a1d5673ce1f29e24479fd2624eec1fc06617e1b9c4b4136a3672a1ddfd49"
+              "signature": "02df1faa9f153375da9cd85f6469634a0511e5f471f53ceb3ad0305cce9bc01d"
             },
             {
               "rank": 6,
@@ -5349,7 +5341,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "36f6fc78371272075a3e3d75ac5f6091e7c8a0f1c1af2791460efc75d1e0841f"
+              "signature": "48b63a55109f1246a8e5c466d8fd4fb0f613c8f4ed71937e80f62c51bef3c4f2"
             },
             {
               "rank": 7,
@@ -5370,7 +5362,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "ad8009d0295188a41c896a0e2ca35415bf9f1d4a04ae91b0ea9de213833b259a"
+              "signature": "8aeb6d446ccf2d42f7dc9ac6f9b5dc18980837dbdb79a72c99346ff30fa8707d"
             },
             {
               "rank": 8,
@@ -5391,32 +5383,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "5aec36152183594ba8d50ca72339e8b2a33c3d977bb8cd88110a92be40bb3844"
+              "signature": "3d7d9928c6707c1e18b69eddc1ff618b61ad8595abdfbd1d08d8ce6decedcac6"
             },
             {
               "rank": 9,
               "endRank": 9,
-              "rows": [
-                {
-                  "teamId": "b7489597-5b96-4280-83ab-9e968e51cb8f",
-                  "name": "Stiftedrücker",
-                  "played": 2,
-                  "wins": 1,
-                  "losses": 1,
-                  "setsWon": 1,
-                  "setsLost": 1,
-                  "scored": 30,
-                  "conceded": 23,
-                  "points": 0
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "91119dbcf17f45eca80ab5eac30d360f808dfc65f3922c02b581bd475e38e607"
-            },
-            {
-              "rank": 10,
-              "endRank": 10,
               "rows": [
                 {
                   "teamId": "cd7a1868-07fc-443a-9f39-49b85436fa0d",
@@ -5433,11 +5404,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "b074ff701a8ffd76d8f1afc9780b4d8a22dbe575dac4874b46c277ce0f18b450"
+              "signature": "6edbad9b67eee0d84a0d32d62788bd9c220966dd8677c3631f3edb334ed7d2c7"
             },
             {
-              "rank": 11,
-              "endRank": 11,
+              "rank": 10,
+              "endRank": 10,
               "rows": [
                 {
                   "teamId": "f1dd066f-40b5-4862-b4cc-ebe9f717cb54",
@@ -5454,11 +5425,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "6752d2c79990ab061a6ee1837a10a6748e2b55e712996e10ca2361114b4f26e7"
+              "signature": "5d1cd146dfb498273a6617c19ec0e6984125e05b92668cc4735279c650bf9e8c"
             },
             {
-              "rank": 12,
-              "endRank": 12,
+              "rank": 11,
+              "endRank": 11,
               "rows": [
                 {
                   "teamId": "385c719a-e728-4f5f-a2de-e5f90c4e5b58",
@@ -5475,11 +5446,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "3f3fa7dcdc85c18a0c0fe339a053249f5f9f77b2b5355f7b0290314d5f648af0"
+              "signature": "08f4baa8a73c169edbe2b9a936a682c595bfde6e3f33d46be1e7e31d6b9eb818"
             },
             {
-              "rank": 13,
-              "endRank": 13,
+              "rank": 12,
+              "endRank": 12,
               "rows": [
                 {
                   "teamId": "23a8a7bd-009d-4ce3-9826-e95f0fe867a2",
@@ -5496,11 +5467,53 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "70fe1a6207c68595a19c9d466c8c895883fa8c84289962933fd5de33ea2f6305"
+              "signature": "c0c60950b737f9632ff837c7262cf1841538f500b4f4f360bdbcfc723b2cee11"
+            },
+            {
+              "rank": 13,
+              "endRank": 13,
+              "rows": [
+                {
+                  "teamId": "0752826e-ff34-41ba-be98-995fb1e46f35",
+                  "name": "Die nicht Qualifizierten",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 1,
+                  "setsWon": 0,
+                  "setsLost": 1,
+                  "scored": 11,
+                  "conceded": 21,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "fbb9bea51e44bfc04c50582d1fedbc48d201b21b6c7ed485a45c12d4cdabe294"
             },
             {
               "rank": 14,
               "endRank": 14,
+              "rows": [
+                {
+                  "teamId": "b7489597-5b96-4280-83ab-9e968e51cb8f",
+                  "name": "Stiftedrücker",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 1,
+                  "setsWon": 0,
+                  "setsLost": 1,
+                  "scored": 9,
+                  "conceded": 21,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "1dbebb07992066476353713638080690df75d12c21e9e63f8b423fe200452b71"
+            },
+            {
+              "rank": 15,
+              "endRank": 15,
               "rows": [
                 {
                   "teamId": "253309ed-70a1-4ae9-b7cb-dc239d4c405c",
@@ -5517,11 +5530,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "78bb3a33194e0fb7966a5eb3a42e2a71aa4bc37c717e3c24b97791af85dc4a59"
+              "signature": "c2d31858f1599dc3469196be668a8182aee5308cf152ac732dbe3e133704f0ea"
             },
             {
-              "rank": 15,
-              "endRank": 15,
+              "rank": 16,
+              "endRank": 16,
               "rows": [
                 {
                   "teamId": "309cc2f0-d152-44f7-b720-7bc1f5e8a2a2",
@@ -5538,28 +5551,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "658d4eeb5b1c79c1d3118b928b3417a5849396b1a559e9bc342e8596b0d8af8e"
-            },
-            {
-              "rank": 16,
-              "endRank": 16,
-              "rows": [
-                {
-                  "teamId": "0752826e-ff34-41ba-be98-995fb1e46f35",
-                  "name": "Die nicht Qualifizierten",
-                  "played": 2,
-                  "wins": 0,
-                  "losses": 2,
-                  "setsWon": 0,
-                  "setsLost": 2,
-                  "scored": 13,
-                  "conceded": 42,
-                  "points": 0
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "d82d9bb070b743da2bb8d080b60d4eec0e9703a8da1b9dcb89813052ced46404"
+              "signature": "13e6af69889cc558fd5e588e91dc191cbf54e13be662242c9afde8aa7b9130aa"
             }
           ],
           "groups": [
@@ -5586,7 +5578,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "b7a00ce82914a9cf7922520fe7170265cd3e2a5387c267e36ee966aa4ceb5040"
+                  "signature": "3c8eb60ea899296f9ea7febf1231a25841731bcbd6e56a01150fb5c5819c4342"
                 },
                 {
                   "rank": 2,
@@ -5607,49 +5599,49 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "45804e7b15b951341b64c095c53f194abf61f17c6c5e16e45e5491caa6c91867"
+                  "signature": "79247b9a757baea54ac99e47b65baa93ffdabfd434f27b4b7aa53a66bcafe98e"
                 },
                 {
                   "rank": 3,
                   "endRank": 3,
                   "rows": [
                     {
-                      "teamId": "b7489597-5b96-4280-83ab-9e968e51cb8f",
-                      "name": "Stiftedrücker",
-                      "played": 2,
-                      "wins": 1,
+                      "teamId": "0752826e-ff34-41ba-be98-995fb1e46f35",
+                      "name": "Die nicht Qualifizierten",
+                      "played": 1,
+                      "wins": 0,
                       "losses": 1,
-                      "setsWon": 1,
+                      "setsWon": 0,
                       "setsLost": 1,
-                      "scored": 30,
-                      "conceded": 23,
+                      "scored": 11,
+                      "conceded": 21,
                       "points": 0
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "91119dbcf17f45eca80ab5eac30d360f808dfc65f3922c02b581bd475e38e607"
+                  "signature": "fbb9bea51e44bfc04c50582d1fedbc48d201b21b6c7ed485a45c12d4cdabe294"
                 },
                 {
                   "rank": 4,
                   "endRank": 4,
                   "rows": [
                     {
-                      "teamId": "0752826e-ff34-41ba-be98-995fb1e46f35",
-                      "name": "Die nicht Qualifizierten",
-                      "played": 2,
+                      "teamId": "b7489597-5b96-4280-83ab-9e968e51cb8f",
+                      "name": "Stiftedrücker",
+                      "played": 1,
                       "wins": 0,
-                      "losses": 2,
+                      "losses": 1,
                       "setsWon": 0,
-                      "setsLost": 2,
-                      "scored": 13,
-                      "conceded": 42,
+                      "setsLost": 1,
+                      "scored": 9,
+                      "conceded": 21,
                       "points": 0
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "d82d9bb070b743da2bb8d080b60d4eec0e9703a8da1b9dcb89813052ced46404"
+                  "signature": "1dbebb07992066476353713638080690df75d12c21e9e63f8b423fe200452b71"
                 }
               ]
             },
@@ -5676,7 +5668,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "36f6fc78371272075a3e3d75ac5f6091e7c8a0f1c1af2791460efc75d1e0841f"
+                  "signature": "48b63a55109f1246a8e5c466d8fd4fb0f613c8f4ed71937e80f62c51bef3c4f2"
                 },
                 {
                   "rank": 2,
@@ -5697,7 +5689,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "ad8009d0295188a41c896a0e2ca35415bf9f1d4a04ae91b0ea9de213833b259a"
+                  "signature": "8aeb6d446ccf2d42f7dc9ac6f9b5dc18980837dbdb79a72c99346ff30fa8707d"
                 },
                 {
                   "rank": 3,
@@ -5718,7 +5710,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "b074ff701a8ffd76d8f1afc9780b4d8a22dbe575dac4874b46c277ce0f18b450"
+                  "signature": "6edbad9b67eee0d84a0d32d62788bd9c220966dd8677c3631f3edb334ed7d2c7"
                 },
                 {
                   "rank": 4,
@@ -5739,7 +5731,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "3f3fa7dcdc85c18a0c0fe339a053249f5f9f77b2b5355f7b0290314d5f648af0"
+                  "signature": "08f4baa8a73c169edbe2b9a936a682c595bfde6e3f33d46be1e7e31d6b9eb818"
                 }
               ]
             },
@@ -5766,7 +5758,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "a30028d4bf5d9cf9da8208cb1758ef4be4922e7b2f3c005e5c6ab5a2f9a3249c"
+                  "signature": "7281f78b03a10ff8b82f0025f2e698dc2e4e577643ee9071d2239c7248271ab7"
                 },
                 {
                   "rank": 2,
@@ -5787,7 +5779,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "5be5ca53b0dd0b24ee6019c22e43245ef1fb9b9811e94ddbe39d22ae586e186c"
+                  "signature": "06fa61c93f9c994dead163a6f7d4f6f82fb4ea5957f656623e78884205d769ac"
                 },
                 {
                   "rank": 3,
@@ -5808,7 +5800,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "78bb3a33194e0fb7966a5eb3a42e2a71aa4bc37c717e3c24b97791af85dc4a59"
+                  "signature": "c2d31858f1599dc3469196be668a8182aee5308cf152ac732dbe3e133704f0ea"
                 },
                 {
                   "rank": 4,
@@ -5829,7 +5821,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "658d4eeb5b1c79c1d3118b928b3417a5849396b1a559e9bc342e8596b0d8af8e"
+                  "signature": "13e6af69889cc558fd5e588e91dc191cbf54e13be662242c9afde8aa7b9130aa"
                 }
               ]
             },
@@ -5856,7 +5848,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "84f4a1d5673ce1f29e24479fd2624eec1fc06617e1b9c4b4136a3672a1ddfd49"
+                  "signature": "02df1faa9f153375da9cd85f6469634a0511e5f471f53ceb3ad0305cce9bc01d"
                 },
                 {
                   "rank": 2,
@@ -5877,7 +5869,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "5aec36152183594ba8d50ca72339e8b2a33c3d977bb8cd88110a92be40bb3844"
+                  "signature": "3d7d9928c6707c1e18b69eddc1ff618b61ad8595abdfbd1d08d8ce6decedcac6"
                 },
                 {
                   "rank": 3,
@@ -5898,7 +5890,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "6752d2c79990ab061a6ee1837a10a6748e2b55e712996e10ca2361114b4f26e7"
+                  "signature": "5d1cd146dfb498273a6617c19ec0e6984125e05b92668cc4735279c650bf9e8c"
                 },
                 {
                   "rank": 4,
@@ -5919,7 +5911,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "70fe1a6207c68595a19c9d466c8c895883fa8c84289962933fd5de33ea2f6305"
+                  "signature": "c0c60950b737f9632ff837c7262cf1841538f500b4f4f360bdbcfc723b2cee11"
                 }
               ]
             }
@@ -12130,30 +12122,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "cf7330ab-3a1f-4db5-8738-022013315f64",
-        "competitionSlug": "beachvolleyball-frauen",
-        "sport": "Beachvolleyball",
-        "category": "Frauen",
-        "number": "Match 18 BV-W",
-        "status": "FINAL",
-        "day": "2026-09-26",
-        "minute": 640,
-        "court": "Court 5",
-        "teamA": "Stiftedrücker",
-        "teamB": "Die nicht Qualifizierten",
-        "scores": [
-          {
-            "scoreA": 21,
-            "scoreB": 2
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "02d66edf-c451-442f-a39d-454b6f388f53",
         "competitionSlug": "beachvolleyball-frauen",
         "sport": "Beachvolleyball",
@@ -12203,6 +12171,25 @@
         "court": "Court 5",
         "teamA": "Die 6 frechen Muskeltiere",
         "teamB": "Kampfnixen",
+        "scores": [],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "cf7330ab-3a1f-4db5-8738-022013315f64",
+        "competitionSlug": "beachvolleyball-frauen",
+        "sport": "Beachvolleyball",
+        "category": "Frauen",
+        "number": "Match 18 BV-W",
+        "status": "SCHEDULED",
+        "day": "2026-09-26",
+        "minute": 640,
+        "court": "Court 5",
+        "teamA": "Stiftedrücker",
+        "teamB": "Die nicht Qualifizierten",
         "scores": [],
         "penalty": null
       },
