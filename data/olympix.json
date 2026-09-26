@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T15:01:43.055Z",
+  "generatedAt": "2026-09-26T15:01:45.488Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -12558,7 +12558,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 16,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 66,
+            "rankingRevision": 67,
             "groupCount": 1,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -12569,7 +12569,7 @@
             "name": "Street Soccer Frauen",
             "slug": "street-soccer-frauen",
             "createdAt": "2026-09-21T12:33:19.219Z",
-            "updatedAt": "2026-09-26T15:01:34.847Z",
+            "updatedAt": "2026-09-26T15:01:43.160Z",
             "sport": {
               "id": "f03d3075-c91e-4720-b57a-01a97d90940b",
               "name": "Street Soccer",
@@ -13619,8 +13619,8 @@
               {
                 "id": "4963ce31-6d6f-4433-aa1e-1a14d420bde5",
                 "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 4,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -13638,7 +13638,7 @@
                 "winnerOfAId": null,
                 "winnerOfBId": null,
                 "createdAt": "2026-09-26T14:52:33.529Z",
-                "updatedAt": "2026-09-26T15:01:42.220Z",
+                "updatedAt": "2026-09-26T15:01:43.151Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
@@ -13670,11 +13670,23 @@
           "overall": [
             {
               "rank": 1,
-              "endRank": 3,
+              "endRank": 4,
               "rows": [
                 {
                   "teamId": "e8c1fd55-bad4-4312-a003-73b902d5bbee",
                   "name": "Sturmtrupp United",
+                  "played": 1,
+                  "wins": 0,
+                  "losses": 0,
+                  "setsWon": 0,
+                  "setsLost": 0,
+                  "scored": 3,
+                  "conceded": 0,
+                  "points": 9
+                },
+                {
+                  "teamId": "dba7e040-5353-4023-8fa1-988bc816fd3a",
+                  "name": "Die Teufelskickerinnen",
                   "played": 1,
                   "wins": 0,
                   "losses": 0,
@@ -13711,10 +13723,10 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "a2821eb0122e2742928dbe64cd87842525fa033920264a1476b488dd810c7ae4"
+              "signature": "5dce0f533f264693c25a5e9d29cd72bc7dbcff7cc6768a1f9afb0b62b4d319b0"
             },
             {
-              "rank": 4,
+              "rank": 5,
               "endRank": 7,
               "rows": [
                 {
@@ -13742,18 +13754,6 @@
                   "points": 0
                 },
                 {
-                  "teamId": "dba7e040-5353-4023-8fa1-988bc816fd3a",
-                  "name": "Die Teufelskickerinnen",
-                  "played": 0,
-                  "wins": 0,
-                  "losses": 0,
-                  "setsWon": 0,
-                  "setsLost": 0,
-                  "scored": 0,
-                  "conceded": 0,
-                  "points": 0
-                },
-                {
                   "teamId": "bf08667d-7ef0-41b0-9e3e-976b8eb80234",
                   "name": "freilos1",
                   "played": 0,
@@ -13768,7 +13768,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "48bc8902048ea2a652fea07c33902d302c5470ff71284598d05316a0d6424fdc"
+              "signature": "ec154ccb9ed8cdaeec5f66f886895bc09eccaab87e914750f3da7b0492a92464"
             },
             {
               "rank": 8,
@@ -13777,19 +13777,19 @@
                 {
                   "teamId": "8ebdea93-4ab4-4fdd-a67b-50b74715fec2",
                   "name": "freilos3",
-                  "played": 3,
+                  "played": 4,
                   "wins": 0,
                   "losses": 0,
                   "setsWon": 0,
                   "setsLost": 0,
                   "scored": 0,
-                  "conceded": 9,
+                  "conceded": 12,
                   "points": 0
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "19e1b639218c6074241a4395d89f2dce350f1a020a72acd5777889ea5729d4e1"
+              "signature": "6569fc19f2478a00e0979c6c706e3e79492f2513e8d44e4be8343e8ec1b65445"
             }
           ],
           "groups": [
@@ -13799,7 +13799,7 @@
               "blocks": [
                 {
                   "rank": 1,
-                  "endRank": 3,
+                  "endRank": 4,
                   "rows": [
                     {
                       "teamId": "b24b35ef-e655-4e4a-a5bb-3230680eb450",
@@ -13836,28 +13836,28 @@
                       "scored": 3,
                       "conceded": 0,
                       "points": 9
-                    }
-                  ],
-                  "tied": true,
-                  "resolved": false,
-                  "signature": "a2821eb0122e2742928dbe64cd87842525fa033920264a1476b488dd810c7ae4"
-                },
-                {
-                  "rank": 4,
-                  "endRank": 7,
-                  "rows": [
+                    },
                     {
                       "teamId": "dba7e040-5353-4023-8fa1-988bc816fd3a",
                       "name": "Die Teufelskickerinnen",
-                      "played": 0,
+                      "played": 1,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
-                      "scored": 0,
+                      "scored": 3,
                       "conceded": 0,
-                      "points": 0
-                    },
+                      "points": 9
+                    }
+                  ],
+                  "tied": true,
+                  "resolved": false,
+                  "signature": "5dce0f533f264693c25a5e9d29cd72bc7dbcff7cc6768a1f9afb0b62b4d319b0"
+                },
+                {
+                  "rank": 5,
+                  "endRank": 7,
+                  "rows": [
                     {
                       "teamId": "86a98f4e-e94f-43bf-878c-734e85d4af21",
                       "name": "Team X",
@@ -13897,7 +13897,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "48bc8902048ea2a652fea07c33902d302c5470ff71284598d05316a0d6424fdc"
+                  "signature": "ec154ccb9ed8cdaeec5f66f886895bc09eccaab87e914750f3da7b0492a92464"
                 },
                 {
                   "rank": 8,
@@ -13906,19 +13906,19 @@
                     {
                       "teamId": "8ebdea93-4ab4-4fdd-a67b-50b74715fec2",
                       "name": "freilos3",
-                      "played": 3,
+                      "played": 4,
                       "wins": 0,
                       "losses": 0,
                       "setsWon": 0,
                       "setsLost": 0,
                       "scored": 0,
-                      "conceded": 9,
+                      "conceded": 12,
                       "points": 0
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "19e1b639218c6074241a4395d89f2dce350f1a020a72acd5777889ea5729d4e1"
+                  "signature": "6569fc19f2478a00e0979c6c706e3e79492f2513e8d44e4be8343e8ec1b65445"
                 }
               ]
             }
@@ -19073,7 +19073,7 @@
         "sport": "Urban Street Soccer",
         "category": "Frauen",
         "number": "Match 4 US-W",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 600,
         "court": "Pitch 4",
