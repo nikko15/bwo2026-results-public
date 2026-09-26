@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:39:07.495Z",
+  "generatedAt": "2026-09-26T06:51:58.240Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -24,7 +24,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 65,
+            "rankingRevision": 66,
             "groupCount": 6,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -35,7 +35,7 @@
             "name": "Beachvolleyball Männer",
             "slug": "beachvolleyball-maenner",
             "createdAt": "2026-09-20T16:25:52.305Z",
-            "updatedAt": "2026-09-26T06:31:49.353Z",
+            "updatedAt": "2026-09-26T06:51:57.383Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -1953,6 +1953,40 @@
                 "soccerPeriods": []
               },
               {
+                "id": "3ebad3f6-7f14-41cd-903e-2d6cb55dc98d",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "FINAL",
+                "revision": 3,
+                "matchNumber": 2,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "58517508-a7bd-46f2-8542-79efc4434c24",
+                "teamAId": "a51239bd-1c9e-46e1-8040-986e7be36867",
+                "teamBId": "022340ba-1214-414f-b6db-f1c0b0a51a47",
+                "round": 0,
+                "position": 41,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T06:51:57.374Z",
+                "beachSets": [
+                  {
+                    "id": "8eb42df1-2b97-4af7-8832-6ca88949b28f",
+                    "matchId": "3ebad3f6-7f14-41cd-903e-2d6cb55dc98d",
+                    "position": 1,
+                    "scoreA": 11,
+                    "scoreB": 21
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
                 "id": "293876e9-0b5d-425e-b064-46d0de1b5b92",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "FINAL",
@@ -2016,40 +2050,6 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 5
-                  }
-                ],
-                "soccerPeriods": []
-              },
-              {
-                "id": "3ebad3f6-7f14-41cd-903e-2d6cb55dc98d",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "FINAL",
-                "revision": 2,
-                "matchNumber": 2,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "58517508-a7bd-46f2-8542-79efc4434c24",
-                "teamAId": "a51239bd-1c9e-46e1-8040-986e7be36867",
-                "teamBId": "022340ba-1214-414f-b6db-f1c0b0a51a47",
-                "round": 0,
-                "position": 41,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-26T06:31:49.345Z",
-                "beachSets": [
-                  {
-                    "id": "0ab9008d-c6e0-49d2-a3ba-0e4aa4f6f90a",
-                    "matchId": "3ebad3f6-7f14-41cd-903e-2d6cb55dc98d",
-                    "position": 1,
-                    "scoreA": 21,
-                    "scoreB": 11
                   }
                 ],
                 "soccerPeriods": []
@@ -2675,7 +2675,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "ac47d82886721b2ef0804c45b9b6d9968e132509538c430780bf1f37b26a7a27"
+              "signature": "ef810015a94847295242481ea586aad6aa046c89e0fc757750cc18a15bb064d0"
             },
             {
               "rank": 2,
@@ -2696,15 +2696,15 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "817af4719bdc98a1e73ff0750b8da80274bb2236f6641477136f8283ce74a938"
+              "signature": "2c5674eca5fb9f1ddd62deb7db451ddbb095bb6c3295624fff657cb53be879d7"
             },
             {
               "rank": 3,
               "endRank": 3,
               "rows": [
                 {
-                  "teamId": "a51239bd-1c9e-46e1-8040-986e7be36867",
-                  "name": "BEACHER",
+                  "teamId": "022340ba-1214-414f-b6db-f1c0b0a51a47",
+                  "name": "Lai Gol Squad",
                   "played": 1,
                   "wins": 1,
                   "losses": 0,
@@ -2717,15 +2717,15 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "603350d24c24fce5bd89419de91c981025e23057ad8e08057eab4d0d25282880"
+              "signature": "62882062036ce1a684370382cc15f39dae2d9e0d41c0956e40bfba7b64839109"
             },
             {
               "rank": 4,
               "endRank": 4,
               "rows": [
                 {
-                  "teamId": "022340ba-1214-414f-b6db-f1c0b0a51a47",
-                  "name": "Lai Gol Squad",
+                  "teamId": "a51239bd-1c9e-46e1-8040-986e7be36867",
+                  "name": "BEACHER",
                   "played": 1,
                   "wins": 0,
                   "losses": 1,
@@ -2738,7 +2738,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "f4a90df84606c7bfa267be978163a18a60a916d6deb2469eccc8c9b5279b53f9"
+              "signature": "6c4a74b3058fa05e7b0044f62c400a5d4e9f24e6a87bef72cb016573f28a40e9"
             },
             {
               "rank": 5,
@@ -2759,7 +2759,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "74a103319c31534c88ae796f6bd11bb56425d3604c4ed07c6ebea39478e431d2"
+              "signature": "d86ceabcdad889a0026648ace21d66a902d739d8d149d54925df7145a7481110"
             },
             {
               "rank": 6,
@@ -2780,7 +2780,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "7c838cc69c9f6e803fe72272ed822f3bc008fe88bfbc5b1c1ec6fbb975d2402d"
+              "signature": "c43b110f2575556ed8a8d111e3bfc70466d563694f9bb85ca8b46dcc893c3dfe"
             },
             {
               "rank": 7,
@@ -3077,7 +3077,7 @@
               ],
               "tied": true,
               "resolved": false,
-              "signature": "8ac6ba8f4495292ab38db160dca943263346088151fa9ae137a456914d264b02"
+              "signature": "095eef02d2a73d7124892bb141490c867bef9fa855d081f2e59e3122b19a7267"
             }
           ],
           "groups": [
@@ -3104,7 +3104,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "817af4719bdc98a1e73ff0750b8da80274bb2236f6641477136f8283ce74a938"
+                  "signature": "2c5674eca5fb9f1ddd62deb7db451ddbb095bb6c3295624fff657cb53be879d7"
                 },
                 {
                   "rank": 2,
@@ -3125,7 +3125,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "74a103319c31534c88ae796f6bd11bb56425d3604c4ed07c6ebea39478e431d2"
+                  "signature": "d86ceabcdad889a0026648ace21d66a902d739d8d149d54925df7145a7481110"
                 },
                 {
                   "rank": 3,
@@ -3170,7 +3170,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "519255306c959db677954aec3ffdd778c8deb9bf5a7b1191bf2668ae8ab59191"
+                  "signature": "e0ae759c0dc8b4e4f565bf5aa88ac37615300e1bc612b117dfefcf8196bb1c4d"
                 }
               ]
             },
@@ -3245,7 +3245,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "a7ccedb449af3d52b414c117fed73ea8578aa6a76aba362fef8ca9877597fd5a"
+                  "signature": "893251e20dd01a54a946bd8ccf6b3dc5074106459c1027000faad1357dae187e"
                 }
               ]
             },
@@ -3320,7 +3320,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "159d45f0f27f57691fa589904507c81d5b1e1b09b2f1b600adb6ccd1235a6818"
+                  "signature": "69500b2a27df0bee05f66cd6211866ba59275f8d018daaeff508124fe77fd3cb"
                 }
               ]
             },
@@ -3347,7 +3347,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "ac47d82886721b2ef0804c45b9b6d9968e132509538c430780bf1f37b26a7a27"
+                  "signature": "ef810015a94847295242481ea586aad6aa046c89e0fc757750cc18a15bb064d0"
                 },
                 {
                   "rank": 2,
@@ -3368,7 +3368,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "7c838cc69c9f6e803fe72272ed822f3bc008fe88bfbc5b1c1ec6fbb975d2402d"
+                  "signature": "c43b110f2575556ed8a8d111e3bfc70466d563694f9bb85ca8b46dcc893c3dfe"
                 },
                 {
                   "rank": 3,
@@ -3413,7 +3413,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "596b37634816e8c842f4e44f726d85d9abc6454221db88059c0bbe7257b41fb2"
+                  "signature": "95cd392f81591215dfca2866cfbac9c5a24c8075134e96e4a4248e35c0411d91"
                 }
               ]
             },
@@ -3426,8 +3426,8 @@
                   "endRank": 1,
                   "rows": [
                     {
-                      "teamId": "a51239bd-1c9e-46e1-8040-986e7be36867",
-                      "name": "BEACHER",
+                      "teamId": "022340ba-1214-414f-b6db-f1c0b0a51a47",
+                      "name": "Lai Gol Squad",
                       "played": 1,
                       "wins": 1,
                       "losses": 0,
@@ -3440,15 +3440,15 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "603350d24c24fce5bd89419de91c981025e23057ad8e08057eab4d0d25282880"
+                  "signature": "62882062036ce1a684370382cc15f39dae2d9e0d41c0956e40bfba7b64839109"
                 },
                 {
                   "rank": 2,
                   "endRank": 2,
                   "rows": [
                     {
-                      "teamId": "022340ba-1214-414f-b6db-f1c0b0a51a47",
-                      "name": "Lai Gol Squad",
+                      "teamId": "a51239bd-1c9e-46e1-8040-986e7be36867",
+                      "name": "BEACHER",
                       "played": 1,
                       "wins": 0,
                       "losses": 1,
@@ -3461,7 +3461,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "f4a90df84606c7bfa267be978163a18a60a916d6deb2469eccc8c9b5279b53f9"
+                  "signature": "6c4a74b3058fa05e7b0044f62c400a5d4e9f24e6a87bef72cb016573f28a40e9"
                 },
                 {
                   "rank": 3,
@@ -3506,7 +3506,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "8145d454c93a5a67e0244ca1b1d7ecd07fc31f15ef1392f3588202166225026c"
+                  "signature": "72f5185a9228e9340286f5098ba361638b7b4d3f98a52199f1e0f8939317eb41"
                 }
               ]
             },
@@ -3581,7 +3581,7 @@
                   ],
                   "tied": true,
                   "resolved": false,
-                  "signature": "1c8bf9bb8a48c6ae1cb42609b60bb2cbd0dd16ccf957c550aeb9a9c2fb21f787"
+                  "signature": "e73ddbc6e80b27a086078d05a725659dee6a1380ffee0762cbc9923b634dc823"
                 }
               ]
             }
@@ -9923,6 +9923,30 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
+        "id": "3ebad3f6-7f14-41cd-903e-2d6cb55dc98d",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 2 BV-M",
+        "status": "FINAL",
+        "day": "2026-09-26",
+        "minute": 480,
+        "court": "Court 2",
+        "teamA": "BEACHER",
+        "teamB": "Lai Gol Squad",
+        "scores": [
+          {
+            "scoreA": 11,
+            "scoreB": 21
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
         "id": "293876e9-0b5d-425e-b064-46d0de1b5b92",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -9962,30 +9986,6 @@
           {
             "scoreA": 21,
             "scoreB": 5
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
-        "id": "3ebad3f6-7f14-41cd-903e-2d6cb55dc98d",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 2 BV-M",
-        "status": "FINAL",
-        "day": "2026-09-26",
-        "minute": 480,
-        "court": "Court 2",
-        "teamA": "BEACHER",
-        "teamB": "Lai Gol Squad",
-        "scores": [
-          {
-            "scoreA": 21,
-            "scoreB": 11
           }
         ],
         "penalty": null
