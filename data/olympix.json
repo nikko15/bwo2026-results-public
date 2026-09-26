@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T08:30:10.601Z",
+  "generatedAt": "2026-09-26T08:30:13.037Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -4019,7 +4019,7 @@
             "maxPlayersPerTeam": 6,
             "minimumRestMinutes": 20,
             "allowParallelMatchesWithinGroup": false,
-            "rankingRevision": 20,
+            "rankingRevision": 21,
             "groupCount": 4,
             "finalRoundStatus": "DRAFT",
             "finalRoundReleasedAt": null,
@@ -4030,7 +4030,7 @@
             "name": "Beachvolleyball Frauen",
             "slug": "beachvolleyball-frauen",
             "createdAt": "2026-09-21T13:00:56.142Z",
-            "updatedAt": "2026-09-26T08:22:29.758Z",
+            "updatedAt": "2026-09-26T08:30:11.418Z",
             "sport": {
               "id": "5bab9692-6cef-42e5-8585-a57ede29772d",
               "name": "Beach Volleyball",
@@ -4630,40 +4630,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "0bcfaf89-7269-47ce-9ed5-cd9841ec72d8",
-                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
-                "matchNumber": 11,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "d50b9ed1-c873-436e-a9a2-f912182c93ef",
-                "teamAId": "23a8a7bd-009d-4ce3-9826-e95f0fe867a2",
-                "teamBId": "ed6aa168-7352-4254-aca3-d082e1a0ffe0",
-                "round": 0,
-                "position": 21,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-26T08:30:09.811Z",
-                "beachSets": [
-                  {
-                    "id": "40d78a14-3ac5-401b-8ea9-675e53804317",
-                    "matchId": "0bcfaf89-7269-47ce-9ed5-cd9841ec72d8",
-                    "position": 1,
-                    "scoreA": 8,
-                    "scoreB": 21
-                  }
-                ],
-                "soccerPeriods": []
-              },
-              {
                 "id": "52e690c9-8247-4d4a-99cf-ba07eb5683f5",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
                 "status": "FINAL",
@@ -4693,6 +4659,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 7
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "0bcfaf89-7269-47ce-9ed5-cd9841ec72d8",
+                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
+                "status": "FINAL",
+                "revision": 2,
+                "matchNumber": 11,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "d50b9ed1-c873-436e-a9a2-f912182c93ef",
+                "teamAId": "23a8a7bd-009d-4ce3-9826-e95f0fe867a2",
+                "teamBId": "ed6aa168-7352-4254-aca3-d082e1a0ffe0",
+                "round": 0,
+                "position": 21,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:15:50.835Z",
+                "updatedAt": "2026-09-26T08:30:11.412Z",
+                "beachSets": [
+                  {
+                    "id": "40d78a14-3ac5-401b-8ea9-675e53804317",
+                    "matchId": "0bcfaf89-7269-47ce-9ed5-cd9841ec72d8",
+                    "position": 1,
+                    "scoreA": 8,
+                    "scoreB": 21
                   }
                 ],
                 "soccerPeriods": []
@@ -5330,11 +5330,32 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "a400e298e684248c8396730be280dfc1b2a62af4edda4f2d8eb27315b6549112"
+              "signature": "edfd5f28021e1f789e2fbd61cc7094e84bc476a27071cd8be2172c13bf2b0926"
             },
             {
               "rank": 2,
               "endRank": 2,
+              "rows": [
+                {
+                  "teamId": "ed6aa168-7352-4254-aca3-d082e1a0ffe0",
+                  "name": "Siegerländerinnen",
+                  "played": 2,
+                  "wins": 2,
+                  "losses": 0,
+                  "setsWon": 2,
+                  "setsLost": 0,
+                  "scored": 43,
+                  "conceded": 28,
+                  "points": 0
+                }
+              ],
+              "tied": false,
+              "resolved": true,
+              "signature": "522a637ca89d6e14faa44939ac76bc71c6f3ab4dfa8058b77d745519d5a3739d"
+            },
+            {
+              "rank": 3,
+              "endRank": 3,
               "rows": [
                 {
                   "teamId": "572262d4-3c85-4489-81a3-4b4f7efe13b3",
@@ -5351,11 +5372,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "8c79a3689af86be618cdd477c6615c427bd9881688f7b8725786a1ba592bc245"
+              "signature": "e638d33b33ffca8c7c4ab2644ffbca3076fee7a4abfbb42d4fd7f93b932451ac"
             },
             {
-              "rank": 3,
-              "endRank": 3,
+              "rank": 4,
+              "endRank": 4,
               "rows": [
                 {
                   "teamId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
@@ -5372,11 +5393,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "6cf18f332ac973319db5de2995e7cb9515ed356f0a0236c802c5e2fc1f875b1e"
+              "signature": "1caae6d5d70f2820fa775cf92deab10ae009d07d5d5fa7851eecb2b3f65f683f"
             },
             {
-              "rank": 4,
-              "endRank": 4,
+              "rank": 5,
+              "endRank": 5,
               "rows": [
                 {
                   "teamId": "d11f2218-440b-407f-b87a-783c43ddacda",
@@ -5393,11 +5414,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "b3ce5f3f18f0674aa1d483c254c497c3a9c92bee5e60af4a6ca6fa272dd1c593"
+              "signature": "46f1e3a9105c374573f5ed8a9b89d768b254c16fbd1cec7d33f0c18ec3bfcad3"
             },
             {
-              "rank": 5,
-              "endRank": 5,
+              "rank": 6,
+              "endRank": 6,
               "rows": [
                 {
                   "teamId": "996cc1ae-9a35-42c5-b944-f704755e3a96",
@@ -5414,11 +5435,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "cbaa05e06b1537898104d1b10ce70e1dfd9ebf95f245f3cdbd182dc305559f7f"
+              "signature": "ee39c2fc648dddb47e5afdf7c43f69940cebd177a9e14ee79fa608708cb01e4c"
             },
             {
-              "rank": 6,
-              "endRank": 6,
+              "rank": 7,
+              "endRank": 7,
               "rows": [
                 {
                   "teamId": "6323de49-46f9-4a5a-ba37-4e761e3c9105",
@@ -5435,11 +5456,11 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "f8a2cf2f42efa54b08ffa115a257c5a22dfd2beead30f285508d4e6d676f37d6"
+              "signature": "cc0a9bf360b63a78c614e3623220e8dc64c9765031386fbe5e3484840a246412"
             },
             {
-              "rank": 7,
-              "endRank": 7,
+              "rank": 8,
+              "endRank": 8,
               "rows": [
                 {
                   "teamId": "9c19bf2d-1430-4582-9093-485fdaf97753",
@@ -5456,28 +5477,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "f37406763f087747d39c317dc57de37887bfb2cb047b829da1b687f8b97289a1"
-            },
-            {
-              "rank": 8,
-              "endRank": 8,
-              "rows": [
-                {
-                  "teamId": "ed6aa168-7352-4254-aca3-d082e1a0ffe0",
-                  "name": "Siegerländerinnen",
-                  "played": 1,
-                  "wins": 1,
-                  "losses": 0,
-                  "setsWon": 1,
-                  "setsLost": 0,
-                  "scored": 22,
-                  "conceded": 20,
-                  "points": 0
-                }
-              ],
-              "tied": false,
-              "resolved": true,
-              "signature": "d3167a5f9d5ff2ef85f651c0d63fd097dbe95c880b13fdfc839928425eb25e28"
+              "signature": "0971894af5e6646798d945050fb4dc7c7ee50732dab2f08b5e071267163f7753"
             },
             {
               "rank": 9,
@@ -5498,7 +5498,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "ed102ab0644bbe72cb0143a5fd6635a0ac50746dd860da7d46f2dfb5b04d2437"
+              "signature": "39053ed869ebc2ac52bfc21ba2e923c7cca391ca24963a682a97e62ee4bd3565"
             },
             {
               "rank": 10,
@@ -5519,7 +5519,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "a3d9111baadf050814e3111a20061768fadd364a15128b621c535fcf1ce611a6"
+              "signature": "c2b2910d5e55846223b6f4da073079a8dbe5025db268491f4b759f943ef6dbfa"
             },
             {
               "rank": 11,
@@ -5540,7 +5540,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "c9d996de51c479205a01e9fff3afad0efa541a2d082065c5a0bcfb5d48813cfc"
+              "signature": "57f2ed201491315ba44d553ea111fbdddbcb9993e94ba08b52c38de14e1941e5"
             },
             {
               "rank": 12,
@@ -5549,19 +5549,19 @@
                 {
                   "teamId": "23a8a7bd-009d-4ce3-9826-e95f0fe867a2",
                   "name": "Die Olympi´s",
-                  "played": 1,
+                  "played": 2,
                   "wins": 0,
-                  "losses": 1,
+                  "losses": 2,
                   "setsWon": 0,
-                  "setsLost": 1,
-                  "scored": 12,
-                  "conceded": 21,
+                  "setsLost": 2,
+                  "scored": 20,
+                  "conceded": 42,
                   "points": 0
                 }
               ],
               "tied": false,
               "resolved": true,
-              "signature": "17ddc1e7813a064c3d67749df6dadc94a791de7c70881f8d31f9cb4c6312d55f"
+              "signature": "1a192c2db5e92059f412a3757d3c24ac41d7ed16174a48725c621071df220a70"
             },
             {
               "rank": 13,
@@ -5582,7 +5582,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "0bbbb28d347b5073831f56715779f61ba762a7c5c998256ac35e274060189793"
+              "signature": "8380a9ad88912c5fc815503a85e59c2afe149ad9faabcee696b6f1c65ca6e2c0"
             },
             {
               "rank": 14,
@@ -5603,7 +5603,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "871f7543265b25c8342ba6bbc3a312bff8ef12f6d0facce672bdb0fff81646db"
+              "signature": "68ed29c39be50420db229c8ddaf70845fdf6cdc0e3f11a18f62c48d9cca022e7"
             },
             {
               "rank": 15,
@@ -5624,7 +5624,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "a2a6d3e68c3206aacac43f156937bbe6c9d18ed8dc43c983a8c4f10c18d87eaf"
+              "signature": "07f811847200c477aec249b60beb4502cf00b4861e365b8740d849a13772ef13"
             },
             {
               "rank": 16,
@@ -5645,7 +5645,7 @@
               ],
               "tied": false,
               "resolved": true,
-              "signature": "c12c4886bca4a5da66403dd3fd6e486fcf235886ead47e60ecaea85e551866ff"
+              "signature": "e23b41aa21e59ce7c0d59dd1598888f9f0ba454244c0ad08926283d4b1f85379"
             }
           ],
           "groups": [
@@ -5672,7 +5672,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "a400e298e684248c8396730be280dfc1b2a62af4edda4f2d8eb27315b6549112"
+                  "signature": "edfd5f28021e1f789e2fbd61cc7094e84bc476a27071cd8be2172c13bf2b0926"
                 },
                 {
                   "rank": 2,
@@ -5693,7 +5693,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "b3ce5f3f18f0674aa1d483c254c497c3a9c92bee5e60af4a6ca6fa272dd1c593"
+                  "signature": "46f1e3a9105c374573f5ed8a9b89d768b254c16fbd1cec7d33f0c18ec3bfcad3"
                 },
                 {
                   "rank": 3,
@@ -5714,7 +5714,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "0bbbb28d347b5073831f56715779f61ba762a7c5c998256ac35e274060189793"
+                  "signature": "8380a9ad88912c5fc815503a85e59c2afe149ad9faabcee696b6f1c65ca6e2c0"
                 },
                 {
                   "rank": 4,
@@ -5735,7 +5735,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "c12c4886bca4a5da66403dd3fd6e486fcf235886ead47e60ecaea85e551866ff"
+                  "signature": "e23b41aa21e59ce7c0d59dd1598888f9f0ba454244c0ad08926283d4b1f85379"
                 }
               ]
             },
@@ -5762,7 +5762,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "f8a2cf2f42efa54b08ffa115a257c5a22dfd2beead30f285508d4e6d676f37d6"
+                  "signature": "cc0a9bf360b63a78c614e3623220e8dc64c9765031386fbe5e3484840a246412"
                 },
                 {
                   "rank": 2,
@@ -5783,7 +5783,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "f37406763f087747d39c317dc57de37887bfb2cb047b829da1b687f8b97289a1"
+                  "signature": "0971894af5e6646798d945050fb4dc7c7ee50732dab2f08b5e071267163f7753"
                 },
                 {
                   "rank": 3,
@@ -5804,7 +5804,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "ed102ab0644bbe72cb0143a5fd6635a0ac50746dd860da7d46f2dfb5b04d2437"
+                  "signature": "39053ed869ebc2ac52bfc21ba2e923c7cca391ca24963a682a97e62ee4bd3565"
                 },
                 {
                   "rank": 4,
@@ -5825,7 +5825,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "c9d996de51c479205a01e9fff3afad0efa541a2d082065c5a0bcfb5d48813cfc"
+                  "signature": "57f2ed201491315ba44d553ea111fbdddbcb9993e94ba08b52c38de14e1941e5"
                 }
               ]
             },
@@ -5852,7 +5852,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "8c79a3689af86be618cdd477c6615c427bd9881688f7b8725786a1ba592bc245"
+                  "signature": "e638d33b33ffca8c7c4ab2644ffbca3076fee7a4abfbb42d4fd7f93b932451ac"
                 },
                 {
                   "rank": 2,
@@ -5873,7 +5873,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "6cf18f332ac973319db5de2995e7cb9515ed356f0a0236c802c5e2fc1f875b1e"
+                  "signature": "1caae6d5d70f2820fa775cf92deab10ae009d07d5d5fa7851eecb2b3f65f683f"
                 },
                 {
                   "rank": 3,
@@ -5894,7 +5894,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "871f7543265b25c8342ba6bbc3a312bff8ef12f6d0facce672bdb0fff81646db"
+                  "signature": "68ed29c39be50420db229c8ddaf70845fdf6cdc0e3f11a18f62c48d9cca022e7"
                 },
                 {
                   "rank": 4,
@@ -5915,7 +5915,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "a2a6d3e68c3206aacac43f156937bbe6c9d18ed8dc43c983a8c4f10c18d87eaf"
+                  "signature": "07f811847200c477aec249b60beb4502cf00b4861e365b8740d849a13772ef13"
                 }
               ]
             },
@@ -5926,6 +5926,27 @@
                 {
                   "rank": 1,
                   "endRank": 1,
+                  "rows": [
+                    {
+                      "teamId": "ed6aa168-7352-4254-aca3-d082e1a0ffe0",
+                      "name": "Siegerländerinnen",
+                      "played": 2,
+                      "wins": 2,
+                      "losses": 0,
+                      "setsWon": 2,
+                      "setsLost": 0,
+                      "scored": 43,
+                      "conceded": 28,
+                      "points": 0
+                    }
+                  ],
+                  "tied": false,
+                  "resolved": true,
+                  "signature": "522a637ca89d6e14faa44939ac76bc71c6f3ab4dfa8058b77d745519d5a3739d"
+                },
+                {
+                  "rank": 2,
+                  "endRank": 2,
                   "rows": [
                     {
                       "teamId": "996cc1ae-9a35-42c5-b944-f704755e3a96",
@@ -5942,28 +5963,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "cbaa05e06b1537898104d1b10ce70e1dfd9ebf95f245f3cdbd182dc305559f7f"
-                },
-                {
-                  "rank": 2,
-                  "endRank": 2,
-                  "rows": [
-                    {
-                      "teamId": "ed6aa168-7352-4254-aca3-d082e1a0ffe0",
-                      "name": "Siegerländerinnen",
-                      "played": 1,
-                      "wins": 1,
-                      "losses": 0,
-                      "setsWon": 1,
-                      "setsLost": 0,
-                      "scored": 22,
-                      "conceded": 20,
-                      "points": 0
-                    }
-                  ],
-                  "tied": false,
-                  "resolved": true,
-                  "signature": "d3167a5f9d5ff2ef85f651c0d63fd097dbe95c880b13fdfc839928425eb25e28"
+                  "signature": "ee39c2fc648dddb47e5afdf7c43f69940cebd177a9e14ee79fa608708cb01e4c"
                 },
                 {
                   "rank": 3,
@@ -5984,7 +5984,7 @@
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "a3d9111baadf050814e3111a20061768fadd364a15128b621c535fcf1ce611a6"
+                  "signature": "c2b2910d5e55846223b6f4da073079a8dbe5025db268491f4b759f943ef6dbfa"
                 },
                 {
                   "rank": 4,
@@ -5993,19 +5993,19 @@
                     {
                       "teamId": "23a8a7bd-009d-4ce3-9826-e95f0fe867a2",
                       "name": "Die Olympi´s",
-                      "played": 1,
+                      "played": 2,
                       "wins": 0,
-                      "losses": 1,
+                      "losses": 2,
                       "setsWon": 0,
-                      "setsLost": 1,
-                      "scored": 12,
-                      "conceded": 21,
+                      "setsLost": 2,
+                      "scored": 20,
+                      "conceded": 42,
                       "points": 0
                     }
                   ],
                   "tied": false,
                   "resolved": true,
-                  "signature": "17ddc1e7813a064c3d67749df6dadc94a791de7c70881f8d31f9cb4c6312d55f"
+                  "signature": "1a192c2db5e92059f412a3757d3c24ac41d7ed16174a48725c621071df220a70"
                 }
               ]
             }
@@ -11830,30 +11830,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "0bcfaf89-7269-47ce-9ed5-cd9841ec72d8",
-        "competitionSlug": "beachvolleyball-frauen",
-        "sport": "Beachvolleyball",
-        "category": "Frauen",
-        "number": "Match 11 BV-W",
-        "status": "RESULT_ENTERED",
-        "day": "2026-09-26",
-        "minute": 580,
-        "court": "Court 4",
-        "teamA": "Die Olympi´s",
-        "teamB": "Siegerländerinnen",
-        "scores": [
-          {
-            "scoreA": 8,
-            "scoreB": 21
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "52e690c9-8247-4d4a-99cf-ba07eb5683f5",
         "competitionSlug": "beachvolleyball-frauen",
         "sport": "Beachvolleyball",
@@ -11869,6 +11845,30 @@
           {
             "scoreA": 21,
             "scoreB": 7
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "0bcfaf89-7269-47ce-9ed5-cd9841ec72d8",
+        "competitionSlug": "beachvolleyball-frauen",
+        "sport": "Beachvolleyball",
+        "category": "Frauen",
+        "number": "Match 11 BV-W",
+        "status": "FINAL",
+        "day": "2026-09-26",
+        "minute": 580,
+        "court": "Court 4",
+        "teamA": "Die Olympi´s",
+        "teamB": "Siegerländerinnen",
+        "scores": [
+          {
+            "scoreA": 8,
+            "scoreB": 21
           }
         ],
         "penalty": null
