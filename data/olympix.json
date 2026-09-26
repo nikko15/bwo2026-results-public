@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T13:11:53.305Z",
+  "generatedAt": "2026-09-26T13:12:27.561Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -2327,6 +2327,40 @@
                 "soccerPeriods": []
               },
               {
+                "id": "1ef921ed-0f0b-4526-bf5b-a91c25f0cf96",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 55,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "335e2acb-fe77-4320-8ba0-02e19176a167",
+                "teamAId": "a6b21a66-bc0d-4aef-ba63-dfbf06b0916c",
+                "teamBId": "694e1b64-1b84-4031-95a3-72e0b8fd4657",
+                "round": 0,
+                "position": 40,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T13:12:26.745Z",
+                "beachSets": [
+                  {
+                    "id": "9bba2a5e-6651-4c6e-866b-86621a01f18b",
+                    "matchId": "1ef921ed-0f0b-4526-bf5b-a91c25f0cf96",
+                    "position": 1,
+                    "scoreA": 15,
+                    "scoreB": 21
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
                 "id": "d1b79089-a9db-41e6-8447-ad1c476e7663",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -2375,32 +2409,6 @@
                 "winnerOfBId": null,
                 "createdAt": "2026-09-25T23:10:26.920Z",
                 "updatedAt": "2026-09-25T23:10:37.270Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
-                "id": "1ef921ed-0f0b-4526-bf5b-a91c25f0cf96",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 55,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "335e2acb-fe77-4320-8ba0-02e19176a167",
-                "teamAId": "a6b21a66-bc0d-4aef-ba63-dfbf06b0916c",
-                "teamBId": "694e1b64-1b84-4031-95a3-72e0b8fd4657",
-                "round": 0,
-                "position": 40,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.273Z",
                 "beachSets": [],
                 "soccerPeriods": []
               },
@@ -13851,6 +13859,30 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
+        "id": "1ef921ed-0f0b-4526-bf5b-a91c25f0cf96",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 55 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 840,
+        "court": "Court 1",
+        "teamA": "Die Anfänger",
+        "teamB": "Magerquark",
+        "scores": [
+          {
+            "scoreA": 15,
+            "scoreB": 21
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
         "id": "d1b79089-a9db-41e6-8447-ad1c476e7663",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -13881,25 +13913,6 @@
         "court": "Court 3",
         "teamA": "Einstein",
         "teamB": "Osser Absolut",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
-        "id": "1ef921ed-0f0b-4526-bf5b-a91c25f0cf96",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 55 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 840,
-        "court": "Court 1",
-        "teamA": "Die Anfänger",
-        "teamB": "Magerquark",
         "scores": [],
         "penalty": null
       },
