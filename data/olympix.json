@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:53:04.937Z",
+  "generatedAt": "2026-09-26T06:54:17.131Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -1069,32 +1069,6 @@
             ],
             "matches": [
               {
-                "id": "7d138936-14de-4556-aef1-9b9e5065893a",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 4,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "f689a63f-d666-4f82-aaae-0d594eddc1e2",
-                "teamAId": "eb51b5e9-2dd8-44a2-a757-e5c2732d6b4b",
-                "teamBId": "ffddf3fe-cd84-4cbd-9dff-d7e5cd560940",
-                "round": 0,
-                "position": 11,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.125Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "c679a75b-1476-4c99-b9b2-f9c209dad42c",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -2057,6 +2031,40 @@
                     "matchId": "9d8e9d33-c34c-4b57-9dec-64d3f7a55c99",
                     "position": 1,
                     "scoreA": 7,
+                    "scoreB": 21
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "7d138936-14de-4556-aef1-9b9e5065893a",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 4,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "f689a63f-d666-4f82-aaae-0d594eddc1e2",
+                "teamAId": "eb51b5e9-2dd8-44a2-a757-e5c2732d6b4b",
+                "teamBId": "ffddf3fe-cd84-4cbd-9dff-d7e5cd560940",
+                "round": 0,
+                "position": 11,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T06:54:16.161Z",
+                "beachSets": [
+                  {
+                    "id": "e044ffff-8a7e-4799-8ff0-2332e6eb2e0e",
+                    "matchId": "7d138936-14de-4556-aef1-9b9e5065893a",
+                    "position": 1,
+                    "scoreA": 11,
                     "scoreB": 21
                   }
                 ],
@@ -9303,25 +9311,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "7d138936-14de-4556-aef1-9b9e5065893a",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 4 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 500,
-        "court": "Court 1",
-        "teamA": "Das Volleyballregiment",
-        "teamB": "Kölner Buben",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "c679a75b-1476-4c99-b9b2-f9c209dad42c",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -10016,6 +10005,30 @@
         "scores": [
           {
             "scoreA": 7,
+            "scoreB": 21
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "7d138936-14de-4556-aef1-9b9e5065893a",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 4 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 500,
+        "court": "Court 1",
+        "teamA": "Das Volleyballregiment",
+        "teamB": "Kölner Buben",
+        "scores": [
+          {
+            "scoreA": 11,
             "scoreB": 21
           }
         ],
