@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T06:54:37.610Z",
+  "generatedAt": "2026-09-26T06:54:58.242Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -4595,32 +4595,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "fbde2e9f-0009-4f07-975e-82014930e2df",
-                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 4,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "7cd96354-d5af-482f-ac92-95eb7e3b725d",
-                "teamAId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
-                "teamBId": "253309ed-70a1-4ae9-b7cb-dc239d4c405c",
-                "round": 0,
-                "position": 13,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-25T23:16:06.643Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "2bc2587f-a7b3-463c-826b-563f049ef3d9",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
                 "status": "SCHEDULED",
@@ -4806,6 +4780,40 @@
                     "position": 1,
                     "scoreA": 18,
                     "scoreB": 21
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "fbde2e9f-0009-4f07-975e-82014930e2df",
+                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 4,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "7cd96354-d5af-482f-ac92-95eb7e3b725d",
+                "teamAId": "bac0a93b-eec5-4cd8-8090-8ddcceea214e",
+                "teamBId": "253309ed-70a1-4ae9-b7cb-dc239d4c405c",
+                "round": 0,
+                "position": 13,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:15:50.835Z",
+                "updatedAt": "2026-09-26T06:54:57.459Z",
+                "beachSets": [
+                  {
+                    "id": "f9c02fbe-7fc5-46ab-bf4c-8d481a9d2521",
+                    "matchId": "fbde2e9f-0009-4f07-975e-82014930e2df",
+                    "position": 1,
+                    "scoreA": 21,
+                    "scoreB": 8
                   }
                 ],
                 "soccerPeriods": []
@@ -10776,25 +10784,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "fbde2e9f-0009-4f07-975e-82014930e2df",
-        "competitionSlug": "beachvolleyball-frauen",
-        "sport": "Beachvolleyball",
-        "category": "Frauen",
-        "number": "Match 4 BV-W",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 500,
-        "court": "Court 5",
-        "teamA": "Panic Truppe",
-        "teamB": "Gummibärenbande",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "2bc2587f-a7b3-463c-826b-563f049ef3d9",
         "competitionSlug": "beachvolleyball-frauen",
         "sport": "Beachvolleyball",
@@ -10924,6 +10913,30 @@
           {
             "scoreA": 18,
             "scoreB": 21
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "fbde2e9f-0009-4f07-975e-82014930e2df",
+        "competitionSlug": "beachvolleyball-frauen",
+        "sport": "Beachvolleyball",
+        "category": "Frauen",
+        "number": "Match 4 BV-W",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 500,
+        "court": "Court 5",
+        "teamA": "Panic Truppe",
+        "teamB": "Gummibärenbande",
+        "scores": [
+          {
+            "scoreA": 21,
+            "scoreB": 8
           }
         ],
         "penalty": null
