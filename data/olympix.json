@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T09:03:53.627Z",
+  "generatedAt": "2026-09-26T09:04:19.323Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -1095,32 +1095,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "93be2351-b601-4786-880d-92ad558a7cea",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 20,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "58517508-a7bd-46f2-8542-79efc4434c24",
-                "teamAId": "a51239bd-1c9e-46e1-8040-986e7be36867",
-                "teamBId": "a6baf7b9-a992-4c03-8839-2e7a5b38f689",
-                "round": 0,
-                "position": 44,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.171Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "ddc64be1-a3b9-4360-aa6a-29c8fb20d23d",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -2120,6 +2094,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 11
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "93be2351-b601-4786-880d-92ad558a7cea",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 20,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "58517508-a7bd-46f2-8542-79efc4434c24",
+                "teamAId": "a51239bd-1c9e-46e1-8040-986e7be36867",
+                "teamBId": "a6baf7b9-a992-4c03-8839-2e7a5b38f689",
+                "round": 0,
+                "position": 44,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T09:04:18.534Z",
+                "beachSets": [
+                  {
+                    "id": "37992368-a17a-4bb3-ae91-5d6385fa3f63",
+                    "matchId": "93be2351-b601-4786-880d-92ad558a7cea",
+                    "position": 1,
+                    "scoreA": 21,
+                    "scoreB": 19
                   }
                 ],
                 "soccerPeriods": []
@@ -10760,25 +10768,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "93be2351-b601-4786-880d-92ad558a7cea",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 20 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 600,
-        "court": "Court 2",
-        "teamA": "BEACHER",
-        "teamB": "low cortisol",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "ddc64be1-a3b9-4360-aa6a-29c8fb20d23d",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -11491,6 +11480,30 @@
           {
             "scoreA": 21,
             "scoreB": 11
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "93be2351-b601-4786-880d-92ad558a7cea",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 20 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 600,
+        "court": "Court 2",
+        "teamA": "BEACHER",
+        "teamB": "low cortisol",
+        "scores": [
+          {
+            "scoreA": 21,
+            "scoreB": 19
           }
         ],
         "penalty": null
