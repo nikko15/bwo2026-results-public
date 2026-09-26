@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T13:31:36.895Z",
+  "generatedAt": "2026-09-26T13:31:40.575Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -10549,8 +10549,8 @@
               {
                 "id": "10459573-6d9f-4383-b456-3ed7e7f43b5d",
                 "competitionId": "6c8fac4d-fbd0-4b7f-a788-7c9f912c9582",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 53,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -10568,7 +10568,7 @@
                 "winnerOfAId": "5b21c71d-63cb-4b1f-b9eb-4c7b0ba3c816",
                 "winnerOfBId": "a145b403-6680-47c3-84e0-11bbfc8bca5c",
                 "createdAt": "2026-09-26T10:51:32.377Z",
-                "updatedAt": "2026-09-26T13:31:36.006Z",
+                "updatedAt": "2026-09-26T13:31:39.748Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
@@ -17108,7 +17108,7 @@
         "sport": "Urban Street Soccer",
         "category": "Männer",
         "number": "Match 53 US-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-26",
         "minute": 920,
         "court": "Pitch 1",
@@ -17164,7 +17164,7 @@
         "minute": 480,
         "court": "Pitch 2",
         "teamA": "Noch offen",
-        "teamB": "Noch offen",
+        "teamB": "IRON EAGLES",
         "scores": [],
         "penalty": null
       },
