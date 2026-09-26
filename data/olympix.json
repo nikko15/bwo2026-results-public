@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T11:38:56.574Z",
+  "generatedAt": "2026-09-26T11:40:54.479Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -2319,32 +2319,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "557428f3-b6b4-4cf2-b543-0886dd44f238",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 41,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "d5dfe98b-403e-4b93-8043-4d0f1e96ccad",
-                "teamAId": "d4e4df2f-46be-4226-8d8c-765859977345",
-                "teamBId": "6fc1f485-f217-42ed-9734-b1102f753b5f",
-                "round": 0,
-                "position": 57,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:10:26.920Z",
-                "updatedAt": "2026-09-25T23:10:37.234Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "325e1694-49cc-4257-b035-3171db49401e",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "SCHEDULED",
@@ -2952,6 +2926,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 2
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "557428f3-b6b4-4cf2-b543-0886dd44f238",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 41,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "d5dfe98b-403e-4b93-8043-4d0f1e96ccad",
+                "teamAId": "d4e4df2f-46be-4226-8d8c-765859977345",
+                "teamBId": "6fc1f485-f217-42ed-9734-b1102f753b5f",
+                "round": 0,
+                "position": 57,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:10:26.920Z",
+                "updatedAt": "2026-09-26T11:40:53.609Z",
+                "beachSets": [
+                  {
+                    "id": "8299fc53-6ce1-42db-91a0-528c2905b954",
+                    "matchId": "557428f3-b6b4-4cf2-b543-0886dd44f238",
+                    "position": 1,
+                    "scoreA": 18,
+                    "scoreB": 21
                   }
                 ],
                 "soccerPeriods": []
@@ -13276,25 +13284,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "557428f3-b6b4-4cf2-b543-0886dd44f238",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 41 BV-M",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 740,
-        "court": "Court 2",
-        "teamA": "Friendly Fire",
-        "teamB": "Beachelers",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "325e1694-49cc-4257-b035-3171db49401e",
         "competitionSlug": "beachvolleyball-maenner",
         "sport": "Beachvolleyball",
@@ -13729,6 +13718,30 @@
           {
             "scoreA": 21,
             "scoreB": 2
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "557428f3-b6b4-4cf2-b543-0886dd44f238",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 41 BV-M",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 740,
+        "court": "Court 2",
+        "teamA": "Friendly Fire",
+        "teamB": "Beachelers",
+        "scores": [
+          {
+            "scoreA": 18,
+            "scoreB": 21
           }
         ],
         "penalty": null
