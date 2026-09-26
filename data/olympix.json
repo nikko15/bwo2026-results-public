@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-26T09:23:09.395Z",
+  "generatedAt": "2026-09-26T09:23:13.458Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -4817,32 +4817,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "5bdd6c5a-a5ed-46a9-b506-59464413af0a",
-                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "SCHEDULED",
-                "revision": 0,
-                "matchNumber": 15,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "GROUP",
-                "groupId": "d50b9ed1-c873-436e-a9a2-f912182c93ef",
-                "teamAId": "f1dd066f-40b5-4862-b4cc-ebe9f717cb54",
-                "teamBId": "996cc1ae-9a35-42c5-b944-f704755e3a96",
-                "round": 0,
-                "position": 22,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": null,
-                "winnerOfBId": null,
-                "createdAt": "2026-09-25T23:15:50.835Z",
-                "updatedAt": "2026-09-25T23:16:06.673Z",
-                "beachSets": [],
-                "soccerPeriods": []
-              },
-              {
                 "id": "aa7d341e-e648-4cfa-9985-336b4b6b0423",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
                 "status": "SCHEDULED",
@@ -4976,6 +4950,40 @@
                     "position": 1,
                     "scoreA": 21,
                     "scoreB": 19
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "5bdd6c5a-a5ed-46a9-b506-59464413af0a",
+                "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
+                "status": "RESULT_ENTERED",
+                "revision": 1,
+                "matchNumber": 15,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "GROUP",
+                "groupId": "d50b9ed1-c873-436e-a9a2-f912182c93ef",
+                "teamAId": "f1dd066f-40b5-4862-b4cc-ebe9f717cb54",
+                "teamBId": "996cc1ae-9a35-42c5-b944-f704755e3a96",
+                "round": 0,
+                "position": 22,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": null,
+                "winnerOfBId": null,
+                "createdAt": "2026-09-25T23:15:50.835Z",
+                "updatedAt": "2026-09-26T09:23:12.611Z",
+                "beachSets": [
+                  {
+                    "id": "ee1ca79b-a797-482f-aaef-b9b600a4845c",
+                    "matchId": "5bdd6c5a-a5ed-46a9-b506-59464413af0a",
+                    "position": 1,
+                    "scoreA": 17,
+                    "scoreB": 21
                   }
                 ],
                 "soccerPeriods": []
@@ -12223,25 +12231,6 @@
         "phase": "GROUP",
         "round": 0,
         "finalRoundSize": "TOP_16",
-        "id": "5bdd6c5a-a5ed-46a9-b506-59464413af0a",
-        "competitionSlug": "beachvolleyball-frauen",
-        "sport": "Beachvolleyball",
-        "category": "Frauen",
-        "number": "Match 15 BV-W",
-        "status": "SCHEDULED",
-        "day": "2026-09-26",
-        "minute": 620,
-        "court": "Court 4",
-        "teamA": "Einfallslos",
-        "teamB": "Die coolen Socken",
-        "scores": [],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "GROUP",
-        "round": 0,
-        "finalRoundSize": "TOP_16",
         "id": "aa7d341e-e648-4cfa-9985-336b4b6b0423",
         "competitionSlug": "beachvolleyball-frauen",
         "sport": "Beachvolleyball",
@@ -12333,6 +12322,30 @@
           {
             "scoreA": 21,
             "scoreB": 19
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "GROUP",
+        "round": 0,
+        "finalRoundSize": "TOP_16",
+        "id": "5bdd6c5a-a5ed-46a9-b506-59464413af0a",
+        "competitionSlug": "beachvolleyball-frauen",
+        "sport": "Beachvolleyball",
+        "category": "Frauen",
+        "number": "Match 15 BV-W",
+        "status": "RESULT_ENTERED",
+        "day": "2026-09-26",
+        "minute": 620,
+        "court": "Court 4",
+        "teamA": "Einfallslos",
+        "teamB": "Die coolen Socken",
+        "scores": [
+          {
+            "scoreA": 17,
+            "scoreB": 21
           }
         ],
         "penalty": null
