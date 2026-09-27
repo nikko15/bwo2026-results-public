@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T08:57:55.537Z",
+  "generatedAt": "2026-09-27T09:27:21.952Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3747,8 +3747,8 @@
               {
                 "id": "bf392775-de52-4490-8c2b-a577250dd049",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "SCHEDULED",
-                "revision": 0,
+                "status": "RESULT_ENTERED",
+                "revision": 1,
                 "matchNumber": 76,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -3766,8 +3766,23 @@
                 "winnerOfAId": "a83a66ac-2fe4-4492-80c9-be2ab135bf84",
                 "winnerOfBId": "1d3b9300-d7ce-482b-85dd-c6a55b31c480",
                 "createdAt": "2026-09-26T13:45:44.273Z",
-                "updatedAt": "2026-09-26T13:48:50.785Z",
-                "beachSets": [],
+                "updatedAt": "2026-09-27T09:27:20.981Z",
+                "beachSets": [
+                  {
+                    "id": "4d26c736-e147-4fdb-8013-fa236fde04c5",
+                    "matchId": "bf392775-de52-4490-8c2b-a577250dd049",
+                    "position": 1,
+                    "scoreA": 6,
+                    "scoreB": 15
+                  },
+                  {
+                    "id": "1fbd8948-070f-4d29-bc78-2cecd902275b",
+                    "matchId": "bf392775-de52-4490-8c2b-a577250dd049",
+                    "position": 2,
+                    "scoreA": 11,
+                    "scoreB": 15
+                  }
+                ],
                 "soccerPeriods": []
               }
             ],
@@ -17152,13 +17167,22 @@
         "sport": "Beachvolleyball",
         "category": "Männer",
         "number": "Match 76 BV-M",
-        "status": "SCHEDULED",
+        "status": "RESULT_ENTERED",
         "day": "2026-09-27",
         "minute": 660,
         "court": "Court 1",
         "teamA": "Net-Force",
         "teamB": "Sand im Getriebe",
-        "scores": [],
+        "scores": [
+          {
+            "scoreA": 6,
+            "scoreB": 15
+          },
+          {
+            "scoreA": 11,
+            "scoreB": 15
+          }
+        ],
         "penalty": null
       },
       {
