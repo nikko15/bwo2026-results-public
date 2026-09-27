@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T06:35:16.483Z",
+  "generatedAt": "2026-09-27T06:35:18.908Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3396,54 +3396,6 @@
                 "soccerPeriods": []
               },
               {
-                "id": "a83a66ac-2fe4-4492-80c9-be2ab135bf84",
-                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
-                "matchNumber": 73,
-                "penaltyScoreA": null,
-                "penaltyScoreB": null,
-                "phase": "KNOCKOUT",
-                "groupId": null,
-                "teamAId": null,
-                "teamBId": null,
-                "round": 3,
-                "position": 1,
-                "seedA": null,
-                "seedB": null,
-                "sourceA": "WINNER",
-                "sourceB": "WINNER",
-                "isThirdPlace": false,
-                "winnerOfAId": "6491bb69-99f5-4313-a15a-654aa8b229ae",
-                "winnerOfBId": "c1be4dbd-059a-4cc9-8b47-c908e8657507",
-                "createdAt": "2026-09-26T13:45:44.265Z",
-                "updatedAt": "2026-09-27T06:35:15.586Z",
-                "beachSets": [
-                  {
-                    "id": "42bbc9e4-55bd-4002-8dda-aaafd0317a86",
-                    "matchId": "a83a66ac-2fe4-4492-80c9-be2ab135bf84",
-                    "position": 1,
-                    "scoreA": 15,
-                    "scoreB": 12
-                  },
-                  {
-                    "id": "4a488367-f4d8-4ff6-8778-7802b17a5837",
-                    "matchId": "a83a66ac-2fe4-4492-80c9-be2ab135bf84",
-                    "position": 2,
-                    "scoreA": 6,
-                    "scoreB": 15
-                  },
-                  {
-                    "id": "ed9b57f6-bb31-45c9-9232-dca6b2e96535",
-                    "matchId": "a83a66ac-2fe4-4492-80c9-be2ab135bf84",
-                    "position": 3,
-                    "scoreA": 15,
-                    "scoreB": 11
-                  }
-                ],
-                "soccerPeriods": []
-              },
-              {
                 "id": "6491bb69-99f5-4313-a15a-654aa8b229ae",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
                 "status": "FINAL",
@@ -3478,6 +3430,54 @@
                     "id": "5165c574-9ab6-406f-b73e-d49e180f98af",
                     "matchId": "6491bb69-99f5-4313-a15a-654aa8b229ae",
                     "position": 2,
+                    "scoreA": 15,
+                    "scoreB": 11
+                  }
+                ],
+                "soccerPeriods": []
+              },
+              {
+                "id": "a83a66ac-2fe4-4492-80c9-be2ab135bf84",
+                "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
+                "status": "FINAL",
+                "revision": 2,
+                "matchNumber": 73,
+                "penaltyScoreA": null,
+                "penaltyScoreB": null,
+                "phase": "KNOCKOUT",
+                "groupId": null,
+                "teamAId": null,
+                "teamBId": null,
+                "round": 3,
+                "position": 1,
+                "seedA": null,
+                "seedB": null,
+                "sourceA": "WINNER",
+                "sourceB": "WINNER",
+                "isThirdPlace": false,
+                "winnerOfAId": "6491bb69-99f5-4313-a15a-654aa8b229ae",
+                "winnerOfBId": "c1be4dbd-059a-4cc9-8b47-c908e8657507",
+                "createdAt": "2026-09-26T13:45:44.265Z",
+                "updatedAt": "2026-09-27T06:35:16.672Z",
+                "beachSets": [
+                  {
+                    "id": "42bbc9e4-55bd-4002-8dda-aaafd0317a86",
+                    "matchId": "a83a66ac-2fe4-4492-80c9-be2ab135bf84",
+                    "position": 1,
+                    "scoreA": 15,
+                    "scoreB": 12
+                  },
+                  {
+                    "id": "4a488367-f4d8-4ff6-8778-7802b17a5837",
+                    "matchId": "a83a66ac-2fe4-4492-80c9-be2ab135bf84",
+                    "position": 2,
+                    "scoreA": 6,
+                    "scoreB": 15
+                  },
+                  {
+                    "id": "ed9b57f6-bb31-45c9-9232-dca6b2e96535",
+                    "matchId": "a83a66ac-2fe4-4492-80c9-be2ab135bf84",
+                    "position": 3,
                     "scoreA": 15,
                     "scoreB": 11
                   }
@@ -16769,38 +16769,6 @@
       {
         "isThirdPlace": false,
         "phase": "KNOCKOUT",
-        "round": 3,
-        "finalRoundSize": "TOP_16",
-        "id": "a83a66ac-2fe4-4492-80c9-be2ab135bf84",
-        "competitionSlug": "beachvolleyball-maenner",
-        "sport": "Beachvolleyball",
-        "category": "Männer",
-        "number": "Match 73 BV-M",
-        "status": "RESULT_ENTERED",
-        "day": "2026-09-27",
-        "minute": 480,
-        "court": "Court 1",
-        "teamA": "Net-Force",
-        "teamB": "Beachelers",
-        "scores": [
-          {
-            "scoreA": 15,
-            "scoreB": 12
-          },
-          {
-            "scoreA": 6,
-            "scoreB": 15
-          },
-          {
-            "scoreA": 15,
-            "scoreB": 11
-          }
-        ],
-        "penalty": null
-      },
-      {
-        "isThirdPlace": false,
-        "phase": "KNOCKOUT",
         "round": 2,
         "finalRoundSize": "TOP_16",
         "id": "6491bb69-99f5-4313-a15a-654aa8b229ae",
@@ -16818,6 +16786,38 @@
           {
             "scoreA": 15,
             "scoreB": 8
+          },
+          {
+            "scoreA": 15,
+            "scoreB": 11
+          }
+        ],
+        "penalty": null
+      },
+      {
+        "isThirdPlace": false,
+        "phase": "KNOCKOUT",
+        "round": 3,
+        "finalRoundSize": "TOP_16",
+        "id": "a83a66ac-2fe4-4492-80c9-be2ab135bf84",
+        "competitionSlug": "beachvolleyball-maenner",
+        "sport": "Beachvolleyball",
+        "category": "Männer",
+        "number": "Match 73 BV-M",
+        "status": "FINAL",
+        "day": "2026-09-27",
+        "minute": 480,
+        "court": "Court 1",
+        "teamA": "Net-Force",
+        "teamB": "Beachelers",
+        "scores": [
+          {
+            "scoreA": 15,
+            "scoreB": 12
+          },
+          {
+            "scoreA": 6,
+            "scoreB": 15
           },
           {
             "scoreA": 15,
@@ -16984,7 +16984,7 @@
         "day": "2026-09-27",
         "minute": 540,
         "court": "Court 1",
-        "teamA": "Noch offen",
+        "teamA": "Beachelers",
         "teamB": "Für Florian",
         "scores": [],
         "penalty": null
@@ -17003,7 +17003,7 @@
         "day": "2026-09-27",
         "minute": 660,
         "court": "Court 1",
-        "teamA": "Noch offen",
+        "teamA": "Net-Force",
         "teamB": "Sand im Getriebe",
         "scores": [],
         "penalty": null
