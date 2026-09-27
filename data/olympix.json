@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T07:34:19.413Z",
+  "generatedAt": "2026-09-27T07:34:26.224Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -3699,8 +3699,8 @@
               {
                 "id": "7ed6ecd6-80e3-49e4-bd4e-38b6abebb160",
                 "competitionId": "399cae6a-0462-47b1-a0aa-b201b311c6d7",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 75,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -3718,7 +3718,7 @@
                 "winnerOfAId": "a83a66ac-2fe4-4492-80c9-be2ab135bf84",
                 "winnerOfBId": "1d3b9300-d7ce-482b-85dd-c6a55b31c480",
                 "createdAt": "2026-09-26T13:45:44.280Z",
-                "updatedAt": "2026-09-27T07:34:18.443Z",
+                "updatedAt": "2026-09-27T07:34:25.270Z",
                 "beachSets": [
                   {
                     "id": "344e070a-c1c7-4794-8a4c-4c164783114c",
@@ -17061,7 +17061,7 @@
         "sport": "Beachvolleyball",
         "category": "Männer",
         "number": "Match 75 BV-M",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-27",
         "minute": 540,
         "court": "Court 1",
