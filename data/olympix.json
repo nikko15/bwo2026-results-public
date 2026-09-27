@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T08:03:43.104Z",
+  "generatedAt": "2026-09-27T08:03:45.848Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -13491,8 +13491,8 @@
               {
                 "id": "74c09636-e567-48cb-890c-04bf6cdbec80",
                 "competitionId": "daa7a3ca-52ae-4f6d-b7c6-c0532fcc5cbe",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 36,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -13510,7 +13510,7 @@
                 "winnerOfAId": "2a80994a-de89-4ab6-a349-69f97e377b56",
                 "winnerOfBId": "23c2c4fe-f0b4-4415-bfb0-1e596ef4963b",
                 "createdAt": "2026-09-26T15:11:03.047Z",
-                "updatedAt": "2026-09-27T08:03:42.145Z",
+                "updatedAt": "2026-09-27T08:03:43.802Z",
                 "beachSets": [],
                 "soccerPeriods": [
                   {
@@ -20232,7 +20232,7 @@
         "sport": "Urban Street Soccer",
         "category": "Frauen",
         "number": "Match 36 US-W",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-27",
         "minute": 580,
         "court": "Pitch 3",
