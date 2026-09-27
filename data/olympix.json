@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-27T07:20:20.815Z",
+  "generatedAt": "2026-09-27T07:20:23.345Z",
   "event": {
     "id": "76c41a9b-9cd7-4f16-8360-202f110002ca",
     "slug": "olympix",
@@ -5824,8 +5824,8 @@
               {
                 "id": "9f4207c2-0f89-4c87-860e-c0720202dbc1",
                 "competitionId": "cab56550-c052-4477-9d6b-32e96744e9f5",
-                "status": "RESULT_ENTERED",
-                "revision": 1,
+                "status": "FINAL",
+                "revision": 2,
                 "matchNumber": 39,
                 "penaltyScoreA": null,
                 "penaltyScoreB": null,
@@ -5843,7 +5843,7 @@
                 "winnerOfAId": "c388b22e-6c86-44f7-97aa-f658304261bd",
                 "winnerOfBId": "dd060bd9-9e4a-4698-b1d8-458b6b3c3e71",
                 "createdAt": "2026-09-26T11:10:54.659Z",
-                "updatedAt": "2026-09-27T07:20:19.969Z",
+                "updatedAt": "2026-09-27T07:20:21.042Z",
                 "beachSets": [
                   {
                     "id": "407a5021-1855-4f29-b0ad-429d488220ab",
@@ -17197,7 +17197,7 @@
         "sport": "Beachvolleyball",
         "category": "Frauen",
         "number": "Match 39 BV-W",
-        "status": "RESULT_ENTERED",
+        "status": "FINAL",
         "day": "2026-09-27",
         "minute": 540,
         "court": "Court 4",
